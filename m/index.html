@@ -87,6 +87,101 @@ body.toasting #batchbar{bottom:calc(84px + var(--safe-b))}
 .row button,.big{border:1px solid var(--line);background:rgba(255,255,255,.06);border-radius:10px;padding:7px 12px;font-size:14px}
 .big{width:100%;margin-top:10px;padding:12px}
 .note{font-size:13px;color:var(--dim)}
+
+/* ---------- responsive (added; phone portrait <600px is untouched) ---------- */
+#rail{display:none}
+main[hidden]{display:none!important}
+.railsend{display:flex;align-items:center;gap:10px;width:100%;border:0;border-radius:12px;padding:11px 14px;margin:0 0 14px;background:var(--accent);color:#06121a;font-size:14.5px;text-align:left;cursor:pointer}
+.railsend[hidden]{display:none}
+.railsend .ic{width:18px;height:18px}
+.railsend:hover{filter:brightness(1.08)}
+@media (min-width:1100px){body:not(.watching) #batchbar{display:none!important}}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card a.hit:focus-visible{outline-offset:-3px;border-radius:20px 20px 0 0}
+@media (hover:hover) and (pointer:fine){
+  .card{transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease}
+  .card:hover{border-color:rgba(255,255,255,.24);transform:translateY(-2px);box-shadow:0 12px 32px rgba(0,0,0,.5)}
+  .card a.hit:hover h2{color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,.35);text-underline-offset:3px}
+  .act{cursor:pointer;transition:background .12s ease,transform .12s ease}
+  .act:hover{background:rgba(255,255,255,.28)}
+  .act.done:hover{background:#fff}
+  .chip,.tab,.icon,.row button,.big{cursor:pointer}
+  .chip:hover{background:rgba(255,255,255,.11)}
+  .chip[aria-pressed=true]:hover{background:var(--txt)}
+  .tab:hover{color:var(--txt)}
+  .icon:hover{background:rgba(255,255,255,.09)}
+  .icon.on:hover{background:#fff}
+  .w{transition:border-color .15s ease,background .15s ease}
+  .w:hover{border-color:rgba(255,255,255,.24);background:#161a24}
+  .row button:hover,.big:hover{background:rgba(255,255,255,.12)}
+}
+@media (min-width:600px){
+  header{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;padding:calc(var(--safe-t) + 8px) max(16px,calc((100% - 1440px)/2 + 16px)) 8px}
+  .bar{display:contents}
+  .tabs{flex:0 0 auto;order:0}
+  .chips{order:1;flex:1 1 0;min-width:0;padding:2px 0;-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}
+  .bar>.icon{order:2}
+  #status{padding:10px 16px 0}
+  main{max-width:none;padding:12px 16px calc(96px + var(--safe-b))}
+  #feed{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;align-items:stretch}
+  #feed>.empty{grid-column:1/-1}
+  .card{margin:0;display:flex;flex-direction:column;contain-intrinsic-size:auto 440px}
+  .card a.hit{flex:1 1 auto}
+  .card h2{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;font-size:18px}
+  .card .sum{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;font-size:14.5px}
+  .acts{gap:8px}
+  #watch{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px;align-content:start}
+  #watch>.sec,#watch>.note,#watch>.empty{grid-column:1/-1}
+  #watch>.sec{margin:14px 4px 0}
+  .w{margin:0}
+  .w .why{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
+  #toast,#batchbar{left:16px;right:16px}
+  #sheet{align-items:center;justify-content:center;padding:24px}
+  #sheet .pane{max-width:560px;border-radius:22px;border:1px solid var(--line);max-height:min(86vh,780px);padding:20px 20px 24px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+}
+/* phones in landscape / short windows: keep the action row on screen */
+@media (orientation:landscape) and (max-height:520px){
+  header{padding-top:calc(var(--safe-t) + 6px);padding-bottom:6px}
+  .tab{font-size:18px;padding:4px 8px}
+  .icon{height:34px;min-width:34px}
+  .chip{padding:5px 11px;font-size:13.5px}
+  #status{padding-top:6px}
+  main{padding-top:8px}
+  .media{aspect-ratio:auto;height:clamp(92px,30vh,140px)}
+  .card{contain-intrinsic-size:auto 340px}
+  .card h2{-webkit-line-clamp:2;font-size:17px;margin:4px 0}
+  .card .sum{-webkit-line-clamp:2;margin-bottom:4px}
+  .body{padding:10px 14px 2px}
+  .acts{padding:4px 12px 10px}
+  .act{width:38px;height:38px}
+  #sheet .pane{max-height:92vh}
+  #batchbar button{padding:10px}
+  #toast{padding:9px 14px}
+  body.toasting #batchbar{bottom:calc(70px + var(--safe-b))}
+}
+/* desktop: centered layout with a sticky topic rail */
+@media (min-width:1100px){
+  .tabs{flex:1 1 auto}
+  .layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;max-width:1440px;margin:0 auto;padding:0 16px}
+  body.watching .layout{grid-template-columns:minmax(0,1fr)}
+  body.watching #rail{display:none}
+  #rail{display:block;position:sticky;top:calc(var(--hdr,58px) + 16px);align-self:start;margin-top:16px;max-height:calc(100vh - var(--hdr,58px) - 32px);overflow:auto;scrollbar-width:thin}
+  .railh{font-size:12px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:.08em;padding:4px 14px 8px}
+  #rail .chips{flex-direction:column;overflow:visible;padding:0;gap:2px;-webkit-mask-image:none;mask-image:none}
+  #rail .chip{display:flex;align-items:center;justify-content:space-between;width:100%;text-align:left;border-radius:12px;padding:10px 14px;font-size:15px;border-color:transparent;background:transparent}
+  #rail .chip .n{margin-left:10px;font-size:12.5px;opacity:.65}
+  #rail .chip[aria-pressed=true]{background:rgba(255,255,255,.12);color:var(--txt);border-color:rgba(255,255,255,.14);font-weight:600}
+  .col{min-width:0}
+  #status{padding:16px 2px 0}
+  main{padding:12px 0 calc(96px + var(--safe-b))}
+  #feed{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+  #sheet{justify-content:flex-end;align-items:stretch;padding:0}
+  #sheet .pane{max-width:440px;width:440px;max-height:none;height:100%;border-radius:0;border:0;border-left:1px solid var(--line);padding:24px 24px 32px}
+}
+@media (hover:hover) and (pointer:fine) and (min-width:1100px){
+  #rail .chip:hover{background:rgba(255,255,255,.07)}
+  #rail .chip[aria-pressed=true]:hover{background:rgba(255,255,255,.14)}
+}
 </style>
 </head>
 <body>
@@ -102,10 +197,12 @@ body.toasting #batchbar{bottom:calc(84px + var(--safe-b))}
   </div>
   <div class="chips" id="chips"></div>
 </header>
+<div class="layout"><aside id="rail" aria-label="Topics"><button id="railSend" class="railsend" hidden><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg><b>Send 0 in one issue</b></button><div class="railh">Topics</div></aside><div class="col">
 <div id="ptr">Pull to refresh</div>
 <div id="status"></div>
 <main id="feed"><div class="empty">Loading…</div></main>
 <main id="watch" hidden></main>
+</div></div>
 <div id="batchbar"><button id="sendBatch">Send 0 actions</button><button id="clearBatch">Clear</button></div>
 <div id="toast" role="status" aria-live="polite"><span id="toastMsg"></span><button id="toastUndo" aria-label="Undo last action"><svg class="ic sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></svg>Undo</button></div>
 <div id="sheet"><div class="pane" id="pane"></div></div>
@@ -131,7 +228,8 @@ const icCls = a => (a === 'up' || a === 'down') ? 'ic solid' : 'ic';
 const ACTIONS = [  // [action, accessible label, short legend label]
   ['up', 'Thumbs up', 'Up'], ['down', 'Thumbs down: hide this story', 'Down'], ['more_like_this', 'More like this', 'More like this'],
   ['hide_topic', 'Hide this topic', 'Hide topic'], ['hide_source', 'Hide this source', 'Hide source']];
-const PAGE = 20;            // cards appended per batch (incremental rendering for 150+ items)
+// cards appended per batch (incremental rendering for 150+ items); bigger on grid layouts so the viewport fills
+const pageSize = () => innerWidth < 600 ? 20 : innerWidth < 1100 ? 24 : 36;
 let LIST = [], shown = 0, io = null;
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -139,8 +237,14 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 // ---------- local state ----------
 const LS = 'shieldnews.v1';
 const S = Object.assign({hiddenItems:{}, hiddenTopics:{}, hiddenSources:{}, marks:{}, topicBoost:{}, sourceBoost:{},
-  queue:[], sent:[], batch:false, filter:'all', tab:'news'}, JSON.parse(localStorage.getItem(LS) || '{}'));
+  queue:[], sent:[], batch:false, batchBig:true, filter:'all', tab:'news'}, JSON.parse(localStorage.getItem(LS) || '{}'));
 const save = () => localStorage.setItem(LS, JSON.stringify(S));
+// Tablet/desktop (>=600px wide or a mouse) default to batch mode so taps don't open a GitHub tab each;
+// phone portrait keeps its own setting (off by default). Each layout remembers its own toggle.
+const mqBig = matchMedia('(min-width:600px), (pointer:fine)');
+const bigUI = () => mqBig.matches;
+const batchOn = () => bigUI() ? S.batchBig !== false : !!S.batch;
+const setBatch = v => { if (bigUI()) S.batchBig = v; else S.batch = v; };
 let NEWS = null, RECS = null;
 
 function uuid(){ return crypto.randomUUID ? crypto.randomUUID() :
@@ -222,13 +326,13 @@ function render(keep){
   renderBatchBar();
   if (S.tab === 'watch') return renderWatch();
   LIST = S.filter === 'all' ? items : items.filter(i => i.topic === S.filter);
-  const want = keep ? Math.max(PAGE, shown) : PAGE;
+  const want = keep ? Math.max(pageSize(), shown) : pageSize();
   shown = 0;
   $('#feed').innerHTML = LIST.length ? '' :
     `<div class="empty">${NEWS ? 'Nothing left here. Check hidden items in the menu (top right) or refresh.' : 'No feed yet.'}</div>`;
   appendMore(want);
 }
-function appendMore(n = PAGE){
+function appendMore(n = pageSize()){
   const feed = $('#feed'), old = $('#more'); if (old) old.remove();
   const next = LIST.slice(shown, shown + n); shown += next.length;
   if (next.length) feed.insertAdjacentHTML('beforeend', next.map(card).join(''));
@@ -295,13 +399,13 @@ function act(id, action){
   const before = applyLocal(item, action);
   const ev = makeEvent(item, action);
   let msg = {up:'Liked', down:'Fewer like this', more_like_this:'More like this', hide_topic:'Hid topic: ' + (SHORT[item.topic] || item.topic), hide_source:'Hid source: ' + item.source}[action];
-  if (S.batch) { S.queue.push(ev); msg += ' · queued (' + S.queue.length + ')'; }
+  if (batchOn()) { S.queue.push(ev); msg += ' · queued (' + S.queue.length + ')'; }
   else { S.sent.push({id: ev.id, ts: ev.ts, n: 1}); window.open(issueURL([ev]), '_blank', 'noopener'); msg += ' · opened issue'; }
   save(); patchDom(item, action);
   toast(msg, () => {
     const q = S.queue, sent = S.sent; Object.assign(S, JSON.parse(before));
     S.queue = q.filter(e => e.id !== ev.id); S.sent = sent; save(); render(true);
-    if (!S.batch) toast('Undone locally. Close the GitHub tab without submitting.');
+    if (!batchOn()) toast('Undone locally. Close the GitHub tab without submitting.');
   });
 }
 function sendBatch(){
@@ -315,15 +419,19 @@ function sendBatch(){
   toast(S.queue.length ? `Opened issue with ${n}; ${S.queue.length} still queued` : `Opened issue with ${n} action${n > 1 ? 's' : ''}`);
 }
 function renderBatchBar(){
-  const show = S.batch && S.queue.length;
+  const show = S.queue.length > 0;   // queued items always keep the Send bar visible
   $('#batchbar').style.display = show ? 'flex' : 'none';
   $('#sendBatch').textContent = `Send ${S.queue.length} action${S.queue.length === 1 ? '' : 's'} in one issue`;
-  $('#batchBtn').classList.toggle('on', S.batch); $('#batchBtn').setAttribute('aria-pressed', S.batch);
-  $('#batchTxt').textContent = S.batch && S.queue.length ? 'Batch ' + S.queue.length : 'Batch';
+  const on = batchOn();
+  $('#batchBtn').classList.toggle('on', on); $('#batchBtn').setAttribute('aria-pressed', on);
+  $('#batchTxt').textContent = on && S.queue.length ? 'Batch ' + S.queue.length : 'Batch';
+  const rs = $('#railSend'); if (rs) { rs.hidden = !S.queue.length; rs.querySelector('b').textContent = `Send ${S.queue.length} in one issue`; }
 }
 let toastTimer;
-function toast(msg, undo){
+const UNDO_HTML = $('#toastUndo').innerHTML;
+function toast(msg, undo, label){
   $('#toastMsg').textContent = msg; $('#toastUndo').style.display = undo ? '' : 'none';
+  $('#toastUndo').innerHTML = label ? esc(label) : UNDO_HTML; $('#toastUndo').setAttribute('aria-label', label || 'Undo last action');
   $('#toastUndo').onclick = () => { hideToast(); undo && undo(); };
   $('#toast').style.display = 'flex'; document.body.classList.add('toasting');
   clearTimeout(toastTimer); toastTimer = setTimeout(hideToast, 5000);
@@ -359,10 +467,11 @@ $('#feed').addEventListener('click', e => { const b = e.target.closest('.act'); 
 $('#chips').addEventListener('click', e => { const c = e.target.closest('.chip'); if (!c) return; S.filter = c.dataset.f; save(); render(); window.scrollTo({top:0}); });
 $('#refresh').onclick = () => load(true);
 $('#menu').onclick = openSheet;
-$('#batchBtn').onclick = () => { S.batch = !S.batch; save(); renderBatchBar(); toast(S.batch ? 'Batch on: actions queue until you tap Send' : (S.queue.length ? `Batch off: ${S.queue.length} still queued` : 'Batch off: each action opens an issue')); if (!S.batch && S.queue.length) $('#batchbar').style.display = 'flex'; };
-$('#sendBatch').onclick = sendBatch;
+$('#batchBtn').onclick = () => { setBatch(!batchOn()); save(); renderBatchBar(); toast(batchOn() ? 'Batch on: actions queue until you tap Send' : (S.queue.length ? `Batch off: ${S.queue.length} still queued` : 'Batch off: each action opens an issue')); };
+(mqBig.addEventListener ? mqBig.addEventListener('change', () => renderBatchBar()) : mqBig.addListener(() => renderBatchBar()));
+$('#sendBatch').onclick = sendBatch; $('#railSend').onclick = sendBatch;
 $('#clearBatch').onclick = () => { if (confirm('Drop ' + S.queue.length + ' queued action(s)? Local hides stay.')) { S.queue = []; save(); renderBatchBar(); } };
-function setTab(t){ S.tab = t; save(); $('#tabNews').setAttribute('aria-selected', t === 'news'); $('#tabWatch').setAttribute('aria-selected', t === 'watch');
+function setTab(t){ S.tab = t; save(); document.body.classList.toggle('watching', t === 'watch'); $('#tabNews').setAttribute('aria-selected', t === 'news'); $('#tabWatch').setAttribute('aria-selected', t === 'watch');
   $('#feed').hidden = t !== 'news'; $('#watch').hidden = t !== 'watch'; render(); window.scrollTo({top:0}); }
 $('#tabNews').onclick = () => setTab('news'); $('#tabWatch').onclick = () => setTab('watch');
 
@@ -381,9 +490,27 @@ const cutoff = Date.now() - 14 * 864e5;
 for (const k in S.hiddenItems) if (S.hiddenItems[k] < cutoff) delete S.hiddenItems[k];
 S.sent = S.sent.slice(-200); save();
 
+// ---------- responsive helpers ----------
+// desktop: move the topic chips into the sticky left rail; smaller screens keep them in the header strip
+const mqDesk = matchMedia('(min-width:1100px)');
+function placeChips(){ const c = $('#chips'), want = mqDesk.matches ? $('#rail') : $('header'); if (c.parentNode !== want) want.appendChild(c); }
+(mqDesk.addEventListener ? mqDesk.addEventListener('change', placeChips) : mqDesk.addListener(placeChips)); placeChips();
+// header height for the rail's sticky offset
+const setHdr = () => document.documentElement.style.setProperty('--hdr', $('header').offsetHeight + 'px');
+if ('ResizeObserver' in window) new ResizeObserver(setHdr).observe($('header')); setHdr();
+// mouse wheel scrolls the horizontal chip strip
+$('#chips').addEventListener('wheel', e => { const c = e.currentTarget;
+  if (c.parentNode.id === 'rail' || c.scrollWidth <= c.clientWidth || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+  c.scrollLeft += e.deltaY; e.preventDefault(); }, {passive:false});
+// Esc closes the settings sheet
+addEventListener('keydown', e => { if (e.key === 'Escape' && $('#sheet').style.display === 'flex') $('#sheet').style.display = 'none'; });
+// growing the window past one batch: fill the grid so infinite scroll can trigger
+let rzT; addEventListener('resize', () => { clearTimeout(rzT); rzT = setTimeout(() => { if (S.tab === 'news' && shown < LIST.length && shown < pageSize()) appendMore(pageSize() - shown); }, 200); });
+
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 setTab(S.tab === 'watch' ? 'watch' : 'news');
 load();
+if (S.queue.length) setTimeout(() => toast(`${S.queue.length} feedback action${S.queue.length === 1 ? '' : 's'} still queued from last time`, sendBatch, 'Send'), 900);
 </script>
 </body>
 </html>
