@@ -1,0 +1,603 @@
+{
+ "generated": "2026-10-24T21:50-07:00",
+ "region": "US",
+ "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only, checked 2026-10-24",
+ "services": {
+  "Netflix": {
+   "color": "#E50914",
+   "package": "com.netflix.ninja"
+  },
+  "Prime Video": {
+   "color": "#1A98FF",
+   "package": "com.amazon.amazonvideo.livingroom"
+  },
+  "HBO Max": {
+   "color": "#7B2FF7",
+   "package": "com.wbd.stream"
+  },
+  "Disney+": {
+   "color": "#113CCF",
+   "package": "com.disney.disneyplus"
+  }
+ },
+ "rows": [
+  {
+   "label": "Movies",
+   "items": [
+    {
+     "title": "Spider-Man: Across the Spider-Verse",
+     "year": 2023,
+     "type": "movie",
+     "services": [
+      "Disney+",
+      "HBO Max"
+     ],
+     "links": {
+      "Disney+": "https://www.disneyplus.com/browse/entity-70cc6534-1c7f-4462-87a4-3080c49ac9bc",
+      "HBO Max": "https://play.hbomax.com/show/08f3260f-1512-4c90-a3df-fc2e407ba708"
+     },
+     "poster": "posters/movie-spider-man-into-the-spider-verse-2.jpg",
+     "why": "Sequel to your 11. Same team, same art style, same wit. Note: part 1 of 2, ends on a cliffhanger.",
+     "synopsis": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+     "genres": [
+      "Action",
+      "Animation",
+      "Fantasy",
+      "Family",
+      "Sci-Fi"
+     ],
+     "imdb": "tt9362722",
+     "tmdb": "569094",
+     "justwatch": "https://www.justwatch.com/us/movie/spider-man-into-the-spider-verse-2"
+    },
+    {
+     "title": "Weapons",
+     "year": 2025,
+     "type": "movie",
+     "services": [
+      "Prime Video",
+      "HBO Max"
+     ],
+     "links": {
+      "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.930793f1-4a5c-4998-b335-7150770e5fe0",
+      "HBO Max": "https://play.hbomax.com/show/bcbb6e0d-ca89-43e4-a9b1-2fc728145beb?utm_source=universal_search"
+     },
+     "poster": "posters/movie-weapons-2026.jpg",
+     "why": "Mystery-box horror from the Barbarian director: a whole class vanishes at 2:17 a.m. Told in puzzle-piece chapters, no filler.",
+     "synopsis": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+     "genres": [
+      "Horror"
+     ],
+     "imdb": "tt26581740",
+     "tmdb": "1078605",
+     "justwatch": "https://www.justwatch.com/us/movie/weapons-2026"
+    },
+    {
+     "title": "Companion",
+     "year": 2025,
+     "type": "movie",
+     "services": [
+      "HBO Max"
+     ],
+     "links": {
+      "HBO Max": "https://play.hbomax.com/show/47556360-0bbf-4e3d-8d6d-53a0179e2153?utm_source=universal_search"
+     },
+     "poster": "posters/movie-companion-2025.jpg",
+     "why": "Sci-fi dark comedy thriller with Black Mirror energy. A weekend getaway with a twist that keeps escalating.",
+     "synopsis": "During a weekend getaway at a secluded lakeside estate, a group of friends finds themselves entangled in a web of secrets, deception, and advanced technology. As tensions rise and loyalties are tested, they uncover unsettling truths about themselves and the world around them.",
+     "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt26584495",
+     "tmdb": "1084199",
+     "justwatch": "https://www.justwatch.com/us/movie/companion-2025"
+    },
+    {
+     "title": "Final Destination Bloodlines",
+     "year": 2025,
+     "type": "movie",
+     "services": [
+      "HBO Max"
+     ],
+     "links": {
+      "HBO Max": "https://play.hbomax.com/show/16d51fc4-358d-4138-b648-da0e2cf5f216?utm_source=universal_search"
+     },
+     "poster": "posters/movie-final-destination-bloodlines.jpg",
+     "why": "Rule-based death traps (you gave FD an 8.6). Fresh lore, inventive kills, and a fast pace.",
+     "synopsis": "Plagued by a violent recurring nightmare, college student Stefanie heads home to track down the one person who might be able to break the cycle and save her family from the grisly demise that inevitably awaits them all.",
+     "genres": [
+      "Horror",
+      "Thriller"
+     ],
+     "imdb": "tt9619824",
+     "tmdb": "574475",
+     "justwatch": "https://www.justwatch.com/us/movie/final-destination-bloodlines"
+    },
+    {
+     "title": "Memento",
+     "year": 2000,
+     "type": "movie",
+     "services": [
+      "Netflix",
+      "Prime Video"
+     ],
+     "links": {
+      "Netflix": "https://www.netflix.com/title/60020435",
+      "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.64b0a7ac-f011-4539-9f28-da24cbd9fd81"
+     },
+     "poster": "posters/movie-memento.jpg",
+     "why": "Nolan's rule-based puzzle, told backwards (Inception 10, The Prestige 9).",
+     "synopsis": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
+     "genres": [
+      "Drama",
+      "Thriller"
+     ],
+     "imdb": "tt0209144",
+     "tmdb": "77",
+     "justwatch": "https://www.justwatch.com/us/movie/memento"
+    },
+    {
+     "title": "Aliens",
+     "year": 1986,
+     "type": "movie",
+     "services": [
+      "Netflix"
+     ],
+     "links": {
+      "Netflix": "https://www.netflix.com/title/60029358"
+     },
+     "poster": "posters/movie-aliens.jpg",
+     "why": "Prometheus 8.5 plus competent operators under siege. The franchise's action peak.",
+     "synopsis": "Ripley, the sole survivor of the Nostromo's deadly encounter with the monstrous Alien, returns to Earth after drifting through space in hypersleep for 57 years. Although her story is initially met with skepticism, she agrees to accompany a team of Colonial Marines back to LV-426.",
+     "genres": [
+      "Action",
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt0090605",
+     "tmdb": "679",
+     "justwatch": "https://www.justwatch.com/us/movie/aliens"
+    },
+    {
+     "title": "Ready or Not",
+     "year": 2019,
+     "type": "movie",
+     "services": [
+      "Netflix"
+     ],
+     "links": {
+      "Netflix": "https://www.netflix.com/title/81131575"
+     },
+     "poster": "posters/movie-ready-or-not-2019.jpg",
+     "why": "Horror-comedy survival game with rules, in the Cabin in the Woods vein. Tight 95 minutes.",
+     "synopsis": "A young bride's wedding night turns into her worst nightmare when her ridiculously rich in-laws force her to play a gruesome game of hide-and-seek.",
+     "genres": [
+      "Comedy",
+      "Horror"
+     ],
+     "imdb": "tt7798634",
+     "tmdb": "567609",
+     "justwatch": "https://www.justwatch.com/us/movie/ready-or-not-2019"
+    },
+    {
+     "title": "Glass Onion: A Knives Out Mystery",
+     "year": 2022,
+     "type": "movie",
+     "services": [
+      "Netflix"
+     ],
+     "links": {
+      "Netflix": "https://www.netflix.com/title/81458416"
+     },
+     "poster": "posters/movie-knives-out-2.jpg",
+     "why": "Twisty whodunit with satirical bite. Mystery plus the irreverent wit you score highly.",
+     "synopsis": "World-famous detective Benoit Blanc heads to Greece to peel back the layers of a mystery surrounding a tech billionaire and his eclectic crew of friends.",
+     "genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "imdb": "tt11564570",
+     "tmdb": "661374",
+     "justwatch": "https://www.justwatch.com/us/movie/knives-out-2"
+    },
+    {
+     "title": "Mickey 17",
+     "year": 2025,
+     "type": "movie",
+     "services": [
+      "HBO Max"
+     ],
+     "links": {
+      "HBO Max": "https://play.hbomax.com/show/fbe17356-9db7-4ab3-928e-32978e0cfbc7?utm_source=universal_search"
+     },
+     "poster": "posters/movie-mickey-17.jpg",
+     "why": "High-concept sci-fi dark comedy: an expendable clone who keeps getting reprinted.",
+     "synopsis": "During a human expedition to colonize space, Mickey 17, a so-called \"expendable\" employee, is sent to explore an ice planet.",
+     "genres": [
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi"
+     ],
+     "imdb": "tt12299608",
+     "tmdb": "696506",
+     "justwatch": "https://www.justwatch.com/us/movie/mickey-17"
+    },
+    {
+     "title": "Deadpool & Wolverine",
+     "year": 2024,
+     "type": "movie",
+     "services": [
+      "Disney+"
+     ],
+     "links": {
+      "Disney+": "https://www.disneyplus.com/browse/entity-120ae1e6-2240-4924-a4ce-f8de6e28b0b1"
+     },
+     "poster": "posters/movie-deadpool-3.jpg",
+     "why": "You gave Deadpool 1 and 2 a 9 each. Irreverent superhero is your strongest superhero lane.",
+     "synopsis": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+     "genres": [
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+     ],
+     "imdb": "tt6263850",
+     "tmdb": "533535",
+     "justwatch": "https://www.justwatch.com/us/movie/deadpool-3"
+    },
+    {
+     "title": "Snatch",
+     "year": 2000,
+     "type": "movie",
+     "services": [
+      "Prime Video"
+     ],
+     "links": {
+      "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.33f671bf-c752-469b-8409-b2485928d245"
+     },
+     "poster": "posters/movie-snatch.jpg",
+     "why": "Ensemble crime comedy with momentum, like Bullet Train 9.5 and Pulp Fiction.",
+     "synopsis": "Unscrupulous boxing promoters, violent bookies, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewellers fight to track down a priceless stolen diamond.",
+     "genres": [
+      "Comedy",
+      "Crime"
+     ],
+     "imdb": "tt0208092",
+     "tmdb": "107",
+     "justwatch": "https://www.justwatch.com/us/movie/snatch"
+    },
+    {
+     "title": "Nightcrawler",
+     "year": 2014,
+     "type": "movie",
+     "services": [
+      "Netflix"
+     ],
+     "links": {
+      "Netflix": "https://www.netflix.com/title/70295182"
+     },
+     "poster": "posters/movie-nightcrawler.jpg",
+     "why": "Dark crime thriller with a magnetic, morally bankrupt lead (Ozark and Breaking Bad energy).",
+     "synopsis": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "imdb": "tt2872718",
+     "tmdb": "242582",
+     "justwatch": "https://www.justwatch.com/us/movie/nightcrawler"
+    }
+   ]
+  },
+  {
+   "label": "Shows",
+   "items": [
+    {
+     "title": "Invincible",
+     "year": 2021,
+     "type": "show",
+     "services": [
+      "Prime Video"
+     ],
+     "links": {
+      "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.d4bc0a58-139a-abbc-046b-d9ffcd25c463"
+     },
+     "poster": "posters/show-invincible.jpg",
+     "why": "The Boys (10) as Western adult animation: brutal, funny, and long-arc.",
+     "synopsis": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage.",
+     "genres": [
+      "Action",
+      "Animation",
+      "Drama",
+      "Fantasy",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt6741278",
+     "tmdb": "95557",
+     "justwatch": "https://www.justwatch.com/us/tv-show/invincible"
+    },
+    {
+     "title": "Pantheon",
+     "year": 2022,
+     "type": "show",
+     "services": [
+      "Netflix"
+     ],
+     "links": {
+      "Netflix": "https://www.netflix.com/title/81937398"
+     },
+     "poster": "posters/show-pantheon.jpg",
+     "why": "Mind-upload sci-fi with Black Mirror and Altered Carbon stakes. Complete in 2 seasons.",
+     "synopsis": "A bullied teen receives mysterious help from someone online: a stranger soon revealed to be her recently deceased father, David, whose consciousness has been uploaded to the Cloud following an experimental destructive brain scan. David is the first of a new kind of being – an “Uploaded Intelligence” or “UI” – but he will not be the last, as a global conspiracy unfolds that threatens to trigger a new kind of world war.",
+     "genres": [
+      "Action",
+      "Animation",
+      "Drama",
+      "Fantasy",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt11680642",
+     "tmdb": "195339",
+     "justwatch": "https://www.justwatch.com/us/tv-show/pantheon"
+    },
+    {
+     "title": "Peacemaker",
+     "year": 2022,
+     "type": "show",
+     "services": [
+      "HBO Max"
+     ],
+     "links": {
+      "HBO Max": "https://play.hbomax.com/video/watch/6c2a04f5-52a4-40d2-958c-e37f9cfcc891?utm_source=universal_search"
+     },
+     "poster": "posters/show-peacemaker-2022.jpg",
+     "why": "James Gunn's irreverent superhero comedy (The Suicide Squad 9).",
+     "synopsis": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price.",
+     "genres": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Fantasy",
+      "Sci-Fi"
+     ],
+     "imdb": "tt13146488",
+     "tmdb": "110492",
+     "justwatch": "https://www.justwatch.com/us/tv-show/peacemaker-2022"
+    },
+    {
+     "title": "The Expanse",
+     "year": 2015,
+     "type": "show",
+     "services": [
+      "Prime Video"
+     ],
+     "links": {
+      "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0f687fc9-904c-4fa9-857b-d56932e78bcb"
+     },
+     "poster": "posters/show-the-expanse.jpg",
+     "why": "Rule-consistent hard sci-fi with a big mystery. Complete in 6 seasons. S1 starts slow, then takes off.",
+     "synopsis": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
+     "genres": [
+      "Drama",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt3230854",
+     "tmdb": "63639",
+     "justwatch": "https://www.justwatch.com/us/tv-show/the-expanse"
+    },
+    {
+     "title": "Gen V",
+     "year": 2023,
+     "type": "show",
+     "services": [
+      "Prime Video"
+     ],
+     "links": {
+      "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.e7687bb9-0b6f-4e25-9df3-8f9b21f5fcda"
+     },
+     "poster": "posters/show-gen-v.jpg",
+     "why": "Spin-off of The Boys: same tone, same universe, shorter seasons.",
+     "synopsis": "At America's only college for superheroes, gifted students put their moral boundaries to the test, competing for the university's top ranking, and a chance to join The Seven, Vought International's elite superhero team. When the school's dark secrets come to light, they must decide what kind of heroes they want to become.",
+     "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Sci-Fi"
+     ],
+     "imdb": "tt13159924",
+     "tmdb": "205715",
+     "justwatch": "https://www.justwatch.com/us/tv-show/gen-v"
+    },
+    {
+     "title": "From",
+     "year": 2022,
+     "type": "show",
+     "services": [
+      "Netflix"
+     ],
+     "links": {
+      "Netflix": "https://www.netflix.com/title/81446288"
+     },
+     "poster": "posters/show-from.jpg",
+     "why": "Mystery-box horror: a town nobody can leave and monsters with rules. Lost meets Dark.",
+     "synopsis": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
+     "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt9813792",
+     "tmdb": "124364",
+     "justwatch": "https://www.justwatch.com/us/tv-show/from"
+    },
+    {
+     "title": "Barry",
+     "year": 2018,
+     "type": "show",
+     "services": [
+      "HBO Max"
+     ],
+     "links": {
+      "HBO Max": "https://play.hbomax.com/video/watch/f48d0843-84d3-456b-a763-4d21981b42bc?utm_source=universal_search"
+     },
+     "poster": "posters/show-barry.jpg",
+     "why": "Hitman dark comedy about a competent killer who wants out (Ozark, Dexter).",
+     "synopsis": "A hit man from the Midwest moves to Los Angeles and gets caught up in the city's theatre arts scene.",
+     "genres": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Drama"
+     ],
+     "imdb": "tt5348176",
+     "tmdb": "73107",
+     "justwatch": "https://www.justwatch.com/us/tv-show/barry"
+    },
+    {
+     "title": "Harley Quinn",
+     "year": 2019,
+     "type": "show",
+     "services": [
+      "HBO Max"
+     ],
+     "links": {
+      "HBO Max": "https://play.hbomax.com/video/watch/706a1d3d-192f-4340-8558-d332417b4030?utm_source=universal_search"
+     },
+     "poster": "posters/show-harley-quinn.jpg",
+     "why": "Archer-style adult animated action comedy with a strong cast and a fast pace.",
+     "synopsis": "Harley Quinn has finally broken things off once and for all with the Joker. Now, she's trying to make it on her own as the criminal Queenpin of Gotham City, with help from Poison Ivy and a ragtag crew of DC castoffs.",
+     "genres": [
+      "Action",
+      "Animation",
+      "Comedy",
+      "Crime",
+      "Fantasy",
+      "Thriller",
+      "Romance",
+      "Sci-Fi"
+     ],
+     "imdb": "tt7658402",
+     "tmdb": "74440",
+     "justwatch": "https://www.justwatch.com/us/tv-show/harley-quinn"
+    },
+    {
+     "title": "Creature Commandos",
+     "year": 2024,
+     "type": "show",
+     "services": [
+      "HBO Max"
+     ],
+     "links": {
+      "HBO Max": "https://play.hbomax.com/video/watch/bf505dcf-edf2-4fad-a798-aef76e7d839a?utm_source=universal_search"
+     },
+     "poster": "posters/show-creature-commandos.jpg",
+     "why": "Gunn's adult-animated monster squad. Irreverent superhero action in 7 episodes.",
+     "synopsis": "A group of nonhuman criminals comprised of an anthropomorphic weasel, a robot, the bride of Frankenstein, a radioactive skeleton, and their human leader are tasked with stopping an evil sorceress.",
+     "genres": [
+      "Action",
+      "Animation",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Thriller",
+      "Romance",
+      "Sci-Fi",
+      "War"
+     ],
+     "imdb": "tt26545355",
+     "tmdb": "219543",
+     "justwatch": "https://www.justwatch.com/us/tv-show/creature-commandos"
+    },
+    {
+     "title": "Castlevania: Nocturne",
+     "year": 2023,
+     "type": "show",
+     "services": [
+      "Netflix"
+     ],
+     "links": {
+      "Netflix": "https://www.netflix.com/title/81436901"
+     },
+     "poster": "posters/show-castlevania-nocturne.jpg",
+     "why": "Follow-up to Castlevania (your 9). Dark fantasy action, set during the French Revolution.",
+     "synopsis": "As revolution sweeps France, Richter Belmont fights to uphold his family's legacy and prevent the rise of a ruthless, power-hungry vampire ruler.",
+     "genres": [
+      "Action",
+      "Animation",
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt14833612",
+     "tmdb": "123548",
+     "justwatch": "https://www.justwatch.com/us/tv-show/castlevania-nocturne"
+    },
+    {
+     "title": "IT: Welcome to Derry",
+     "year": 2025,
+     "type": "show",
+     "services": [
+      "HBO Max"
+     ],
+     "links": {
+      "HBO Max": "https://play.hbomax.com/video/watch/79812058-b270-444d-983d-2a5391484864?utm_source=universal_search"
+     },
+     "poster": "posters/show-welcome-to-derry.jpg",
+     "why": "Big-budget horror prequel built on Pennywise's rules and history.",
+     "synopsis": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+     "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Thriller"
+     ],
+     "imdb": "tt19244304",
+     "tmdb": "200875",
+     "justwatch": "https://www.justwatch.com/us/tv-show/welcome-to-derry"
+    },
+    {
+     "title": "The Penguin",
+     "year": 2024,
+     "type": "show",
+     "services": [
+      "HBO Max"
+     ],
+     "links": {
+      "HBO Max": "https://play.hbomax.com/video/watch/6eb1dbc5-6b70-429c-926d-c66f0f41eb6f?utm_source=universal_search"
+     },
+     "poster": "posters/show-the-penguin.jpg",
+     "why": "Crime saga with a morally gray rise-to-power arc, like Ozark and Breaking Bad.",
+     "synopsis": "Follow Oswald \"Oz\" Cobb’s quest for control as he seeks to fill the power vacuum left by the death of Carmine Falcone, transforming from a disfigured nobody to a noted mobster in Gotham City.",
+     "genres": [
+      "Crime",
+      "Drama",
+      "Fantasy"
+     ],
+     "imdb": "tt15435876",
+     "tmdb": "194764",
+     "justwatch": "https://www.justwatch.com/us/tv-show/the-penguin"
+    }
+   ]
+  }
+ ],
+ "availability_note": "Subscription availability checked on JustWatch US, 2026-10-24",
+ "schema": {
+  "rows[].items[]": "title, year, type (movie|show), services[], links{service:web URL}, poster (relative path), why, synopsis, genres[], imdb, tmdb, justwatch",
+  "services{}": "badge color + Android TV package used for the 'Open in app' intent"
+ }
+}

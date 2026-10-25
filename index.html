@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920">
+<title>Picks for Chris</title>
+<style>
+:root{--tile-w:200px;--poster-h:270px;--gap:30px;--accent:#7fd4ff}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#07080c;color:#eef1f6;font-family:Roboto,"Segoe UI",Helvetica,Arial,sans-serif;overflow:hidden}
+#bg{position:fixed;inset:-60px;background-size:cover;background-position:center;filter:blur(60px) saturate(1.3) brightness(.45);transform:scale(1.1);transition:background-image .6s;z-index:0}
+#bg::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 20% 10%,rgba(40,70,140,.35),transparent 60%),linear-gradient(180deg,rgba(7,8,12,.2),rgba(7,8,12,.85))}
+main{position:relative;z-index:1;height:100%;padding:34px 0 0 56px;display:flex;flex-direction:column}
+header{display:flex;align-items:baseline;gap:28px;margin-bottom:6px;padding-right:70px}
+#hero{height:118px;padding-right:300px}
+#hero .ht{font-size:34px;font-weight:700;margin:6px 0 4px}
+#hero .hw{font-size:26px;line-height:1.35;color:#dbe3ee;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+header .hint2{margin-left:auto;font-size:19px;color:#8e98a9}
+header h1{font-size:44px;font-weight:700;margin:0;letter-spacing:.5px}
+header .meta{font-size:20px;color:#aab3c2}
+#rows{flex:1;overflow:hidden}
+.row{margin-bottom:6px}
+.row h2{font-size:28px;font-weight:600;margin:6px 0 0 24px;color:#dfe6f1}
+.track{display:flex;gap:var(--gap);overflow:hidden;padding:16px 80px 18px 24px;scroll-behavior:smooth}
+.tile{flex:0 0 var(--tile-w);width:var(--tile-w);min-width:0;border-radius:22px;padding:10px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);
+ backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);box-shadow:0 10px 30px rgba(0,0,0,.35);
+ outline:none;transition:transform .18s ease,box-shadow .18s ease,border-color .18s;cursor:pointer;position:relative}
+.tile img{display:block;width:100%;height:var(--poster-h);object-fit:cover;border-radius:14px;background:#1a1d26}
+.tile .t{font-size:22px;font-weight:600;margin:10px 4px 2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .y{font-size:17px;color:#aab3c2;margin:0 4px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.badge{font-size:14px;font-weight:700;padding:3px 9px;border-radius:999px;color:#fff;letter-spacing:.3px}
+.tile .why{display:none}
+.tile:focus{transform:scale(1.08);border-color:var(--accent);box-shadow:0 0 0 4px var(--accent),0 0 40px rgba(127,212,255,.55),0 18px 40px rgba(0,0,0,.6);z-index:2;background:rgba(255,255,255,.14)}
+#overlay{position:fixed;inset:0;z-index:5;display:none;align-items:center;justify-content:center;background:rgba(5,6,10,.55);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+#overlay.on{display:flex}
+.card{display:flex;gap:48px;width:1380px;padding:44px;border-radius:30px;background:rgba(30,34,46,.6);border:1px solid rgba(255,255,255,.18);
+ backdrop-filter:blur(30px) saturate(1.4);-webkit-backdrop-filter:blur(30px) saturate(1.4);box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.card img{width:360px;height:540px;object-fit:cover;border-radius:18px}
+.card h3{font-size:46px;margin:0 0 8px}
+.card .sub{font-size:22px;color:#aab3c2;margin-bottom:18px}
+.card .whyl{font-size:26px;line-height:1.4;margin-bottom:18px}
+.card .syn{font-size:21px;line-height:1.45;color:#c7cfdc;max-height:190px;overflow:hidden}
+.btns{display:flex;gap:18px;margin-top:28px;flex-wrap:wrap}
+.btn{font-size:24px;font-weight:600;padding:16px 30px;border-radius:16px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.1);color:#fff;outline:none;text-decoration:none;cursor:pointer}
+.btn:focus{background:#fff;color:#0b0d12;box-shadow:0 0 0 4px var(--accent)}
+.hint{position:fixed;right:60px;bottom:26px;font-size:18px;color:#8e98a9;z-index:1}
+#err{font-size:26px;color:#ffb4b4;padding:40px 0}
+</style>
+</head>
+<body>
+<div id="bg"></div>
+<main>
+ <header><h1>Picks for Chris</h1><span class="meta" id="meta">Loading…</span><span class="hint2">◀ ▶ ▲ ▼ move · OK open · Back close</span></header>
+ <div id="hero"><div class="ht" id="ht"></div><div class="hw" id="hw"></div></div>
+ <div id="rows"></div>
+</main>
+<div id="overlay" role="dialog" aria-modal="true"><div class="card" id="card"></div></div>
+<script>
+(function(){
+var DATA=null, sig='', rowsEl=document.getElementById('rows'), bg=document.getElementById('bg');
+var overlay=document.getElementById('overlay'), card=document.getElementById('card'), lastFocus=null;
+var REFRESH_MS=30*60*1000;
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function svc(name){return (DATA.services&&DATA.services[name])||{color:'#555'}}
+function badge(n){return '<span class="badge" style="background:'+esc(svc(n).color)+'">'+esc(n)+'</span>'}
+function intentUrl(web,pkg){
+  // Android intent: open the web URL with the service's app; falls back to the web page if the app can't handle it.
+  var u=web.replace(/^https?:\/\//,'');
+  return 'intent://'+u+'#Intent;scheme=https;action=android.intent.action.VIEW;package='+pkg+';S.browser_fallback_url='+encodeURIComponent(web)+';end';
+}
+function render(keep){
+  var pos=keep?curPos():null, html='';
+  DATA.rows.forEach(function(r,ri){
+    html+='<section class="row"><h2>'+esc(r.label)+'</h2><div class="track" data-r="'+ri+'">';
+    r.items.forEach(function(it,ci){
+      html+='<div class="tile" tabindex="0" data-r="'+ri+'" data-c="'+ci+'">'+
+        '<img loading="lazy" src="'+esc(it.poster)+'" alt="">'+
+        '<div class="t">'+esc(it.title)+'</div>'+
+        '<div class="y">'+esc(it.year)+' '+it.services.map(badge).join('')+'</div>'+
+        '<div class="why">'+esc(it.why)+'</div></div>';
+    });
+    html+='</div></section>';
+  });
+  rowsEl.innerHTML=html;
+  var d=DATA.generated?new Date(DATA.generated):null;
+  document.getElementById('meta').textContent=(d&&!isNaN(d)?'Updated '+d.toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'})+' · ':'')+(DATA.availability_note||'Availability: JustWatch US');
+  focusTile(pos?pos[0]:0,pos?pos[1]:0);
+}
+function tile(r,c){return rowsEl.querySelector('.tile[data-r="'+r+'"][data-c="'+c+'"]')}
+function curPos(){var a=document.activeElement;return a&&a.classList&&a.classList.contains('tile')?[+a.dataset.r,+a.dataset.c]:[0,0]}
+function focusTile(r,c){
+  var nr=DATA.rows.length; if(!nr)return; r=Math.max(0,Math.min(nr-1,r));
+  var n=DATA.rows[r].items.length; c=Math.max(0,Math.min(n-1,c));
+  var t=tile(r,c); if(!t)return; t.focus({preventScroll:true});
+  var tr=t.parentNode; tr.scrollLeft=Math.max(0,t.offsetLeft-tr.offsetLeft-24-(c>0?115:0));
+  var sec=tr.parentNode; rowsEl.scrollTop=Math.max(0,sec.offsetTop-rowsEl.offsetTop-(r>0?40:0));
+  var it=DATA.rows[r].items[c]; document.getElementById('ht').textContent=it.title+' ('+it.year+')'; document.getElementById('hw').textContent=it.why;
+  bg.style.backgroundImage='url("'+DATA.rows[r].items[c].poster.replace(/"/g,'%22')+'")';
+}
+function openDetails(r,c){
+  var it=DATA.rows[r].items[c]; lastFocus=[r,c];
+  var b='';
+  it.services.forEach(function(s){
+    var web=it.links&&it.links[s], pkg=svc(s).package;
+    if(web&&pkg) b+='<a class="btn" href="'+esc(intentUrl(web,pkg))+'">Open in '+esc(s)+'</a>';
+  });
+  it.services.forEach(function(s){var web=it.links&&it.links[s]; if(web) b+='<a class="btn" href="'+esc(web)+'">'+esc(s)+' web page</a>';});
+  b+='<button class="btn" id="closeBtn">Close</button>';
+  card.innerHTML='<img src="'+esc(it.poster)+'" alt=""><div><h3>'+esc(it.title)+'</h3>'+
+    '<div class="sub">'+esc(it.year)+' · '+esc(it.type==='show'?'Series':'Movie')+(it.genres&&it.genres.length?' · '+esc(it.genres.join(', ')):'')+' · '+it.services.map(badge).join(' ')+'</div>'+
+    '<div class="whyl">'+esc(it.why)+'</div><div class="syn">'+esc(it.synopsis)+'</div><div class="btns">'+b+'</div></div>';
+  overlay.classList.add('on');
+  document.getElementById('closeBtn').onclick=closeDetails;
+  var first=card.querySelector('.btn'); first&&first.focus();
+  try{history.pushState({d:1},'')}catch(e){}
+}
+function closeDetails(fromPop){
+  if(!overlay.classList.contains('on'))return;
+  overlay.classList.remove('on');
+  if(lastFocus)focusTile(lastFocus[0],lastFocus[1]);
+  if(fromPop!==true){try{history.back()}catch(e){}}
+}
+window.addEventListener('popstate',function(){closeDetails(true)});
+document.addEventListener('keydown',function(e){
+  var k=e.key||'', kc=e.keyCode;
+  if(overlay.classList.contains('on')){
+    var btns=[].slice.call(card.querySelectorAll('.btn')), i=btns.indexOf(document.activeElement);
+    if(k==='ArrowRight'||kc===39||k==='ArrowDown'||kc===40){btns[Math.min(btns.length-1,i+1)].focus();e.preventDefault()}
+    else if(k==='ArrowLeft'||kc===37||k==='ArrowUp'||kc===38){btns[Math.max(0,i-1)].focus();e.preventDefault()}
+    else if(k==='Escape'||k==='Backspace'||k==='GoBack'||k==='BrowserBack'||kc===27||kc===8){closeDetails();e.preventDefault()}
+    else if((k==='Enter'||kc===13||kc===23)&&document.activeElement&&document.activeElement.tagName==='BUTTON'){document.activeElement.click();e.preventDefault()}
+    return;
+  }
+  var p=curPos(), r=p[0], c=p[1];
+  if(k==='ArrowRight'||kc===39){focusTile(r,c+1);e.preventDefault()}
+  else if(k==='ArrowLeft'||kc===37){focusTile(r,c-1);e.preventDefault()}
+  else if(k==='ArrowDown'||kc===40){focusTile(r+1,c);e.preventDefault()}
+  else if(k==='ArrowUp'||kc===38){focusTile(r-1,c);e.preventDefault()}
+  else if(k==='Enter'||kc===13||kc===23){openDetails(r,c);e.preventDefault()}
+});
+rowsEl.addEventListener('click',function(e){var t=e.target.closest('.tile'); if(t)openDetails(+t.dataset.r,+t.dataset.c)});
+function load(first){
+  fetch('recs.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.text()})
+  .then(function(txt){ if(txt===sig)return; sig=txt; DATA=JSON.parse(txt); if(!overlay.classList.contains('on'))render(!first); })
+  .catch(function(err){ if(first)rowsEl.innerHTML='<div id="err">Could not load recs.json ('+esc(err.message)+'). Serve this folder over HTTP; file:// will not work.</div>'; });
+}
+// Test hook: index.html#keys=ArrowDown,ArrowRight,Enter replays remote presses after load (used for headless previews).
+function replay(){var m=location.hash.match(/keys=([^&]+)/); if(!m)return; m[1].split(',').forEach(function(k,i){setTimeout(function(){document.dispatchEvent(new KeyboardEvent('keydown',{key:k,bubbles:true}))},300*(i+1))})}
+var _r=render; render=function(k){_r(k); if(!render.done){render.done=1; replay();}};
+load(true); setInterval(function(){load(false)},REFRESH_MS);
+})();
+</script>
+</body>
+</html>
