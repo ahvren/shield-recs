@@ -1,6 +1,6 @@
 // Service worker for /m/ — app shell cache-first, data network-first with cache fallback,
 // article images cached opportunistically (capped).
-const VER = 'm-v2';
+const VER = 'm-v3';
 const SHELL = 'shell-' + VER, DATA = 'data-' + VER, IMG = 'img-' + VER;
 const SHELL_FILES = ['./', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png',

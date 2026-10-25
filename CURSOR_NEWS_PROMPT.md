@@ -64,7 +64,7 @@ You are working on the CT that serves the Shield TV recommendations UI and alrea
   4. **More like this** (plus icon) → action `more_like_this`
   5. **Hide topic** (eye-off icon) → action `hide_topic`
   6. **Hide source** (ban icon: a circle with a diagonal slash) → action `hide_source`
-- **Icon style (match the phone page `m/index.html`)**: plain white monochrome **line icons** as inline SVG. Use `viewBox="0 0 24 24"`, `fill="none"`, `stroke="currentColor"`, a stroke-width of about 1.8, and round caps and joins, with the button `color:#fff`. **No emoji and no colored glyphs anywhere in the UI**, including toasts, badges and empty states.
+- **Icon style (match the phone page `m/index.html`)**: white icons as inline SVG (`viewBox="0 0 24 24"`, `stroke="currentColor"`, round caps and joins) sitting on **frosted-glass circular buttons**: background `rgba(255,255,255,.16)` with a backdrop blur and no border. The thumbs-up and thumbs-down icons are **solid** (`fill="currentColor"`, stroke-width about 1.2). Plus, eye-off and ban are line icons with a stroke-width of about 2.4. **No emoji and no colored glyphs anywhere in the UI**, including toasts, badges and empty states.
   - The idle state is a transparent button with a thin white border.
   - The focused state is a white fill with a dark icon, plus the usual focus ring.
   - The "done" state (already liked) is also a white fill with a dark icon.
