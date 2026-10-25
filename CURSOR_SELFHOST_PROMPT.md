@@ -234,7 +234,7 @@ Grok Bot keeps pushing data files and reading both feedback jsonl files. It will
 ## 14. Acceptance checklist (show evidence for each)
 
 - [ ] `systemctl status shield-recs-app` is active. `/healthz` returns 200. There is exactly one pull timer and exactly one pusher.
-- [ ] A pull imports the current `news.json` (149±) and `recs.json` (Movies, Shows and Anime with 12 each). `/api/status` shows the sha. A corrupted test file is rejected and the last good copy is kept.
+- [ ] A pull imports the current `news.json` (149±) and `recs.json` (Movies, Shows and Anime with 30 each). `/api/status` shows the sha. A corrupted test file is rejected and the last good copy is kept.
 - [ ] The pull works with the repo private, simulated by using the askpass-only path. The token doesn't appear in `ps`, `.git/config`, unit files or the journal.
 - [ ] Tap thumbs-up on the phone with `test` mode on. Within 15 s plus one flush interval, one new line with `"test":true` appears in `feedback/news_feedback.jsonl` on GitHub, and the commit touches only that path. Undo within 15 s produces no line.
 - [ ] Hide a source on the phone, then reload on the desktop and on the TV: it's hidden everywhere. Unhiding it in settings emits `unhide_source`.

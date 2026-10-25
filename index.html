@@ -22,6 +22,7 @@ header .meta{font-size:20px;color:#aab3c2}
 #rows{flex:1;overflow:hidden}
 .row{margin-bottom:6px}
 .row h2{font-size:28px;font-weight:600;margin:6px 0 0 24px;color:#dfe6f1}
+.row h2 .cnt{font-size:20px;font-weight:500;color:#8e98a9;margin-left:6px}
 .track{display:flex;gap:var(--gap);overflow:hidden;padding:16px 80px 18px 24px;scroll-behavior:smooth}
 .tile{flex:0 0 var(--tile-w);width:var(--tile-w);min-width:0;border-radius:22px;padding:10px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);
  backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);box-shadow:0 10px 30px rgba(0,0,0,.35);
@@ -72,10 +73,10 @@ function intentUrl(web,pkg){
 function render(keep){
   var pos=keep?curPos():null, html='';
   VIEW.forEach(function(r,ri){
-    html+='<section class="row"><h2>'+esc(r.label)+'</h2><div class="track" data-r="'+ri+'">';
+    html+='<section class="row"><h2>'+esc(r.label)+' <span class="cnt">'+r.items.length+'</span></h2><div class="track" data-r="'+ri+'">';
     r.items.forEach(function(it,ci){
       html+='<div class="tile" tabindex="0" data-r="'+ri+'" data-c="'+ci+'">'+
-        '<img loading="lazy" src="'+esc(it.poster)+'" alt="">'+
+        '<img loading="lazy" decoding="async" src="'+esc(it.poster)+'" alt="">'+
         '<div class="t">'+esc(it.title)+'</div>'+
         '<div class="y">'+esc(it.year)+' '+it.services.map(badge).join('')+'</div>'+
         '<div class="why">'+esc(it.why)+'</div></div>';
