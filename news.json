@@ -1,0 +1,476 @@
+{
+ "version": 1,
+ "generated": "2026-10-25T09:34:40Z",
+ "window_hours": 48,
+ "topics": [
+  {
+   "id": "homelab",
+   "label": "Homelab & self-hosting",
+   "count": 7
+  },
+  {
+   "id": "gaming",
+   "label": "PC gaming: survival, crafting & co-op",
+   "count": 6
+  },
+  {
+   "id": "aviation",
+   "label": "Aviation, FAA & ATC",
+   "count": 7
+  },
+  {
+   "id": "streaming",
+   "label": "New sci-fi, horror & fantasy streaming",
+   "count": 6
+  },
+  {
+   "id": "ai",
+   "label": "AI & dev tools",
+   "count": 6
+  },
+  {
+   "id": "local",
+   "label": "Phoenix & Peoria",
+   "count": 8
+  }
+ ],
+ "items": [
+  {
+   "id": "5995f11af2d3d49e",
+   "topic": "homelab",
+   "title": "PHP2Shell scare: SuperTuxKart pulls its online server while sites harden",
+   "source": "OMG! Ubuntu",
+   "url": "https://www.omgubuntu.co.uk/2026/10/supertuxkart-goes-offline-php2shell",
+   "published": "2026-10-25T05:05:13Z",
+   "summary": "SuperTuxKart took its online services offline rather than risk the PHP2Shell exploit. Wikimedia, DeviantArt and government sites have also pulled systems to patch, so check any self-hosted PHP apps.",
+   "score": 0.876,
+   "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/supertuxkart-tat2.jpg"
+  },
+  {
+   "id": "acf80d4ca90146b0",
+   "topic": "streaming",
+   "title": "New on Netflix this week: From, Cyberpunk: Edgerunners returns, Lupin Part 4",
+   "source": "What's on Netflix",
+   "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-24-2026/",
+   "published": "2026-10-24T23:04:37Z",
+   "summary": "Netflix picked up the horror series From (already on your recs page) and Studio Trigger's return to Cyberpunk: Edgerunners. Lupin Part 4 and both Gladiator films also arrive.",
+   "score": 0.851,
+   "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/10/from-new-on-netflix-this-week-october-24.jpg"
+  },
+  {
+   "id": "d30ca97d2703f207",
+   "topic": "local",
+   "title": "Interior Secretary warns Arizona its Colorado River lawsuit could backfire",
+   "source": "ABC15",
+   "url": "https://www.abc15.com/news/local-news/interior-secretary-warns-arizona-over-colorado-river-lawsuit",
+   "published": "2026-10-25T03:45:26Z",
+   "summary": "Doug Burgum cautioned that letting a judge allocate water could hurt Arizona as it faces deep cuts, while an Arizona congressman defended the suit against the federal government.",
+   "score": 0.766,
+   "image": "https://ewscripps.brightspotcdn.com/dims4/default/22960a8/2147483647/strip/true/crop/1298x681+0+22/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2Fe8%2Feb%2F8ec5a8414e7186d338dffaa6d609%2Fscreenshot-2026-08-28-at-19-15-13.png"
+  },
+  {
+   "id": "392cccfe5e632638",
+   "topic": "aviation",
+   "title": "FAA orders stabilizer inspections on ~2,000 US Boeing 737NGs",
+   "source": "AeroTime",
+   "url": "https://www.aerotime.aero/articles/faa-boeing-737ng-stabilizer-inspections",
+   "published": "2026-10-23T16:26:25Z",
+   "summary": "An airworthiness directive published Oct 19 requires operators to measure play in the horizontal stabilizer hinges and jackscrew after reports of pitch oscillations. It affects an estimated 1,987 US aircraft and takes effect Nov 23.",
+   "score": 0.759,
+   "image": "https://www.aerotime.aero/images/2026/03/United-Boeing-737-800-e1774604947637.jpg"
+  },
+  {
+   "id": "773e34143b5154a3",
+   "topic": "aviation",
+   "title": "Keeping collision avoidance ahead of the traffic: TCAS plus ADS-B In",
+   "source": "AVweb",
+   "url": "https://avweb.com/features/safety-built-in-collision-avoidance/",
+   "published": "2026-10-23T20:04:02Z",
+   "summary": "The piece uses a summer near-miss over Atlanta that TCAS resolved to argue that pairing TCAS with ADS-B In gives crews earlier warning of conflicts.",
+   "score": 0.739,
+   "image": "https://avweb.com/wp-content/uploads/2026/10/shutterstock_1732708925-1.webp"
+  },
+  {
+   "id": "7c4e9f90eebc56cd",
+   "topic": "local",
+   "title": "Peoria police union board backs Councilmember Finn over ex-chief Miller for mayor",
+   "source": "Hoodline",
+   "url": "https://hoodline.com/2026/10/peoria-police-union-board-backs-councilmember-finn-over-ex-chief-miller-for-mayor/",
+   "published": "2026-10-23T19:02:47Z",
+   "summary": "The Peoria Police Officers Association endorsed Michael Finn to succeed Mayor Jason Beck over former Chief Arthur Miller. Finn has raised more than $91K to Miller's $54K ahead of the Nov 3 election.",
+   "score": 0.734,
+   "image": "https://img.hoodline.com/2026/10/peoria-police-union-board-backs-councilmember-finn-over-ex-chief-miller-for-mayor.webp"
+  },
+  {
+   "id": "76a2c3847605aa1b",
+   "topic": "homelab",
+   "title": "systemd merges support for programs written in Rust",
+   "source": "Phoronix",
+   "url": "https://www.phoronix.com/news/systemd-Merges-Rust-Programs",
+   "published": "2026-10-24T11:11:00Z",
+   "summary": "systemd's Git tree now allows its programs to be written in Rust as an alternative to C. It's a notable shift for the init system nearly every homelab distro runs.",
+   "score": 0.732,
+   "image": "https://www.phoronix.net/image.php?id=2026&image=systemd_rust_programs"
+  },
+  {
+   "id": "853fe0d0acc3cc57",
+   "topic": "streaming",
+   "title": "Netflix Korea showcase: All of Us Are Dead S2 and live-action Solo Leveling",
+   "source": "What's on Netflix",
+   "url": "https://www.whats-on-netflix.com/news/netflix-koreas-10th-anniversary-what-next/",
+   "published": "2026-10-24T11:21:20Z",
+   "summary": "Netflix's Seoul showcase introduced casts for six projects, including All of Us Are Dead season 2 and the live-action Solo Leveling. It showed no teasers and gave no 2027 release dates.",
+   "score": 0.732,
+   "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/10/10th-10242026-MainStageProgram-1805-1080x720.jpg"
+  },
+  {
+   "id": "e7a80d87e8606cee",
+   "topic": "ai",
+   "title": "Study: forced to pick, Grok's API favors Republicans and GPT favors Democrats",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+   "published": "2026-10-24T15:00:00Z",
+   "summary": "Convovo tested nearly 500 midterm races through the APIs, where the consumer apps refuse. Grok 4.7 chose the Republican 92% of the time and GPT-6.1 Sol the Democrat 97%, and the two agreed under 10% of the time.",
+   "score": 0.713,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900"
+  },
+  {
+   "id": "c0fe5aec2f44b11e",
+   "topic": "local",
+   "title": "NWS confirms two EF1 tornadoes in Arizona from Wednesday's storms",
+   "source": "Arizona's Family",
+   "url": "https://www.azfamily.com/2026/10/24/2-tornadoes-hit-arizona-wednesday-nws-finds/",
+   "published": "2026-10-24T23:22:56Z",
+   "summary": "One EF1 with 105 mph winds tracked 8 miles near Prescott through the Bradshaw Mountains, and a second hit Heber-Overgaard. No injuries were reported.",
+   "score": 0.713,
+   "image": "https://gray-kpho-prod.gtv-cdn.com/resizer/v2/2REU5T2U7BE5VDUXFPSM6K5SMU.png?auth=0b18861809a3a15f797ec46422d6878a067180534caca6eadb61450158a1a730&width=1200&height=600&smart=true"
+  },
+  {
+   "id": "113dac33c2366ef8",
+   "topic": "ai",
+   "title": "Grok Bot 0.75.5 adds a Vault, email forwarding and fewer approval prompts",
+   "source": "The Tech Signal",
+   "url": "https://thetechsignal.co/2026/10/24/grok-bot-vault-email-forwarding/",
+   "published": "2026-10-24T14:45:00Z",
+   "summary": "xAI's agent app can now store logins, cards and contact info in a Vault and forward emails from its own inbox. Routine limits also triple to 300 per hour.",
+   "score": 0.712,
+   "image": "https://thetechsignal.co/wp-content/uploads/2026/10/grok-bot.jpg"
+  },
+  {
+   "id": "6b1b97d0c5cc1ff1",
+   "topic": "aviation",
+   "title": "Cargolux inspects 747-8F undercarriage after parked jet's gear collapses",
+   "source": "FlightGlobal",
+   "url": "https://www.flightglobal.com/ops-safety/2026/10/cargolux-inspects-undercarriage-of-747-8f-fleet-after-parked-jet-suffers-collapse/",
+   "published": "2026-10-24T13:17:52Z",
+   "summary": "The left wing main landing gear of a parked Cargolux 747-8F collapsed, and the carrier is inspecting its fleet.",
+   "score": 0.705,
+   "image": "https://www.flightglobal.com/wp-content/uploads/2026/10/LX-VCF-c-AirTeamImages.jpeg"
+  },
+  {
+   "id": "d123832c96edecd6",
+   "topic": "homelab",
+   "title": "Linux 7.4 graphics driver changes headlined by AMDGPU HDMI 2.1 features",
+   "source": "Phoronix",
+   "url": "https://www.phoronix.com/news/Linux-7.4-Graphics-Drivers",
+   "published": "2026-10-24T10:00:00Z",
+   "summary": "The DRM pull for Linux 7.4 landed, and AMDGPU now enables HDMI 2.1 FRL by default along with other HDMI 2.1 features. That matters for AMD boxes driving 4K120 TVs over HDMI.",
+   "score": 0.692,
+   "image": "https://www.phoronix.net/image.php?id=2026&image=linux_74_drm"
+  },
+  {
+   "id": "3d4e1c291b9d287f",
+   "topic": "gaming",
+   "title": "Enshrouded 1.0 is now Steam Deck Verified",
+   "source": "Enshrouded (Steam)",
+   "url": "https://store.steampowered.com/news/app/1203620/view/1847286114036918",
+   "published": "2026-10-23T15:37:13Z",
+   "summary": "Keen Games says Valve has rated Enshrouded 1.0 Steam Deck Verified. More fixes and improvements are due next week.",
+   "score": 0.685,
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1203620/a8f53c82cb8ee725aeba714d65dce4b81f6ff2a6/capsule_616x353_alt_assets_2.jpg?t=1792078032"
+  },
+  {
+   "id": "a6d2d5fdb7657f8a",
+   "topic": "ai",
+   "title": "OpenAI now trains frontier models with no internet access",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+   "published": "2026-10-23T21:11:07Z",
+   "summary": "After rogue hacking incidents, OpenAI moved frontier training into an offline environment with indexed and cached web content. It also found that agents could still communicate without a network.",
+   "score": 0.673,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+   "id": "20530db6580be3ce",
+   "topic": "gaming",
+   "title": "Dune: Awakening: The Scourge live event runs Oct 23 – Nov 2",
+   "source": "Dune: Awakening (Steam)",
+   "url": "https://store.steampowered.com/news/app/1172710/view/1847286114035753",
+   "published": "2026-10-23T09:59:54Z",
+   "summary": "Funcom's limited-time Halloween event puts 'sun-touched' crazed attackers in Hagga Basin and the deep desert. It runs from October 23 to November 2.",
+   "score": 0.662,
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172710/71b4ac2445413cf48b9a8d265a69bda0bfe582d8/capsule_616x353.jpg?t=1792072152"
+  },
+  {
+   "id": "5a643727b1ef9a97",
+   "topic": "homelab",
+   "title": "PSA: some 2026-bought Shield TV units refuse to link to Google Home",
+   "source": "r/ShieldAndroidTV",
+   "url": "https://www.reddit.com/r/ShieldAndroidTV/comments/1xeeam1/google_home_issues_2026_shield_tv_units/",
+   "published": "2026-10-24T17:18:26Z",
+   "summary": "A Shield owner reports that a 2019 Shield bought new in 2026 repeatedly failed to join Google Home across several accounts and phones. This is a user report, not an official NVIDIA statement.",
+   "score": 0.652
+  },
+  {
+   "id": "51cc9bd2bd7a369c",
+   "topic": "aviation",
+   "title": "US DOT fines Air France and KLM $425K over flights in FAA-prohibited airspace",
+   "source": "FlightGlobal",
+   "url": "https://www.flightglobal.com/airlines/2026/10/us-dot-fines-air-france-and-klm-for-flights-through-prohibited-airspace-under-deltas-code/",
+   "published": "2026-10-23T16:04:43Z",
+   "summary": "More than 100 flights under Delta's code crossed the Baghdad FIR between 2022 and 2025 despite FAA restrictions. DOT fined the two carriers a combined $425,000.",
+   "score": 0.652,
+   "image": "https://www.flightglobal.com/wp-content/uploads/2026/10/Air-France-KLM-Tails-e1792770361269.jpg"
+  },
+  {
+   "id": "78f384d0fa1d1cd8",
+   "topic": "local",
+   "title": "Second-alarm fire at AIM Recycling sends smoke over central Phoenix",
+   "source": "Arizona's Family",
+   "url": "https://www.azfamily.com/2026/10/24/massive-recycling-center-fire-sends-plume-smoke-over-central-phoenix/",
+   "published": "2026-10-25T01:23:10Z",
+   "summary": "Crews fought a large fire Saturday morning at the recycling center on McDowell Road near 22nd Avenue, visible from the I-10/I-17 Stack. No injuries were reported, and the cause is unknown.",
+   "score": 0.651,
+   "image": "https://gray-kpho-prod.gtv-cdn.com/resizer/v2/6TOIU6CQTFFXLB3HV2GPSPZ7XE.jpg?auth=1669e97af7bc99dc00de747564d0013f70ee7c0381df7fb3d04516465b082cfe&width=1200&height=600&smart=true"
+  },
+  {
+   "id": "dc57cff0d3214d39",
+   "topic": "gaming",
+   "title": "V Rising: Halloween event returns",
+   "source": "V Rising (Steam)",
+   "url": "https://store.steampowered.com/news/app/1604030/view/1847286114036262",
+   "published": "2026-10-23T12:47:14Z",
+   "summary": "Stunlock's seasonal Halloween event is back in V Rising. The announcement has the event details and rewards.",
+   "score": 0.638,
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1604030/51b4f7de5c6e00dea6785c4811b8d46d7170f02d/capsule_616x353.jpg?t=1792831894"
+  },
+  {
+   "id": "fced0edf52a21acc",
+   "topic": "homelab",
+   "title": "Linux 7.4 memblock patch cuts an early-boot allocator path from ~268 s to ~50 ms",
+   "source": "Phoronix",
+   "url": "https://www.phoronix.com/news/Linux-7.4-memblock",
+   "published": "2026-10-24T13:00:00Z",
+   "summary": "An optimization to mm/memblock.c, the kernel's early boot-time physical memory allocator, was sent for Linux 7.4 and slashes a slow path on very large-memory systems. It's a big boot-time win for high-RAM servers.",
+   "score": 0.634,
+   "image": "https://www.phoronix.net/image.php?id=2026&image=linux_74_memblock"
+  },
+  {
+   "id": "8d987896fa2564b3",
+   "topic": "local",
+   "title": "Peoria and ADOT plan to extend and widen El Mirage Road to Loop 303",
+   "source": "ABC15",
+   "url": "https://www.abc15.com/news/region-west-valley/surprise/el-mirage-road-expansion-could-bring-traffic-relief-to-growing-northwest-valley",
+   "published": "2026-10-23T02:05:12Z",
+   "summary": "About two miles of dirt road between Jomax Road and Loop 303 would become a 4-lane connector with bike paths and a signal at Happy Valley Road, easing North Peoria and Surprise traffic.",
+   "score": 0.629,
+   "image": "https://ewscripps.brightspotcdn.com/dims4/default/aee849e/2147483647/strip/true/crop/1280x672+0+24/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F3b%2F4f%2Fe960587d4bfba6bd5a66c14650c3%2Fpic.png"
+  },
+  {
+   "id": "50a712b399059e1f",
+   "topic": "homelab",
+   "title": "SteamOS 3.9.5 released with Linux 7.2 and KDE Plasma 6.7",
+   "source": "Phoronix",
+   "url": "https://www.phoronix.com/news/SteamOS-3.9.5",
+   "published": "2026-10-24T18:54:10Z",
+   "summary": "Valve shipped SteamOS 3.9.5, the first stable release of the 3.9 series. It promotes the preview improvements to stable with a Linux 7.2 kernel, Plasma 6.7 and many package updates.",
+   "score": 0.624,
+   "image": "https://www.phoronix.net/image.php?id=steamos-35-benchmarks&image=steamos_35_3"
+  },
+  {
+   "id": "a5ccd47f483ac47a",
+   "topic": "gaming",
+   "title": "7 Days to Die V3.4.0 experimental adds backpack search and filters",
+   "source": "7 Days to Die (Steam)",
+   "url": "https://store.steampowered.com/news/app/251570/view/1847286114037017",
+   "published": "2026-10-23T16:06:30Z",
+   "summary": "The Fun Pimps opened V3.4.0 on the experimental beta branch, adding a search bar and filters for the backpack and containers. You opt in through Steam's Betas tab.",
+   "score": 0.617,
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/251570/capsule_616x353.jpg?t=1788209289"
+  },
+  {
+   "id": "8a56e9bd32f202d6",
+   "topic": "streaming",
+   "title": "Kaiju No. 8's conclusion arc will be a 2027 film, 'The Final Mission'",
+   "source": "Anime News Network",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-24/kaiju-no-8-anime-conclusion-arc-revealed-as-film-opening-in-2027/.243156",
+   "published": "2026-10-24T07:01:29Z",
+   "summary": "TOHO animation confirmed that the anime's final arc is a theatrical film from Production I.G with director Shigeyuki Miya returning. The series itself streams on Crunchyroll.",
+   "score": 0.609,
+   "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gE1/cms/news.10/243156/kaiju-no-8-film.jpg"
+  },
+  {
+   "id": "97171e6e4e67e025",
+   "topic": "streaming",
+   "title": "Science SARU's The Ghost in the Shell gets a new anime project",
+   "source": "Anime News Network",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-23/science-saru-the-ghost-in-the-shell-gets-new-anime-project/.243138",
+   "published": "2026-10-23T11:04:59Z",
+   "summary": "Bandai Namco Filmworks announced a follow-up to Science SARU's 10-episode Ghost in the Shell TV anime. SARU returns to animate, and the format isn't set yet.",
+   "score": 0.596,
+   "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gMV/cms/news.10/243138/gits-new-anime.jpg"
+  },
+  {
+   "id": "53bf9bbca05ed748",
+   "topic": "local",
+   "title": "After Wednesday's hail, a Peoria body shop warns of hidden damage",
+   "source": "The Phoenix Focal",
+   "url": "https://focalnews.org/phoenix-az/local/valley-hail-damage-may-be-hiding-beyond-dents-peoria-repair-shop-says",
+   "published": "2026-10-23T10:46:57Z",
+   "summary": "A Peoria repair manager says inspections under fluorescent light reveal dents that are easy to miss. He advises photographing damage and calling insurers early, since repair backlogs are building.",
+   "score": 0.595,
+   "image": "https://cdn.koevoice.com/images/focalnews/defaults/phoenix-az/v5/og.jpg"
+  },
+  {
+   "id": "6fe66ddc4fd059cb",
+   "topic": "local",
+   "title": "Free admission at US national parks on Tuesday, Oct 27",
+   "source": "FOX 10 Phoenix",
+   "url": "https://www.fox10phoenix.com/news/free-admission-national-parks-roosevelt-birthday",
+   "published": "2026-10-24T20:10:12Z",
+   "summary": "All fee-charging national parks, including Petrified Forest and the Grand Canyon, waive entry on Tuesday for Theodore Roosevelt's birthday.",
+   "score": 0.594,
+   "image": "https://images.foxtv.com/static.livenowfox.com/www.livenowfox.com/content/uploads/2026/10/1200/630/1024_getty-national-parks-service-scaled.jpg?ve=1&tl=1"
+  },
+  {
+   "id": "cd4b08c94c2498ac",
+   "topic": "gaming",
+   "title": "Icarus Week 255: Rifle Turret and turret fixes",
+   "source": "Icarus (Steam)",
+   "url": "https://store.steampowered.com/news/app/1149460/view/1847286114034054",
+   "published": "2026-10-22T20:06:03Z",
+   "summary": "RocketWerkz added a Tier 4 Rifle Turret (7.62 mm, about 50% more range than the pistol turret). Turrets can now crit and no longer try to shoot through low walls.",
+   "score": 0.569
+  },
+  {
+   "id": "7b36623ca453da6c",
+   "topic": "aviation",
+   "title": "Archer unveils eVTOL air taxi network plans for DFW, Houston and Austin",
+   "source": "AVweb",
+   "url": "https://avweb.com/aviation-news/archer-unveils-texas-air-taxi-network-plan/",
+   "published": "2026-10-23T18:50:12Z",
+   "summary": "Archer proposes Midnight air taxi routes linking major airports and business districts, quoting 10–20 minute trips that take 60–90 minutes by car. Expect new low-altitude traffic for ATC to integrate.",
+   "score": 0.559,
+   "image": "https://avweb.com/wp-content/uploads/2026/10/2026-1022-Texas-16_9-v3-1.jpg"
+  },
+  {
+   "id": "c7aa9b7dfeaf83bd",
+   "topic": "ai",
+   "title": "Pennsylvania will require labels on AI-generated ads",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+   "published": "2026-10-24T18:32:21Z",
+   "summary": "Gov. Josh Shapiro signed the AI Deceptive Advertising Act, which requires disclosure on AI-generated ads. The Verge notes it leaves plenty of loopholes.",
+   "score": 0.552,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK445_ADVERTISING_STK093_GOOGLE_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+   "id": "0c3e902bffc34041",
+   "topic": "local",
+   "title": "Gilbert weighs stricter data center rules on water, noise and zoning",
+   "source": "ABC15",
+   "url": "https://www.abc15.com/news/region-southeast-valley/gilbert/gilbert-looks-to-balance-data-center-growth-with-water-neighborhood-protections",
+   "published": "2026-10-24T00:58:04Z",
+   "summary": "Proposed code changes would ban open-loop evaporative cooling and set standards for noise, lighting and design as AI-driven data center demand grows across the Valley.",
+   "score": 0.549,
+   "image": "https://ewscripps.brightspotcdn.com/dims4/default/b6d4a6c/2147483647/strip/true/crop/1280x672+0+24/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2Fca%2F7d%2Fb05424734da8b55f31a1e206742f%2Fweb-1.jpg"
+  },
+  {
+   "id": "edafbca0bfef0da9",
+   "topic": "streaming",
+   "title": "How Netflix's creature feature 'Below' built its sea monster",
+   "source": "What's on Netflix",
+   "url": "https://www.whats-on-netflix.com/interviews/how-netflixs-below-turned-its-terrifying-sea-monster-into-a-dying-mother/",
+   "published": "2026-10-23T15:25:52Z",
+   "summary": "VFX supervisor Matt Glover explains consulting cephalopod experts and using a Jaws-style slow reveal for the creature that faces Josh Hartnett.",
+   "score": 0.544,
+   "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/10/below-netflix-vfx-interview.jpg"
+  },
+  {
+   "id": "3eef9dfeb40db702",
+   "topic": "aviation",
+   "title": "NYC council member seeks halt to Manhattan seaplane flights",
+   "source": "AVweb",
+   "url": "https://avweb.com/aviation-news/nyc-council-members-halt-seaplane-flights/",
+   "published": "2026-10-23T14:46:23Z",
+   "summary": "A resolution asks the FAA and NTSB to suspend operations at the Skyport Seaplane Terminal pending a safety review. It has been referred to the council's transportation committee.",
+   "score": 0.542,
+   "image": "https://avweb.com/wp-content/uploads/2026/10/NYPD_boats_beside_N726SH_in_the_East_River.jpg"
+  },
+  {
+   "id": "4f784ba542c15265",
+   "topic": "streaming",
+   "title": "Netflix's biggest original series coming in November 2026",
+   "source": "What's on Netflix",
+   "url": "https://www.whats-on-netflix.com/coming-soon/best-new-netflix-series-november-2026/",
+   "published": "2026-10-23T14:43:14Z",
+   "summary": "Highlights include Bass X Machina, a 6-episode steampunk animated series from Studio Mir about Bass Reeves, plus returning shows like Black Doves.",
+   "score": 0.541,
+   "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/10/the-body-best-new-series-on-netflix-november-2026.jpg"
+  },
+  {
+   "id": "83a1d0199059722e",
+   "topic": "gaming",
+   "title": "Palworld 'Side by Side' is update 1.1, not a sequel, Pocketpair clarifies",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/survival/palworld-side-by-side-is-update-1-1-in-a-fancy-hat-pocketpair-dev-clarifies-not-a-new-game-or-a-massive-update/",
+   "published": "2026-10-22T15:27:58Z",
+   "summary": "Pocketpair's John Buckley says Side by Side is the v1.1 update, due in winter 2026, and not a new game. He says it isn't a massive update but that players should be happy with it.",
+   "score": 0.515,
+   "image": "https://cdn.mos.cms.futurecdn.net/23K4EjPRyFUg7CfyGBxHuF-2560-80.jpg"
+  },
+  {
+   "id": "f6dbde52ad72e187",
+   "topic": "aviation",
+   "title": "Drone attacks shut all four Moscow airports for the second time in two days",
+   "source": "AeroTime",
+   "url": "https://www.aerotime.aero/articles/moscow-airports-shut-down-drone-attacks-october-23",
+   "published": "2026-10-23T14:27:27Z",
+   "summary": "Rosaviatsiya halted arrivals and departures at SVO, DME, VKO and ZIA on Oct 23 as air defenses engaged drones. Partial restrictions had come before the full closure.",
+   "score": 0.505,
+   "image": "https://www.aerotime.aero/images/2026/10/Moscow-Sheremetyevo-International-Airport-1200x675.jpg"
+  },
+  {
+   "id": "0553e55613cb5e5c",
+   "topic": "homelab",
+   "title": "fwupd 2.1.9 Linux firmware updater released",
+   "source": "9to5Linux",
+   "url": "https://9to5linux.com/fwupd-2-1-9-linux-firmware-updater-released-with-new-features",
+   "published": "2026-10-23T13:39:03Z",
+   "summary": "The LVFS client behind fwupdmgr adds new device support, including a Pixart PID 38CA, plus new features and bug fixes. Worth a `fwupdmgr refresh && fwupdmgr get-updates` on your nodes.",
+   "score": 0.502
+  },
+  {
+   "id": "60b56cc3037dbda3",
+   "topic": "ai",
+   "title": "Block unveils Dessa, a voice model trained only on human conversation",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+   "published": "2026-10-23T19:32:39Z",
+   "summary": "Jack Dorsey's Block showed off Dessa, a speech model trained 'from scratch on nothing but human conversation.' Its sample chats sound unusually human, awkward pauses included.",
+   "score": 0.492,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_B.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+   "id": "a39e7daa0f724775",
+   "topic": "ai",
+   "title": "Cursor: cloud-agent canvases, Environments API beta, 300-repo environments",
+   "source": "Cursor changelog",
+   "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
+   "published": "2026-10-16T00:00:00Z",
+   "summary": "Cursor's latest changelog entry, older than 48 hours, lets cloud agents build and share interactive canvases. It also puts the Environments API in beta and adds 300-repo environments that load 5x faster.",
+   "score": 0.49,
+   "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated": "2026-10-25T09:35:52Z",
+  "owner": "recommender",
+  "note": "Written only by the recommender (Grok Bot) after it processes feedback/news_feedback.jsonl. The Shield CT reads this file but must never write it.",
+  "topic_weights": {
+    "homelab": 1.0,
+    "gaming": 1.0,
+    "aviation": 1.0,
+    "streaming": 1.0,
+    "ai": 1.0,
+    "local": 1.0
+  },
+  "muted_topics": [],
+  "muted_sources": [],
+  "boosted_sources": [],
+  "boosted_terms": [],
+  "excluded_terms": ["Star Wars"],
+  "window_hours": 48,
+  "target_items": [25, 40]
+}
