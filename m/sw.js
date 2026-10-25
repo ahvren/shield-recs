@@ -1,6 +1,6 @@
 // Service worker for /m/ — app shell cache-first, data network-first with cache fallback,
 // article images cached opportunistically (capped).
-const VER = 'm-v1';
+const VER = 'm-v2';
 const SHELL = 'shell-' + VER, DATA = 'data-' + VER, IMG = 'img-' + VER;
 const SHELL_FILES = ['./', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png',
@@ -29,6 +29,17 @@ async function networkFirst(req) {
       return new Response(await hit.blob(), {status: 200, headers: h});
     }
     throw err;
+  }
+}
+// Page navigations: network first (3 s timeout) so updates show immediately; cache when offline.
+async function pageNetworkFirst(req) {
+  const cache = await caches.open(SHELL);
+  try {
+    const res = await Promise.race([fetch(req, {cache: 'no-store'}), new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 3000))]);
+    if (res.ok) cache.put('./index.html', res.clone());
+    return res;
+  } catch (err) {
+    return (await cache.match('./index.html')) || (await caches.match(req, {ignoreSearch: true})) || Response.error();
   }
 }
 async function shellFirst(req) {
@@ -62,6 +73,7 @@ self.addEventListener('fetch', e => {
     e.respondWith(networkFirst(req)); return;
   }
   if (req.destination === 'image') { e.respondWith(imageCache(req)); return; }
+  if (req.mode === 'navigate' && url.origin === location.origin) { e.respondWith(pageNetworkFirst(req)); return; }
   if (url.origin === location.origin && url.pathname.startsWith(new URL('./', self.registration.scope).pathname)) {
     e.respondWith(shellFirst(req)); return;
   }

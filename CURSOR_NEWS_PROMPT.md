@@ -27,7 +27,7 @@ You are working on the CT that serves the Shield TV recommendations UI and alrea
 {
   "version": 1,
   "generated": "2026-10-25T09:40:00Z",
-  "window_hours": 48,
+  "window_hours": 72,
   "topics": [{"id": "homelab", "label": "Homelab & self-hosting", "count": 7}],
   "items": [{
     "id": "16-hex sha256(url) prefix, stable",
@@ -59,11 +59,17 @@ You are working on the CT that serves the Shield TV recommendations UI and alrea
 - **D-pad navigation**: left and right move within a row, up and down move between rows (remember the column per row), and Back closes overlays or returns to the previous view. Everything must be reachable without a pointer. Handle `ArrowUp/Down/Left/Right`, `Enter`, and `Escape`/`Backspace`/`GoBack` (keyCode 4 on Android WebView).
 - **OK/Enter on a card** opens a detail overlay. It shows a big image, the full title and summary, the source and time, and the action buttons below. Navigate the buttons left and right:
   1. **Open article**: the default-focused button.
-  2. 👍 **Up** → action `up`
-  3. 👎 **Down** → action `down`
-  4. **More like this** → action `more_like_this`
-  5. **Hide topic** → action `hide_topic`
-  6. **Hide source** → action `hide_source`
+  2. **Up** (thumbs-up icon) → action `up`
+  3. **Down** (thumbs-down icon) → action `down`
+  4. **More like this** (plus icon) → action `more_like_this`
+  5. **Hide topic** (eye-off icon) → action `hide_topic`
+  6. **Hide source** (ban icon: a circle with a diagonal slash) → action `hide_source`
+- **Icon style (match the phone page `m/index.html`)**: plain white monochrome **line icons** as inline SVG. Use `viewBox="0 0 24 24"`, `fill="none"`, `stroke="currentColor"`, a stroke-width of about 1.8, and round caps and joins, with the button `color:#fff`. **No emoji and no colored glyphs anywhere in the UI**, including toasts, badges and empty states.
+  - The idle state is a transparent button with a thin white border.
+  - The focused state is a white fill with a dark icon, plus the usual focus ring.
+  - The "done" state (already liked) is also a white fill with a dark icon.
+  - Under the focused button, show the text label ("Hide source") in 20 px+ type, and give every button an `aria-label`.
+  - Copy the SVG paths from `ICON` in `m/index.html` (they're Lucide-style: thumbs-up, thumbs-down, plus, eye-off, ban) so both screens match. Size them at about 36 px on the TV.
 - Pressing OK twice on a card (once to open the overlay, once on the default button) opens the article.
 - **Opening the article**: use an Android intent URL so the Shield hands off to a real browser, with a plain-URL fallback:
 
@@ -76,13 +82,24 @@ You are working on the CT that serves the Shield TV recommendations UI and alrea
   - In Fully Kiosk, the "Open URL Schemes in Other Apps" setting must be on, as it already is for the recs intents. Document this in the README section you add.
 - After any feedback action, show a small toast ("Got it, fewer like this", "Hidden: <source>", and so on). Then **hide the affected items locally right away**:
   - `down` → hide that item.
-  - `up` and `more_like_this` → keep the item, but mark it with a small ✓ badge.
+  - `up` and `more_like_this` → keep the item, but mark it with a small badge: a white line check icon (SVG) plus the text "Liked" or "More like this". Use no emoji or ✓ character.
   - `hide_topic` → hide the whole topic row.
   - `hide_source` → hide every item from that source.
 - Persist local hides in the backend's state (for example `/var/lib/shield-recs/news_local_state.json`), keyed by item id, topic, and source, so they survive reloads and TV restarts. Mirror them to `localStorage` only as a cache. Local topic and source hides stay in place until the recommender's next news.json no longer contains them. Prune entries for item ids absent from the current news.json once they're more than 7 days old.
 - Add a small "Undo" option to the toast for 5 s. Undo removes the local hide and drops the queued event if it hasn't been pushed yet. If it was already pushed, leave it; the recommender will see a later contrary action.
 - Show an empty state when every item is hidden or the feed is unavailable, like "No news right now, last updated <time>".
 - Show "Updated <relative time>" in the view header, based on `generated`.
+
+### Volume: 100–150 items must stay smooth
+
+news.json now carries **100–150 items** (about 25 per topic, `window_hours` up to 72), and that may grow. The Shield's WebView is slow, so:
+
+- **Render lazily per row.** Build DOM only for the cards in view plus about 6 on each side, either virtualizing or windowing each horizontal row. Append more as focus moves right. Don't create 150 cards at startup.
+- **Render rows incrementally.** Render the first 2 topic rows immediately and the rest on `requestIdleCallback` or as focus moves down.
+- **Load images lazily and small.** Use `loading="lazy"` and `decoding="async"`, and only set `src` for cards within about 1 screen of the focused one. Prefer the CT image proxy with resizing to about 480 px wide (WebP or JPEG, quality ~75) to keep decode and memory cost low. Cap the in-memory image count by clearing `src` for cards far off-screen.
+- **Use cheap focus effects.** Animate only `transform` and `opacity` on focus changes. Avoid `backdrop-filter` on every card: use one blurred background layer and semi-opaque card fills instead.
+- **Keep the parse cheap.** news.json is about 150–250 KB. Parse it once on the backend and serve `/api/news` with local hides applied, so the TV doesn't re-filter on every key press.
+- **Allow an optional per-row cap.** Show the top N per topic (default 30, set in the config) with a "More" card at the end that loads the rest.
 
 ### Images
 

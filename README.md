@@ -23,7 +23,7 @@ There's a separate personalized news feed for the Shield UI's News view. It's in
 
 | File | Written by | Purpose |
 |---|---|---|
-| `news.json` | recommender (Grok Bot) | 25–40 items from roughly the last 48 h, grouped by topic |
+| `news.json` | recommender (Grok Bot) | 100–150 items from the last 48 h, extended to 72 h when a topic needs filling, grouped by topic |
 | `news_prefs.json` | recommender only | Topic weights, muted topics and sources, boosted/excluded terms. The CT reads it but never writes it. |
 | `feedback/news_feedback.jsonl` | Shield CT (append-only) | One JSON object per line per user action |
 | `feedback/news_processed.json` | recommender | `{"processed_ids": [...]}`: feedback event ids already folded into prefs |
@@ -33,7 +33,7 @@ There's a separate personalized news feed for the Shield UI's News view. It's in
 
 - `version`: currently 1.
 - `generated`: ISO UTC.
-- `window_hours`: 48.
+- `window_hours`: the maximum item age, currently 72. Items prefer the last 48 h, and the 48–72 h range only fills topic quotas.
 - `topics[]`: `{id, label, count}`, in display order. The ids are `homelab`, `gaming`, `aviation`, `streaming`, `ai`, and `local`.
 - `items[]`, sorted by `score` descending, with these fields:
   - `id`: the first 16 hex characters of sha256(url). It stays the same across regenerations.
@@ -84,13 +84,13 @@ This is an installable PWA for Chris's Galaxy phone. Open the link in Chrome, th
 
 **Feedback without a token (GitHub issues)**
 
-Each card has 👍 Up, 👎 Down, ✨ More like this, 🚫 Hide topic and 🙈 Hide source. Each action does two things:
+Each card has five white line-icon buttons, all inline SVG with no emoji: thumbs-up (Up), thumbs-down (Down), plus (More like this), eye-off (Hide topic) and ban (Hide source). Each has an `aria-label`, and ≡ → Feed settings shows a legend. The feed renders 20 cards at a time as you scroll, with lazy-loaded images, so 150+ items stay smooth. Each action does two things:
 
 1. Applies locally right away through `localStorage` (key `shieldnews.v1`), with a 5-second Undo:
    - Down hides the story.
    - Hide topic or Hide source hides everything matching.
-   - Up and More like this add a ✓ badge and boost that topic and source in the ranking.
-   - ⋯ → Feed settings lists everything hidden and can unhide it, or reset all local tweaks.
+   - Up and More like this add a check-icon badge and boost that topic and source in the ranking.
+   - ≡ → Feed settings lists everything hidden and can unhide it, or reset all local tweaks.
 2. Opens a prefilled new-issue page, `https://github.com/ahvren/shield-recs/issues/new?labels=news-feedback&title=…&body=…`.
    - The title is `news-feedback: <action> — <item title>`.
    - The body contains a fenced `json` block holding exactly one `feedback/news_feedback.jsonl`-shaped object: `{id, ts, item_id, topic, source, title, action}`.
@@ -109,3 +109,23 @@ Each card has 👍 Up, 👎 Down, ✨ More like this, 🚫 Hide topic and 🙈 H
 5. Close each issue with a comment.
 
 **Pages and raw URLs:** Pages is a separate deployment and changes nothing at `raw.githubusercontent.com`, so the CT and VM keep using the raw URLs. Pages adds a CDN cache of about 10 minutes, and the app busts it with `?t=`.
+
+### How news.json is built
+
+The builder lives on the bot's box at `/workspace/newswork/` and isn't part of this repo. It has three pieces:
+
+- `build_news.py` (v2): the pipeline.
+- `news_sources.py`: the config, covering feeds, keyword weights, gates and caps.
+- `curated.json`: hand-written summaries that override feed text.
+
+`python3 build_news.py` runs in about 1 minute:
+
+1. Fetches about 80 RSS/Atom feeds in parallel, using ETag/Last-Modified caching.
+2. Scrapes two HTML listings that have no working feed: the FAA newsroom and AIN.
+3. Pulls official Steam announcements for about 25 tracked survival, crafting and co-op games.
+4. Scores keyword relevance per topic. Gated feeds must hit a topic keyword. There are penalties for deals, clickbait and Star Wars, and `news_prefs.json` weights, mutes, boosts and excluded terms apply.
+5. Removes near-duplicate stories and caps any one game or subject at 2 items.
+6. Fills a per-topic quota, `target_items[1] / topics` (25 each by default): first from the last 48 h, then up to 72 h. Each source has a cap.
+7. Backfills missing images and short summaries from each article's og: tags, cached for 7 days.
+
+Lower-ranked items use the publisher's own description, trimmed to 2 sentences. Curated items keep their hand-written summaries.

@@ -15,7 +15,12 @@
   "muted_sources": [],
   "boosted_sources": [],
   "boosted_terms": [],
-  "excluded_terms": ["Star Wars"],
-  "window_hours": 48,
-  "target_items": [25, 40]
+  "excluded_terms": [
+    "Star Wars"
+  ],
+  "window_hours": 72,
+  "target_items": [
+    100,
+    150
+  ]
 }
