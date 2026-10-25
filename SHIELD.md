@@ -21,5 +21,5 @@ Install **TV Bro** (`com.phlox.tvwebbrowser`). Open the URL, then use the menu t
 The page re-reads `recs.json` every 30 minutes, so new weekly picks appear without a reload.
 
 ## Confirm the app package names once (you have ADB)
-`adb connect 192.168.50.21 && adb shell pm list packages | grep -E 'netflix|amazonvideo|wbd|hbo|disney'`
-The page assumes `com.netflix.ninja`, `com.amazon.amazonvideo.livingroom`, `com.wbd.stream`, and `com.disney.disneyplus`. If any differ, edit `services.<name>.package` in `recs.json`. No HTML change is needed.
+`adb connect 192.168.50.21 && adb shell pm list packages | grep -E 'netflix|amazonvideo|wbd|hbo|disney|hulu|crunchyroll'`
+The page assumes `com.netflix.ninja`, `com.amazon.amazonvideo.livingroom`, `com.wbd.stream`, `com.disney.disneyplus`, and `com.hulu.livingroomplus` (Hulu, added Oct 25 2026, unverified). `com.crunchyroll.crunchyroid` is confirmed. If any differ, edit `services.<name>.package` in `recs.json`. No HTML change is needed.

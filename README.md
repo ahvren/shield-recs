@@ -11,7 +11,7 @@ A TV-friendly recommendations page for the NVIDIA Shield. Static files only:
 ## recs.json keys
 - `rows` (unchanged): array of `{label, items[]}`, currently Movies and Shows.
 - `anime` (new, Oct 25 2026): **one object with the same shape as a single `rows[]` entry**, `{"label": "Anime", "items": [...]}`. Items use the same fields as `rows[].items[]` (title, year, type, services, links, poster, why, synopsis, genres, imdb, tmdb, justwatch). `type` is `"show"` for these series. It's a separate top-level key, so readers that only know `rows` keep working. `index.html` draws it as the third row after `rows`.
-- `services`: badge color plus Android TV package per service. `Crunchyroll` was added (`com.crunchyroll.crunchyroid`).
+- `services`: badge color plus Android TV package per service. `Crunchyroll` was added (`com.crunchyroll.crunchyroid`). `Hulu` was added on Oct 25 2026 (`com.hulu.livingroomplus`, unverified; links are `https://www.hulu.com/watch/<id>`). Hulu-only titles are allowed again.
 - `generated`, `region`, `availability_source`, `availability_note`, `schema`: metadata.
 
 Deploy: `curl -fsSLO <raw-url-of>/deploy.sh && sudo REPO_URL=https://github.com/ahvren/shield-recs.git bash deploy.sh`

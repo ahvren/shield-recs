@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T14:13-07:00",
+ "generated": "2026-10-25T14:23-07:00",
  "region": "US",
  "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only, checked 2026-10-25",
  "services": {
@@ -22,6 +22,10 @@
   "Crunchyroll": {
    "color": "#F47521",
    "package": "com.crunchyroll.crunchyroid"
+  },
+  "Hulu": {
+   "color": "#13A85B",
+   "package": "com.hulu.livingroomplus"
   }
  },
  "rows": [
@@ -695,6 +699,226 @@
      "imdb": "tt8760708",
      "tmdb": "536554",
      "justwatch": "https://www.justwatch.com/us/movie/m3gan"
+    },
+    {
+     "title": "Alien: Romulus",
+     "year": 2024,
+     "type": "movie",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/05e76ad8-c3dd-4c3e-bab9-df3cf71c6871"
+     },
+     "poster": "posters/movie-alien-romulus.jpg",
+     "why": "Back to Aliens-style horror: young scavengers on a derelict station full of facehuggers. Fast, practical effects, and it ties into Prometheus (8.5).",
+     "synopsis": "While scavenging the deep ends of a derelict space station, a group of young space colonists come face to face with the most terrifying life form in the universe.",
+     "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt18412256",
+     "tmdb": "945961",
+     "justwatch": "https://www.justwatch.com/us/movie/alien-romulus"
+    },
+    {
+     "title": "Barbarian",
+     "year": 2022,
+     "type": "movie",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/a513bfb2-acca-4a6e-ab76-bc52c35a4807"
+     },
+     "poster": "posters/movie-barbarian.jpg",
+     "why": "An Airbnb double-booking becomes a horror movie that keeps changing genre. Wild twists, nothing slow.",
+     "synopsis": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
+     "genres": [
+      "Horror",
+      "Thriller"
+     ],
+     "imdb": "tt15791034",
+     "tmdb": "913290",
+     "justwatch": "https://www.justwatch.com/us/movie/barbarian"
+    },
+    {
+     "title": "Boss Level",
+     "year": 2021,
+     "type": "movie",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/622e81d6-ba3b-47f3-8e78-71fe742ade9f"
+     },
+     "poster": "posters/movie-boss-level.jpg",
+     "why": "An action time loop: an ex-soldier relives the day assassins kill him. Edge of Tomorrow (9) meets John Wick (10).",
+     "synopsis": "A former special forces agent is trapped in a time loop and relives his death over and over again. To escape the terrible situation, he must track down those responsible and stop them.",
+     "genres": [
+      "Action",
+      "Comedy",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt7638348",
+     "tmdb": "513310",
+     "justwatch": "https://www.justwatch.com/us/movie/boss-level"
+    },
+    {
+     "title": "Palm Springs",
+     "year": 2020,
+     "type": "movie",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/f70dfd4d-dbfb-46b8-abb3-136c841bba11"
+     },
+     "poster": "posters/movie-palm-springs.jpg",
+     "why": "Time-loop dark comedy at a wedding. Sharper and stranger than Groundhog Day, with clever loop rules.",
+     "synopsis": "When carefree Nyles and reluctant maid of honor Sarah have a chance encounter at a Palm Springs wedding, things get complicated when they find themselves unable to escape the venue, themselves, or each other.",
+     "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Sci-Fi"
+     ],
+     "imdb": "tt9484998",
+     "tmdb": "587792",
+     "justwatch": "https://www.justwatch.com/us/movie/palm-springs"
+    },
+    {
+     "title": "The Substance",
+     "year": 2024,
+     "type": "movie",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/b66a7d9d-7c2a-4c1e-ba72-53349817761f"
+     },
+     "poster": "posters/movie-the-substance.jpg",
+     "why": "A high-concept body-horror satire: a drug that makes a 'better you', with one strict rule. A gonzo ending.",
+     "synopsis": "A fading celebrity takes a black-market drug: a cell-replicating substance that helps her create a younger, better version of herself.",
+     "genres": [
+      "Drama",
+      "Horror",
+      "Sci-Fi"
+     ],
+     "imdb": "tt17526714",
+     "tmdb": "933260",
+     "justwatch": "https://www.justwatch.com/us/movie/the-substance"
+    },
+    {
+     "title": "Heretic",
+     "year": 2024,
+     "type": "movie",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/0957a9a1-015a-4bbf-913b-9da75572bb8d"
+     },
+     "poster": "posters/movie-heretic-2024.jpg",
+     "why": "Two missionaries knock on the wrong door. A battle-of-wits horror built on puzzles and reversals.",
+     "synopsis": "Two young Mormon women are drawn into a game of cat-and-mouse in the house of a strange man.",
+     "genres": [
+      "Horror",
+      "Thriller"
+     ],
+     "imdb": "tt28015403",
+     "tmdb": "1138194",
+     "justwatch": "https://www.justwatch.com/us/movie/heretic-2024"
+    },
+    {
+     "title": "No One Will Save You",
+     "year": 2023,
+     "type": "movie",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/9e96f51e-6806-4306-9773-e96b68d25305"
+     },
+     "poster": "posters/movie-no-one-will-save-you.jpg",
+     "why": "Home-invasion alien horror with almost no dialogue, but it moves. Tense set pieces and an inventive creature design.",
+     "synopsis": "An exiled anxiety-ridden homebody must battle an alien who's found its way into her home.",
+     "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt14509110",
+     "tmdb": "820609",
+     "justwatch": "https://www.justwatch.com/us/movie/no-one-will-save-you"
+    },
+    {
+     "title": "Predator: Killer of Killers",
+     "year": 2025,
+     "type": "movie",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/5ded19e6-73f5-4c65-a4f8-759bce8d1114"
+     },
+     "poster": "posters/movie-predator-killer-of-killers.jpg",
+     "why": "An animated Predator anthology: a Viking, a samurai, and a WWII pilot each face a hunter. Love, Death & Robots (10) energy.",
+     "synopsis": "While three of the fiercest warriors in human history—a Viking raider, a ninja in feudal Japan, and a WWII pilot—are killers in their own right, they are merely prey for their new opponent: the ultimate killer of killers.",
+     "genres": [
+      "Action",
+      "Animation",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt36463894",
+     "tmdb": "1376434",
+     "justwatch": "https://www.justwatch.com/us/movie/predator-killer-of-killers"
+    },
+    {
+     "title": "Predator: Badlands",
+     "year": 2025,
+     "type": "movie",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/movie/predator-badlands-da3aa9ca-01ff-4b8f-91e0-d622a01b954d"
+     },
+     "poster": "posters/movie-predator-badlands-2025.jpg",
+     "why": "A Predator flips the franchise: a young Yautja hunts on a death planet with a synthetic ally. Big creature action.",
+     "synopsis": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
+     "genres": [
+      "Action",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt31227572",
+     "tmdb": "1242898",
+     "justwatch": "https://www.justwatch.com/us/movie/predator-badlands-2025"
+    },
+    {
+     "title": "Self Reliance",
+     "year": 2024,
+     "type": "movie",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/b530df17-e123-4174-8d4d-75e6f422468f"
+     },
+     "poster": "posters/movie-self-reliance.jpg",
+     "why": "A dark comedy with a high-concept game show: survive 30 days while hunters try to kill him, but he's safe if he's with another person.",
+     "synopsis": "When a man is offered a million dollars to play a game in which hunters try to kill him, he thinks he has found the perfect loophole: they can only attack when he’s alone. His only problem is that none of his friends or family believe the game is real. Forced to seek companionship in unexpected places, he navigates the bizarre challenge with humor, paranoia, and a surprising search for connection.",
+     "genres": [
+      "Comedy",
+      "Thriller"
+     ],
+     "imdb": "tt26084002",
+     "tmdb": "1072876",
+     "justwatch": "https://www.justwatch.com/us/movie/self-reliance"
     }
    ]
   },
@@ -1409,6 +1633,243 @@
      "imdb": "tt6611916",
      "tmdb": "70593",
      "justwatch": "https://www.justwatch.com/us/tv-show/kingdom-2019"
+    },
+    {
+     "title": "Alien: Earth",
+     "year": 2025,
+     "type": "show",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/621725c8-b460-4909-afc2-66987b3a6d88"
+     },
+     "poster": "posters/show-alien-earth.jpg",
+     "why": "Noah Hawley's Alien series: hybrids, xenomorphs, and corporate war on Earth. For your Prometheus side.",
+     "synopsis": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+     "genres": [
+      "Drama",
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt13623632",
+     "tmdb": "157239",
+     "justwatch": "https://www.justwatch.com/us/tv-show/alien-earth"
+    },
+    {
+     "title": "Fargo",
+     "year": 2014,
+     "type": "show",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/7043d0b8-3dc6-41f4-8edb-8f1a1eb466a1"
+     },
+     "poster": "posters/show-fargo.jpg",
+     "why": "Crime anthology with dark comedy and escalating violence. Each season is self-contained, with an Ozark (11) vibe.",
+     "synopsis": "A close-knit anthology series dealing with stories involving malice, violence and murder based in and around Minnesota.",
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "imdb": "tt2802850",
+     "tmdb": "60622",
+     "justwatch": "https://www.justwatch.com/us/tv-show/fargo"
+    },
+    {
+     "title": "WandaVision",
+     "year": 2021,
+     "type": "show",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/d2592eb8-499b-4621-9bb8-6b345af3cb58"
+     },
+     "poster": "posters/show-wandavision.jpg",
+     "why": "A high-concept sitcom mystery that unravels into a superhero reality-bender. 9 tight episodes. Currently streaming on Hulu.",
+     "synopsis": "Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems.",
+     "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Romance",
+      "Sci-Fi"
+     ],
+     "imdb": "tt9140560",
+     "tmdb": "85271",
+     "justwatch": "https://www.justwatch.com/us/tv-show/wandavision"
+    },
+    {
+     "title": "Lost",
+     "year": 2004,
+     "type": "show",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/d7f393db-93b8-40f6-8e23-6b564da3ae8d"
+     },
+     "poster": "posters/show-lost.jpg",
+     "why": "The original mystery-box show: a plane crash, an island, and a mythology that keeps escalating. The final season divides people, but the ride is huge.",
+     "synopsis": "Stripped of everything, the survivors of a horrific plane crash  must work together to stay alive. But the island holds many secrets.",
+     "genres": [
+      "Action",
+      "Drama",
+      "Fantasy",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt0411008",
+     "tmdb": "4607",
+     "justwatch": "https://www.justwatch.com/us/tv-show/lost"
+    },
+    {
+     "title": "Paradise",
+     "year": 2025,
+     "type": "show",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/26fb7558-a0bb-4153-9dde-18800e1738a9"
+     },
+     "poster": "posters/show-paradise-2025.jpg",
+     "why": "A president is murdered, and a Secret Service agent investigates. The episode 1 twist reframes everything. Thriller pacing.",
+     "synopsis": "The tranquility in a serene, wealthy community inhabited by some of the world's most prominent individuals explodes when a shocking murder occurs and a high stakes investigation unfolds.",
+     "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt27444205",
+     "tmdb": "245927",
+     "justwatch": "https://www.justwatch.com/us/tv-show/paradise-2025"
+    },
+    {
+     "title": "Legion",
+     "year": 2017,
+     "type": "show",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/cc5a5347-5f5a-4e42-9230-1f22373d0933"
+     },
+     "poster": "posters/show-legion.jpg",
+     "why": "Trippy X-Men-adjacent show about a mutant who may be insane. Inventive and high-concept, with 3 seasons and a full ending.",
+     "synopsis": "David Haller, AKA Legion, is a troubled young man who may be more than human. Diagnosed as schizophrenic, David has been in and out of psychiatric hospitals for years. But after a strange encounter with a fellow patient, he’s confronted with the possibility that the voices he hears and the visions he sees might be real.",
+     "genres": [
+      "Action",
+      "Drama",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt5114356",
+     "tmdb": "67195",
+     "justwatch": "https://www.justwatch.com/us/tv-show/legion"
+    },
+    {
+     "title": "Castle Rock",
+     "year": 2018,
+     "type": "show",
+     "services": [
+      "Netflix",
+      "Hulu"
+     ],
+     "links": {
+      "Netflix": "https://www.netflix.com/title/81036944",
+      "Hulu": "https://www.hulu.com/watch/cb389c8d-028f-4223-b2c8-994877a06c98"
+     },
+     "poster": "posters/show-castle-rock.jpg",
+     "why": "A Stephen King multiverse mystery in a cursed town. Season 1 is a self-contained puzzle.",
+     "synopsis": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
+     "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+     ],
+     "imdb": "tt6548228",
+     "tmdb": "71116",
+     "justwatch": "https://www.justwatch.com/us/tv-show/castle-rock"
+    },
+    {
+     "title": "Hit-Monkey",
+     "year": 2021,
+     "type": "show",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/e26303b3-97d3-4b44-be3c-073de5c9e46b"
+     },
+     "poster": "posters/show-marvels-hit-monkey.jpg",
+     "why": "Adult animated Marvel: a monkey assassin and the ghost of a hitman in Tokyo. Archer (11) energy with real violence.",
+     "synopsis": "After a high-profile political assassination goes sideways, an injured hitman hides out amongst a tribe of snow monkeys in the mountains of Japan.",
+     "genres": [
+      "Action",
+      "Animation",
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi"
+     ],
+     "imdb": "tt9811316",
+     "tmdb": "133903",
+     "justwatch": "https://www.justwatch.com/us/tv-show/marvels-hit-monkey"
+    },
+    {
+     "title": "The Patient",
+     "year": 2022,
+     "type": "show",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/dbc42176-8ff4-4b78-82b6-a691b5ef8bc1"
+     },
+     "poster": "posters/show-the-patient.jpg",
+     "why": "A therapist chained in a serial killer's basement. 10 short, tense episodes with a firm ending.",
+     "synopsis": "A psychotherapist finds himself held prisoner by a serial killer who demands he help him curb his homicidal urges.",
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "imdb": "tt15574312",
+     "tmdb": "135868",
+     "justwatch": "https://www.justwatch.com/us/tv-show/the-patient"
+    },
+    {
+     "title": "Justified",
+     "year": 2010,
+     "type": "show",
+     "services": [
+      "Hulu"
+     ],
+     "links": {
+      "Hulu": "https://www.hulu.com/watch/0512b338-7941-4662-956a-5e5fc6a80ab9"
+     },
+     "poster": "posters/show-justified.jpg",
+     "why": "A cowboy US Marshal in Kentucky crime country. Sharp dialogue and great villains, and it sticks the landing.",
+     "synopsis": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
+     "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller",
+      "Western"
+     ],
+     "imdb": "tt1489428",
+     "tmdb": "1436",
+     "justwatch": "https://www.justwatch.com/us/tv-show/justified"
     }
    ]
   }
@@ -2184,6 +2645,178 @@
     "imdb": "tt3613454",
     "tmdb": "61421",
     "justwatch": "https://www.justwatch.com/us/tv-show/terror-in-resonance"
+   },
+   {
+    "title": "Summer Time Rendering",
+    "year": 2022,
+    "type": "show",
+    "services": [
+     "Hulu"
+    ],
+    "links": {
+     "Hulu": "https://www.hulu.com/watch/a87be2de-54d2-472c-88a3-d2123a674331"
+    },
+    "poster": "posters/anime-summer-time-rendering.jpg",
+    "why": "Time-loop sci-fi mystery on an island where doppelgangers are killing people. Closest anime to Dark (10), and fully completed.",
+    "synopsis": "Shinpei Ajiro travels home to attend the funeral of a childhood friend, and finds the remote island plagued by a sinister, supernatural force.",
+    "genres": [
+     "Animation",
+     "Drama",
+     "Fantasy",
+     "Thriller"
+    ],
+    "imdb": "tt15686254",
+    "tmdb": "117933",
+    "justwatch": "https://www.justwatch.com/us/tv-show/summer-time-rendering"
+   },
+   {
+    "title": "Heavenly Delusion",
+    "year": 2023,
+    "type": "show",
+    "services": [
+     "Hulu"
+    ],
+    "links": {
+     "Hulu": "https://www.hulu.com/watch/d29e078f-5b54-4f75-8796-b3ef8737b8a3"
+    },
+    "poster": "posters/anime-heavenly-delusion.jpg",
+    "why": "Post-apocalyptic mystery with two timelines that slowly converge. Creepy monsters and big reveals.",
+    "synopsis": "In the year 2024, the world has collapsed. Grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko, an odd-job girl in Nakano, accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven. Maru is convinced that there will be a boy there who looks exactly like him.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Thriller",
+     "Sci-Fi"
+    ],
+    "imdb": "tt22817632",
+    "tmdb": "208891",
+    "justwatch": "https://www.justwatch.com/us/tv-show/heavenly-delusion"
+   },
+   {
+    "title": "Undead Unluck",
+    "year": 2023,
+    "type": "show",
+    "services": [
+     "Hulu"
+    ],
+    "links": {
+     "Hulu": "https://www.hulu.com/watch/82c21b24-a39d-460c-a913-d530180a8d2f"
+    },
+    "poster": "posters/anime-undead-unluck.jpg",
+    "why": "Shonen with bizarre rule-based powers (an immortal man and a girl whose touch causes bad luck), moving like Hunter x Hunter (13).",
+    "synopsis": "An unlucky girl meets an undead guy. The two work together well with their super abilities, but discover a conspiracy involving superhumans.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Comedy",
+     "Fantasy",
+     "Sci-Fi"
+    ],
+    "imdb": "tt21927720",
+    "tmdb": "209077",
+    "justwatch": "https://www.justwatch.com/us/tv-show/undead-unluck"
+   },
+   {
+    "title": "Tokyo Revengers",
+    "year": 2021,
+    "type": "show",
+    "services": [
+     "Hulu",
+     "Crunchyroll"
+    ],
+    "links": {
+     "Hulu": "https://www.hulu.com/watch/bdf46832-df34-4591-88ea-8f167a26522e",
+     "Crunchyroll": "https://www.crunchyroll.com/watch/GWDU8DXE9"
+    },
+    "poster": "posters/anime-tokyo-revengers.jpg",
+    "why": "A time-travel crime story: he jumps back 12 years to stop a gang from killing his ex. Delinquent action with a time-loop hook.",
+    "synopsis": "Hanagaki Takemichi lives an unsatisfying life right up until his death. Waking up 12 years in the past, he reckons with the eventual fate of his friends and tries to prevent an unfortunate future.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Drama"
+    ],
+    "imdb": "tt13196080",
+    "tmdb": "105009",
+    "justwatch": "https://www.justwatch.com/us/tv-show/tokyo-revengers"
+   },
+   {
+    "title": "Zom 100: Bucket List of the Dead",
+    "year": 2023,
+    "type": "show",
+    "services": [
+     "Netflix",
+     "Hulu",
+     "Crunchyroll"
+    ],
+    "links": {
+     "Netflix": "https://www.netflix.com/title/81680101",
+     "Hulu": "https://www.hulu.com/watch/230adbf7-ad06-4fe9-8384-57e2c6318612",
+     "Crunchyroll": "https://www.crunchyroll.com/watch/G8WUNG70E"
+    },
+    "poster": "posters/anime-zom-100-bucket-list-of-the-dead.jpg",
+    "why": "The zombie apocalypse frees a burned-out office worker to live his bucket list. Bright dark comedy, Zombieland (9) energy.",
+    "synopsis": "A worker in a foreign finance company is bullied and worked around the clock, before a zombie outbreak finally makes him feel alive.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Comedy",
+     "Fantasy",
+     "Horror",
+     "Sci-Fi"
+    ],
+    "imdb": "tt25811262",
+    "tmdb": "217766",
+    "justwatch": "https://www.justwatch.com/us/tv-show/zom-100-bucket-list-of-the-dead"
+   },
+   {
+    "title": "Dororo",
+    "year": 2019,
+    "type": "show",
+    "services": [
+     "Prime Video",
+     "Hulu"
+    ],
+    "links": {
+     "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.f0b2865f-3270-43c6-90f2-5eb0ec6780cc",
+     "Hulu": "https://www.hulu.com/watch/0993e8cb-1586-4c8b-bae9-e4c5f05b78ce"
+    },
+    "poster": "posters/anime-dororo.jpg",
+    "why": "A samurai missing 48 body parts kills demons to win them back. Dark fantasy with monster-of-the-week momentum.",
+    "synopsis": "During the Warring States period, the young thief Dororo encounters Hyakkimaru, a strange, sightless boy who wields fearsome prosthetics in place of his missing limbs. Parts of Hyakkimaru’s body were traded to a group of 12 demons by his father in exchange for power, but thanks to a kindly medicine man, Hyakkimaru survived his horrifying ordeal. Now he roams the land in search of his missing body, and together he and Dororo will fight to survive in an unforgiving, demon-plagued world.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Fantasy",
+     "Horror"
+    ],
+    "imdb": "tt9458304",
+    "tmdb": "83100",
+    "justwatch": "https://www.justwatch.com/us/tv-show/dororo"
+   },
+   {
+    "title": "The Eminence in Shadow",
+    "year": 2022,
+    "type": "show",
+    "services": [
+     "Hulu"
+    ],
+    "links": {
+     "Hulu": "https://www.hulu.com/watch/f6c12f68-43de-4e19-9d67-3b607c6867ab"
+    },
+    "poster": "posters/anime-the-eminence-in-shadow.jpg",
+    "why": "A chuunibyou isekai parody: he thinks he's role-playing a shadow mastermind, but it's all real. Overlord-style comedy.",
+    "synopsis": "Shadowbrokers are those who go unnoticed, posing as unremarkable people, when in truth, they control everything from behind the scenes. Sid wants to be someone just like that more than anything, and something as insignificant as boring reality isn’t going to get in his way! He trains in secret every single night, preparing for his eventual rise to power—only to be denied his destiny by a run-of-the-mill (yet deadly) traffic accident. But when he wakes up in a another world and suddenly finds himself at the head of an actual secret organization doing battle with evil in the shadows, he’ll finally get a chance to act out all of his delusional fantasies!",
+    "genres": [
+     "Action",
+     "Animation",
+     "Comedy",
+     "Fantasy",
+     "Sci-Fi"
+    ],
+    "imdb": "tt14115938",
+    "tmdb": "119495",
+    "justwatch": "https://www.justwatch.com/us/tv-show/the-eminence-in-shadow"
    }
   ]
  }
