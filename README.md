@@ -55,3 +55,57 @@ The CT pushes these lines with the GitHub Contents API. It GETs the file's sha, 
 2. Updates `news_prefs.json` (weights, mutes).
 3. Records the ids in `feedback/news_processed.json`.
 4. Regenerates `news.json`.
+
+## Mobile news page (`/m/`, a Google Discover replacement)
+
+**Live:** https://ahvren.github.io/shield-recs/m/ (GitHub Pages, built from `main`, root folder)
+
+This is an installable PWA for Chris's Galaxy phone. Open the link in Chrome, then use ⋮ → **Add to Home screen / Install app**. It runs standalone with a dark theme.
+
+| File | Purpose |
+|---|---|
+| `m/index.html` | The whole app, with no build step and no dependencies |
+| `m/manifest.webmanifest` | PWA manifest (standalone, `#07080c`, scope `./`) |
+| `m/sw.js` | Service worker |
+| `m/icons/` | 192, 512, maskable 512, Apple touch 180 and favicon 32 |
+| `m-preview.png` | Headless Chrome render at 412×915 |
+| `.nojekyll` | Pages serves files as-is, with no Jekyll processing |
+
+**How it works**
+
+- **Data:** loads `../news.json` and `../recs.json` at runtime with relative paths, so it reads the same files the Shield/CT use.
+- **Caching:** the service worker serves the app shell from cache first. The JSON is network-first with a cache fallback, so a stale feed shows when offline, along with an "Offline" banner. Article images get an opportunistic cache of about 120 entries.
+- **News tab:** a Discover-style vertical feed of image, topic, source, relative time, title and summary.
+  - Topic chips sit at the top; "For you" shows everything, ranked by score plus local boosts.
+  - Pull to refresh, or use the ↻ button.
+  - Tapping a card opens the article in a new tab.
+- **Watch tab:** Movies, Shows and Anime from `recs.json`, with posters, the "why" text and service chips. Tapping opens the first service link.
+- **Search engines:** `<meta name="robots" content="noindex,nofollow,noarchive">` is set on `/m/` and on the TV `index.html`.
+
+**Feedback without a token (GitHub issues)**
+
+Each card has 👍 Up, 👎 Down, ✨ More like this, 🚫 Hide topic and 🙈 Hide source. Each action does two things:
+
+1. Applies locally right away through `localStorage` (key `shieldnews.v1`), with a 5-second Undo:
+   - Down hides the story.
+   - Hide topic or Hide source hides everything matching.
+   - Up and More like this add a ✓ badge and boost that topic and source in the ranking.
+   - ⋯ → Feed settings lists everything hidden and can unhide it, or reset all local tweaks.
+2. Opens a prefilled new-issue page, `https://github.com/ahvren/shield-recs/issues/new?labels=news-feedback&title=…&body=…`.
+   - The title is `news-feedback: <action> — <item title>`.
+   - The body contains a fenced `json` block holding exactly one `feedback/news_feedback.jsonl`-shaped object: `{id, ts, item_id, topic, source, title, action}`.
+   - Chris only taps **Submit new issue**.
+
+**Batch mode** (the Batch button): actions queue locally instead. **Send N actions in one issue** then opens a single issue titled `news-feedback: batch — N actions`, whose body holds a JSON **array** of those objects. URLs are kept under about 7.6 KB; anything over that stays queued for the next send.
+
+**Labels:** `news-feedback` is used now. `recs-feedback` is reserved for a future Watch-tab feedback flow.
+
+**Recommender side:**
+
+1. Read open issues labelled `news-feedback`: `gh issue list -R ahvren/shield-recs -l news-feedback --state open --json number,body`.
+2. Parse the JSON block (an object or an array).
+3. De-duplicate by event `id` against `feedback/news_processed.json`, using the same `processed_ids` list as the CT's jsonl events.
+4. Apply the events to `news_prefs.json`.
+5. Close each issue with a comment.
+
+**Pages and raw URLs:** Pages is a separate deployment and changes nothing at `raw.githubusercontent.com`, so the CT and VM keep using the raw URLs. Pages adds a CDN cache of about 10 minutes, and the app busts it with `?t=`.

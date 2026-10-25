@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#07080c">
+<meta name="color-scheme" content="dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>News</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<style>
+:root{--bg:#07080c;--card:#12151d;--line:rgba(255,255,255,.10);--txt:#eef1f6;--dim:#9aa3b2;--accent:#7fd4ff;--good:#7ee2a8;--bad:#ff8a8a;
+  --safe-t:env(safe-area-inset-top,0px);--safe-b:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.4 Roboto,"Segoe UI",system-ui,sans-serif;overscroll-behavior-y:contain}
+button{font:inherit;color:inherit}
+header{position:sticky;top:0;z-index:10;background:rgba(7,8,12,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);padding:calc(var(--safe-t) + 10px) 14px 0;border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:8px}
+.tabs{display:flex;gap:4px;flex:1}
+.tab{border:0;background:none;padding:6px 10px;font-size:20px;font-weight:700;color:var(--dim);border-radius:10px}
+.tab[aria-selected=true]{color:var(--txt)}
+.icon{border:1px solid var(--line);background:rgba(255,255,255,.06);border-radius:999px;height:38px;min-width:38px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;font-size:14px}
+.icon.on{background:var(--accent);color:#06121a;border-color:var(--accent);font-weight:700}
+.icon svg{width:18px;height:18px}
+.spin svg{animation:sp 0.9s linear infinite}@keyframes sp{to{transform:rotate(360deg)}}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0 12px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:rgba(255,255,255,.05);border-radius:999px;padding:7px 13px;font-size:14px;white-space:nowrap}
+.chip[aria-pressed=true]{background:var(--txt);color:#0b0d12;border-color:var(--txt);font-weight:600}
+.chip .n{opacity:.6;margin-left:4px;font-size:12px}
+#status{font-size:12.5px;color:var(--dim);padding:8px 16px 0}
+#status.warn{color:#ffd27f}
+#ptr{height:0;overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--dim);font-size:13px;transition:height .2s}
+main{padding:8px 12px calc(96px + var(--safe-b));max-width:720px;margin:0 auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;margin:12px 0;content-visibility:auto;contain-intrinsic-size:auto 420px}
+.card a.hit{display:block;color:inherit;text-decoration:none}
+.media{aspect-ratio:16/9;background:linear-gradient(135deg,var(--c1,#1d3b6b),var(--c2,#311d4f));position:relative;display:flex;align-items:flex-end}
+.media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.media .ph{padding:14px;font-weight:700;font-size:18px;opacity:.9}
+.body{padding:12px 16px 4px}
+.meta{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--dim);flex-wrap:wrap}
+.meta .tp{color:var(--accent)}
+.meta .badge{color:var(--good);font-weight:700}
+h2{font-size:19px;line-height:1.3;margin:6px 0 6px;font-weight:600}
+.sum{color:#c6ccd6;font-size:15px;margin:0 0 8px}
+.acts{display:flex;flex-wrap:wrap;gap:6px;padding:4px 12px 14px}
+.acts::-webkit-scrollbar{display:none}
+.act{flex:0 0 auto;border:1px solid var(--line);background:rgba(255,255,255,.04);border-radius:999px;padding:7px 11px;font-size:13px;white-space:nowrap}
+.act:active{transform:scale(.96)}
+.act.done{border-color:var(--good);color:var(--good)}
+.card.gone{display:none}
+.empty{color:var(--dim);text-align:center;padding:60px 20px}
+/* Watch tab */
+.sec{font-size:15px;font-weight:700;color:var(--dim);margin:18px 4px 6px;text-transform:uppercase;letter-spacing:.06em}
+.w{display:flex;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:10px;margin:10px 0;color:inherit;text-decoration:none}
+.w img{width:92px;height:138px;object-fit:cover;border-radius:12px;background:#1a1d26;flex:0 0 auto}
+.w h3{margin:2px 0 4px;font-size:17px}
+.w .why{font-size:14px;color:#c6ccd6;margin:6px 0}
+.svc{display:inline-block;font-size:11.5px;font-weight:700;padding:3px 8px;border-radius:999px;margin:2px 4px 0 0;color:#fff;text-decoration:none}
+/* toast, batch bar, sheet */
+#toast{position:fixed;left:12px;right:12px;bottom:calc(16px + var(--safe-b));z-index:30;background:#202634;border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:none;align-items:center;gap:10px;box-shadow:0 10px 30px rgba(0,0,0,.5);max-width:560px;margin:0 auto}
+#toast span{flex:1;font-size:14px}
+#toast button{border:0;background:none;color:var(--accent);font-weight:700;padding:4px 6px}
+#batchbar{position:fixed;left:12px;right:12px;bottom:calc(16px + var(--safe-b));z-index:25;display:none;gap:8px;max-width:560px;margin:0 auto}
+#batchbar button{flex:1;border:0;border-radius:14px;padding:14px;font-weight:700;font-size:15px}
+#sendBatch{background:var(--accent);color:#06121a}
+#clearBatch{flex:0 0 auto!important;background:#202634;color:var(--txt)}
+body.toasting #batchbar{bottom:calc(84px + var(--safe-b))}
+#sheet{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.55);display:none;align-items:flex-end}
+#sheet .pane{background:#141821;border-top-left-radius:22px;border-top-right-radius:22px;width:100%;max-height:85vh;overflow:auto;padding:18px 16px calc(24px + var(--safe-b));border-top:1px solid var(--line)}
+#sheet h4{margin:16px 0 8px;font-size:14px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em}
+.row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:15px}
+.row span{flex:1}
+.row button,.big{border:1px solid var(--line);background:rgba(255,255,255,.06);border-radius:10px;padding:7px 12px;font-size:14px}
+.big{width:100%;margin-top:10px;padding:12px}
+.note{font-size:13px;color:var(--dim)}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tabNews" aria-selected="true">News</button>
+      <button class="tab" role="tab" id="tabWatch" aria-selected="false">Watch</button>
+    </div>
+    <button class="icon" id="batchBtn" title="Batch mode: queue feedback and send it in one issue" aria-pressed="false">Batch</button>
+    <button class="icon" id="refresh" aria-label="Refresh"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg></button>
+    <button class="icon" id="menu" aria-label="Settings"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg></button>
+  </div>
+  <div class="chips" id="chips"></div>
+</header>
+<div id="ptr">Pull to refresh</div>
+<div id="status"></div>
+<main id="feed"><div class="empty">Loading…</div></main>
+<main id="watch" hidden></main>
+<div id="batchbar"><button id="sendBatch">Send 0 actions</button><button id="clearBatch">Clear</button></div>
+<div id="toast"><span id="toastMsg"></span><button id="toastUndo">Undo</button></div>
+<div id="sheet"><div class="pane" id="pane"></div></div>
+<script>
+'use strict';
+const REPO = 'ahvren/shield-recs';
+const NEWS_URL = '../news.json', RECS_URL = '../recs.json';
+const MAX_URL = 7600;                       // keep issue URLs comfortably under GitHub's limit
+const SHORT = {homelab:'Homelab', gaming:'Gaming', aviation:'Aviation', streaming:'Streaming', ai:'AI & dev', local:'Local'};
+const HUE = {homelab:['#14476b','#1e2f55'], gaming:['#4a2a6b','#1f1a40'], aviation:['#1d4f6b','#18304a'], streaming:['#5a1f3a','#24152f'], ai:['#1f5a4a','#15302c'], local:['#6b4a1d','#3a2416']};
+const ACTIONS = [
+  ['up','👍','Up'], ['down','👎','Down'], ['more_like_this','✨','More like this'],
+  ['hide_topic','🚫','Hide topic'], ['hide_source','🙈','Hide source']];
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+// ---------- local state ----------
+const LS = 'shieldnews.v1';
+const S = Object.assign({hiddenItems:{}, hiddenTopics:{}, hiddenSources:{}, marks:{}, topicBoost:{}, sourceBoost:{},
+  queue:[], sent:[], batch:false, filter:'all', tab:'news'}, JSON.parse(localStorage.getItem(LS) || '{}'));
+const save = () => localStorage.setItem(LS, JSON.stringify(S));
+let NEWS = null, RECS = null;
+
+function uuid(){ return crypto.randomUUID ? crypto.randomUUID() :
+  'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => { const r = crypto.getRandomValues(new Uint8Array(1))[0] & 15; return (c === 'x' ? r : (r & 3 | 8)).toString(16); }); }
+const isoNow = () => new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
+function ago(iso){
+  const s = (Date.now() - Date.parse(iso)) / 1000;
+  if (!isFinite(s)) return '';
+  if (s < 3600) return Math.max(1, Math.round(s/60)) + 'm ago';
+  if (s < 86400) return Math.round(s/3600) + 'h ago';
+  const d = Math.round(s/86400); return d < 14 ? d + 'd ago' : new Date(iso).toLocaleDateString();
+}
+
+// ---------- data ----------
+async function getJSON(url){
+  const res = await fetch(url + '?t=' + Date.now(), {cache:'no-store'});
+  if (!res.ok) throw new Error(url + ' ' + res.status);
+  return {data: await res.json(), cached: res.headers.get('X-From-Cache') === '1'};
+}
+async function load(manual){
+  $('#refresh').classList.add('spin');
+  try {
+    const n = await getJSON(NEWS_URL); NEWS = n.data;
+    localStorage.setItem(LS + '.news', JSON.stringify(NEWS));
+    setStatus(n.cached ? 'Offline: showing saved feed from ' + ago(NEWS.generated) : 'Updated ' + ago(NEWS.generated) + ' · ' + NEWS.items.length + ' stories', n.cached);
+  } catch (e) {
+    const c = localStorage.getItem(LS + '.news');
+    if (c) { NEWS = JSON.parse(c); setStatus('Offline: showing saved feed from ' + ago(NEWS.generated), true); }
+    else setStatus('Could not load news.json (' + e.message + ')', true);
+  }
+  getJSON(RECS_URL).then(r => { RECS = r.data; if (S.tab === 'watch') renderWatch(); }).catch(() => {});
+  $('#refresh').classList.remove('spin');
+  render();
+  if (manual) window.scrollTo({top:0, behavior:'smooth'});
+}
+function setStatus(t, warn){ const el = $('#status'); el.textContent = t; el.className = warn ? 'warn' : ''; }
+
+// ---------- ranking ----------
+function visible(){
+  if (!NEWS) return [];
+  return NEWS.items.filter(i => !S.hiddenItems[i.id] && !S.hiddenTopics[i.topic] && !S.hiddenSources[i.source])
+    .map(i => ({i, s: (i.score || 0) + (S.topicBoost[i.topic] || 0) + (S.sourceBoost[i.source] || 0)}))
+    .sort((a, b) => b.s - a.s).map(x => x.i);
+}
+
+// ---------- render ----------
+function renderChips(items){
+  const el = $('#chips');
+  if (S.tab === 'watch') { el.innerHTML = ''; el.style.display = 'none'; return; }
+  el.style.display = '';
+  const topics = (NEWS?.topics || []).filter(t => !S.hiddenTopics[t.id]);
+  const count = id => items.filter(i => i.topic === id).length;
+  if (S.filter !== 'all' && !topics.some(t => t.id === S.filter)) S.filter = 'all';
+  el.innerHTML = `<button class="chip" data-f="all" aria-pressed="${S.filter === 'all'}">For you<span class="n">${items.length}</span></button>` +
+    topics.map(t => `<button class="chip" data-f="${esc(t.id)}" aria-pressed="${S.filter === t.id}">${esc(SHORT[t.id] || t.label)}<span class="n">${count(t.id)}</span></button>`).join('');
+}
+function card(i){
+  const [c1, c2] = HUE[i.topic] || ['#1d3b6b','#311d4f'];
+  const mark = S.marks[i.id];
+  const topicLabel = SHORT[i.topic] || (NEWS.topics.find(t => t.id === i.topic) || {}).label || i.topic;
+  return `<article class="card" data-id="${esc(i.id)}">
+    <a class="hit" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">
+      <div class="media" style="--c1:${c1};--c2:${c2}">
+        <div class="ph">${esc(i.source)}</div>
+        ${i.image ? `<img src="${esc(i.image)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}
+      </div>
+      <div class="body">
+        <div class="meta"><span class="tp">${esc(topicLabel)}</span>·<span>${esc(i.source)}</span>·<span>${ago(i.published)}</span>${mark ? `<span class="badge">✓ ${mark === 'up' ? 'liked' : 'more like this'}</span>` : ''}</div>
+        <h2>${esc(i.title)}</h2>
+        <p class="sum">${esc(i.summary)}</p>
+      </div>
+    </a>
+    <div class="acts">${ACTIONS.map(([a, e, l]) => `<button class="act${mark === a ? ' done' : ''}" data-a="${a}">${e} ${l}</button>`).join('')}</div>
+  </article>`;
+}
+function render(){
+  const items = visible();
+  renderChips(items);
+  if (S.tab === 'watch') return renderWatch();
+  const list = S.filter === 'all' ? items : items.filter(i => i.topic === S.filter);
+  $('#feed').innerHTML = list.length ? list.map(card).join('') :
+    `<div class="empty">${NEWS ? 'Nothing left here. Check hidden items in ⋯ or refresh.' : 'No feed yet.'}</div>`;
+  renderBatchBar();
+}
+function renderWatch(){
+  const el = $('#watch');
+  if (!RECS) { el.innerHTML = '<div class="empty">Loading recommendations…</div>'; return; }
+  const svc = RECS.services || {};
+  const rows = (RECS.rows || []).concat(RECS.anime ? [RECS.anime] : []);
+  el.innerHTML = rows.map(r => `<div class="sec">${esc(r.label)}</div>` + r.items.map(t => {
+    const links = Object.entries(t.links || {});
+    const first = links[0] ? links[0][1] : (t.justwatch || '#');
+    return `<a class="w" href="${esc(first)}" target="_blank" rel="noopener noreferrer">
+      <img src="../${esc(t.poster)}" alt="" loading="lazy">
+      <div><h3>${esc(t.title)}</h3><div class="meta">${esc(t.year || '')} · ${t.type === 'movie' ? 'Movie' : 'Series'}</div>
+      <div class="why">${esc(t.why || '')}</div>
+      <div>${(t.services || []).map(s => `<span class="svc" style="background:${esc((svc[s] || {}).color || '#444')}">${esc(s)}</span>`).join('')}</div></div></a>`;
+  }).join('')).join('') + `<p class="note" style="text-align:center;margin:20px">Availability: ${esc(RECS.availability_source || 'JustWatch')} · updated ${ago(RECS.generated)}</p>`;
+}
+
+// ---------- feedback ----------
+function issueURL(events){
+  const one = events.length === 1;
+  const e0 = events[0];
+  const title = one ? `news-feedback: ${e0.action} — ${e0.title}`.slice(0, 200) : `news-feedback: batch — ${events.length} actions`;
+  const json = JSON.stringify(one ? e0 : events, null, one ? 2 : 1);
+  const body = 'Sent from the /m/ news page. Tap **Submit new issue**; the recommender reads the JSON below.\n\n```json\n' + json + '\n```\n';
+  return `https://github.com/${REPO}/issues/new?labels=news-feedback&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+}
+function makeEvent(item, action){
+  return {id: uuid(), ts: isoNow(), item_id: item.id, topic: item.topic, source: item.source, title: item.title, action};
+}
+function applyLocal(item, action){
+  const undo = JSON.stringify(S);   // snapshot for undo (small)
+  const bump = (o, k, v) => { o[k] = Math.round(((o[k] || 0) + v) * 1000) / 1000; };
+  if (action === 'up') { S.marks[item.id] = 'up'; bump(S.topicBoost, item.topic, .08); bump(S.sourceBoost, item.source, .05); }
+  if (action === 'more_like_this') { S.marks[item.id] = 'more_like_this'; bump(S.topicBoost, item.topic, .15); bump(S.sourceBoost, item.source, .1); }
+  if (action === 'down') { S.hiddenItems[item.id] = Date.now(); bump(S.sourceBoost, item.source, -.04); }
+  if (action === 'hide_topic') S.hiddenTopics[item.topic] = Date.now();
+  if (action === 'hide_source') S.hiddenSources[item.source] = Date.now();
+  return undo;
+}
+function act(id, action){
+  const item = NEWS.items.find(i => i.id === id); if (!item) return;
+  const before = applyLocal(item, action);
+  const ev = makeEvent(item, action);
+  let msg = {up:'Liked', down:'Fewer like this', more_like_this:'More like this', hide_topic:'Hid topic: ' + (SHORT[item.topic] || item.topic), hide_source:'Hid source: ' + item.source}[action];
+  if (S.batch) { S.queue.push(ev); msg += ' · queued (' + S.queue.length + ')'; }
+  else { S.sent.push({id: ev.id, ts: ev.ts, n: 1}); window.open(issueURL([ev]), '_blank', 'noopener'); msg += ' · opened issue'; }
+  save(); render();
+  toast(msg, () => {
+    const q = S.queue, sent = S.sent; Object.assign(S, JSON.parse(before));
+    S.queue = q.filter(e => e.id !== ev.id); S.sent = sent; save(); render();
+    if (!S.batch) toast('Undone locally. Close the GitHub tab without submitting.');
+  });
+}
+function sendBatch(){
+  if (!S.queue.length) return;
+  // take as many queued events as fit in one URL; the rest stay queued
+  let n = S.queue.length;
+  while (n > 1 && issueURL(S.queue.slice(0, n)).length > MAX_URL) n--;
+  const evs = S.queue.slice(0, n);
+  window.open(issueURL(evs), '_blank', 'noopener');
+  S.sent.push({id: evs[0].id, ts: isoNow(), n}); S.queue = S.queue.slice(n); save(); renderBatchBar();
+  toast(S.queue.length ? `Opened issue with ${n}; ${S.queue.length} still queued` : `Opened issue with ${n} action${n > 1 ? 's' : ''}`);
+}
+function renderBatchBar(){
+  const show = S.batch && S.queue.length;
+  $('#batchbar').style.display = show ? 'flex' : 'none';
+  $('#sendBatch').textContent = `Send ${S.queue.length} action${S.queue.length === 1 ? '' : 's'} in one issue`;
+  $('#batchBtn').classList.toggle('on', S.batch); $('#batchBtn').setAttribute('aria-pressed', S.batch);
+  $('#batchBtn').textContent = S.batch ? 'Batch' + (S.queue.length ? ' ' + S.queue.length : '') : 'Batch';
+}
+let toastTimer;
+function toast(msg, undo){
+  $('#toastMsg').textContent = msg; $('#toastUndo').style.display = undo ? '' : 'none';
+  $('#toastUndo').onclick = () => { hideToast(); undo && undo(); };
+  $('#toast').style.display = 'flex'; document.body.classList.add('toasting');
+  clearTimeout(toastTimer); toastTimer = setTimeout(hideToast, 5000);
+}
+function hideToast(){ $('#toast').style.display = 'none'; document.body.classList.remove('toasting'); }
+
+// ---------- settings sheet ----------
+function openSheet(){
+  const rows = (obj, kind) => Object.keys(obj).map(k => `<div class="row"><span>${esc(kind === 'item' ? ((NEWS?.items.find(i => i.id === k) || {}).title || k) : (SHORT[k] || k))}</span><button data-un="${kind}" data-k="${esc(k)}">Show</button></div>`).join('') || '<p class="note">None</p>';
+  $('#pane').innerHTML = `<b style="font-size:18px">Feed settings</b>
+    <h4>Hidden topics</h4>${rows(S.hiddenTopics, 'topic')}
+    <h4>Hidden sources</h4>${rows(S.hiddenSources, 'source')}
+    <h4>Hidden stories</h4>${rows(S.hiddenItems, 'item')}
+    <h4>Feedback</h4>
+    <p class="note">Each action opens a prefilled GitHub issue on ${REPO} with the label <b>news-feedback</b>; tap Submit. Batch mode queues actions and sends them in one issue. You need to be signed in to GitHub in this browser.</p>
+    <p class="note">Queued: ${S.queue.length} · issues opened from this phone: ${S.sent.length}</p>
+    <button class="big" id="resetLocal">Reset local tweaks (hides, boosts, queue)</button>
+    <button class="big" id="closeSheet">Close</button>`;
+  $('#sheet').style.display = 'flex';
+}
+$('#sheet').addEventListener('click', e => {
+  const t = e.target;
+  if (t === $('#sheet') || t.id === 'closeSheet') { $('#sheet').style.display = 'none'; return; }
+  if (t.dataset.un) { const m = {topic:'hiddenTopics', source:'hiddenSources', item:'hiddenItems'}[t.dataset.un]; delete S[m][t.dataset.k]; save(); render(); openSheet(); }
+  if (t.id === 'resetLocal' && confirm('Reset all local hides, boosts and the batch queue?')) {
+    Object.assign(S, {hiddenItems:{}, hiddenTopics:{}, hiddenSources:{}, marks:{}, topicBoost:{}, sourceBoost:{}, queue:[]}); save(); render(); openSheet(); }
+});
+
+// ---------- events ----------
+$('#feed').addEventListener('click', e => { const b = e.target.closest('.act'); if (!b) return; e.preventDefault(); act(b.closest('.card').dataset.id, b.dataset.a); });
+$('#chips').addEventListener('click', e => { const c = e.target.closest('.chip'); if (!c) return; S.filter = c.dataset.f; save(); render(); window.scrollTo({top:0}); });
+$('#refresh').onclick = () => load(true);
+$('#menu').onclick = openSheet;
+$('#batchBtn').onclick = () => { S.batch = !S.batch; save(); renderBatchBar(); toast(S.batch ? 'Batch on: actions queue until you tap Send' : (S.queue.length ? `Batch off: ${S.queue.length} still queued` : 'Batch off: each action opens an issue')); if (!S.batch && S.queue.length) $('#batchbar').style.display = 'flex'; };
+$('#sendBatch').onclick = sendBatch;
+$('#clearBatch').onclick = () => { if (confirm('Drop ' + S.queue.length + ' queued action(s)? Local hides stay.')) { S.queue = []; save(); renderBatchBar(); } };
+function setTab(t){ S.tab = t; save(); $('#tabNews').setAttribute('aria-selected', t === 'news'); $('#tabWatch').setAttribute('aria-selected', t === 'watch');
+  $('#feed').hidden = t !== 'news'; $('#watch').hidden = t !== 'watch'; render(); window.scrollTo({top:0}); }
+$('#tabNews').onclick = () => setTab('news'); $('#tabWatch').onclick = () => setTab('watch');
+
+// pull-to-refresh (works in the installed PWA where Chrome's own gesture is off)
+let y0 = null, pulled = 0;
+addEventListener('touchstart', e => { y0 = scrollY <= 0 ? e.touches[0].clientY : null; }, {passive:true});
+addEventListener('touchmove', e => { if (y0 === null) return; pulled = Math.max(0, e.touches[0].clientY - y0);
+  const h = Math.min(70, pulled / 2); $('#ptr').style.transition = 'none'; $('#ptr').style.height = h + 'px';
+  $('#ptr').textContent = pulled > 120 ? 'Release to refresh' : 'Pull to refresh'; }, {passive:true});
+addEventListener('touchend', () => { $('#ptr').style.transition = ''; $('#ptr').style.height = '0';
+  if (y0 !== null && pulled > 120) load(true); y0 = null; pulled = 0; });
+document.addEventListener('visibilitychange', () => { if (!document.hidden && NEWS && Date.now() - Date.parse(NEWS.generated) > 30 * 60e3) load(); });
+
+// prune local hides for stories older than 14 days
+const cutoff = Date.now() - 14 * 864e5;
+for (const k in S.hiddenItems) if (S.hiddenItems[k] < cutoff) delete S.hiddenItems[k];
+S.sent = S.sent.slice(-200); save();
+
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+setTab(S.tab === 'watch' ? 'watch' : 'news');
+load();
+</script>
+</body>
+</html>
