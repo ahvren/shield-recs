@@ -57,7 +57,7 @@ header .meta{font-size:20px;color:#aab3c2}
 <div id="overlay" role="dialog" aria-modal="true"><div class="card" id="card"></div></div>
 <script>
 (function(){
-var DATA=null, sig='', rowsEl=document.getElementById('rows'), bg=document.getElementById('bg');
+var DATA=null, VIEW=[], sig='', rowsEl=document.getElementById('rows'), bg=document.getElementById('bg');
 var overlay=document.getElementById('overlay'), card=document.getElementById('card'), lastFocus=null;
 var REFRESH_MS=30*60*1000;
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
@@ -70,7 +70,7 @@ function intentUrl(web,pkg){
 }
 function render(keep){
   var pos=keep?curPos():null, html='';
-  DATA.rows.forEach(function(r,ri){
+  VIEW.forEach(function(r,ri){
     html+='<section class="row"><h2>'+esc(r.label)+'</h2><div class="track" data-r="'+ri+'">';
     r.items.forEach(function(it,ci){
       html+='<div class="tile" tabindex="0" data-r="'+ri+'" data-c="'+ci+'">'+
@@ -89,16 +89,16 @@ function render(keep){
 function tile(r,c){return rowsEl.querySelector('.tile[data-r="'+r+'"][data-c="'+c+'"]')}
 function curPos(){var a=document.activeElement;return a&&a.classList&&a.classList.contains('tile')?[+a.dataset.r,+a.dataset.c]:[0,0]}
 function focusTile(r,c){
-  var nr=DATA.rows.length; if(!nr)return; r=Math.max(0,Math.min(nr-1,r));
-  var n=DATA.rows[r].items.length; c=Math.max(0,Math.min(n-1,c));
+  var nr=VIEW.length; if(!nr)return; r=Math.max(0,Math.min(nr-1,r));
+  var n=VIEW[r].items.length; c=Math.max(0,Math.min(n-1,c));
   var t=tile(r,c); if(!t)return; t.focus({preventScroll:true});
   var tr=t.parentNode; tr.scrollLeft=Math.max(0,t.offsetLeft-tr.offsetLeft-24-(c>0?115:0));
   var sec=tr.parentNode; rowsEl.scrollTop=Math.max(0,sec.offsetTop-rowsEl.offsetTop-(r>0?40:0));
-  var it=DATA.rows[r].items[c]; document.getElementById('ht').textContent=it.title+' ('+it.year+')'; document.getElementById('hw').textContent=it.why;
-  bg.style.backgroundImage='url("'+DATA.rows[r].items[c].poster.replace(/"/g,'%22')+'")';
+  var it=VIEW[r].items[c]; document.getElementById('ht').textContent=it.title+' ('+it.year+')'; document.getElementById('hw').textContent=it.why;
+  bg.style.backgroundImage='url("'+VIEW[r].items[c].poster.replace(/"/g,'%22')+'")';
 }
 function openDetails(r,c){
-  var it=DATA.rows[r].items[c]; lastFocus=[r,c];
+  var it=VIEW[r].items[c]; lastFocus=[r,c];
   var b='';
   it.services.forEach(function(s){
     var web=it.links&&it.links[s], pkg=svc(s).package;
@@ -141,7 +141,7 @@ document.addEventListener('keydown',function(e){
 rowsEl.addEventListener('click',function(e){var t=e.target.closest('.tile'); if(t)openDetails(+t.dataset.r,+t.dataset.c)});
 function load(first){
   fetch('recs.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.text()})
-  .then(function(txt){ if(txt===sig)return; sig=txt; DATA=JSON.parse(txt); if(!overlay.classList.contains('on'))render(!first); })
+  .then(function(txt){ if(txt===sig)return; sig=txt; DATA=JSON.parse(txt); VIEW=(DATA.rows||[]).concat(DATA.anime&&DATA.anime.items&&DATA.anime.items.length?[DATA.anime]:[]); if(!overlay.classList.contains('on'))render(!first); })
   .catch(function(err){ if(first)rowsEl.innerHTML='<div id="err">Could not load recs.json ('+esc(err.message)+'). Serve this folder over HTTP; file:// will not work.</div>'; });
 }
 // Test hook: index.html#keys=ArrowDown,ArrowRight,Enter replays remote presses after load (used for headless previews).

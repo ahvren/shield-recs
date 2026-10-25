@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-24T21:50-07:00",
+ "generated": "2026-10-25T01:33-07:00",
  "region": "US",
- "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only, checked 2026-10-24",
+ "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only, checked 2026-10-25",
  "services": {
   "Netflix": {
    "color": "#E50914",
@@ -18,6 +18,10 @@
   "Disney+": {
    "color": "#113CCF",
    "package": "com.disney.disneyplus"
+  },
+  "Crunchyroll": {
+   "color": "#F47521",
+   "package": "com.crunchyroll.crunchyroid"
   }
  },
  "rows": [
@@ -595,9 +599,327 @@
    ]
   }
  ],
- "availability_note": "Subscription availability checked on JustWatch US, 2026-10-24",
+ "availability_note": "Subscription availability checked on JustWatch US, 2026-10-25",
  "schema": {
   "rows[].items[]": "title, year, type (movie|show), services[], links{service:web URL}, poster (relative path), why, synopsis, genres[], imdb, tmdb, justwatch",
-  "services{}": "badge color + Android TV package used for the 'Open in app' intent"
+  "services{}": "badge color + Android TV package used for the 'Open in app' intent",
+  "anime": "Same shape as one rows[] entry: {label, items[]} with identical item fields. Rendered as a third row after rows[]."
+ },
+ "anime": {
+  "label": "Anime",
+  "items": [
+   {
+    "title": "Mob Psycho 100",
+    "year": 2016,
+    "type": "show",
+    "services": [
+     "Netflix",
+     "Crunchyroll"
+    ],
+    "links": {
+     "Netflix": "https://www.netflix.com/title/80179798",
+     "Crunchyroll": "https://www.crunchyroll.com/watch/GE00258741ITIT"
+    },
+    "poster": "posters/anime-mob-psycho-100.jpg",
+    "why": "From the creator of One-Punch Man: a psychic power system and stakes that escalate, closest in spirit to Hunter x Hunter. Complete in 3 seasons.",
+    "synopsis": "Shigeo Kageyama, a.k.a. \"Mob,\" is a boy who has trouble expressing himself, but who happens to be a powerful esper. Mob is determined to live a normal life and keeps his ESP suppressed, but when his emotions surge to a level of 100%, something terrible happens to him! As he's surrounded by false espers, evil spirits, and mysterious organizations, what will Mob think? What choices will he make?",
+    "genres": [
+     "Action",
+     "Animation",
+     "Comedy",
+     "Drama",
+     "Fantasy",
+     "Horror",
+     "Sci-Fi"
+    ],
+    "imdb": "tt5897304",
+    "tmdb": "67075",
+    "justwatch": "https://www.justwatch.com/us/tv-show/mob-psycho-100"
+   },
+   {
+    "title": "JoJo's Bizarre Adventure",
+    "year": 2012,
+    "type": "show",
+    "services": [
+     "Netflix",
+     "Crunchyroll",
+     "Prime Video"
+    ],
+    "links": {
+     "Netflix": "https://www.netflix.com/title/80179831",
+     "Crunchyroll": "https://www.crunchyroll.com/watch/GR8V1MJ9R",
+     "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.df8b9a22-d519-4a78-bc59-cfdadf8be146"
+    },
+    "poster": "posters/anime-jojos-bizarre-adventure-1993.jpg",
+    "why": "Stand battles are rule-based puzzles, like Nen fights. Every part is a new arc with a new cast, so there's no filler.",
+    "synopsis": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Comedy",
+     "Drama",
+     "Fantasy",
+     "Horror",
+     "Sci-Fi"
+    ],
+    "imdb": "tt29742160",
+    "tmdb": "45790",
+    "justwatch": "https://www.justwatch.com/us/tv-show/jojos-bizarre-adventure-1993"
+   },
+   {
+    "title": "Delicious in Dungeon",
+    "year": 2024,
+    "type": "show",
+    "services": [
+     "Netflix"
+    ],
+    "links": {
+     "Netflix": "https://www.netflix.com/title/81564899"
+    },
+    "poster": "posters/anime-delicious-in-dungeon.jpg",
+    "why": "A Frieren-style fantasy party: a dungeon with hard ecological rules and a clever, funny crew.",
+    "synopsis": "Dungeons, dragons... and delicious monster stew!? Adventurers foray into a cursed buried kingdom to save their friend, cooking up a storm along the way.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Comedy",
+     "Fantasy",
+     "Sci-Fi"
+    ],
+    "imdb": "tt21621494",
+    "tmdb": "207784",
+    "justwatch": "https://www.justwatch.com/us/tv-show/delicious-in-dungeon"
+   },
+   {
+    "title": "Death Note",
+    "year": 2006,
+    "type": "show",
+    "services": [
+     "Netflix",
+     "Prime Video"
+    ],
+    "links": {
+     "Netflix": "https://www.netflix.com/title/70204970",
+     "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.cd1b7007-3c53-436e-bafe-caf45beac504"
+    },
+    "poster": "posters/anime-death-note.jpg",
+    "why": "High-concept cat-and-mouse between two geniuses, with strict rules. The first half is all-time great.",
+    "synopsis": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
+    "genres": [
+     "Animation",
+     "Crime",
+     "Drama",
+     "Fantasy",
+     "Thriller",
+     "Sci-Fi"
+    ],
+    "imdb": "tt0877057",
+    "tmdb": "13916",
+    "justwatch": "https://www.justwatch.com/us/tv-show/death-note"
+   },
+   {
+    "title": "Code Geass: Lelouch of the Rebellion",
+    "year": 2006,
+    "type": "show",
+    "services": [
+     "Crunchyroll"
+    ],
+    "links": {
+     "Crunchyroll": "https://www.crunchyroll.com/watch/G4VUQ1G55"
+    },
+    "poster": "posters/anime-code-geass-lelouch-of-the-rebellion.jpg",
+    "why": "A strategic mastermind with one rule-bound power, plus mecha war and constant reversals. Complete in 2 seasons.",
+    "synopsis": "Japan has been invaded and conquered by the Britannian Empire. Japan is now known as Area 11 and its citizens known as Elevens. The Britannian Empire takes away Japan's autonomous power and imposes its rule through the use of Knightmares. The Empire's rule has never faltered, but cracks have begun to show...",
+    "genres": [
+     "Action",
+     "Animation",
+     "Drama",
+     "Fantasy",
+     "Thriller",
+     "Sci-Fi"
+    ],
+    "imdb": "tt0994314",
+    "tmdb": "31724",
+    "justwatch": "https://www.justwatch.com/us/tv-show/code-geass-lelouch-of-the-rebellion"
+   },
+   {
+    "title": "Dan Da Dan",
+    "year": 2024,
+    "type": "show",
+    "services": [
+     "Netflix",
+     "Crunchyroll"
+    ],
+    "links": {
+     "Netflix": "https://www.netflix.com/title/81736884",
+     "Crunchyroll": "https://www.crunchyroll.com/watch/GG1UXW8P5"
+    },
+    "poster": "posters/anime-dan-da-dan.jpg",
+    "why": "Fast sci-fi horror comedy with aliens versus ghosts. Wild, kinetic, and never slow.",
+    "synopsis": "When Momo and Okarun's beliefs clash, they're thrown into a world of ghosts, aliens and awakened powers.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Comedy",
+     "Fantasy",
+     "Thriller",
+     "Romance",
+     "Sci-Fi"
+    ],
+    "imdb": "tt30217403",
+    "tmdb": "240411",
+    "justwatch": "https://www.justwatch.com/us/tv-show/dan-da-dan"
+   },
+   {
+    "title": "Pluto",
+    "year": 2023,
+    "type": "show",
+    "services": [
+     "Netflix"
+    ],
+    "links": {
+     "Netflix": "https://www.netflix.com/title/81281344"
+    },
+    "poster": "posters/anime-pluto.jpg",
+    "why": "Sci-fi murder mystery about who is killing the world's greatest robots. Prestige-level and only 8 episodes.",
+    "synopsis": "When the world's seven most advanced robots and their human allies are murdered one by one, Inspector Gesicht soon discovers that he's also in danger.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Crime",
+     "Drama",
+     "Thriller",
+     "Sci-Fi"
+    ],
+    "imdb": "tt26737616",
+    "tmdb": "91997",
+    "justwatch": "https://www.justwatch.com/us/tv-show/pluto"
+   },
+   {
+    "title": "Psycho-Pass",
+    "year": 2012,
+    "type": "show",
+    "services": [
+     "Crunchyroll",
+     "Prime Video"
+    ],
+    "links": {
+     "Crunchyroll": "https://www.crunchyroll.com/watch/GE00011183TLPH",
+     "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b"
+    },
+    "poster": "posters/anime-psycho-pass.jpg",
+    "why": "Cyberpunk crime procedural in a Minority Report-style precrime state. Season 1 is the one to watch.",
+    "synopsis": "In the year 2113, people are given brain scans to determine how likely they are to commit a crime. Those who fail are apprehended, or even killed.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Crime",
+     "Drama",
+     "Thriller",
+     "Sci-Fi"
+    ],
+    "imdb": "tt2379308",
+    "tmdb": "43865",
+    "justwatch": "https://www.justwatch.com/us/tv-show/psycho-pass"
+   },
+   {
+    "title": "Sakamoto Days",
+    "year": 2025,
+    "type": "show",
+    "services": [
+     "Netflix"
+    ],
+    "links": {
+     "Netflix": "https://www.netflix.com/title/81663325"
+    },
+    "poster": "posters/anime-sakamoto-days.jpg",
+    "why": "A retired legendary hitman fights off a stream of assassins: John Wick energy with comedy.",
+    "synopsis": "Once the greatest hitman of all, Taro Sakamoto retired in the name of love. But when his past catches up, he must fight to protect his beloved family.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Comedy",
+     "Crime",
+     "Thriller"
+    ],
+    "imdb": "tt17069148",
+    "tmdb": "207332",
+    "justwatch": "https://www.justwatch.com/us/tv-show/sakamoto-days"
+   },
+   {
+    "title": "Odd Taxi",
+    "year": 2021,
+    "type": "show",
+    "services": [
+     "Crunchyroll"
+    ],
+    "links": {
+     "Crunchyroll": "https://www.crunchyroll.com/watch/G8WUN2NQ8"
+    },
+    "poster": "posters/anime-odd-taxi.jpg",
+    "why": "Crime mystery with dark comedy. Every conversation is a clue, and it all pays off in 13 episodes.",
+    "synopsis": "While working as a taxi driver on the hectic streets of Tokyo, a reticent walrus gets pulled into a mystery involving a missing teenage girl.",
+    "genres": [
+     "Animation",
+     "Comedy",
+     "Crime",
+     "Drama",
+     "Thriller"
+    ],
+    "imdb": "tt14134550",
+    "tmdb": "116727",
+    "justwatch": "https://www.justwatch.com/us/tv-show/odd-taxi"
+   },
+   {
+    "title": "Re:ZERO",
+    "year": 2016,
+    "type": "show",
+    "services": [
+     "Crunchyroll"
+    ],
+    "links": {
+     "Crunchyroll": "https://www.crunchyroll.com/watch/G0DUMN8WM"
+    },
+    "poster": "posters/anime-re-zero-starting-life-in-another-world.jpg",
+    "why": "Isekai with a brutal rule: he respawns at checkpoints when he dies. Darker than SAO or Slime.",
+    "synopsis": "After being suddenly transported to another world, Subaru Natsuki and his new female partner are brutally murdered. However, Subaru awakens to a familiar scene, meeting the same girl again. The day begins to mysteriously repeat itself.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Drama",
+     "Fantasy",
+     "Horror",
+     "Thriller",
+     "Romance",
+     "Sci-Fi"
+    ],
+    "imdb": "tt5607616",
+    "tmdb": "65942",
+    "justwatch": "https://www.justwatch.com/us/tv-show/re-zero-starting-life-in-another-world"
+   },
+   {
+    "title": "Lazarus",
+    "year": 2025,
+    "type": "show",
+    "services": [
+     "HBO Max"
+    ],
+    "links": {
+     "HBO Max": "https://play.hbomax.com/video/watch/1b6f5355-41ec-445c-81e5-a0ef57de8a35?utm_source=universal_search"
+    },
+    "poster": "posters/anime-lazarus.jpg",
+    "why": "Cowboy Bebop director's sci-fi action thriller: find the man behind a deadly drug in 30 days. 13 episodes.",
+    "synopsis": "In 2052, a Nobel Prize-winning neuroscientist develops a drug called Hapna — a cure-all that has the unexpected side-effect of causing death three years later. In response to this threat, a special force of agents—nicknamed \"Lazarus\"— is assembled to take on the malevolent Skinner.",
+    "genres": [
+     "Action",
+     "Animation",
+     "Thriller",
+     "Sci-Fi"
+    ],
+    "imdb": "tt28454008",
+    "tmdb": "231003",
+    "justwatch": "https://www.justwatch.com/us/tv-show/lazarus"
+   }
+  ]
  }
 }
