@@ -134,7 +134,7 @@ This must work for both a **public and a private** repo; test both by checking `
 
 - dark theme
 - News and Watch tabs, with topic chips
-- Discover-style cards with image, meta, title and summary clamp, plus the **More/Less** toggle (shown only when text overflows)
+- Discover-style cards with image, meta, title and summary clamp, plus the **More/Less** toggle (shown only when text overflows). Titles are never clamped; they always show in full at every breakpoint.
 - five feedback buttons as **frosted glass circles** (`rgba(255,255,255,.16)`): solid white thumbs up/down, line plus, eye-off and ban icons, **no emoji anywhere**
 - 5 s toast with **Undo**
 - settings sheet with hidden lists and unhide
