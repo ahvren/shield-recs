@@ -1,1 +1,11 @@
-{"processed_ids": []}
+{
+  "processed_ids": [
+    "7e0dbc8a-eed0-415d-ab6d-48b9804471df",
+    "b46e3d05-9675-4ea2-b15c-c78eb62fa4dd"
+  ],
+  "ignored_test_events": [
+    "7e0dbc8a-eed0-415d-ab6d-48b9804471df",
+    "b46e3d05-9675-4ea2-b15c-c78eb62fa4dd"
+  ],
+  "note": "Events before 2026-10-25 06:40 MST were Cursor test events, not Chris's real feedback."
+}
