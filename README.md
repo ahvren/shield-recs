@@ -118,7 +118,7 @@ The builder lives on the bot's box at `/workspace/newswork/` and isn't part of t
 - `news_sources.py`: the config, covering feeds, keyword weights, gates and caps.
 - `curated.json`: hand-written summaries that override feed text.
 
-`python3 build_news.py` runs in about 1 minute:
+`python3 build_news.py` runs in about 1–1.5 minutes:
 
 1. Fetches about 80 RSS/Atom feeds in parallel, using ETag/Last-Modified caching.
 2. Scrapes two HTML listings that have no working feed: the FAA newsroom and AIN.
@@ -127,5 +127,6 @@ The builder lives on the bot's box at `/workspace/newswork/` and isn't part of t
 5. Removes near-duplicate stories and caps any one game or subject at 2 items.
 6. Fills a per-topic quota, `target_items[1] / topics` (25 each by default): first from the last 48 h, then up to 72 h. Each source has a cap.
 7. Backfills missing images and short summaries from each article's og: tags, cached for 7 days.
+8. Builds longer summaries of about 500–700 characters, cut at a sentence boundary. It uses the longest feed text (summary or content:encoded) after stripping boilerplate such as "appeared first on", Read more, image credits and Steam bbcode. For feed stubs under about 260 characters, it reads the first paragraphs of the article page (7 s timeout, cached 7 days, failures retried after a day, never fatal). Hand-written curated summaries stay first, with new sentences from the article appended after them. The phone page clamps this text and offers a More/Less toggle.
 
 Lower-ranked items use the publisher's own description, trimmed to 2 sentences. Curated items keep their hand-written summaries.
