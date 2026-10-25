@@ -3,7 +3,7 @@
 # Idempotent: safe to re-run any time. Ubuntu 22.04/24.04.
 #
 # Usage (on the homelab VM):
-#   sudo REPO_URL=https://github.com/<OWNER>/shield-recs.git bash deploy.sh
+#   sudo REPO_URL=https://github.com/ahvren/shield-recs.git bash deploy.sh
 # Optional env: BRANCH=main PORT=8088 DIR=/opt/shield-recs MODE=auto|docker|nginx INTERVAL=30min
 # No REPO_URL? Run it from inside an extracted shield-recs folder and it serves a static copy (no auto-pull).
 set -euo pipefail

@@ -1,14 +1,14 @@
 # Cursor agent prompt: serve shield-recs on the homelab VM
 
 Paste everything below the line into a Cursor agent running **on the Ubuntu homelab VM** (shell access, sudo available).
-First, replace `<<REPO_URL>>` with the real clone URL, e.g. `https://github.com/<OWNER>/shield-recs.git`.
+First, replace `https://github.com/ahvren/shield-recs.git` with the real clone URL, e.g. `https://github.com/ahvren/shield-recs.git`.
 
 ---
 
 You are on my Ubuntu homelab VM. Set up a self-updating static site for my NVIDIA Shield recommendations page. Everything must be **idempotent**, so re-running any step is safe and never creates duplicates. Don't ask me questions unless something blocks you. Show me each command's output, and stop and report if a step fails. Don't guess.
 
 **Inputs**
-- REPO_URL = `<<REPO_URL>>`
+- REPO_URL = `https://github.com/ahvren/shield-recs.git`
 - BRANCH = `main`
 - DIR = `/opt/shield-recs`
 - PORT = `8088`
@@ -38,6 +38,6 @@ The repo contains `index.html`, `recs.json`, `posters/*.jpg`, `deploy.sh`, and d
    Finish with the LAN URL from `hostname -I`, formatted as `http://<ip>:8088/`, and a list of every file you created or changed.
 9. **Idempotency proof.** Run steps 3–7 a second time and show that nothing was duplicated: one container or one nginx site, and one timer.
 
-Shortcut: the repo ships `deploy.sh`, which implements all of the above. You may run `sudo REPO_URL=<<REPO_URL>> bash /opt/shield-recs/deploy.sh` after cloning, but read it first and still do steps 1, 2, 8 and 9 yourself.
+Shortcut: the repo ships `deploy.sh`, which implements all of the above. You may run `sudo REPO_URL=https://github.com/ahvren/shield-recs.git bash /opt/shield-recs/deploy.sh` after cloning, but read it first and still do steps 1, 2, 8 and 9 yourself.
 
 **Do not:** change any other nginx sites or containers, open ports other than 8088, install anything beyond git, curl, ca-certificates, and nginx (or pull nginx:alpine), or store credentials in the repo or in any unit file.

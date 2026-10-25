@@ -8,5 +8,5 @@ A TV-friendly recommendations page for the NVIDIA Shield. Static files only:
 - `CURSOR_PROMPT.md`: the same setup, as a prompt for a Cursor agent on the VM.
 - `SHIELD.md`: how to open the page full screen on the Shield.
 
-Deploy: `curl -fsSLO <raw-url-of>/deploy.sh && sudo REPO_URL=https://github.com/<OWNER>/shield-recs.git bash deploy.sh`
+Deploy: `curl -fsSLO <raw-url-of>/deploy.sh && sudo REPO_URL=https://github.com/ahvren/shield-recs.git bash deploy.sh`
 Preview a local copy: `python3 -m http.server 8088`, then open http://localhost:8088/
