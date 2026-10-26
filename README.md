@@ -23,7 +23,7 @@ There's a separate personalized news feed for the Shield UI's News view. It's in
 
 | File | Written by | Purpose |
 |---|---|---|
-| `news.json` | recommender (Grok Bot) | 100–150 items from the last 48 h, extended to 72 h when a topic needs filling, grouped by topic |
+| `news.json` | recommender (Grok Bot) | About 300 items (280–320): the six core topics from the last 48 h (72 h when a topic needs filling), plus Explore topics with windows of up to 7 days, grouped by topic |
 | `news_prefs.json` | recommender only | Topic weights, muted topics and sources, boosted/excluded terms. The CT reads it but never writes it. |
 | `feedback/news_feedback.jsonl` | Shield CT (append-only) | One JSON object per line per user action |
 | `feedback/news_processed.json` | recommender | `{"processed_ids": [...]}`: feedback event ids already folded into prefs |
@@ -33,8 +33,8 @@ There's a separate personalized news feed for the Shield UI's News view. It's in
 
 - `version`: currently 1.
 - `generated`: ISO UTC.
-- `window_hours`: the maximum item age, currently 72. Items prefer the last 48 h, and the 48–72 h range only fills topic quotas.
-- `topics[]`: `{id, label, count}`, in display order. The ids are `homelab`, `gaming`, `aviation`, `streaming`, `ai`, and `local`.
+- `window_hours`: the maximum item age across all topics, currently 168. Core topics prefer the last 48 h and stop at 72 h. Explore topics use per-topic windows (48 h for world and business, 96 h for space, science, health and energy, 168 h for the rest).
+- `topics[]`: `{id, label, count, group}`, in display order. `group` is `core` or `explore` (new, optional; clients should ignore it if unknown). Core ids are `homelab`, `gaming`, `aviation`, `streaming`, `ai`, and `local`. Explore ids are `space`, `science`, `health`, `energy`, `world`, `business`, `research`, `outdoors`, `food`, `design`, `history`, and `oddities`; their labels start with "Explore:". Topics with no items this run are omitted.
 - `items[]`, sorted by `score` descending, with these fields:
   - `id`: the first 16 hex characters of sha256(url). It stays the same across regenerations.
   - `topic`, `title`, `source`, `url`
@@ -84,7 +84,7 @@ This is an installable PWA for Chris's Galaxy phone. Open the link in Chrome, th
 
 **Feedback without a token (GitHub issues)**
 
-Each card has five white line-icon buttons, all inline SVG with no emoji: thumbs-up (Up), thumbs-down (Down), plus (More like this), eye-off (Hide topic) and ban (Hide source). Each has an `aria-label`, and ≡ → Feed settings shows a legend. The feed renders 20 cards at a time as you scroll, with lazy-loaded images, so 150+ items stay smooth. Each action does two things:
+Each card has five white line-icon buttons, all inline SVG with no emoji: thumbs-up (Up), thumbs-down (Down), plus (More like this), eye-off (Hide topic) and ban (Hide source). Each has an `aria-label`, and ≡ → Feed settings shows a legend. The feed renders 20 cards at a time as you scroll, with lazy-loaded images, so 300+ items stay smooth. Each action does two things:
 
 1. Applies locally right away through `localStorage` (key `shieldnews.v1`), with a 5-second Undo:
    - Down hides the story.
@@ -125,7 +125,7 @@ The builder lives on the bot's box at `/workspace/newswork/` and isn't part of t
 3. Pulls official Steam announcements for about 25 tracked survival, crafting and co-op games.
 4. Scores keyword relevance per topic. Gated feeds must hit a topic keyword. There are penalties for deals, clickbait and Star Wars, and `news_prefs.json` weights, mutes, boosts and excluded terms apply.
 5. Removes near-duplicate stories and caps any one game or subject at 2 items.
-6. Fills a per-topic quota, `target_items[1] / topics` (25 each by default): first from the last 48 h, then up to 72 h. Each source has a cap.
+6. Fills a per-topic quota (25 per core topic and 10–16 per Explore topic by default, scaled by `topic_weights`; `news_prefs.json` can override them with `topic_quota` and `topic_window_hours`). It fills first from the last 48 h, then up to each topic's window. Each source has a cap, world and business allow at most 2 stories per subject, and every article with feedback in `feedback/news_feedback.jsonl` (other than test events) is left out.
 7. Backfills missing images and short summaries from each article's og: tags, cached for 7 days.
 8. Builds longer summaries of about 500–700 characters, cut at a sentence boundary. It uses the longest feed text (summary or content:encoded) after stripping boilerplate such as "appeared first on", Read more, image credits and Steam bbcode. For feed stubs under about 260 characters, it reads the first paragraphs of the article page (7 s timeout, cached 7 days, failures retried after a day, never fatal). Hand-written curated summaries stay first, with new sentences from the article appended after them. The phone page clamps this text and offers a More/Less toggle.
 

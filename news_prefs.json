@@ -1,15 +1,27 @@
 {
   "version": 1,
-  "updated": "2026-10-25T09:35:52Z",
+  "updated": "2026-10-26T03:19:35Z",
   "owner": "recommender",
   "note": "Written only by the recommender (Grok Bot) after it processes feedback/news_feedback.jsonl. The Shield CT reads this file but must never write it.",
   "topic_weights": {
-    "homelab": 1.0,
-    "gaming": 1.0,
+    "homelab": 1.1,
+    "gaming": 1.25,
     "aviation": 1.0,
     "streaming": 1.0,
     "ai": 1.0,
-    "local": 1.0
+    "local": 1.05,
+    "space": 1.0,
+    "science": 1.0,
+    "health": 1.0,
+    "energy": 1.0,
+    "world": 1.0,
+    "business": 1.0,
+    "research": 1.0,
+    "outdoors": 1.0,
+    "food": 1.0,
+    "design": 1.0,
+    "history": 1.0,
+    "oddities": 1.0
   },
   "muted_topics": [],
   "muted_sources": [],
@@ -20,7 +32,8 @@
   ],
   "window_hours": 72,
   "target_items": [
-    100,
-    150
-  ]
+    280,
+    320
+  ],
+  "explore_note": "Explore topics (space ... oddities) were added 2026-10-25 at Chris's request to go beyond the core six. Their quotas/windows live in newswork/news_sources.py and can be overridden here with topic_quota / topic_window_hours."
 }

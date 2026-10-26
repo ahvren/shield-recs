@@ -53,7 +53,7 @@ Clone or pull `https://github.com/ahvren/shield-recs` (branch `main`) and read:
 
 | Path | Contract (see README + sample) | Notes |
 |---|---|---|
-| `news.json` | `version`==1, `generated` ISO-UTC, `window_hours`, `topics[]{id,label,count}`, `items[]{id(16 hex), topic, title, source, url, published, summary, score, image?}` | `summary` is now ~500–700 chars of plain text. `id` = sha256(url)[:16] and is stable across builds. Expect 100–150 items. |
+| `news.json` | `version`==1, `generated` ISO-UTC, `window_hours`, `topics[]{id,label,count,group?}`, `items[]{id(16 hex), topic, title, source, url, published, summary, score, image?}` | `summary` is now ~500–700 chars of plain text. `id` = sha256(url)[:16] and is stable across builds. Expect about 300 items (280–320) across 18 topics; `group` is `core` or `explore`. |
 | `recs.json` | `rows[]{label, items[]}` (Movies, Shows), `anime{label, items[]}`, `services{name:{color,package}}`, `generated`, `region`, … | Item fields: title, year, type (movie\|show), services[], links{}, poster (relative path), why, synopsis, genres[], imdb, tmdb, justwatch. |
 | `posters/*.jpg` | Referenced by `recs.json` `poster` | Serve with long cache. |
 | `news_prefs.json` | topic_weights, muted_topics, muted_sources, boosted_*, excluded_terms, window_hours, target_items | Recommender-owned. The CT may display it, but must **never write** it. |

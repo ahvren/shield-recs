@@ -223,8 +223,13 @@ main[hidden]{display:none!important}
 const REPO = 'ahvren/shield-recs';
 const NEWS_URL = '../news.json', RECS_URL = '../recs.json';
 const MAX_URL = 7600;                       // keep issue URLs comfortably under GitHub's limit
-const SHORT = {homelab:'Homelab', gaming:'Gaming', aviation:'Aviation', streaming:'Streaming', ai:'AI & dev', local:'Local'};
-const HUE = {homelab:['#14476b','#1e2f55'], gaming:['#4a2a6b','#1f1a40'], aviation:['#1d4f6b','#18304a'], streaming:['#5a1f3a','#24152f'], ai:['#1f5a4a','#15302c'], local:['#6b4a1d','#3a2416']};
+const SHORT = {homelab:'Homelab', gaming:'Gaming', aviation:'Aviation', streaming:'Streaming', ai:'AI & dev', local:'Local',
+  space:'Space', science:'Science', health:'Health', energy:'Energy & EVs', world:'World', business:'Business', research:'AI research',
+  outdoors:'Outdoors', food:'Food', design:'Design', history:'History', oddities:'Odd & interesting'};
+const HUE = {homelab:['#14476b','#1e2f55'], gaming:['#4a2a6b','#1f1a40'], aviation:['#1d4f6b','#18304a'], streaming:['#5a1f3a','#24152f'], ai:['#1f5a4a','#15302c'], local:['#6b4a1d','#3a2416'],
+  space:['#1b2a5e','#0f1530'], science:['#1d5a5a','#13302f'], health:['#5a1d2c','#2e1420'], energy:['#4f5a1d','#2a3015'], world:['#2b4a6b','#1a2638'],
+  business:['#3b3f4a','#1f2229'], research:['#1d4a3a','#132a22'], outdoors:['#5a4a1d','#2f2614'], food:['#6b3a1d','#3a1f14'], design:['#4a1d5a','#26142e'],
+  history:['#5a3f2a','#2e2218'], oddities:['#3a1d6b','#1f143a']};
 // Plain monochrome line icons (stroke = currentColor, rendered white). No emoji anywhere in the UI.
 const svg = (d, cls = 'ic') => `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${d}</svg>`;
 const ICON = {

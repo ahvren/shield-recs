@@ -43,7 +43,7 @@ You are working on the CT that serves the Shield TV recommendations UI and alrea
 }
 ```
 
-- Topic ids are `homelab`, `gaming`, `aviation`, `streaming`, `ai`, and `local`. Render topics in the order of `topics[]` and use `label` as the row heading. Within a topic, sort by `score` descending.
+- Core topic ids are `homelab`, `gaming`, `aviation`, `streaming`, `ai`, and `local`. There are also 12 Explore topics (`space`, `science`, `health`, `energy`, `world`, `business`, `research`, `outdoors`, `food`, `design`, `history`, `oddities`) with `"group": "explore"` on their `topics[]` entry and labels starting with "Explore:". Render topics in the order of `topics[]` and use `label` as the row heading. Within a topic, sort by `score` descending.
 - Ignore unknown fields, and tolerate a missing `image`. A topic id the UI hasn't seen before should still render as a row, using its label.
 - If `news_prefs.json` exists, hide `muted_topics` and `muted_sources` too. Normally the recommender has already applied them to news.json, so this is just a safety net.
 
@@ -90,15 +90,15 @@ You are working on the CT that serves the Shield TV recommendations UI and alrea
 - Show an empty state when every item is hidden or the feed is unavailable, like "No news right now, last updated <time>".
 - Show "Updated <relative time>" in the view header, based on `generated`.
 
-### Volume: 100–150 items must stay smooth
+### Volume: about 300 items must stay smooth
 
-news.json now carries **100–150 items** (about 25 per topic, `window_hours` up to 72), and that may grow. The Shield's WebView is slow, so:
+news.json now carries **about 300 items** across 18 topics (about 25 per core topic and 10–16 per Explore topic; `window_hours` up to 168). The Shield's WebView is slow, so:
 
-- **Render lazily per row.** Build DOM only for the cards in view plus about 6 on each side, either virtualizing or windowing each horizontal row. Append more as focus moves right. Don't create 150 cards at startup.
+- **Render lazily per row.** Build DOM only for the cards in view plus about 6 on each side, either virtualizing or windowing each horizontal row. Append more as focus moves right. Don't create 300 cards at startup.
 - **Render rows incrementally.** Render the first 2 topic rows immediately and the rest on `requestIdleCallback` or as focus moves down.
 - **Load images lazily and small.** Use `loading="lazy"` and `decoding="async"`, and only set `src` for cards within about 1 screen of the focused one. Prefer the CT image proxy with resizing to about 480 px wide (WebP or JPEG, quality ~75) to keep decode and memory cost low. Cap the in-memory image count by clearing `src` for cards far off-screen.
 - **Use cheap focus effects.** Animate only `transform` and `opacity` on focus changes. Avoid `backdrop-filter` on every card: use one blurred background layer and semi-opaque card fills instead.
-- **Keep the parse cheap.** news.json is about 150–250 KB. Parse it once on the backend and serve `/api/news` with local hides applied, so the TV doesn't re-filter on every key press.
+- **Keep the parse cheap.** news.json is about 300 KB. Parse it once on the backend and serve `/api/news` with local hides applied, so the TV doesn't re-filter on every key press.
 - **Allow an optional per-row cap.** Show the top N per topic (default 30, set in the config) with a "More" card at the end that loads the rest.
 
 ### Images
