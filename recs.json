@@ -54,28 +54,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/sinister"
         },
         {
-          "title": "It",
-          "year": 2017,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/1fef0800-258f-49f5-84a5-6a1f88173769?utm_source=universal_search"
-          },
-          "poster": "posters/movie-it-2017.jpg",
-          "why": "Stephen King's killer clown, done as a fast, scary coming-of-age monster movie. Your King hits (Castle Rock 8.5, Welcome to Derry 8) say start here; Chapter Two is on HBO Max too.",
-          "synopsis": "In a small town in Maine, seven children known as The Losers Club come face to face with life problems, bullies and a monster that takes the shape of a clown called Pennywise.",
-          "genres": [
-            "Drama",
-            "Horror",
-            "Thriller"
-          ],
-          "imdb": "tt1396484",
-          "tmdb": "346364",
-          "justwatch": "https://www.justwatch.com/us/movie/it-2017"
-        },
-        {
           "title": "Final Destination 2",
           "year": 2003,
           "type": "movie",
@@ -402,27 +380,6 @@
           "imdb": "tt1622979",
           "tmdb": "55779",
           "justwatch": "https://www.justwatch.com/us/movie/final-destination-5"
-        },
-        {
-          "title": "Split",
-          "year": 2016,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/80124506"
-          },
-          "poster": "posters/movie-split-2017.jpg",
-          "why": "Shyamalan's thriller about a kidnapper with 23 personalities and a 24th on the way. From the director of The Village (9), with a closing twist that sets up a shared universe.",
-          "synopsis": "Though Kevin has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher, there remains one still submerged who is set to materialize and dominate all the others. Compelled to abduct three teenage girls led by the willful, observant Casey, Kevin reaches a war for survival among all of those contained within him — as well as everyone around him — as the walls between his compartments shatter apart.",
-          "genres": [
-            "Horror",
-            "Thriller"
-          ],
-          "imdb": "tt4972582",
-          "tmdb": "381288",
-          "justwatch": "https://www.justwatch.com/us/movie/split-2017"
         },
         {
           "title": "Saw X",
@@ -1145,6 +1102,49 @@
           "imdb": "tt0208092",
           "tmdb": "107",
           "justwatch": "https://www.justwatch.com/us/movie/snatch"
+        },
+        {
+          "title": "In the Tall Grass",
+          "year": 2019,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/80237905"
+          },
+          "poster": "posters/movie-in-the-tall-grass.jpg",
+          "why": "Stephen King and Joe Hill: siblings follow a child's cry into a field that won't let anyone out. A looping, rule-bending high-concept horror story, like Triangle or Coherence.",
+          "synopsis": "After hearing a child screaming for help from the green depths of a vast field of tall grass, Becky, a pregnant woman, and Cal, her brother, park their car near a mysterious abandoned church and enter the field, discovering that they are not alone and, for some reason, they are unable to escape a completely inextricable vegetable labyrinth.",
+          "genres": [
+            "Horror",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt4687108",
+          "tmdb": "523139",
+          "justwatch": "https://www.justwatch.com/us/movie/in-the-tall-grass"
+        },
+        {
+          "title": "The Visit",
+          "year": 2015,
+          "type": "movie",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.b3381127-bb2d-4790-89b3-810661933dd1"
+          },
+          "poster": "posters/movie-the-visit-2015.jpg",
+          "why": "Shyamalan's found-footage horror: kids visit grandparents who get stranger every night. You just gave Split a 9, and this one has a classic Shyamalan rug-pull.",
+          "synopsis": "A brother and sister are sent to their grandparents' remote Pennsylvania farm for a week, where they discover that the elderly couple is involved in something deeply disturbing.",
+          "genres": [
+            "Horror",
+            "Thriller"
+          ],
+          "imdb": "tt4195092",
+          "tmdb": "298312",
+          "justwatch": "https://www.justwatch.com/us/movie/the-visit-2015"
         }
       ]
     },
