@@ -40,5 +40,88 @@
   "explore_note": "Explore topics (space ... oddities) were added 2026-10-25 at Chris's request to go beyond the core six. Their quotas/windows live in newswork/news_sources.py and can be overridden here with topic_quota / topic_window_hours.",
   "excluded_item_ids": [
     "a0ee6766785f1d65"
-  ]
+  ],
+  "blocked_domains": {
+    "techcrunch.com": {
+      "reason": "adblock_wall",
+      "evidence": "Article HTML ships an Admiral overlay: 'Something went wrong. Disable your adblocker on TechCrunch' (4/4 sampled); Chris confirmed it won't show content with an ad blocker.",
+      "checked": "2026-10-26"
+    },
+    "deadline.com": {
+      "reason": "adblock_wall",
+      "evidence": "PMC Admiral wall in every sampled article: 'Disable Your Adblocker. We use ads to keep our content free. To access our site, disable…'; JSON-LD isAccessibleForFree \"false\" (4/4).",
+      "checked": "2026-10-26"
+    },
+    "variety.com": {
+      "reason": "adblock_wall",
+      "evidence": "Same PMC Admiral 'To access our site, disable your adblocker' wall (4/4); also a Piano #piano-paywall for VIP+ stories.",
+      "checked": "2026-10-26"
+    },
+    "marketwatch.com": {
+      "reason": "paywall_metered",
+      "evidence": "Dow Jones; JSON-LD isAccessibleForFree:false on 4/4 sampled articles.",
+      "checked": "2026-10-26"
+    },
+    "statnews.com": {
+      "reason": "paywall",
+      "evidence": "STAT+; JSON-LD isAccessibleForFree \"False\" on 4/4 sampled articles, 'Unlock this article' prompt.",
+      "checked": "2026-10-26"
+    },
+    "livescience.com": {
+      "reason": "paywall_metered",
+      "evidence": "Future plc Kiosq meter; JSON-LD isAccessibleForFree \"False\" with hasPart cssSelector .paywall-locker on 4/4.",
+      "checked": "2026-10-26"
+    },
+    "theverge.com": {
+      "reason": "paywall_metered",
+      "evidence": "Vox Media/Zephr meter; JSON-LD isAccessibleForFree:false on 3/4 sampled.",
+      "checked": "2026-10-26"
+    },
+    "historyextra.com": {
+      "reason": "paywall",
+      "evidence": "Immediate Media/Zephr; JSON-LD isAccessibleForFree \"False\" on 4/4.",
+      "checked": "2026-10-26"
+    },
+    "historynet.com": {
+      "reason": "paywall",
+      "evidence": "JSON-LD isAccessibleForFree:false on 4/4 (full text is still in the static HTML, so possibly a JS meter; blocked because the publisher declares it paywalled).",
+      "checked": "2026-10-26"
+    },
+    "technologyreview.com": {
+      "reason": "paywall_metered",
+      "evidence": "Piano + Zephr scripts, 'metered' config and piano-subscribe body class; MIT Technology Review's published policy is a monthly free-article limit.",
+      "checked": "2026-10-26"
+    },
+    "flightglobal.com": {
+      "reason": "paywall",
+      "evidence": "'Subscribe to gain access to all news… Already have a subscription?' nag (pmgsub) in article HTML; subscribe/1-month-free gating.",
+      "checked": "2026-10-26"
+    },
+    "lwn.net": {
+      "reason": "paywall",
+      "evidence": "Weekly-edition articles are 'subscribers only' for the first week (seen in sampled headline links).",
+      "checked": "2026-10-26"
+    },
+    "outsideonline.com": {
+      "reason": "paywall",
+      "evidence": "Outside+; JSON-LD isAccessibleForFree:false on 2/4 sampled, Piano.",
+      "checked": "2026-10-26"
+    },
+    "backpacker.com": {
+      "reason": "paywall",
+      "evidence": "Outside+; JSON-LD isAccessibleForFree:false on 2/4 sampled, Piano.",
+      "checked": "2026-10-26"
+    },
+    "flyingmag.com": {
+      "reason": "paywall",
+      "evidence": "JSON-LD isAccessibleForFree \"False\" with .kserv-paywall-container and register-mode=paywall on 2/4 sampled.",
+      "checked": "2026-10-26"
+    },
+    "interconnects.ai": {
+      "reason": "paywall",
+      "evidence": "Substack paid posts: JSON-LD isAccessibleForFree:false on 2/4 sampled.",
+      "checked": "2026-10-26"
+    }
+  },
+  "blocked_note": "Chris's rule (2026-10-26): no sources with a hard ad-block wall or a paywall (hard or metered). Soft, dismissible ad-block popups are fine. build_news.py drops any feed or item whose host matches blocked_domains, and also drops individual articles whose JSON-LD says isAccessibleForFree:false or that carry the PMC/Admiral 'To access our site, disable your adblocker' wall."
 }
