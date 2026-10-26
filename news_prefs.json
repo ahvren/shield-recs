@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "updated": "2026-10-26T03:19:35Z",
+  "updated": "2026-10-26T13:37:13Z",
   "owner": "recommender",
   "note": "Written only by the recommender (Grok Bot) after it processes feedback/news_feedback.jsonl. The Shield CT reads this file but must never write it.",
   "topic_weights": {
-    "homelab": 1.1,
+    "homelab": 1.25,
     "gaming": 1.25,
     "aviation": 1.0,
     "streaming": 1.0,
     "ai": 1.0,
-    "local": 1.05,
+    "local": 1.2,
     "space": 1.0,
     "science": 1.0,
     "health": 1.0,
@@ -24,7 +24,9 @@
     "oddities": 1.0
   },
   "muted_topics": [],
-  "muted_sources": [],
+  "muted_sources": [
+    "TechCrunch"
+  ],
   "boosted_sources": [],
   "boosted_terms": [],
   "excluded_terms": [
@@ -35,5 +37,8 @@
     280,
     320
   ],
-  "explore_note": "Explore topics (space ... oddities) were added 2026-10-25 at Chris's request to go beyond the core six. Their quotas/windows live in newswork/news_sources.py and can be overridden here with topic_quota / topic_window_hours."
+  "explore_note": "Explore topics (space ... oddities) were added 2026-10-25 at Chris's request to go beyond the core six. Their quotas/windows live in newswork/news_sources.py and can be overridden here with topic_quota / topic_window_hours.",
+  "excluded_item_ids": [
+    "a0ee6766785f1d65"
+  ]
 }
