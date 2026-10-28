@@ -306,27 +306,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/memento"
         },
         {
-          "title": "Alien",
-          "year": 1979,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/60029356"
-          },
-          "poster": "posters/movie-alien.jpg",
-          "why": "The original that Prometheus (8.5) and Aliens build on. Tighter and scarier than its reputation as a slow classic suggests.",
-          "synopsis": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
-          "genres": [
-            "Horror",
-            "Sci-Fi"
-          ],
-          "imdb": "tt0078748",
-          "tmdb": "348",
-          "justwatch": "https://www.justwatch.com/us/movie/alien"
-        },
-        {
           "title": "Sicario",
           "year": 2015,
           "type": "movie",
@@ -571,28 +550,6 @@
           "tag": "explore"
         },
         {
-          "title": "Dungeons & Dragons: Honor Among Thieves",
-          "year": 2023,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81631823"
-          },
-          "poster": "posters/movie-dungeons-and-dragons-2023.jpg",
-          "why": "A fantasy heist comedy that works: a bard, a druid, and a crew of misfits rob a corrupt lord. Fellowship-style questing with Guardians-style jokes.",
-          "synopsis": "A charming thief and a band of unlikely adventurers undertake an epic heist to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Fantasy"
-          ],
-          "imdb": "tt2906216",
-          "tmdb": "493529",
-          "justwatch": "https://www.justwatch.com/us/movie/dungeons-and-dragons-2023"
-        },
-        {
           "title": "Nightcrawler",
           "year": 2014,
           "type": "movie",
@@ -753,30 +710,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/alien-romulus"
         },
         {
-          "title": "Paddington 2",
-          "year": 2017,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/2f105508-af55-40fa-a2ce-59b021ce19bf"
-          },
-          "poster": "posters/movie-paddington-2.jpg",
-          "why": "Explore: often called the best-reviewed movie ever. A bear is framed for theft and goes to prison, with a prison-break plot and Hugh Grant as the villain. Pure charm.",
-          "synopsis": "Paddington, now happily settled with the Browns, picks up a series of odd jobs to buy the perfect present for his Aunt Lucy, but it is stolen.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Family",
-            "European"
-          ],
-          "imdb": "tt4468740",
-          "tmdb": "346648",
-          "justwatch": "https://www.justwatch.com/us/movie/paddington-2",
-          "tag": "explore"
-        },
-        {
           "title": "Glass Onion: A Knives Out Mystery",
           "year": 2022,
           "type": "movie",
@@ -864,27 +797,6 @@
           "tmdb": "556574",
           "justwatch": "https://www.justwatch.com/us/movie/hamilton-2020",
           "tag": "explore"
-        },
-        {
-          "title": "Ocean's Eleven",
-          "year": 2001,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/f73c3f87-19b5-4612-88c8-b8e335c88d42?utm_source=universal_search"
-          },
-          "poster": "posters/movie-oceans-eleven.jpg",
-          "why": "The slickest heist movie: eleven specialists rob three Vegas casinos in one night. Snatch-level fun with a satisfying reveal.",
-          "synopsis": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.",
-          "genres": [
-            "Crime",
-            "Thriller"
-          ],
-          "imdb": "tt0240772",
-          "tmdb": "161",
-          "justwatch": "https://www.justwatch.com/us/movie/oceans-eleven"
         },
         {
           "title": "Companion",
@@ -1117,33 +1029,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/boss-level"
         },
         {
-          "title": "The Princess Bride",
-          "year": 1987,
-          "type": "movie",
-          "services": [
-            "Disney+",
-            "Hulu"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-101b3fed-3125-4009-91e8-40ca97f1229c",
-            "Hulu": "https://www.hulu.com/watch/522e1565-e445-40a9-b049-ef8347484af9"
-          },
-          "poster": "posters/movie-the-princess-bride.jpg",
-          "why": "Explore: the classic fantasy adventure-comedy: sword fights, giants, revenge (\"You killed my father...\"), and a frame story that's wittier than it looks. Fellowship fans tend to love it.",
-          "synopsis": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Fantasy",
-            "Family",
-            "Romance"
-          ],
-          "imdb": "tt0093779",
-          "tmdb": "2493",
-          "justwatch": "https://www.justwatch.com/us/movie/the-princess-bride",
-          "tag": "explore"
-        },
-        {
           "title": "Wake Up Dead Man: A Knives Out Mystery",
           "year": 2025,
           "type": "movie",
@@ -1165,6 +1050,122 @@
           "imdb": "tt14364480",
           "tmdb": "812583",
           "justwatch": "https://www.justwatch.com/us/movie/wake-up-dead-man-a-knives-out-mystery"
+        },
+        {
+          "title": "The Creator",
+          "year": 2023,
+          "type": "movie",
+          "services": [
+            "Hulu"
+          ],
+          "links": {
+            "Hulu": "https://www.hulu.com/watch/1f7c85b7-8614-404e-aa58-5af8702c1c89"
+          },
+          "poster": "posters/movie-the-creator.jpg",
+          "why": "A soldier hunting the AI weapon that could end a human-machine war finds it's a child. Big-canvas original sci-fi in the vein of District 9 (8.8) and Looper (9).",
+          "synopsis": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war—and mankind itself.",
+          "genres": [
+            "Action",
+            "Drama",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt11858890",
+          "tmdb": "670292",
+          "justwatch": "https://www.justwatch.com/us/movie/the-creator"
+        },
+        {
+          "title": "The Northman",
+          "year": 2022,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81502485"
+          },
+          "poster": "posters/movie-the-northman.jpg",
+          "why": "A Viking prince's brutal revenge saga, steeped in myth and visions. Dark, violent fantasy-history for the fan of Hell's Paradise (9.5) and Game of Thrones.",
+          "synopsis": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
+          "genres": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "History",
+            "Thriller"
+          ],
+          "imdb": "tt11138512",
+          "tmdb": "639933",
+          "justwatch": "https://www.justwatch.com/us/movie/the-northman"
+        },
+        {
+          "title": "Triple Frontier",
+          "year": 2019,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/80192187"
+          },
+          "poster": "posters/movie-triple-frontier.jpg",
+          "why": "Ex-special forces buddies rob a cartel kingpin's jungle stash, and the getaway goes wrong. A gritty heist-thriller that leans closer to Heat than Ocean's Eleven (7).",
+          "synopsis": "Struggling to make ends meet, former special ops soldiers reunite for a high-stakes heist: stealing $75 million from a South American drug lord.",
+          "genres": [
+            "Action",
+            "Thriller"
+          ],
+          "imdb": "tt1488606",
+          "tmdb": "399361",
+          "justwatch": "https://www.justwatch.com/us/movie/triple-frontier"
+        },
+        {
+          "title": "Hidden Figures",
+          "year": 2016,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/fef402b4-627a-4278-8eff-6e51b043513b?utm_source=universal_search"
+          },
+          "poster": "posters/movie-hidden-figures.jpg",
+          "why": "Explore pick: the true story of the Black women mathematicians who got NASA's astronauts into orbit. An acclaimed crowd-pleaser for the guy who gave The Martian a 10.",
+          "synopsis": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history – the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
+          "genres": [
+            "Drama",
+            "History"
+          ],
+          "imdb": "tt4846340",
+          "tmdb": "381284",
+          "justwatch": "https://www.justwatch.com/us/movie/hidden-figures",
+          "tag": "explore"
+        },
+        {
+          "title": "Inside Out",
+          "year": 2015,
+          "type": "movie",
+          "services": [
+            "Disney+"
+          ],
+          "links": {
+            "Disney+": "https://www.disneyplus.com/browse/entity-d4b87168-7d0b-49bc-b138-457ab7723feb"
+          },
+          "poster": "posters/movie-inside-out-2015.jpg",
+          "why": "Explore pick: Pixar's inventive tour of a girl's mind, where her emotions run the controls. High-concept and funny, with the imagination of Spider-Verse.",
+          "synopsis": "When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition. Joy, Fear, Anger, Disgust and Sadness work together, but when Joy and Sadness get lost, they must journey through unfamiliar places to get back home.",
+          "genres": [
+            "Action",
+            "Animation",
+            "Comedy",
+            "Drama",
+            "Fantasy",
+            "Family"
+          ],
+          "imdb": "tt2096673",
+          "tmdb": "150540",
+          "justwatch": "https://www.justwatch.com/us/movie/inside-out-2015",
+          "tag": "explore"
         }
       ]
     },
