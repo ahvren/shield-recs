@@ -121,6 +121,11 @@
       "reason": "paywall",
       "evidence": "Substack paid posts: JSON-LD isAccessibleForFree:false on 2/4 sampled.",
       "checked": "2026-10-26"
+    },
+    "ainonline.com": {
+      "reason": "paywall",
+      "evidence": "AIN articles: JSON-LD isAccessibleForFree:false on 7/7 checked in the 2026-10-29 build (all dropped).",
+      "checked": "2026-10-29"
     }
   },
   "blocked_note": "Chris's rule (2026-10-26): no sources with a hard ad-block wall or a paywall (hard or metered). Soft, dismissible ad-block popups are fine. build_news.py drops any feed or item whose host matches blocked_domains, and also drops individual articles whose JSON-LD says isAccessibleForFree:false or that carry the PMC/Admiral 'To access our site, disable your adblocker' wall."
