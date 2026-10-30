@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-29T23:07-04:00",
+  "generated": "2026-10-30T19:13-04:00",
   "region": "US",
-  "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only. Movies and Shows checked 2026-10-28; Anime re-verified 2026-10-29 (now includes HIDIVE)",
+  "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only. All rows re-verified 2026-10-30 (includes HIDIVE)",
   "services": {
     "Netflix": {
       "color": "#E50914",
@@ -58,29 +58,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/sinister"
         },
         {
-          "title": "Aliens",
-          "year": 1986,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/60029358"
-          },
-          "poster": "posters/movie-aliens.jpg",
-          "why": "Prometheus 8.5 plus competent operators under siege. The franchise's action peak.",
-          "synopsis": "Ripley, the sole survivor of the Nostromo's deadly encounter with the monstrous Alien, returns to Earth after drifting through space in hypersleep for 57 years. Although her story is initially met with skepticism, she agrees to accompany a team of Colonial Marines back to LV-426.",
-          "genres": [
-            "Action",
-            "Horror",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt0090605",
-          "tmdb": "679",
-          "justwatch": "https://www.justwatch.com/us/movie/aliens"
-        },
-        {
           "title": "Spider-Man: Across the Spider-Verse",
           "year": 2023,
           "type": "movie",
@@ -107,47 +84,26 @@
           "justwatch": "https://www.justwatch.com/us/movie/spider-man-into-the-spider-verse-2"
         },
         {
-          "title": "Top Gun: Maverick",
-          "year": 2022,
+          "title": "John Wick: Chapter 2",
+          "year": 2017,
           "type": "movie",
           "services": [
-            "Netflix"
+            "Prime Video"
           ],
           "links": {
-            "Netflix": "https://www.netflix.com/title/81198910"
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.03b124c5-cdc8-44e1-82fb-5e788aff28d2"
           },
-          "poster": "posters/movie-top-gun-maverick.jpg",
-          "why": "The best pure action-spectacle in years: real jets, a ticking mission, and a final act that lands. Die Hard (9)-level crowd-pleaser.",
-          "synopsis": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+          "poster": "posters/movie-john-wick-chapter-two.jpg",
+          "why": "You gave John Wick a 10, so this is the next one in order. Wick is pulled back in to pay a blood debt, and the Rome catacombs and mirror-maze fights top the first film.",
+          "synopsis": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
           "genres": [
             "Action",
-            "Drama"
+            "Crime",
+            "Thriller"
           ],
-          "imdb": "tt1745960",
-          "tmdb": "361743",
-          "justwatch": "https://www.justwatch.com/us/movie/top-gun-maverick"
-        },
-        {
-          "title": "RRR",
-          "year": 2022,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81476453"
-          },
-          "poster": "posters/movie-roudram-ranam-rudhiram.jpg",
-          "why": "Explore: India's blockbuster about two revolutionaries in 1920, with physics-defying action, a tiger stampede, and a dance number that won an Oscar. Pure spectacle, three hours that fly.",
-          "synopsis": "A fictional history of two legendary revolutionaries' journey away from home before they began fighting for their country in the 1920s.",
-          "genres": [
-            "Action",
-            "Drama"
-          ],
-          "imdb": "tt8178634",
-          "tmdb": "579974",
-          "justwatch": "https://www.justwatch.com/us/movie/roudram-ranam-rudhiram",
-          "tag": "explore"
+          "imdb": "tt4425200",
+          "tmdb": "324552",
+          "justwatch": "https://www.justwatch.com/us/movie/john-wick-chapter-two"
         },
         {
           "title": "The Thing",
@@ -170,6 +126,52 @@
           "imdb": "tt0084787",
           "tmdb": "1091",
           "justwatch": "https://www.justwatch.com/us/movie/thing-the"
+        },
+        {
+          "title": "Inglourious Basterds",
+          "year": 2009,
+          "type": "movie",
+          "services": [
+            "Prime Video",
+            "Hulu"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.443db758-06aa-47ac-ac2d-ef6dfd2fd8d8",
+            "Hulu": "https://www.hulu.com/watch/54da4af5-9c47-48d1-91bf-d05e27024b94"
+          },
+          "poster": "posters/movie-inglorious-basterds.jpg",
+          "why": "Tarantino's WWII revenge fantasy: a Jewish-American squad, a cinema plot, and Christoph Waltz's terrifying Hans Landa. Pulp Fiction (9) dialogue in a war movie.",
+          "synopsis": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
+          "genres": [
+            "Drama",
+            "Thriller",
+            "War"
+          ],
+          "imdb": "tt0361748",
+          "tmdb": "16869",
+          "justwatch": "https://www.justwatch.com/us/movie/inglorious-basterds"
+        },
+        {
+          "title": "RRR",
+          "year": 2022,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81476453"
+          },
+          "poster": "posters/movie-roudram-ranam-rudhiram.jpg",
+          "why": "Explore: India's blockbuster about two revolutionaries in 1920, with physics-defying action, a tiger stampede, and a dance number that won an Oscar. Pure spectacle, three hours that fly.",
+          "synopsis": "A fictional history of two legendary revolutionaries' journey away from home before they began fighting for their country in the 1920s.",
+          "genres": [
+            "Action",
+            "Drama"
+          ],
+          "imdb": "tt8178634",
+          "tmdb": "579974",
+          "justwatch": "https://www.justwatch.com/us/movie/roudram-ranam-rudhiram",
+          "tag": "explore"
         },
         {
           "title": "Godzilla Minus One",
@@ -219,72 +221,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/heat-1995"
         },
         {
-          "title": "Final Destination 2",
-          "year": 2003,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/0c2197de-46f4-454c-a007-929308d3ef90?utm_source=universal_search"
-          },
-          "poster": "posters/movie-final-destination-2.jpg",
-          "why": "The log-truck highway pileup is the series' most famous opening. Pure Final Destination (8.6) rules.",
-          "synopsis": "When Kimberly has a violent premonition of a highway pileup she blocks the freeway, keeping a few others meant to die, safe...Or are they? The survivors mysteriously start dying and it's up to Kimberly to stop it before she's next.",
-          "genres": [
-            "Horror",
-            "Thriller"
-          ],
-          "imdb": "tt0309593",
-          "tmdb": "9358",
-          "justwatch": "https://www.justwatch.com/us/movie/final-destination-2"
-        },
-        {
-          "title": "Spirited Away",
-          "year": 2001,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/00ad6746-f3f0-4f6b-b8ea-0997f5880aa5"
-          },
-          "poster": "posters/movie-spirited-away.jpg",
-          "why": "Explore: Miyazaki's masterpiece. A girl trapped in a spirit bathhouse has to save her parents. It's the gateway to Studio Ghibli, and Frieren (a favorite) shares its sense of wonder.",
-          "synopsis": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
-          "genres": [
-            "Animation",
-            "Fantasy",
-            "Family"
-          ],
-          "imdb": "tt0245429",
-          "tmdb": "129",
-          "justwatch": "https://www.justwatch.com/us/movie/spirited-away",
-          "tag": "explore"
-        },
-        {
-          "title": "1917",
-          "year": 2019,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81140931"
-          },
-          "poster": "posters/movie-1917.jpg",
-          "why": "Two soldiers cross no-man's-land to deliver one message, shot to look like a single continuous take. A war film that plays like a ticking-clock thriller.",
-          "synopsis": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
-          "genres": [
-            "Drama",
-            "History",
-            "War"
-          ],
-          "imdb": "tt8579674",
-          "tmdb": "530915",
-          "justwatch": "https://www.justwatch.com/us/movie/1917"
-        },
-        {
           "title": "Memento",
           "year": 2000,
           "type": "movie",
@@ -310,6 +246,29 @@
           "justwatch": "https://www.justwatch.com/us/movie/memento"
         },
         {
+          "title": "Spirited Away",
+          "year": 2001,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/00ad6746-f3f0-4f6b-b8ea-0997f5880aa5"
+          },
+          "poster": "posters/movie-spirited-away.jpg",
+          "why": "Explore: Miyazaki's masterpiece. A girl trapped in a spirit bathhouse has to save her parents. It's the gateway to Studio Ghibli, and Frieren (a favorite) shares its sense of wonder.",
+          "synopsis": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+          "genres": [
+            "Animation",
+            "Fantasy",
+            "Family"
+          ],
+          "imdb": "tt0245429",
+          "tmdb": "129",
+          "justwatch": "https://www.justwatch.com/us/movie/spirited-away",
+          "tag": "explore"
+        },
+        {
           "title": "Sicario",
           "year": 2015,
           "type": "movie",
@@ -331,6 +290,94 @@
           "imdb": "tt3397884",
           "tmdb": "273481",
           "justwatch": "https://www.justwatch.com/us/movie/sicario"
+        },
+        {
+          "title": "The Killer",
+          "year": 2023,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/80234448"
+          },
+          "poster": "posters/movie-the-killer-2023-0.jpg",
+          "why": "David Fincher's cold, precise hitman thriller: a meticulous assassin's one mistake sends him on a global revenge run. The Accountant 2 (8) and John Wick (10) lane, in Se7en (8.5) style.",
+          "synopsis": "After a fateful miss, an assassin battles his employers, and himself, on an international manhunt he insists isn't personal.",
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt1136617",
+          "tmdb": "800158",
+          "justwatch": "https://www.justwatch.com/us/movie/the-killer-2023-0"
+        },
+        {
+          "title": "Coherence",
+          "year": 2014,
+          "type": "movie",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.773dff1a-c2e2-4ad6-b341-ca03192511a6"
+          },
+          "poster": "posters/movie-coherence.jpg",
+          "why": "A dinner party, a passing comet, and realities that start overlapping. Pure high-concept puzzle on a tiny budget, with a sharp final turn.",
+          "synopsis": "Four couples gather for dinner the night a mysterious and powerful comet passes overhead.",
+          "genres": [
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt2866360",
+          "tmdb": "220289",
+          "justwatch": "https://www.justwatch.com/us/movie/coherence"
+        },
+        {
+          "title": "The Departed",
+          "year": 2006,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/f7e8a59c-740b-40cc-a1f5-2b25b48ec588?utm_source=universal_search"
+          },
+          "poster": "posters/movie-the-departed.jpg",
+          "why": "Two moles, one in the mob and one in the police, hunt each other. A twisty crime thriller with a famous ending.",
+          "synopsis": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt0407887",
+          "tmdb": "1422",
+          "justwatch": "https://www.justwatch.com/us/movie/the-departed"
+        },
+        {
+          "title": "Deadpool & Wolverine",
+          "year": 2024,
+          "type": "movie",
+          "services": [
+            "Disney+"
+          ],
+          "links": {
+            "Disney+": "https://www.disneyplus.com/browse/entity-120ae1e6-2240-4924-a4ce-f8de6e28b0b1"
+          },
+          "poster": "posters/movie-deadpool-3.jpg",
+          "why": "You gave Deadpool 1 and 2 a 9 each. Irreverent superhero is your strongest superhero lane.",
+          "synopsis": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Sci-Fi"
+          ],
+          "imdb": "tt6263850",
+          "tmdb": "533535",
+          "justwatch": "https://www.justwatch.com/us/movie/deadpool-3"
         },
         {
           "title": "Moneyball",
@@ -355,27 +402,6 @@
           "tag": "explore"
         },
         {
-          "title": "Coherence",
-          "year": 2014,
-          "type": "movie",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.773dff1a-c2e2-4ad6-b341-ca03192511a6"
-          },
-          "poster": "posters/movie-coherence.jpg",
-          "why": "A dinner party, a passing comet, and realities that start overlapping. Pure high-concept puzzle on a tiny budget, with a sharp final turn.",
-          "synopsis": "Four couples gather for dinner the night a mysterious and powerful comet passes overhead.",
-          "genres": [
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt2866360",
-          "tmdb": "220289",
-          "justwatch": "https://www.justwatch.com/us/movie/coherence"
-        },
-        {
           "title": "Barbarian",
           "year": 2022,
           "type": "movie",
@@ -397,48 +423,72 @@
           "justwatch": "https://www.justwatch.com/us/movie/barbarian"
         },
         {
-          "title": "The Town",
-          "year": 2010,
+          "title": "Wind River",
+          "year": 2017,
           "type": "movie",
           "services": [
-            "HBO Max"
+            "Netflix"
           ],
           "links": {
-            "HBO Max": "https://play.hbomax.com/show/201109ce-65aa-478f-9be8-ef3b05b687ea?utm_source=universal_search"
+            "Netflix": "https://www.netflix.com/title/80173524"
           },
-          "poster": "posters/movie-the-town.jpg",
-          "why": "Ben Affleck's Boston bank-robbery thriller: a crew, an FBI agent closing in, and a nun-mask heist finale. Heat (on your list) energy, tighter.",
-          "synopsis": "A proficient group of thieves rob a bank and hold the manager hostage. Things begin to get complicated when one of the crew members falls in love with her.",
+          "poster": "posters/movie-wind-river-2017.jpg",
+          "why": "Taylor Sheridan's snowbound murder mystery on a Wyoming reservation. From the writer of Sicario and Hell or High Water, and it hits as hard as either.",
+          "synopsis": "An FBI agent teams with the town's veteran game tracker to investigate a murder that occurred on a Native American reservation.",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller",
+            "Western"
+          ],
+          "imdb": "tt5362988",
+          "tmdb": "395834",
+          "justwatch": "https://www.justwatch.com/us/movie/wind-river-2017"
+        },
+        {
+          "title": "Aliens",
+          "year": 1986,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/60029358"
+          },
+          "poster": "posters/movie-aliens.jpg",
+          "why": "Prometheus 8.5 plus competent operators under siege. The franchise's action peak.",
+          "synopsis": "Ripley, the sole survivor of the Nostromo's deadly encounter with the monstrous Alien, returns to Earth after drifting through space in hypersleep for 57 years. Although her story is initially met with skepticism, she agrees to accompany a team of Colonial Marines back to LV-426.",
+          "genres": [
+            "Action",
+            "Horror",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt0090605",
+          "tmdb": "679",
+          "justwatch": "https://www.justwatch.com/us/movie/aliens"
+        },
+        {
+          "title": "Nightcrawler",
+          "year": 2014,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/70295182"
+          },
+          "poster": "posters/movie-nightcrawler.jpg",
+          "why": "Dark crime thriller with a magnetic, morally bankrupt lead (Ozark and Breaking Bad energy).",
+          "synopsis": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
           "genres": [
             "Crime",
             "Drama",
             "Thriller"
           ],
-          "imdb": "tt0840361",
-          "tmdb": "23168",
-          "justwatch": "https://www.justwatch.com/us/movie/the-town"
-        },
-        {
-          "title": "Deadpool & Wolverine",
-          "year": 2024,
-          "type": "movie",
-          "services": [
-            "Disney+"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-120ae1e6-2240-4924-a4ce-f8de6e28b0b1"
-          },
-          "poster": "posters/movie-deadpool-3.jpg",
-          "why": "You gave Deadpool 1 and 2 a 9 each. Irreverent superhero is your strongest superhero lane.",
-          "synopsis": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Sci-Fi"
-          ],
-          "imdb": "tt6263850",
-          "tmdb": "533535",
-          "justwatch": "https://www.justwatch.com/us/movie/deadpool-3"
+          "imdb": "tt2872718",
+          "tmdb": "242582",
+          "justwatch": "https://www.justwatch.com/us/movie/nightcrawler"
         },
         {
           "title": "Hunt for the Wilderpeople",
@@ -465,50 +515,6 @@
           "tag": "explore"
         },
         {
-          "title": "Predator: Badlands",
-          "year": 2025,
-          "type": "movie",
-          "services": [
-            "Hulu"
-          ],
-          "links": {
-            "Hulu": "https://www.hulu.com/movie/predator-badlands-da3aa9ca-01ff-4b8f-91e0-d622a01b954d"
-          },
-          "poster": "posters/movie-predator-badlands-2025.jpg",
-          "why": "A Predator flips the franchise: a young Yautja hunts on a death planet with a synthetic ally. Big creature action.",
-          "synopsis": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
-          "genres": [
-            "Action",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt31227572",
-          "tmdb": "1242898",
-          "justwatch": "https://www.justwatch.com/us/movie/predator-badlands-2025"
-        },
-        {
-          "title": "The Departed",
-          "year": 2006,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/f7e8a59c-740b-40cc-a1f5-2b25b48ec588?utm_source=universal_search"
-          },
-          "poster": "posters/movie-the-departed.jpg",
-          "why": "Two moles, one in the mob and one in the police, hunt each other. A twisty crime thriller with a famous ending.",
-          "synopsis": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
-          "genres": [
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "imdb": "tt0407887",
-          "tmdb": "1422",
-          "justwatch": "https://www.justwatch.com/us/movie/the-departed"
-        },
-        {
           "title": "Sinners",
           "year": 2025,
           "type": "movie",
@@ -516,7 +522,7 @@
             "HBO Max"
           ],
           "links": {
-            "HBO Max": "https://play.hbomax.com/show/2a072173-2bac-43ba-9933-10eba021ed96?utm_source=universal_search"
+            "HBO Max": "https://play.hbomax.com/show/25a3be72-9dec-4544-b825-105ef41d6314?utm_source=universal_search"
           },
           "poster": "posters/movie-sinners-2025.jpg",
           "why": "A 1930s juke-joint night turns into a vampire siege. Crime and horror, with a big crowd-pleasing final hour.",
@@ -529,6 +535,141 @@
           "imdb": "tt31193180",
           "tmdb": "1233413",
           "justwatch": "https://www.justwatch.com/us/movie/sinners-2025"
+        },
+        {
+          "title": "The Town",
+          "year": 2010,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/201109ce-65aa-478f-9be8-ef3b05b687ea?utm_source=universal_search"
+          },
+          "poster": "posters/movie-the-town.jpg",
+          "why": "Ben Affleck's Boston bank-robbery thriller: a crew, an FBI agent closing in, and a nun-mask heist finale. Heat (on your list) energy, tighter.",
+          "synopsis": "A proficient group of thieves rob a bank and hold the manager hostage. Things begin to get complicated when one of the crew members falls in love with her.",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt0840361",
+          "tmdb": "23168",
+          "justwatch": "https://www.justwatch.com/us/movie/the-town"
+        },
+        {
+          "title": "Casino Royale",
+          "year": 2006,
+          "type": "movie",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.67d67132-66a8-46fb-9b4d-3ebe25602945"
+          },
+          "poster": "posters/movie-casino-royale-uncut-edition.jpg",
+          "why": "The start of Daniel Craig's Bond run, so it's the right first step. A rougher, grounded spy reboot with a parkour chase and a poker game that's genuinely tense.",
+          "synopsis": "Le Chiffre, a banker to the world's terrorists, is scheduled to participate in a high-stakes poker game in Montenegro, where he intends to use his winnings to establish his financial grip on the terrorist market. M sends Bond—on his maiden mission as a 00 Agent—to attend this game and prevent Le Chiffre from winning. With the help of Vesper Lynd and Felix Leiter, Bond enters the most important poker game in his already dangerous career.",
+          "genres": [
+            "Action",
+            "Thriller",
+            "European"
+          ],
+          "imdb": "tt0381061",
+          "tmdb": "36557",
+          "justwatch": "https://www.justwatch.com/us/movie/casino-royale-uncut-edition"
+        },
+        {
+          "title": "Hamilton",
+          "year": 2020,
+          "type": "movie",
+          "services": [
+            "Disney+"
+          ],
+          "links": {
+            "Disney+": "https://www.disneyplus.com/browse/entity-f7f12d79-cfbe-4eb4-b275-091fd34b6dde"
+          },
+          "poster": "posters/movie-hamilton-2020.jpg",
+          "why": "Explore: the filmed Broadway original. A founding-father biography in hip-hop and a war story about politics and rivalry. The easiest way to try a musical.",
+          "synopsis": "Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.",
+          "genres": [
+            "Drama",
+            "History"
+          ],
+          "imdb": "tt8503618",
+          "tmdb": "556574",
+          "justwatch": "https://www.justwatch.com/us/movie/hamilton-2020",
+          "tag": "explore"
+        },
+        {
+          "title": "Triangle",
+          "year": 2009,
+          "type": "movie",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.68d9255f-ebab-4a90-b97e-739ec5f924ff"
+          },
+          "poster": "posters/movie-triangle-2009.jpg",
+          "why": "Time-loop horror at sea that plays like a Final Destination puzzle box. Every loop changes what you thought you saw.",
+          "synopsis": "When Jess sets sail on a yacht with a group of friends, she cannot shake the feeling that there is something wrong.",
+          "genres": [
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Thriller",
+            "Sci-Fi",
+            "European"
+          ],
+          "imdb": "tt1187064",
+          "tmdb": "26466",
+          "justwatch": "https://www.justwatch.com/us/movie/triangle-2009"
+        },
+        {
+          "title": "The Revenant",
+          "year": 2015,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/175d821c-276e-4b5f-9cfd-b2f89db35631?utm_source=universal_search"
+          },
+          "poster": "posters/movie-the-revenant.jpg",
+          "why": "A frontier tracker left for dead crawls back for revenge through a frozen wilderness. Brutal survival with a bear attack you won't forget, in your Gladiator (9.5) lane.",
+          "synopsis": "In the 1820s, a frontiersman, Hugh Glass, sets out on a path of vengeance against those who left him for dead after a bear mauling.",
+          "genres": [
+            "Action",
+            "Drama",
+            "Western"
+          ],
+          "imdb": "tt1663202",
+          "tmdb": "281957",
+          "justwatch": "https://www.justwatch.com/us/movie/the-revenant"
+        },
+        {
+          "title": "1917",
+          "year": 2019,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81140931"
+          },
+          "poster": "posters/movie-1917.jpg",
+          "why": "Two soldiers cross no-man's-land to deliver one message, shot to look like a single continuous take. A war film that plays like a ticking-clock thriller.",
+          "synopsis": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
+          "genres": [
+            "Drama",
+            "History",
+            "War"
+          ],
+          "imdb": "tt8579674",
+          "tmdb": "530915",
+          "justwatch": "https://www.justwatch.com/us/movie/1917"
         },
         {
           "title": "Free Solo",
@@ -554,47 +695,274 @@
           "tag": "explore"
         },
         {
-          "title": "Nightcrawler",
-          "year": 2014,
+          "title": "Rebel Ridge",
+          "year": 2024,
           "type": "movie",
           "services": [
             "Netflix"
           ],
           "links": {
-            "Netflix": "https://www.netflix.com/title/70295182"
+            "Netflix": "https://www.netflix.com/title/81157729"
           },
-          "poster": "posters/movie-nightcrawler.jpg",
-          "why": "Dark crime thriller with a magnetic, morally bankrupt lead (Ozark and Breaking Bad energy).",
-          "synopsis": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
+          "poster": "posters/movie-rebel-ridge.jpg",
+          "why": "A tense, grounded action thriller: an ex-Marine against a corrupt small-town police force. Smart escalation, no camp.",
+          "synopsis": "A former Marine confronts corruption in a small town when local law enforcement unjustly seizes the bag of cash he needs to post his cousin's bail.",
           "genres": [
+            "Action",
             "Crime",
             "Drama",
             "Thriller"
           ],
-          "imdb": "tt2872718",
-          "tmdb": "242582",
-          "justwatch": "https://www.justwatch.com/us/movie/nightcrawler"
+          "imdb": "tt11301886",
+          "tmdb": "646097",
+          "justwatch": "https://www.justwatch.com/us/movie/rebel-ridge"
         },
         {
-          "title": "Final Destination Bloodlines",
-          "year": 2025,
+          "title": "The Black Phone",
+          "year": 2022,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81488656"
+          },
+          "poster": "posters/movie-the-black-phone.jpg",
+          "why": "A kidnapped boy gets calls from the killer's dead victims on a disconnected phone. A clear supernatural rule and a tense escape.",
+          "synopsis": "Finney Blake, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.",
+          "genres": [
+            "Horror",
+            "Thriller"
+          ],
+          "imdb": "tt7144666",
+          "tmdb": "756999",
+          "justwatch": "https://www.justwatch.com/us/movie/the-black-phone"
+        },
+        {
+          "title": "The Green Knight",
+          "year": 2021,
+          "type": "movie",
+          "services": [
+            "Hulu"
+          ],
+          "links": {
+            "Hulu": "https://www.hulu.com/watch/477be31e-5a51-4958-a644-de64b3c788eb"
+          },
+          "poster": "posters/movie-the-green-knight.jpg",
+          "why": "A dreamlike, eerie take on the Arthurian legend of Gawain's quest. The Princess Bride (8) liked fantasy adventure; this is the darker, stranger version.",
+          "synopsis": "An epic fantasy adventure based on the timeless Arthurian legend, The Green Knight tells the story of Sir Gawain, King Arthur's reckless and headstrong nephew, who embarks on a daring quest to confront the eponymous Green Knight, a gigantic emerald-skinned stranger and tester of men.",
+          "genres": [
+            "Drama",
+            "Fantasy"
+          ],
+          "imdb": "tt9243804",
+          "tmdb": "559907",
+          "justwatch": "https://www.justwatch.com/us/movie/the-green-knight"
+        },
+        {
+          "title": "Society of the Snow",
+          "year": 2023,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81268316"
+          },
+          "poster": "posters/movie-society-of-the-snow.jpg",
+          "why": "Explore pick: the true story of the 1972 Andes plane crash survivors, told from inside the group. A survival thriller you can't look away from, and an Oscar nominee.",
+          "synopsis": "On October 13, 1972, Uruguayan Air Force Flight 571, chartered to take a rugby team to Chile, crashes into a glacier in the heart of the Andes.",
+          "genres": [
+            "Drama",
+            "History",
+            "Thriller"
+          ],
+          "imdb": "tt16277242",
+          "tmdb": "906126",
+          "justwatch": "https://www.justwatch.com/us/movie/society-of-the-snow",
+          "tag": "explore"
+        },
+        {
+          "title": "Hell or High Water",
+          "year": 2016,
           "type": "movie",
           "services": [
             "HBO Max"
           ],
           "links": {
-            "HBO Max": "https://play.hbomax.com/show/16d51fc4-358d-4138-b648-da0e2cf5f216?utm_source=universal_search"
+            "HBO Max": "https://play.hbomax.com/show/81123c1e-a2dd-42dd-9b1b-30d87d8cd310?utm_source=universal_search"
           },
-          "poster": "posters/movie-final-destination-bloodlines.jpg",
-          "why": "Rule-based death traps (you gave FD an 8.6). Fresh lore, inventive kills, and a fast pace.",
-          "synopsis": "Plagued by a violent recurring nightmare, college student Stefanie heads home to track down the one person who might be able to break the cycle and save her family from the grisly demise that inevitably awaits them all.",
+          "poster": "posters/movie-hell-or-high-water.jpg",
+          "why": "Two brothers rob branches of the bank that's foreclosing on their ranch while a Texas Ranger closes in. Tight crime thriller in the Ozark (high) mold.",
+          "synopsis": "A divorced dad and his ex-con brother resort to a desperate scheme in order to save their family's farm in West Texas.",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller",
+            "Western"
+          ],
+          "imdb": "tt2582782",
+          "tmdb": "338766",
+          "justwatch": "https://www.justwatch.com/us/movie/hell-or-high-water"
+        },
+        {
+          "title": "Atomic Blonde",
+          "year": 2017,
+          "type": "movie",
+          "services": [
+            "Prime Video",
+            "HBO Max"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.beae97c4-9fef-ec02-6806-6a5daf94093c",
+            "HBO Max": "https://play.hbomax.com/show/2ff46218-5299-4f1f-8a37-45ce4a0c70c3?utm_source=universal_search"
+          },
+          "poster": "posters/movie-atomic-blonde.jpg",
+          "why": "Charlize Theron as an MI6 spy in 1989 Berlin, with a single-take stairwell fight that's one of the best action scenes of the decade. John Wick (10) energy with Cold War intrigue.",
+          "synopsis": "An undercover MI6 agent is sent to Berlin during the Cold War to investigate the murder of a fellow agent and recover a missing list of double agents.",
+          "genres": [
+            "Action",
+            "Thriller",
+            "European"
+          ],
+          "imdb": "tt2406566",
+          "tmdb": "341013",
+          "justwatch": "https://www.justwatch.com/us/movie/atomic-blonde"
+        },
+        {
+          "title": "Talk to Me",
+          "year": 2023,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/79e23b6c-7938-444c-bc12-6801f29dc26b?utm_source=universal_search"
+          },
+          "poster": "posters/movie-talk-to-me-2022.jpg",
+          "why": "Horror with a clear rule (the hand, 90 seconds, then let go) that the kids break. Close to The Ring (9) in rule-driven dread.",
+          "synopsis": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
           "genres": [
             "Horror",
             "Thriller"
           ],
-          "imdb": "tt9619824",
-          "tmdb": "574475",
-          "justwatch": "https://www.justwatch.com/us/movie/final-destination-bloodlines"
+          "imdb": "tt10638522",
+          "tmdb": "1008042",
+          "justwatch": "https://www.justwatch.com/us/movie/talk-to-me-2022"
+        },
+        {
+          "title": "Hidden Figures",
+          "year": 2016,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/fef402b4-627a-4278-8eff-6e51b043513b?utm_source=universal_search"
+          },
+          "poster": "posters/movie-hidden-figures.jpg",
+          "why": "Explore pick: the true story of the Black women mathematicians who got NASA's astronauts into orbit. An acclaimed crowd-pleaser for the guy who gave The Martian a 10.",
+          "synopsis": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history – the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
+          "genres": [
+            "Drama",
+            "History"
+          ],
+          "imdb": "tt4846340",
+          "tmdb": "381284",
+          "justwatch": "https://www.justwatch.com/us/movie/hidden-figures",
+          "tag": "explore"
+        },
+        {
+          "title": "The Northman",
+          "year": 2022,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81502485"
+          },
+          "poster": "posters/movie-the-northman.jpg",
+          "why": "A Viking prince's brutal revenge saga, steeped in myth and visions. Dark, violent fantasy-history for the fan of Hell's Paradise (9.5) and Game of Thrones.",
+          "synopsis": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
+          "genres": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "History",
+            "Thriller"
+          ],
+          "imdb": "tt11138512",
+          "tmdb": "639933",
+          "justwatch": "https://www.justwatch.com/us/movie/the-northman"
+        },
+        {
+          "title": "Companion",
+          "year": 2025,
+          "type": "movie",
+          "services": [
+            "Hulu",
+            "HBO Max"
+          ],
+          "links": {
+            "Hulu": "https://www.hulu.com/watch/eae3d773-4546-466b-98ee-24aba7fa9167",
+            "HBO Max": "https://play.hbomax.com/show/47556360-0bbf-4e3d-8d6d-53a0179e2153?utm_source=universal_search"
+          },
+          "poster": "posters/movie-companion-2025.jpg",
+          "why": "Sci-fi dark comedy thriller with Black Mirror energy. A weekend getaway with a twist that keeps escalating.",
+          "synopsis": "During a weekend getaway at a secluded lakeside estate, a group of friends finds themselves entangled in a web of secrets, deception, and advanced technology. As tensions rise and loyalties are tested, they uncover unsettling truths about themselves and the world around them.",
+          "genres": [
+            "Horror",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt26584495",
+          "tmdb": "1084199",
+          "justwatch": "https://www.justwatch.com/us/movie/companion-2025"
+        },
+        {
+          "title": "Wrath of Man",
+          "year": 2021,
+          "type": "movie",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.2d5a7a86-3303-4cba-b999-6279f9536082"
+          },
+          "poster": "posters/movie-wrath-of-man.jpg",
+          "why": "Guy Ritchie's darker crime revenge thriller, told out of order like a heist puzzle. Jason Statham at his coldest.",
+          "synopsis": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt11083552",
+          "tmdb": "637649",
+          "justwatch": "https://www.justwatch.com/us/movie/wrath-of-man"
+        },
+        {
+          "title": "All Quiet on the Western Front",
+          "year": 2022,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81260280"
+          },
+          "poster": "posters/movie-all-quiet-on-the-western-front-2022.jpg",
+          "why": "Netflix's Oscar-winning German WWI epic: a young recruit's idealism meets the trenches. If 1917 is a thriller, this is the gut-punch.",
+          "synopsis": "Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
+          "genres": [
+            "Drama",
+            "War"
+          ],
+          "imdb": "tt1016150",
+          "tmdb": "49046",
+          "justwatch": "https://www.justwatch.com/us/movie/all-quiet-on-the-western-front-2022"
         },
         {
           "title": "K-Pop Demon Hunters",
@@ -623,345 +991,25 @@
           "tag": "explore"
         },
         {
-          "title": "Furiosa: A Mad Max Saga",
-          "year": 2024,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/3df7a4bb-6253-44ba-8cc5-c917622ba810?utm_source=universal_search"
-          },
-          "poster": "posters/movie-furiosa.jpg",
-          "why": "The war-road origin of Fury Road's Furiosa: a revenge epic across the Wasteland with a 15-minute war-rig siege. Big, mean, inventive action.",
-          "synopsis": "As the world falls, young Furiosa is snatched from the Green Place of Many Mothers into the hands of a great biker horde led by the warlord Dementus. Sweeping through the wasteland, they encounter the citadel presided over by Immortan Joe. The two tyrants wage war for dominance, and Furiosa must survive many trials as she puts together the means to find her way home.",
-          "genres": [
-            "Action",
-            "Sci-Fi"
-          ],
-          "imdb": "tt12037194",
-          "tmdb": "786892",
-          "justwatch": "https://www.justwatch.com/us/movie/furiosa"
-        },
-        {
-          "title": "Triangle",
-          "year": 2009,
+          "title": "Snatch",
+          "year": 2000,
           "type": "movie",
           "services": [
             "Prime Video"
           ],
           "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.68d9255f-ebab-4a90-b97e-739ec5f924ff"
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.33f671bf-c752-469b-8409-b2485928d245"
           },
-          "poster": "posters/movie-triangle-2009.jpg",
-          "why": "Time-loop horror at sea that plays like a Final Destination puzzle box. Every loop changes what you thought you saw.",
-          "synopsis": "When Jess sets sail on a yacht with a group of friends, she cannot shake the feeling that there is something wrong.",
-          "genres": [
-            "Drama",
-            "Fantasy",
-            "Horror",
-            "Thriller",
-            "Sci-Fi",
-            "European"
-          ],
-          "imdb": "tt1187064",
-          "tmdb": "26466",
-          "justwatch": "https://www.justwatch.com/us/movie/triangle-2009"
-        },
-        {
-          "title": "Rebel Ridge",
-          "year": 2024,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81157729"
-          },
-          "poster": "posters/movie-rebel-ridge.jpg",
-          "why": "A tense, grounded action thriller: an ex-Marine against a corrupt small-town police force. Smart escalation, no camp.",
-          "synopsis": "A former Marine confronts corruption in a small town when local law enforcement unjustly seizes the bag of cash he needs to post his cousin's bail.",
-          "genres": [
-            "Action",
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "imdb": "tt11301886",
-          "tmdb": "646097",
-          "justwatch": "https://www.justwatch.com/us/movie/rebel-ridge"
-        },
-        {
-          "title": "Alien: Romulus",
-          "year": 2024,
-          "type": "movie",
-          "services": [
-            "Hulu"
-          ],
-          "links": {
-            "Hulu": "https://www.hulu.com/watch/05e76ad8-c3dd-4c3e-bab9-df3cf71c6871"
-          },
-          "poster": "posters/movie-alien-romulus.jpg",
-          "why": "Back to Aliens-style horror: young scavengers on a derelict station full of facehuggers. Fast, practical effects, and it ties into Prometheus (8.5).",
-          "synopsis": "While scavenging the deep ends of a derelict space station, a group of young space colonists come face to face with the most terrifying life form in the universe.",
-          "genres": [
-            "Horror",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt18412256",
-          "tmdb": "945961",
-          "justwatch": "https://www.justwatch.com/us/movie/alien-romulus"
-        },
-        {
-          "title": "Glass Onion: A Knives Out Mystery",
-          "year": 2022,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81458416"
-          },
-          "poster": "posters/movie-knives-out-2.jpg",
-          "why": "Twisty whodunit with satirical bite. Mystery plus the irreverent wit you score highly.",
-          "synopsis": "World-famous detective Benoit Blanc heads to Greece to peel back the layers of a mystery surrounding a tech billionaire and his eclectic crew of friends.",
+          "poster": "posters/movie-snatch.jpg",
+          "why": "Ensemble crime comedy with momentum, like Bullet Train 9.5 and Pulp Fiction.",
+          "synopsis": "Unscrupulous boxing promoters, violent bookies, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewellers fight to track down a priceless stolen diamond.",
           "genres": [
             "Comedy",
-            "Crime",
-            "Drama",
-            "Thriller"
+            "Crime"
           ],
-          "imdb": "tt11564570",
-          "tmdb": "661374",
-          "justwatch": "https://www.justwatch.com/us/movie/knives-out-2"
-        },
-        {
-          "title": "Predator: Killer of Killers",
-          "year": 2025,
-          "type": "movie",
-          "services": [
-            "Hulu"
-          ],
-          "links": {
-            "Hulu": "https://www.hulu.com/watch/5ded19e6-73f5-4c65-a4f8-759bce8d1114"
-          },
-          "poster": "posters/movie-predator-killer-of-killers.jpg",
-          "why": "An animated Predator anthology: a Viking, a samurai, and a WWII pilot each face a hunter. Love, Death & Robots (10) energy.",
-          "synopsis": "While three of the fiercest warriors in human history—a Viking raider, a ninja in feudal Japan, and a WWII pilot—are killers in their own right, they are merely prey for their new opponent: the ultimate killer of killers.",
-          "genres": [
-            "Action",
-            "Animation",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt36463894",
-          "tmdb": "1376434",
-          "justwatch": "https://www.justwatch.com/us/movie/predator-killer-of-killers"
-        },
-        {
-          "title": "The Black Phone",
-          "year": 2022,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81488656"
-          },
-          "poster": "posters/movie-the-black-phone.jpg",
-          "why": "A kidnapped boy gets calls from the killer's dead victims on a disconnected phone. A clear supernatural rule and a tense escape.",
-          "synopsis": "Finney Blake, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.",
-          "genres": [
-            "Horror",
-            "Thriller"
-          ],
-          "imdb": "tt7144666",
-          "tmdb": "756999",
-          "justwatch": "https://www.justwatch.com/us/movie/the-black-phone"
-        },
-        {
-          "title": "Hamilton",
-          "year": 2020,
-          "type": "movie",
-          "services": [
-            "Disney+"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-f7f12d79-cfbe-4eb4-b275-091fd34b6dde"
-          },
-          "poster": "posters/movie-hamilton-2020.jpg",
-          "why": "Explore: the filmed Broadway original. A founding-father biography in hip-hop and a war story about politics and rivalry. The easiest way to try a musical.",
-          "synopsis": "Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.",
-          "genres": [
-            "Drama",
-            "History"
-          ],
-          "imdb": "tt8503618",
-          "tmdb": "556574",
-          "justwatch": "https://www.justwatch.com/us/movie/hamilton-2020",
-          "tag": "explore"
-        },
-        {
-          "title": "Companion",
-          "year": 2025,
-          "type": "movie",
-          "services": [
-            "Hulu",
-            "HBO Max"
-          ],
-          "links": {
-            "Hulu": "https://www.hulu.com/watch/eae3d773-4546-466b-98ee-24aba7fa9167",
-            "HBO Max": "https://play.hbomax.com/show/47556360-0bbf-4e3d-8d6d-53a0179e2153?utm_source=universal_search"
-          },
-          "poster": "posters/movie-companion-2025.jpg",
-          "why": "Sci-fi dark comedy thriller with Black Mirror energy. A weekend getaway with a twist that keeps escalating.",
-          "synopsis": "During a weekend getaway at a secluded lakeside estate, a group of friends finds themselves entangled in a web of secrets, deception, and advanced technology. As tensions rise and loyalties are tested, they uncover unsettling truths about themselves and the world around them.",
-          "genres": [
-            "Horror",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt26584495",
-          "tmdb": "1084199",
-          "justwatch": "https://www.justwatch.com/us/movie/companion-2025"
-        },
-        {
-          "title": "Hell or High Water",
-          "year": 2016,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/81123c1e-a2dd-42dd-9b1b-30d87d8cd310?utm_source=universal_search"
-          },
-          "poster": "posters/movie-hell-or-high-water.jpg",
-          "why": "Two brothers rob branches of the bank that's foreclosing on their ranch while a Texas Ranger closes in. Tight crime thriller in the Ozark (high) mold.",
-          "synopsis": "A divorced dad and his ex-con brother resort to a desperate scheme in order to save their family's farm in West Texas.",
-          "genres": [
-            "Crime",
-            "Drama",
-            "Thriller",
-            "Western"
-          ],
-          "imdb": "tt2582782",
-          "tmdb": "338766",
-          "justwatch": "https://www.justwatch.com/us/movie/hell-or-high-water"
-        },
-        {
-          "title": "The Wild Robot",
-          "year": 2024,
-          "type": "movie",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.21ee1ac6-e382-43f4-8939-0e76f98b6664"
-          },
-          "poster": "posters/movie-the-wild-robot.jpg",
-          "why": "Explore: a robot washes up on a wild island and learns to raise a gosling. DreamWorks' best-looking film, with sci-fi survival at its core.",
-          "synopsis": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
-          "genres": [
-            "Action",
-            "Animation",
-            "Family",
-            "Sci-Fi"
-          ],
-          "imdb": "tt29623480",
-          "tmdb": "1184918",
-          "justwatch": "https://www.justwatch.com/us/movie/the-wild-robot",
-          "tag": "explore"
-        },
-        {
-          "title": "Talk to Me",
-          "year": 2023,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/79e23b6c-7938-444c-bc12-6801f29dc26b?utm_source=universal_search"
-          },
-          "poster": "posters/movie-talk-to-me-2022.jpg",
-          "why": "Horror with a clear rule (the hand, 90 seconds, then let go) that the kids break. Close to The Ring (9) in rule-driven dread.",
-          "synopsis": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
-          "genres": [
-            "Horror",
-            "Thriller"
-          ],
-          "imdb": "tt10638522",
-          "tmdb": "1008042",
-          "justwatch": "https://www.justwatch.com/us/movie/talk-to-me-2022"
-        },
-        {
-          "title": "Thunderbolts*",
-          "year": 2025,
-          "type": "movie",
-          "services": [
-            "Disney+"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-f51dce23-7d8f-490a-9f0c-be1b5432c2a9"
-          },
-          "poster": "posters/movie-thunderbolts.jpg",
-          "why": "Marvel's misfit-antiheroes team-up, closer to The Suicide Squad (9) than standard MCU. Darker and funnier.",
-          "synopsis": "After finding themselves ensnared in a death trap, an unconventional team of antiheroes must go on a dangerous mission that will force them to confront the darkest corners of their pasts.",
-          "genres": [
-            "Action",
-            "Crime",
-            "Drama",
-            "Fantasy",
-            "Sci-Fi"
-          ],
-          "imdb": "tt20969586",
-          "tmdb": "986056",
-          "justwatch": "https://www.justwatch.com/us/movie/thunderbolts"
-        },
-        {
-          "title": "Wrath of Man",
-          "year": 2021,
-          "type": "movie",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.2d5a7a86-3303-4cba-b999-6279f9536082"
-          },
-          "poster": "posters/movie-wrath-of-man.jpg",
-          "why": "Guy Ritchie's darker crime revenge thriller, told out of order like a heist puzzle. Jason Statham at his coldest.",
-          "synopsis": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
-          "genres": [
-            "Action",
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "imdb": "tt11083552",
-          "tmdb": "637649",
-          "justwatch": "https://www.justwatch.com/us/movie/wrath-of-man"
-        },
-        {
-          "title": "My Octopus Teacher",
-          "year": 2020,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81045007"
-          },
-          "poster": "posters/movie-my-octopus-teacher.jpg",
-          "why": "Explore: an Oscar-winning nature documentary. A diver befriends an octopus in a South African kelp forest for a year. Short, beautiful, and surprisingly tense.",
-          "synopsis": "After years of swimming every day in the freezing ocean at the tip of Africa, Craig Foster meets an unlikely teacher: a young octopus who displays remarkable curiosity. Visiting her den and tracking her movements for months on end he eventually wins the animal’s trust and they develop a never-before-seen bond between human and wild animal.",
-          "genres": [
-            "Documentary",
-            "Drama"
-          ],
-          "imdb": "tt12888462",
-          "tmdb": "682110",
-          "justwatch": "https://www.justwatch.com/us/movie/my-octopus-teacher",
-          "tag": "explore"
+          "imdb": "tt0208092",
+          "tmdb": "107",
+          "justwatch": "https://www.justwatch.com/us/movie/snatch"
         },
         {
           "title": "Trap",
@@ -989,73 +1037,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/trap-2024"
         },
         {
-          "title": "Snatch",
-          "year": 2000,
-          "type": "movie",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.33f671bf-c752-469b-8409-b2485928d245"
-          },
-          "poster": "posters/movie-snatch.jpg",
-          "why": "Ensemble crime comedy with momentum, like Bullet Train 9.5 and Pulp Fiction.",
-          "synopsis": "Unscrupulous boxing promoters, violent bookies, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewellers fight to track down a priceless stolen diamond.",
-          "genres": [
-            "Comedy",
-            "Crime"
-          ],
-          "imdb": "tt0208092",
-          "tmdb": "107",
-          "justwatch": "https://www.justwatch.com/us/movie/snatch"
-        },
-        {
-          "title": "Boss Level",
-          "year": 2021,
-          "type": "movie",
-          "services": [
-            "Hulu"
-          ],
-          "links": {
-            "Hulu": "https://www.hulu.com/watch/622e81d6-ba3b-47f3-8e78-71fe742ade9f"
-          },
-          "poster": "posters/movie-boss-level.jpg",
-          "why": "An action time loop: an ex-soldier relives the day assassins kill him. Edge of Tomorrow (9) meets John Wick (10).",
-          "synopsis": "A former special forces agent is trapped in a time loop and relives his death over and over again. To escape the terrible situation, he must track down those responsible and stop them.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt7638348",
-          "tmdb": "513310",
-          "justwatch": "https://www.justwatch.com/us/movie/boss-level"
-        },
-        {
-          "title": "Wake Up Dead Man: A Knives Out Mystery",
-          "year": 2025,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81458424"
-          },
-          "poster": "posters/movie-wake-up-dead-man-a-knives-out-mystery.jpg",
-          "why": "Benoit Blanc's third case, an impossible-crime mystery. If Glass Onion is on your list, this is the next one.",
-          "synopsis": "When young priest Jud Duplenticy is sent to assist charismatic firebrand Monsignor Jefferson Wicks, it’s clear that all is not well in the pews. After a sudden and seemingly impossible murder rocks the town, the lack of an obvious suspect prompts local police chief Geraldine Scott to join forces with renowned detective Benoit Blanc to unravel a mystery that defies all logic.",
-          "genres": [
-            "Comedy",
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "imdb": "tt14364480",
-          "tmdb": "812583",
-          "justwatch": "https://www.justwatch.com/us/movie/wake-up-dead-man-a-knives-out-mystery"
-        },
-        {
           "title": "The Creator",
           "year": 2023,
           "type": "movie",
@@ -1077,73 +1058,6 @@
           "imdb": "tt11858890",
           "tmdb": "670292",
           "justwatch": "https://www.justwatch.com/us/movie/the-creator"
-        },
-        {
-          "title": "The Northman",
-          "year": 2022,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81502485"
-          },
-          "poster": "posters/movie-the-northman.jpg",
-          "why": "A Viking prince's brutal revenge saga, steeped in myth and visions. Dark, violent fantasy-history for the fan of Hell's Paradise (9.5) and Game of Thrones.",
-          "synopsis": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
-          "genres": [
-            "Action",
-            "Drama",
-            "Fantasy",
-            "History",
-            "Thriller"
-          ],
-          "imdb": "tt11138512",
-          "tmdb": "639933",
-          "justwatch": "https://www.justwatch.com/us/movie/the-northman"
-        },
-        {
-          "title": "Triple Frontier",
-          "year": 2019,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/80192187"
-          },
-          "poster": "posters/movie-triple-frontier.jpg",
-          "why": "Ex-special forces buddies rob a cartel kingpin's jungle stash, and the getaway goes wrong. A gritty heist-thriller that leans closer to Heat than Ocean's Eleven (7).",
-          "synopsis": "Struggling to make ends meet, former special ops soldiers reunite for a high-stakes heist: stealing $75 million from a South American drug lord.",
-          "genres": [
-            "Action",
-            "Thriller"
-          ],
-          "imdb": "tt1488606",
-          "tmdb": "399361",
-          "justwatch": "https://www.justwatch.com/us/movie/triple-frontier"
-        },
-        {
-          "title": "Hidden Figures",
-          "year": 2016,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/fef402b4-627a-4278-8eff-6e51b043513b?utm_source=universal_search"
-          },
-          "poster": "posters/movie-hidden-figures.jpg",
-          "why": "Explore pick: the true story of the Black women mathematicians who got NASA's astronauts into orbit. An acclaimed crowd-pleaser for the guy who gave The Martian a 10.",
-          "synopsis": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history – the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
-          "genres": [
-            "Drama",
-            "History"
-          ],
-          "imdb": "tt4846340",
-          "tmdb": "381284",
-          "justwatch": "https://www.justwatch.com/us/movie/hidden-figures",
-          "tag": "explore"
         },
         {
           "title": "Inside Out",
@@ -1170,6 +1084,97 @@
           "tmdb": "150540",
           "justwatch": "https://www.justwatch.com/us/movie/inside-out-2015",
           "tag": "explore"
+        },
+        {
+          "title": "Boss Level",
+          "year": 2021,
+          "type": "movie",
+          "services": [
+            "Hulu"
+          ],
+          "links": {
+            "Hulu": "https://www.hulu.com/watch/622e81d6-ba3b-47f3-8e78-71fe742ade9f"
+          },
+          "poster": "posters/movie-boss-level.jpg",
+          "why": "An action time loop: an ex-soldier relives the day assassins kill him. Edge of Tomorrow (9) meets John Wick (10).",
+          "synopsis": "A former special forces agent is trapped in a time loop and relives his death over and over again. To escape the terrible situation, he must track down those responsible and stop them.",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt7638348",
+          "tmdb": "513310",
+          "justwatch": "https://www.justwatch.com/us/movie/boss-level"
+        },
+        {
+          "title": "Guy Ritchie's The Covenant",
+          "year": 2023,
+          "type": "movie",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.2ca82caa-fa12-4c24-bf8d-4a1fd08bf6cf"
+          },
+          "poster": "posters/movie-guy-ritchies-the-covenant.jpg",
+          "why": "Jake Gyllenhaal plays a US sergeant who goes back into Afghanistan to rescue the interpreter who saved his life. Guy Ritchie, played straight and tense.",
+          "synopsis": "After an ambush, Afghan interpreter Ahmed goes to Herculean lengths to save US Army Sergeant John Kinley's life. When Kinley learns that Ahmed and his family were not given safe passage to America as promised, he must return to the war zone and repay his debt.",
+          "genres": [
+            "Action",
+            "Drama",
+            "Thriller",
+            "War"
+          ],
+          "imdb": "tt4873118",
+          "tmdb": "882569",
+          "justwatch": "https://www.justwatch.com/us/movie/guy-ritchies-the-covenant"
+        },
+        {
+          "title": "The Wild Robot",
+          "year": 2024,
+          "type": "movie",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.21ee1ac6-e382-43f4-8939-0e76f98b6664"
+          },
+          "poster": "posters/movie-the-wild-robot.jpg",
+          "why": "Explore: a robot washes up on a wild island and learns to raise a gosling. DreamWorks' best-looking film, with sci-fi survival at its core.",
+          "synopsis": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+          "genres": [
+            "Action",
+            "Animation",
+            "Family",
+            "Sci-Fi"
+          ],
+          "imdb": "tt29623480",
+          "tmdb": "1184918",
+          "justwatch": "https://www.justwatch.com/us/movie/the-wild-robot",
+          "tag": "explore"
+        },
+        {
+          "title": "Triple Frontier",
+          "year": 2019,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/80192187"
+          },
+          "poster": "posters/movie-triple-frontier.jpg",
+          "why": "Ex-special forces buddies rob a cartel kingpin's jungle stash, and the getaway goes wrong. A gritty heist-thriller that leans closer to Heat than Ocean's Eleven (7).",
+          "synopsis": "Struggling to make ends meet, former special ops soldiers reunite for a high-stakes heist: stealing $75 million from a South American drug lord.",
+          "genres": [
+            "Action",
+            "Thriller"
+          ],
+          "imdb": "tt1488606",
+          "tmdb": "399361",
+          "justwatch": "https://www.justwatch.com/us/movie/triple-frontier"
         }
       ]
     },
@@ -1249,30 +1254,6 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/invincible"
         },
         {
-          "title": "Fringe",
-          "year": 2008,
-          "type": "show",
-          "services": [
-            "Prime Video",
-            "Hulu"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.55af6ea6-e459-4e60-a93f-ded31161852a",
-            "Hulu": "https://www.hulu.com/watch/65f573ea-fd96-4e51-84b3-ae85bf59d66b"
-          },
-          "poster": "posters/show-fringe.jpg",
-          "why": "High-concept X-Files with parallel universes, built on a big mythology that pays off. It finishes on a real ending.",
-          "synopsis": "An F.B.I. agent is forced to work with an institutionalized scientist and his son in order to rationalize a brewing storm of unexplained phenomena.",
-          "genres": [
-            "Drama",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt1119644",
-          "tmdb": "1705",
-          "justwatch": "https://www.justwatch.com/us/tv-show/fringe"
-        },
-        {
           "title": "From",
           "year": 2022,
           "type": "show",
@@ -1320,27 +1301,76 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/the-outsider"
         },
         {
-          "title": "Alien: Earth",
-          "year": 2025,
+          "title": "Fringe",
+          "year": 2008,
           "type": "show",
           "services": [
+            "Prime Video",
             "Hulu"
           ],
           "links": {
-            "Hulu": "https://www.hulu.com/watch/621725c8-b460-4909-afc2-66987b3a6d88"
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.55af6ea6-e459-4e60-a93f-ded31161852a",
+            "Hulu": "https://www.hulu.com/watch/3b911a34-1e53-4e59-928c-9bdf207935fb"
           },
-          "poster": "posters/show-alien-earth.jpg",
-          "why": "Noah Hawley's Alien series: hybrids, xenomorphs, and corporate war on Earth. For your Prometheus side.",
-          "synopsis": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+          "poster": "posters/show-fringe.jpg",
+          "why": "High-concept X-Files with parallel universes, built on a big mythology that pays off. It finishes on a real ending.",
+          "synopsis": "An F.B.I. agent is forced to work with an institutionalized scientist and his son in order to rationalize a brewing storm of unexplained phenomena.",
           "genres": [
             "Drama",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt1119644",
+          "tmdb": "1705",
+          "justwatch": "https://www.justwatch.com/us/tv-show/fringe"
+        },
+        {
+          "title": "Primal",
+          "year": 2019,
+          "type": "show",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/video/watch/81e56a75-cd48-41d8-a97b-26c9071581fb?utm_source=universal_search"
+          },
+          "poster": "posters/show-primal.jpg",
+          "why": "Genndy Tartakovsky's wordless caveman-and-dinosaur saga: savage, gorgeous, and surprisingly moving. Adult animation is your highest-rated lane, and this is one of its best.",
+          "synopsis": "A caveman and a dinosaur bond over unfortunate tragedies and become each other's only hope of survival in a treacherous world.",
+          "genres": [
+            "Action",
+            "Animation",
+            "Drama",
+            "Fantasy",
+            "Horror"
+          ],
+          "imdb": "tt10332508",
+          "tmdb": "89456",
+          "justwatch": "https://www.justwatch.com/us/tv-show/primal"
+        },
+        {
+          "title": "Lovecraft Country",
+          "year": 2020,
+          "type": "show",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/video/watch/8ccdbd93-f691-4acc-84d3-538623daf4f5?utm_source=universal_search"
+          },
+          "poster": "posters/show-lovecraft-country.jpg",
+          "why": "Cosmic horror, monsters, and pulp adventure in 1950s America, a new creature every episode. The pulpy horror-series lane where The Strain and Cabinet of Curiosities scored highest.",
+          "synopsis": "The anthology horror series follows 25-year-old Atticus Freeman, who joins up with his friend Letitia and his Uncle George to embark on a road trip across 1950s Jim Crow America to find his missing father. They must survive and overcome both the racist terrors of white America and the malevolent spirits that could be ripped from a Lovecraft paperback.",
+          "genres": [
+            "Drama",
+            "Fantasy",
             "Horror",
             "Thriller",
             "Sci-Fi"
           ],
-          "imdb": "tt13623632",
-          "tmdb": "157239",
-          "justwatch": "https://www.justwatch.com/us/tv-show/alien-earth"
+          "imdb": "tt6905686",
+          "tmdb": "82816",
+          "justwatch": "https://www.justwatch.com/us/tv-show/lovecraft-country"
         },
         {
           "title": "Pantheon",
@@ -1368,6 +1398,29 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/pantheon"
         },
         {
+          "title": "Alien: Earth",
+          "year": 2025,
+          "type": "show",
+          "services": [
+            "Hulu"
+          ],
+          "links": {
+            "Hulu": "https://www.hulu.com/watch/621725c8-b460-4909-afc2-66987b3a6d88"
+          },
+          "poster": "posters/show-alien-earth.jpg",
+          "why": "Noah Hawley's Alien series: hybrids, xenomorphs, and corporate war on Earth. For your Prometheus side.",
+          "synopsis": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+          "genres": [
+            "Drama",
+            "Horror",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt13623632",
+          "tmdb": "157239",
+          "justwatch": "https://www.justwatch.com/us/tv-show/alien-earth"
+        },
+        {
           "title": "Kingdom",
           "year": 2019,
           "type": "show",
@@ -1389,6 +1442,28 @@
           "imdb": "tt6611916",
           "tmdb": "70593",
           "justwatch": "https://www.justwatch.com/us/tv-show/kingdom-2019"
+        },
+        {
+          "title": "The Expanse",
+          "year": 2015,
+          "type": "show",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0f687fc9-904c-4fa9-857b-d56932e78bcb"
+          },
+          "poster": "posters/show-the-expanse.jpg",
+          "why": "Rule-consistent hard sci-fi with a big mystery. Complete in 6 seasons. S1 starts slow, then takes off.",
+          "synopsis": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
+          "genres": [
+            "Drama",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt3230854",
+          "tmdb": "63639",
+          "justwatch": "https://www.justwatch.com/us/tv-show/the-expanse"
         },
         {
           "title": "Gen V",
@@ -1439,72 +1514,49 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/peacemaker-2022"
         },
         {
-          "title": "The Expanse",
-          "year": 2015,
-          "type": "show",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0f687fc9-904c-4fa9-857b-d56932e78bcb"
-          },
-          "poster": "posters/show-the-expanse.jpg",
-          "why": "Rule-consistent hard sci-fi with a big mystery. Complete in 6 seasons. S1 starts slow, then takes off.",
-          "synopsis": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
-          "genres": [
-            "Drama",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt3230854",
-          "tmdb": "63639",
-          "justwatch": "https://www.justwatch.com/us/tv-show/the-expanse"
-        },
-        {
-          "title": "Marianne",
-          "year": 2019,
-          "type": "show",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/80217779"
-          },
-          "poster": "posters/show-marianne.jpg",
-          "why": "French horror series: a novelist finds the witch she writes about is real and coming for her hometown. Considered one of Netflix's scariest; 8 episodes.",
-          "synopsis": "When a novelist realizes her terrifying stories are coming true, she returns to her hometown to face the demons from her past that inspire her writing.",
-          "genres": [
-            "Drama",
-            "Horror",
-            "Thriller"
-          ],
-          "imdb": "tt10875696",
-          "tmdb": "92916",
-          "justwatch": "https://www.justwatch.com/us/tv-show/marianne"
-        },
-        {
-          "title": "Lovecraft Country",
-          "year": 2020,
+          "title": "Scavengers Reign",
+          "year": 2023,
           "type": "show",
           "services": [
             "HBO Max"
           ],
           "links": {
-            "HBO Max": "https://play.hbomax.com/video/watch/8ccdbd93-f691-4acc-84d3-538623daf4f5?utm_source=universal_search"
+            "HBO Max": "https://play.hbomax.com/video/watch/59ae6631-f918-475d-bbd5-ed3978562197?utm_source=universal_search"
           },
-          "poster": "posters/show-lovecraft-country.jpg",
-          "why": "Cosmic horror, monsters, and pulp adventure in 1950s America, a new creature every episode. The pulpy horror-series lane where The Strain and Cabinet of Curiosities scored highest.",
-          "synopsis": "The anthology horror series follows 25-year-old Atticus Freeman, who joins up with his friend Letitia and his Uncle George to embark on a road trip across 1950s Jim Crow America to find his missing father. They must survive and overcome both the racist terrors of white America and the malevolent spirits that could be ripped from a Lovecraft paperback.",
+          "poster": "posters/show-scavengers-reign.jpg",
+          "why": "Stranded crew members try to survive on a beautiful, deeply hostile alien planet. Creature-feature sci-fi with Love, Death & Robots (10) ambition.",
+          "synopsis": "When a deep space freighter is damaged by a solar flare its surviving crew are stranded on a beautiful and unforgiving planet. They begin to learn the true nature of this planet as they try to survive long enough to escape or be rescued.",
           "genres": [
+            "Action",
+            "Animation",
             "Drama",
-            "Fantasy",
-            "Horror",
-            "Thriller",
             "Sci-Fi"
           ],
-          "imdb": "tt6905686",
-          "tmdb": "82816",
-          "justwatch": "https://www.justwatch.com/us/tv-show/lovecraft-country"
+          "imdb": "tt21056886",
+          "tmdb": "204154",
+          "justwatch": "https://www.justwatch.com/us/tv-show/scavengers-reign"
+        },
+        {
+          "title": "Fargo",
+          "year": 2014,
+          "type": "show",
+          "services": [
+            "Hulu"
+          ],
+          "links": {
+            "Hulu": "https://www.hulu.com/watch/7043d0b8-3dc6-41f4-8edb-8f1a1eb466a1"
+          },
+          "poster": "posters/show-fargo.jpg",
+          "why": "Crime anthology with dark comedy and escalating violence. Each season is self-contained, with an Ozark (11) vibe.",
+          "synopsis": "A close-knit anthology series dealing with stories involving malice, violence and murder based in and around Minnesota.",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt2802850",
+          "tmdb": "60622",
+          "justwatch": "https://www.justwatch.com/us/tv-show/fargo"
         },
         {
           "title": "The Penguin",
@@ -1529,26 +1581,190 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/the-penguin"
         },
         {
-          "title": "Fargo",
-          "year": 2014,
+          "title": "Marianne",
+          "year": 2019,
+          "type": "show",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/80217779"
+          },
+          "poster": "posters/show-marianne.jpg",
+          "why": "French horror series: a novelist finds the witch she writes about is real and coming for her hometown. Considered one of Netflix's scariest; 8 episodes.",
+          "synopsis": "When a novelist realizes her terrifying stories are coming true, she returns to her hometown to face the demons from her past that inspire her writing.",
+          "genres": [
+            "Drama",
+            "Horror",
+            "Thriller"
+          ],
+          "imdb": "tt10875696",
+          "tmdb": "92916",
+          "justwatch": "https://www.justwatch.com/us/tv-show/marianne"
+        },
+        {
+          "title": "Legion",
+          "year": 2017,
           "type": "show",
           "services": [
             "Hulu"
           ],
           "links": {
-            "Hulu": "https://www.hulu.com/watch/7043d0b8-3dc6-41f4-8edb-8f1a1eb466a1"
+            "Hulu": "https://www.hulu.com/watch/cc5a5347-5f5a-4e42-9230-1f22373d0933"
           },
-          "poster": "posters/show-fargo.jpg",
-          "why": "Crime anthology with dark comedy and escalating violence. Each season is self-contained, with an Ozark (11) vibe.",
-          "synopsis": "A close-knit anthology series dealing with stories involving malice, violence and murder based in and around Minnesota.",
+          "poster": "posters/show-legion.jpg",
+          "why": "Trippy X-Men-adjacent show about a mutant who may be insane. Inventive and high-concept, with 3 seasons and a full ending.",
+          "synopsis": "David Haller, AKA Legion, is a troubled young man who may be more than human. Diagnosed as schizophrenic, David has been in and out of psychiatric hospitals for years. But after a strange encounter with a fellow patient, he’s confronted with the possibility that the voices he hears and the visions he sees might be real.",
+          "genres": [
+            "Action",
+            "Drama",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt5114356",
+          "tmdb": "67195",
+          "justwatch": "https://www.justwatch.com/us/tv-show/legion"
+        },
+        {
+          "title": "The Leftovers",
+          "year": 2014,
+          "type": "show",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/video/watch/8417faec-2bd0-4135-a066-1d312b800694?utm_source=universal_search"
+          },
+          "poster": "posters/show-the-leftovers.jpg",
+          "why": "Two percent of the world vanishes and the people left behind fall apart. A slow first season that becomes one of TV's best; Lost and Dark (10) fans tend to love it.",
+          "synopsis": "When 2% of the world's population abruptly disappears without explanation, the world struggles to understand just what they're supposed to do about it. This is the story of the people who didn't make the cut.",
+          "genres": [
+            "Drama",
+            "Fantasy",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt2699128",
+          "tmdb": "54344",
+          "justwatch": "https://www.justwatch.com/us/tv-show/the-leftovers"
+        },
+        {
+          "title": "Castlevania: Nocturne",
+          "year": 2023,
+          "type": "show",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81436901"
+          },
+          "poster": "posters/show-castlevania-nocturne.jpg",
+          "why": "Follow-up to Castlevania (your 9). Dark fantasy action, set during the French Revolution.",
+          "synopsis": "As revolution sweeps France, Richter Belmont fights to uphold his family's legacy and prevent the rise of a ruthless, power-hungry vampire ruler.",
+          "genres": [
+            "Action",
+            "Animation",
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt14833612",
+          "tmdb": "123548",
+          "justwatch": "https://www.justwatch.com/us/tv-show/castlevania-nocturne"
+        },
+        {
+          "title": "Parasyte: The Grey",
+          "year": 2024,
+          "type": "show",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81194158"
+          },
+          "poster": "posters/show-parasyte-the-grey.jpg",
+          "why": "Parasitic aliens take over human hosts in Korea, from the Train to Busan director. Six tight episodes of body horror action.",
+          "synopsis": "When unidentified parasites violently take over human hosts and gain power, humanity must rise to combat the growing threat.",
+          "genres": [
+            "Action",
+            "Drama",
+            "Horror",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt21874396",
+          "tmdb": "208825",
+          "justwatch": "https://www.justwatch.com/us/tv-show/parasyte-the-grey"
+        },
+        {
+          "title": "Travelers",
+          "year": 2016,
+          "type": "show",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/80105699"
+          },
+          "poster": "posters/show-travelers.jpg",
+          "why": "Future operatives' minds are sent into people about to die, to stop a collapse. Time-travel rules with Dark-style consequences, complete in 3 seasons.",
+          "synopsis": "Hundreds of years from now, the last surviving humans discover the means of sending consciousness back through time, directly into people in the 21st century. These \"travelers\" assume the lives of seemingly random people, while secretly working as teams to perform missions in order to save humanity from a terrible future.",
+          "genres": [
+            "Drama",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt5651844",
+          "tmdb": "67683",
+          "justwatch": "https://www.justwatch.com/us/tv-show/travelers"
+        },
+        {
+          "title": "True Detective",
+          "year": 2014,
+          "type": "show",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/video/watch/c8b6375a-061d-4c29-89fc-775ff6ac5105?utm_source=universal_search"
+          },
+          "poster": "posters/show-true-detective.jpg",
+          "why": "Season 1 is an occult-tinged serial-killer case told across two timelines. Standalone, so you can stop after it.",
+          "synopsis": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
           "genres": [
             "Crime",
             "Drama",
             "Thriller"
           ],
-          "imdb": "tt2802850",
-          "tmdb": "60622",
-          "justwatch": "https://www.justwatch.com/us/tv-show/fargo"
+          "imdb": "tt2356777",
+          "tmdb": "46648",
+          "justwatch": "https://www.justwatch.com/us/tv-show/true-detective"
+        },
+        {
+          "title": "Person of Interest",
+          "year": 2011,
+          "type": "show",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.a2b82fa2-7657-545a-3621-820a20b00ef3"
+          },
+          "poster": "posters/show-person-of-interest.jpg",
+          "why": "An AI predicts crimes and two men act on its numbers. It turns into a superintelligence war, and it ends well.",
+          "synopsis": "John Reese, former CIA paramilitary operative, is presumed dead and teams up with reclusive billionaire Finch to prevent violent crimes in New York City by initiating their own type of justice. With the special training that Reese has had in Covert Operations and Finch's genius software inventing mind, the two are a perfect match for the job that they have to complete. With the help of surveillance equipment, they work \"outside the law\" and get the right criminal behind bars.",
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt1839578",
+          "tmdb": "1411",
+          "justwatch": "https://www.justwatch.com/us/tv-show/person-of-interest"
         },
         {
           "title": "Cassandra",
@@ -1574,28 +1790,72 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/cassandra"
         },
         {
-          "title": "Parasyte: The Grey",
-          "year": 2024,
+          "title": "Blue Eye Samurai",
+          "year": 2023,
           "type": "show",
           "services": [
             "Netflix"
           ],
           "links": {
-            "Netflix": "https://www.netflix.com/title/81194158"
+            "Netflix": "https://www.netflix.com/title/81144203"
           },
-          "poster": "posters/show-parasyte-the-grey.jpg",
-          "why": "Parasitic aliens take over human hosts in Korea, from the Train to Busan director. Six tight episodes of body horror action.",
-          "synopsis": "When unidentified parasites violently take over human hosts and gain power, humanity must rise to combat the growing threat.",
+          "poster": "posters/show-blue-eye-samurai.jpg",
+          "why": "A revenge epic in Edo Japan with stunning animation. Its action-and-plot balance is like Castlevania (9).",
+          "synopsis": "In Edo-period Japan, a young warrior driven by a dream of revenge cuts a bloody path toward destiny.",
+          "genres": [
+            "Action",
+            "Animation",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt13309742",
+          "tmdb": "225180",
+          "justwatch": "https://www.justwatch.com/us/tv-show/blue-eye-samurai"
+        },
+        {
+          "title": "Mindhunter",
+          "year": 2017,
+          "type": "show",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/80114855"
+          },
+          "poster": "posters/show-mindhunter.jpg",
+          "why": "Two FBI agents interview imprisoned serial killers to invent criminal profiling. A crime show built on unnerving conversations, closer to Hannibal than to a procedural.",
+          "synopsis": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt5290382",
+          "tmdb": "67744",
+          "justwatch": "https://www.justwatch.com/us/tv-show/mindhunter"
+        },
+        {
+          "title": "Band of Brothers",
+          "year": 2001,
+          "type": "show",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/video/watch/2f2fb00b-c1eb-4bd2-a116-8be38f4571ca?utm_source=universal_search"
+          },
+          "poster": "posters/show-band-of-brothers.jpg",
+          "why": "The definitive WWII miniseries: one paratrooper company from D-Day to the end of the war. Ten episodes. You gave Shōgun and Chernobyl 9s, and this is the same caliber of history TV.",
+          "synopsis": "Drawn from interviews with survivors of Easy Company, as well as their journals and letters, Band of Brothers chronicles the experiences of these men from paratrooper training in Georgia through the end of the war. As an elite rifle company parachuting into Normandy early on D-Day morning, participants in the Battle of the Bulge, and witness to the horrors of war, the men of Easy knew extraordinary bravery and extraordinary fear - and became the stuff of legend. Based on Stephen E. Ambrose's acclaimed book of the same name.",
           "genres": [
             "Action",
             "Drama",
-            "Horror",
-            "Thriller",
-            "Sci-Fi"
+            "History",
+            "War"
           ],
-          "imdb": "tt21874396",
-          "tmdb": "208825",
-          "justwatch": "https://www.justwatch.com/us/tv-show/parasyte-the-grey"
+          "imdb": "tt0185906",
+          "tmdb": "4613",
+          "justwatch": "https://www.justwatch.com/us/tv-show/band-of-brothers"
         },
         {
           "title": "All of Us Are Dead",
@@ -1623,97 +1883,6 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/all-of-us-are-dead"
         },
         {
-          "title": "Legion",
-          "year": 2017,
-          "type": "show",
-          "services": [
-            "Hulu"
-          ],
-          "links": {
-            "Hulu": "https://www.hulu.com/watch/cc5a5347-5f5a-4e42-9230-1f22373d0933"
-          },
-          "poster": "posters/show-legion.jpg",
-          "why": "Trippy X-Men-adjacent show about a mutant who may be insane. Inventive and high-concept, with 3 seasons and a full ending.",
-          "synopsis": "David Haller, AKA Legion, is a troubled young man who may be more than human. Diagnosed as schizophrenic, David has been in and out of psychiatric hospitals for years. But after a strange encounter with a fellow patient, he’s confronted with the possibility that the voices he hears and the visions he sees might be real.",
-          "genres": [
-            "Action",
-            "Drama",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt5114356",
-          "tmdb": "67195",
-          "justwatch": "https://www.justwatch.com/us/tv-show/legion"
-        },
-        {
-          "title": "Travelers",
-          "year": 2016,
-          "type": "show",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/80105699"
-          },
-          "poster": "posters/show-travelers.jpg",
-          "why": "Future operatives' minds are sent into people about to die, to stop a collapse. Time-travel rules with Dark-style consequences, complete in 3 seasons.",
-          "synopsis": "Hundreds of years from now, the last surviving humans discover the means of sending consciousness back through time, directly into people in the 21st century. These \"travelers\" assume the lives of seemingly random people, while secretly working as teams to perform missions in order to save humanity from a terrible future.",
-          "genres": [
-            "Drama",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt5651844",
-          "tmdb": "67683",
-          "justwatch": "https://www.justwatch.com/us/tv-show/travelers"
-        },
-        {
-          "title": "Person of Interest",
-          "year": 2011,
-          "type": "show",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.a2b82fa2-7657-545a-3621-820a20b00ef3"
-          },
-          "poster": "posters/show-person-of-interest.jpg",
-          "why": "An AI predicts crimes and two men act on its numbers. It turns into a superintelligence war, and it ends well.",
-          "synopsis": "John Reese, former CIA paramilitary operative, is presumed dead and teams up with reclusive billionaire Finch to prevent violent crimes in New York City by initiating their own type of justice. With the special training that Reese has had in Covert Operations and Finch's genius software inventing mind, the two are a perfect match for the job that they have to complete. With the help of surveillance equipment, they work \"outside the law\" and get the right criminal behind bars.",
-          "genres": [
-            "Action",
-            "Crime",
-            "Drama",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt1839578",
-          "tmdb": "1411",
-          "justwatch": "https://www.justwatch.com/us/tv-show/person-of-interest"
-        },
-        {
-          "title": "True Detective",
-          "year": 2014,
-          "type": "show",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/video/watch/c8b6375a-061d-4c29-89fc-775ff6ac5105?utm_source=universal_search"
-          },
-          "poster": "posters/show-true-detective.jpg",
-          "why": "Season 1 is an occult-tinged serial-killer case told across two timelines. Standalone, so you can stop after it.",
-          "synopsis": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
-          "genres": [
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "imdb": "tt2356777",
-          "tmdb": "46648",
-          "justwatch": "https://www.justwatch.com/us/tv-show/true-detective"
-        },
-        {
           "title": "Lost",
           "year": 2004,
           "type": "show",
@@ -1738,30 +1907,28 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/lost"
         },
         {
-          "title": "Castlevania: Nocturne",
-          "year": 2023,
+          "title": "The Sandman",
+          "year": 2022,
           "type": "show",
           "services": [
             "Netflix"
           ],
           "links": {
-            "Netflix": "https://www.netflix.com/title/81436901"
+            "Netflix": "https://www.netflix.com/title/81150303"
           },
-          "poster": "posters/show-castlevania-nocturne.jpg",
-          "why": "Follow-up to Castlevania (your 9). Dark fantasy action, set during the French Revolution.",
-          "synopsis": "As revolution sweeps France, Richter Belmont fights to uphold his family's legacy and prevent the rise of a ruthless, power-hungry vampire ruler.",
+          "poster": "posters/show-the-sandman.jpg",
+          "why": "Dream-king fantasy from Neil Gaiman, made of distinct arcs. Includes a standout horror diner episode.",
+          "synopsis": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.",
           "genres": [
             "Action",
-            "Animation",
             "Drama",
             "Fantasy",
             "Horror",
-            "Thriller",
             "Sci-Fi"
           ],
-          "imdb": "tt14833612",
-          "tmdb": "123548",
-          "justwatch": "https://www.justwatch.com/us/tv-show/castlevania-nocturne"
+          "imdb": "tt1751634",
+          "tmdb": "90802",
+          "justwatch": "https://www.justwatch.com/us/tv-show/the-sandman"
         },
         {
           "title": "Creature Commandos",
@@ -1792,80 +1959,6 @@
           "imdb": "tt26545355",
           "tmdb": "219543",
           "justwatch": "https://www.justwatch.com/us/tv-show/creature-commandos"
-        },
-        {
-          "title": "Harley Quinn",
-          "year": 2019,
-          "type": "show",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/video/watch/706a1d3d-192f-4340-8558-d332417b4030?utm_source=universal_search"
-          },
-          "poster": "posters/show-harley-quinn.jpg",
-          "why": "Archer-style adult animated action comedy with a strong cast and a fast pace.",
-          "synopsis": "Harley Quinn has finally broken things off once and for all with the Joker. Now, she's trying to make it on her own as the criminal Queenpin of Gotham City, with help from Poison Ivy and a ragtag crew of DC castoffs.",
-          "genres": [
-            "Action",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Fantasy",
-            "Thriller",
-            "Romance",
-            "Sci-Fi"
-          ],
-          "imdb": "tt7658402",
-          "tmdb": "74440",
-          "justwatch": "https://www.justwatch.com/us/tv-show/harley-quinn"
-        },
-        {
-          "title": "The Boys Presents: Diabolical",
-          "year": 2022,
-          "type": "show",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.f4322013-3038-4236-8e69-4be5ff3902d4"
-          },
-          "poster": "posters/show-the-boys-diabolical.jpg",
-          "why": "An animated The Boys (10) anthology in Love, Death & Robots (10) form: short, savage, and wildly varied.",
-          "synopsis": "A collection of animated short stories that takes place inside The Boys (2019) universe.",
-          "genres": [
-            "Action",
-            "Animation",
-            "Comedy",
-            "Drama",
-            "Sci-Fi"
-          ],
-          "imdb": "tt16350094",
-          "tmdb": "152483",
-          "justwatch": "https://www.justwatch.com/us/tv-show/the-boys-diabolical"
-        },
-        {
-          "title": "Blue Eye Samurai",
-          "year": 2023,
-          "type": "show",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81144203"
-          },
-          "poster": "posters/show-blue-eye-samurai.jpg",
-          "why": "A revenge epic in Edo Japan with stunning animation. Its action-and-plot balance is like Castlevania (9).",
-          "synopsis": "In Edo-period Japan, a young warrior driven by a dream of revenge cuts a bloody path toward destiny.",
-          "genres": [
-            "Action",
-            "Animation",
-            "Drama",
-            "Thriller"
-          ],
-          "imdb": "tt13309742",
-          "tmdb": "225180",
-          "justwatch": "https://www.justwatch.com/us/tv-show/blue-eye-samurai"
         },
         {
           "title": "Orphan Black",
@@ -1913,28 +2006,31 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/barry"
         },
         {
-          "title": "The Sandman",
-          "year": 2022,
+          "title": "Harley Quinn",
+          "year": 2019,
           "type": "show",
           "services": [
-            "Netflix"
+            "HBO Max"
           ],
           "links": {
-            "Netflix": "https://www.netflix.com/title/81150303"
+            "HBO Max": "https://play.hbomax.com/video/watch/706a1d3d-192f-4340-8558-d332417b4030?utm_source=universal_search"
           },
-          "poster": "posters/show-the-sandman.jpg",
-          "why": "Dream-king fantasy from Neil Gaiman, made of distinct arcs. Includes a standout horror diner episode.",
-          "synopsis": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.",
+          "poster": "posters/show-harley-quinn.jpg",
+          "why": "Archer-style adult animated action comedy with a strong cast and a fast pace.",
+          "synopsis": "Harley Quinn has finally broken things off once and for all with the Joker. Now, she's trying to make it on her own as the criminal Queenpin of Gotham City, with help from Poison Ivy and a ragtag crew of DC castoffs.",
           "genres": [
             "Action",
-            "Drama",
+            "Animation",
+            "Comedy",
+            "Crime",
             "Fantasy",
-            "Horror",
+            "Thriller",
+            "Romance",
             "Sci-Fi"
           ],
-          "imdb": "tt1751634",
-          "tmdb": "90802",
-          "justwatch": "https://www.justwatch.com/us/tv-show/the-sandman"
+          "imdb": "tt7658402",
+          "tmdb": "74440",
+          "justwatch": "https://www.justwatch.com/us/tv-show/harley-quinn"
         },
         {
           "title": "The Legend of Vox Machina",
@@ -1993,7 +2089,7 @@
             "Hulu"
           ],
           "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.590d6f06-3aae-484c-b1c5-992a01067e2f",
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.64897d2a-792f-4931-bd39-363f5372e8e8",
             "Hulu": "https://www.hulu.com/watch/3c5c95a2-14f7-44d1-b94f-bae04f4dcf78"
           },
           "poster": "posters/show-snowpiercer.jpg",
@@ -2032,52 +2128,6 @@
           "imdb": "tt9811316",
           "tmdb": "133903",
           "justwatch": "https://www.justwatch.com/us/tv-show/marvels-hit-monkey"
-        },
-        {
-          "title": "X-Men '97",
-          "year": 2024,
-          "type": "show",
-          "services": [
-            "Disney+"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-8dc91ed4-cdca-4fab-9723-d3d42f382d34"
-          },
-          "poster": "posters/show-x-men-97.jpg",
-          "why": "A revival of the 90s cartoon that's genuinely great. Big twists, and escalating like a superhero Game of Thrones.",
-          "synopsis": "The X-Men, a band of mutants who use their uncanny gifts to protect a world that hates and fears them, are challenged like never before, forced to face a dangerous and unexpected new future.",
-          "genres": [
-            "Action",
-            "Animation",
-            "Drama",
-            "Sci-Fi"
-          ],
-          "imdb": "tt16026746",
-          "tmdb": "138502",
-          "justwatch": "https://www.justwatch.com/us/tv-show/x-men-97"
-        },
-        {
-          "title": "Loki",
-          "year": 2021,
-          "type": "show",
-          "services": [
-            "Disney+"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-8f8c5cbb-e5ba-4285-9e2c-86abcac9fd50"
-          },
-          "poster": "posters/show-loki.jpg",
-          "why": "The MCU's best show is a time-bureaucracy heist. Season 2's finale is a real ending.",
-          "synopsis": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”",
-          "genres": [
-            "Action",
-            "Drama",
-            "Fantasy",
-            "Sci-Fi"
-          ],
-          "imdb": "tt9140554",
-          "tmdb": "84958",
-          "justwatch": "https://www.justwatch.com/us/tv-show/loki"
         },
         {
           "title": "WandaVision",
@@ -2195,29 +2245,6 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/the-gentlemen"
         },
         {
-          "title": "The Lord of the Rings: The Rings of Power",
-          "year": 2022,
-          "type": "show",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
-          },
-          "poster": "posters/show-the-lord-of-the-rings-the-rings-of-power.jpg",
-          "why": "Middle-earth's Second Age: Sauron's rise and the forging of the rings. Uneven, but huge for a Fellowship (12) fan, and season 2 is darker and better.",
-          "synopsis": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
-          "genres": [
-            "Action",
-            "Drama",
-            "Fantasy",
-            "Sci-Fi"
-          ],
-          "imdb": "tt7631058",
-          "tmdb": "84773",
-          "justwatch": "https://www.justwatch.com/us/tv-show/the-lord-of-the-rings-the-rings-of-power"
-        },
-        {
           "title": "His Dark Materials",
           "year": 2019,
           "type": "show",
@@ -2239,6 +2266,29 @@
           "imdb": "tt5607976",
           "tmdb": "68507",
           "justwatch": "https://www.justwatch.com/us/tv-show/his-dark-materials"
+        },
+        {
+          "title": "The Lord of the Rings: The Rings of Power",
+          "year": 2022,
+          "type": "show",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
+          },
+          "poster": "posters/show-the-lord-of-the-rings-the-rings-of-power.jpg",
+          "why": "Middle-earth's Second Age: Sauron's rise and the forging of the rings. Uneven, but huge for a Fellowship (12) fan, and season 2 is darker and better.",
+          "synopsis": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
+          "genres": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Sci-Fi"
+          ],
+          "imdb": "tt7631058",
+          "tmdb": "84773",
+          "justwatch": "https://www.justwatch.com/us/tv-show/the-lord-of-the-rings-the-rings-of-power"
         },
         {
           "title": "Russian Doll",
@@ -2293,7 +2343,7 @@
             "Prime Video"
           ],
           "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0d1017d2-7fe2-4cbb-9faf-aa044e990486"
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.d78e6ee5-4791-4006-8851-0c0a5f2174d4"
           },
           "poster": "posters/show-good-omens.jpg",
           "why": "An angel and a demon try to stop the apocalypse. Gaiman and Pratchett dark-comedy fantasy, Futurama-level wit.",
@@ -2307,56 +2357,11 @@
           "imdb": "tt1869454",
           "tmdb": "71915",
           "justwatch": "https://www.justwatch.com/us/tv-show/good-omens"
-        },
-        {
-          "title": "Band of Brothers",
-          "year": 2001,
-          "type": "show",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/video/watch/2f2fb00b-c1eb-4bd2-a116-8be38f4571ca?utm_source=universal_search"
-          },
-          "poster": "posters/show-band-of-brothers.jpg",
-          "why": "The definitive WWII miniseries: one paratrooper company from D-Day to the end of the war. Ten episodes. You gave Shōgun and Chernobyl 9s, and this is the same caliber of history TV.",
-          "synopsis": "Drawn from interviews with survivors of Easy Company, as well as their journals and letters, Band of Brothers chronicles the experiences of these men from paratrooper training in Georgia through the end of the war. As an elite rifle company parachuting into Normandy early on D-Day morning, participants in the Battle of the Bulge, and witness to the horrors of war, the men of Easy knew extraordinary bravery and extraordinary fear - and became the stuff of legend. Based on Stephen E. Ambrose's acclaimed book of the same name.",
-          "genres": [
-            "Action",
-            "Drama",
-            "History",
-            "War"
-          ],
-          "imdb": "tt0185906",
-          "tmdb": "4613",
-          "justwatch": "https://www.justwatch.com/us/tv-show/band-of-brothers"
-        },
-        {
-          "title": "Mindhunter",
-          "year": 2017,
-          "type": "show",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/80114855"
-          },
-          "poster": "posters/show-mindhunter.jpg",
-          "why": "Two FBI agents interview imprisoned serial killers to invent criminal profiling. A crime show built on unnerving conversations, closer to Hannibal than to a procedural.",
-          "synopsis": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
-          "genres": [
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "imdb": "tt5290382",
-          "tmdb": "67744",
-          "justwatch": "https://www.justwatch.com/us/tv-show/mindhunter"
         }
       ]
     }
   ],
-  "availability_note": "Subscription availability checked on JustWatch US. Movies and Shows 2026-10-28, Anime 2026-10-29",
+  "availability_note": "Subscription availability checked on JustWatch US on 2026-10-30",
   "schema": {
     "rows[].items[]": "title, year, type (movie|show), services[], links{service:web URL}, poster (relative path), why, synopsis, genres[], imdb, tmdb, justwatch",
     "services{}": "badge color + Android TV package used for the 'Open in app' intent",
@@ -2392,6 +2397,38 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/parasyte-the-maxim"
       },
       {
+        "title": "Vinland Saga",
+        "year": 2019,
+        "type": "show",
+        "services": [
+          "Netflix",
+          "Crunchyroll",
+          "Prime Video",
+          "Hulu",
+          "HIDIVE"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/81249833",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GWDU8JM52",
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.80d4a3ed-21d5-4ed1-b3f4-054b29da3ec2",
+          "Hulu": "https://www.hulu.com/watch/8d2734c1-abf0-4877-b7c3-233fbbc96819",
+          "HIDIVE": "https://www.hidive.com/interstitial/562248"
+        },
+        "poster": "posters/anime-vinland-saga.jpg",
+        "why": "Viking revenge epic. Season 1 is relentless; it's for your Game of Thrones and Frieren side.",
+        "synopsis": "For a thousand years, the Vikings have made quite a name and reputation for themselves as the strongest families with a thirst for violence. Thorfinn, the son of one of the Vikings' greatest warriors, spends his boyhood in a battlefield enhancing his skills in his adventure to redeem his most-desired revenge after his father was murdered.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "History",
+          "War"
+        ],
+        "imdb": "tt10233448",
+        "tmdb": "88803",
+        "justwatch": "https://www.justwatch.com/us/tv-show/vinland-saga"
+      },
+      {
         "title": "Made in Abyss",
         "year": 2017,
         "type": "show",
@@ -2417,61 +2454,6 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/made-in-abyss"
       },
       {
-        "title": "Vinland Saga",
-        "year": 2019,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Crunchyroll",
-          "Prime Video",
-          "Hulu",
-          "HIDIVE"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81249833",
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGWDU8JM52&subId3=justappsvod",
-          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.80d4a3ed-21d5-4ed1-b3f4-054b29da3ec2",
-          "Hulu": "https://www.hulu.com/watch/8d2734c1-abf0-4877-b7c3-233fbbc96819",
-          "HIDIVE": "https://www.hidive.com/interstitial/562248"
-        },
-        "poster": "posters/anime-vinland-saga.jpg",
-        "why": "Viking revenge epic. Season 1 is relentless; it's for your Game of Thrones and Frieren side.",
-        "synopsis": "For a thousand years, the Vikings have made quite a name and reputation for themselves as the strongest families with a thirst for violence. Thorfinn, the son of one of the Vikings' greatest warriors, spends his boyhood in a battlefield enhancing his skills in his adventure to redeem his most-desired revenge after his father was murdered.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "History",
-          "War"
-        ],
-        "imdb": "tt10233448",
-        "tmdb": "88803",
-        "justwatch": "https://www.justwatch.com/us/tv-show/vinland-saga"
-      },
-      {
-        "title": "Monster",
-        "year": 2004,
-        "type": "show",
-        "services": [
-          "Netflix"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81409869"
-        },
-        "poster": "posters/anime-monster.jpg",
-        "why": "A surgeon saves the wrong boy, then spends years hunting the killer he became. Slow-burn mystery thriller often named one of anime's best.",
-        "synopsis": "Kenzou Tenma, a Japanese brain surgeon in Germany, finds his life in utter turmoil after getting involved with a psychopath that was once a former patient.",
-        "genres": [
-          "Animation",
-          "Crime",
-          "Drama",
-          "Thriller"
-        ],
-        "imdb": "tt0434706",
-        "tmdb": "30981",
-        "justwatch": "https://www.justwatch.com/us/tv-show/monster"
-      },
-      {
         "title": "Golden Kamuy",
         "year": 2018,
         "type": "show",
@@ -2479,7 +2461,7 @@
           "Crunchyroll"
         ],
         "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FG14UVJJN0&subId3=justappsvod"
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GQJUM00VM"
         },
         "poster": "posters/anime-golden-kamuy.jpg",
         "why": "A brutal survival-treasure hunt in Hokkaido after the Russo-Japanese War. The violence and dark comedy of Hell's Paradise (9.5).",
@@ -2497,6 +2479,29 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/golden-kamuy"
       },
       {
+        "title": "Hellsing Ultimate",
+        "year": 2006,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GR092X8VR"
+        },
+        "poster": "posters/anime-hellsing-ultimate.jpg",
+        "why": "An unstoppable vampire works for the Protestant church against Nazis and the Vatican. Gloriously excessive gothic action, 10 OVAs.",
+        "synopsis": "For over a century, the mysterious Hellsing Organization has been secretly protecting the British Empire from the undead. When Sir Integra Hellsing succeeded as the head of the organization, she also inherited the ultimate weapon against these supernatural enemies: Alucard, a rogue vampire possessing mysterious and frightening powers. Now, Hellsing must deal with a more dangerous threat than vampires.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Fantasy",
+          "Horror"
+        ],
+        "imdb": "tt0495212",
+        "tmdb": "61752",
+        "justwatch": "https://www.justwatch.com/us/tv-show/hellsing-ultimate"
+      },
+      {
         "title": "Dorohedoro",
         "year": 2020,
         "type": "show",
@@ -2508,7 +2513,7 @@
         "links": {
           "Netflix": "https://www.netflix.com/title/80991903",
           "Hulu": "https://www.hulu.com/watch/22effa9d-05bb-4768-b6f4-9f85f6d0131a",
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00375235JAJP&subId3=justappsvod"
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00375235JAJP"
         },
         "poster": "posters/anime-dorohedoro.jpg",
         "why": "A man with a lizard head hunts the sorcerer who cursed him. Dark comedy gore in a grimy world.",
@@ -2552,27 +2557,27 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/ragna-crimson"
       },
       {
-        "title": "Hellsing Ultimate",
-        "year": 2006,
+        "title": "Monster",
+        "year": 2004,
         "type": "show",
         "services": [
-          "Crunchyroll"
+          "Netflix"
         ],
         "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGR092X8VR&subId3=justappsvod"
+          "Netflix": "https://www.netflix.com/title/81409869"
         },
-        "poster": "posters/anime-hellsing-ultimate.jpg",
-        "why": "An unstoppable vampire works for the Protestant church against Nazis and the Vatican. Gloriously excessive gothic action, 10 OVAs.",
-        "synopsis": "For over a century, the mysterious Hellsing Organization has been secretly protecting the British Empire from the undead. When Sir Integra Hellsing succeeded as the head of the organization, she also inherited the ultimate weapon against these supernatural enemies: Alucard, a rogue vampire possessing mysterious and frightening powers. Now, Hellsing must deal with a more dangerous threat than vampires.",
+        "poster": "posters/anime-monster.jpg",
+        "why": "A surgeon saves the wrong boy, then spends years hunting the killer he became. Slow-burn mystery thriller often named one of anime's best.",
+        "synopsis": "Kenzou Tenma, a Japanese brain surgeon in Germany, finds his life in utter turmoil after getting involved with a psychopath that was once a former patient.",
         "genres": [
-          "Action",
           "Animation",
-          "Fantasy",
-          "Horror"
+          "Crime",
+          "Drama",
+          "Thriller"
         ],
-        "imdb": "tt0495212",
-        "tmdb": "61752",
-        "justwatch": "https://www.justwatch.com/us/tv-show/hellsing-ultimate"
+        "imdb": "tt0434706",
+        "tmdb": "30981",
+        "justwatch": "https://www.justwatch.com/us/tv-show/monster"
       },
       {
         "title": "Heavenly Delusion",
@@ -2598,29 +2603,6 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/heavenly-delusion"
       },
       {
-        "title": "Summer Time Rendering",
-        "year": 2022,
-        "type": "show",
-        "services": [
-          "Hulu"
-        ],
-        "links": {
-          "Hulu": "https://www.hulu.com/watch/a87be2de-54d2-472c-88a3-d2123a674331"
-        },
-        "poster": "posters/anime-summer-time-rendering.jpg",
-        "why": "Time-loop sci-fi mystery on an island where doppelgangers are killing people. Closest anime to Dark (10), and fully completed.",
-        "synopsis": "Shinpei Ajiro travels home to attend the funeral of a childhood friend, and finds the remote island plagued by a sinister, supernatural force.",
-        "genres": [
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Thriller"
-        ],
-        "imdb": "tt15686254",
-        "tmdb": "117933",
-        "justwatch": "https://www.justwatch.com/us/tv-show/summer-time-rendering"
-      },
-      {
         "title": "Devilman Crybaby",
         "year": 2018,
         "type": "show",
@@ -2644,6 +2626,79 @@
         "imdb": "tt6660498",
         "tmdb": "75208",
         "justwatch": "https://www.justwatch.com/us/tv-show/devilman-crybaby"
+      },
+      {
+        "title": "Dororo",
+        "year": 2019,
+        "type": "show",
+        "services": [
+          "Prime Video",
+          "Hulu",
+          "HIDIVE"
+        ],
+        "links": {
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.f0b2865f-3270-43c6-90f2-5eb0ec6780cc",
+          "Hulu": "https://www.hulu.com/watch/0993e8cb-1586-4c8b-bae9-e4c5f05b78ce",
+          "HIDIVE": "https://www.hidive.com/interstitial/560662"
+        },
+        "poster": "posters/anime-dororo.jpg",
+        "why": "A samurai missing 48 body parts kills demons to win them back. Dark fantasy with monster-of-the-week momentum.",
+        "synopsis": "During the Warring States period, the young thief Dororo encounters Hyakkimaru, a strange, sightless boy who wields fearsome prosthetics in place of his missing limbs. Parts of Hyakkimaru’s body were traded to a group of 12 demons by his father in exchange for power, but thanks to a kindly medicine man, Hyakkimaru survived his horrifying ordeal. Now he roams the land in search of his missing body, and together he and Dororo will fight to survive in an unforgiving, demon-plagued world.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Fantasy",
+          "Horror"
+        ],
+        "imdb": "tt9458304",
+        "tmdb": "83100",
+        "justwatch": "https://www.justwatch.com/us/tv-show/dororo"
+      },
+      {
+        "title": "Blade of the Immortal",
+        "year": 2008,
+        "type": "show",
+        "services": [
+          "HIDIVE"
+        ],
+        "links": {
+          "HIDIVE": "https://www.hidive.com/interstitial/550042"
+        },
+        "poster": "posters/anime-blade-of-the-immortal.jpg",
+        "why": "A cursed immortal samurai must kill 1,000 evil men to die. Grimy swordplay and dark violence.",
+        "synopsis": "Manji is a crass, violent samurai with a special ability: he cannot die. Cursed with immortality by the nun Yobikuni as punishment for his ruthless deeds, he has grown weary of his ageless life. The only way to lift the curse is to slay 1,000 evil men. So Manji wanders Japan, shedding the blood of the wicked on his quest to finally die.",
+        "genres": [
+          "Action",
+          "Animation",
+          "History",
+          "Horror"
+        ],
+        "imdb": "tt1208358",
+        "tmdb": "34697",
+        "justwatch": "https://www.justwatch.com/us/tv-show/blade-of-the-immortal"
+      },
+      {
+        "title": "Summer Time Rendering",
+        "year": 2022,
+        "type": "show",
+        "services": [
+          "Hulu"
+        ],
+        "links": {
+          "Hulu": "https://www.hulu.com/watch/a87be2de-54d2-472c-88a3-d2123a674331"
+        },
+        "poster": "posters/anime-summer-time-rendering.jpg",
+        "why": "Time-loop sci-fi mystery on an island where doppelgangers are killing people. Closest anime to Dark (10), and fully completed.",
+        "synopsis": "Shinpei Ajiro travels home to attend the funeral of a childhood friend, and finds the remote island plagued by a sinister, supernatural force.",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Thriller"
+        ],
+        "imdb": "tt15686254",
+        "tmdb": "117933",
+        "justwatch": "https://www.justwatch.com/us/tv-show/summer-time-rendering"
       },
       {
         "title": "Death Note",
@@ -2682,7 +2737,7 @@
           "Crunchyroll"
         ],
         "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FG4VUQ1G55&subId3=justappsvod"
+          "Crunchyroll": "https://www.crunchyroll.com/watch/G4VUQ1G55"
         },
         "poster": "posters/anime-code-geass-lelouch-of-the-rebellion.jpg",
         "why": "A strategic mastermind with one rule-bound power, plus mecha war and constant reversals. Complete in 2 seasons.",
@@ -2700,6 +2755,144 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/code-geass-lelouch-of-the-rebellion"
       },
       {
+        "title": "Kabaneri of the Iron Fortress",
+        "year": 2016,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://www.crunchyroll.com/watch/G6G5E1336"
+        },
+        "poster": "posters/anime-kabaneri-of-the-iron-fortress.jpg",
+        "why": "Steampunk armored trains vs. hordes of undead Kabane, from the studio behind Attack on Titan. Stylish creature action.",
+        "synopsis": "In the midst of an industrial revolution, the people of Hinomoto fight hordes of undead creatures, known as Kabane, using powerful armored trains.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "imdb": "tt5556656",
+        "tmdb": "65945",
+        "justwatch": "https://www.justwatch.com/us/tv-show/kabaneri-of-the-iron-fortress"
+      },
+      {
+        "title": "Sword of the Demon Hunter",
+        "year": 2025,
+        "type": "show",
+        "services": [
+          "Hulu",
+          "HIDIVE"
+        ],
+        "links": {
+          "Hulu": "https://www.hulu.com/watch/09a85ac7-cada-4635-b155-5a6c3dba916d",
+          "HIDIVE": "https://www.hidive.com/interstitial/778107"
+        },
+        "poster": "posters/anime-sword-of-the-demon-hunter.jpg",
+        "why": "A swordsman fights demons through a century-spanning historical epic. Dark fantasy swordplay.",
+        "synopsis": "Jinta journeys through a century-spanning epic, all while questioning why he wields a sword.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "History",
+          "Sci-Fi"
+        ],
+        "imdb": "tt32281073",
+        "tmdb": "133154",
+        "justwatch": "https://www.justwatch.com/us/tv-show/sword-of-the-demon-hunter-kijin-gentosho"
+      },
+      {
+        "title": "Gachiakuta",
+        "year": 2025,
+        "type": "show",
+        "services": [
+          "Hulu",
+          "Crunchyroll"
+        ],
+        "links": {
+          "Hulu": "https://www.hulu.com/watch/5307a3b5-fc45-413e-bf74-632e67c9ef52",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00352502PLPL"
+        },
+        "poster": "posters/anime-gachiakuta.jpg",
+        "why": "Thrown into the abyss for a crime he didn't commit, a boy fights trash monsters with a rule-based power. 2025's breakout dark shonen.",
+        "synopsis": "Accused of murder and thrown into the Pit, a young orphan joins a group of monster fighters with special powers to uncover the truth and seek vengeance.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "imdb": "tt32612521",
+        "tmdb": "256721",
+        "justwatch": "https://www.justwatch.com/us/tv-show/gachiakuta"
+      },
+      {
+        "title": "Dan Da Dan",
+        "year": 2024,
+        "type": "show",
+        "services": [
+          "Netflix",
+          "Crunchyroll",
+          "Hulu"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/81736884",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/G7PU3PQN3",
+          "Hulu": "https://www.hulu.com/watch/7fb08a11-4105-4655-9997-d98d3cc9772e"
+        },
+        "poster": "posters/anime-dan-da-dan.jpg",
+        "why": "Fast sci-fi horror comedy with aliens versus ghosts. Wild, kinetic, and never slow.",
+        "synopsis": "When Momo and Okarun's beliefs clash, they're thrown into a world of ghosts, aliens and awakened powers.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Fantasy",
+          "Thriller",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "imdb": "tt30217403",
+        "tmdb": "240411",
+        "justwatch": "https://www.justwatch.com/us/tv-show/dan-da-dan"
+      },
+      {
+        "title": "Mob Psycho 100",
+        "year": 2016,
+        "type": "show",
+        "services": [
+          "Netflix",
+          "Hulu",
+          "Crunchyroll"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/80179798",
+          "Hulu": "https://www.hulu.com/watch/1b5cc0cf-970e-45ee-af8f-541157343285",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00258741ESES"
+        },
+        "poster": "posters/anime-mob-psycho-100.jpg",
+        "why": "A psychic middle schooler with world-ending power just wants a normal life. Explosive, inventive fights from the One-Punch Man creator, with real heart; a My Hero Academia (9.7) pick.",
+        "synopsis": "Shigeo Kageyama, a.k.a. \"Mob,\" is a boy who has trouble expressing himself, but who happens to be a powerful esper. Mob is determined to live a normal life and keeps his ESP suppressed, but when his emotions surge to a level of 100%, something terrible happens to him! As he's surrounded by false espers, evil spirits, and mysterious organizations, what will Mob think? What choices will he make?",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "imdb": "tt5897304",
+        "tmdb": "67075",
+        "justwatch": "https://www.justwatch.com/us/tv-show/mob-psycho-100"
+      },
+      {
         "title": "Steins;Gate",
         "year": 2011,
         "type": "show",
@@ -2707,7 +2900,7 @@
           "Crunchyroll"
         ],
         "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00012870ENUS&subId3=justappsvod"
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00012870ENUS"
         },
         "poster": "posters/anime-steins-gate.jpg",
         "why": "Time-travel sci-fi thriller with strict rules. Slow first few episodes, then it becomes one of anime's best, Dark-style.",
@@ -2725,6 +2918,55 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/steins-gate"
       },
       {
+        "title": "The Promised Neverland",
+        "year": 2019,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GG1U20Q2K"
+        },
+        "poster": "posters/anime-the-promised-neverland.jpg",
+        "why": "Orphanage kids discover the truth and plan an escape. Season 1 is a near-perfect strategy thriller. Skip season 2.",
+        "synopsis": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as “Mom,” all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn—what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Thriller",
+          "Sci-Fi"
+        ],
+        "imdb": "tt8788458",
+        "tmdb": "83097",
+        "justwatch": "https://www.justwatch.com/us/tv-show/the-promised-neverland"
+      },
+      {
+        "title": "Kaiju No. 8",
+        "year": 2024,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00379478ARSA"
+        },
+        "poster": "posters/anime-kaiju-no-8.jpg",
+        "why": "A man becomes a kaiju but joins the force that fights them. A clean shonen in the My Hero Academia (9.7) lane.",
+        "synopsis": "A man working a job far removed from his childhood dreams gets wrapped up in an unexpected situation - becoming a monster, he aims once again to fulfill his lifelong dream.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "imdb": "tt21975436",
+        "tmdb": "207468",
+        "justwatch": "https://www.justwatch.com/us/tv-show/kaiju-no-8"
+      },
+      {
         "title": "Paranoia Agent",
         "year": 2004,
         "type": "show",
@@ -2732,7 +2974,7 @@
           "Crunchyroll"
         ],
         "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGVWU0QEJX&subId3=justappsvod"
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GVWU0QEJX"
         },
         "poster": "posters/anime-paranoia-agent.jpg",
         "why": "Satoshi Kon's surreal mystery: a kid with a golden bat attacks people and no one can describe him. Creepy and strange.",
@@ -2756,7 +2998,7 @@
           "Crunchyroll"
         ],
         "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGR9PV1Z86&subId3=justappsvod"
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GR9PV1Z86"
         },
         "poster": "posters/anime-another.jpg",
         "why": "A cursed class where students die in Final Destination (8.6)-style accidents. 12-episode mystery horror.",
@@ -2771,32 +3013,6 @@
         "imdb": "tt2176165",
         "tmdb": "42589",
         "justwatch": "https://www.justwatch.com/us/tv-show/another"
-      },
-      {
-        "title": "The Promised Neverland",
-        "year": 2019,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGG1U20Q2K&subId3=justappsvod"
-        },
-        "poster": "posters/anime-the-promised-neverland.jpg",
-        "why": "Orphanage kids discover the truth and plan an escape. Season 1 is a near-perfect strategy thriller. Skip season 2.",
-        "synopsis": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as “Mom,” all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn—what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Thriller",
-          "Sci-Fi"
-        ],
-        "imdb": "tt8788458",
-        "tmdb": "83097",
-        "justwatch": "https://www.justwatch.com/us/tv-show/the-promised-neverland"
       },
       {
         "title": "High School of the Dead",
@@ -2853,233 +3069,63 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/babylon-2019"
       },
       {
-        "title": "Berserk",
-        "year": 2016,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGYQWK91EY&subId3=justappsvod"
-        },
-        "poster": "posters/anime-berserk.jpg",
-        "why": "The grimmest dark fantasy there is, with Guts on an endless revenge quest. This 2016 CG version is divisive, so watch for the world.",
-        "synopsis": "Spurred by the flame raging in his heart, the Black Swordsman Guts continues his seemingly endless quest for revenge. Standing in his path are heinous outlaws, delusional evil spirits, and a devout child of god. Even as it chips away at his life, Guts continues to fight his enemies, who wield repulsive and inhumane power, with nary but his body and sword—his strength as a human.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Sci-Fi"
-        ],
-        "imdb": "tt5847454",
-        "tmdb": "66053",
-        "justwatch": "https://www.justwatch.com/us/tv-show/berserk-2016"
-      },
-      {
-        "title": "Dan Da Dan",
-        "year": 2024,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Crunchyroll",
-          "Hulu"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81736884",
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGWDU7V1ZV&subId3=justappsvod",
-          "Hulu": "https://www.hulu.com/watch/7fb08a11-4105-4655-9997-d98d3cc9772e"
-        },
-        "poster": "posters/anime-dan-da-dan.jpg",
-        "why": "Fast sci-fi horror comedy with aliens versus ghosts. Wild, kinetic, and never slow.",
-        "synopsis": "When Momo and Okarun's beliefs clash, they're thrown into a world of ghosts, aliens and awakened powers.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Fantasy",
-          "Thriller",
-          "Romance",
-          "Sci-Fi"
-        ],
-        "imdb": "tt30217403",
-        "tmdb": "240411",
-        "justwatch": "https://www.justwatch.com/us/tv-show/dan-da-dan"
-      },
-      {
-        "title": "Gachiakuta",
-        "year": 2025,
-        "type": "show",
-        "services": [
-          "Hulu",
-          "Crunchyroll"
-        ],
-        "links": {
-          "Hulu": "https://www.hulu.com/watch/5307a3b5-fc45-413e-bf74-632e67c9ef52",
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00352502PLPL&subId3=justappsvod"
-        },
-        "poster": "posters/anime-gachiakuta.jpg",
-        "why": "Thrown into the abyss for a crime he didn't commit, a boy fights trash monsters with a rule-based power. 2025's breakout dark shonen.",
-        "synopsis": "Accused of murder and thrown into the Pit, a young orphan joins a group of monster fighters with special powers to uncover the truth and seek vengeance.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Sci-Fi"
-        ],
-        "imdb": "tt32612521",
-        "tmdb": "256721",
-        "justwatch": "https://www.justwatch.com/us/tv-show/gachiakuta"
-      },
-      {
-        "title": "Kaiju No. 8",
-        "year": 2024,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00379478ARSA&subId3=justappsvod"
-        },
-        "poster": "posters/anime-kaiju-no-8.jpg",
-        "why": "A man becomes a kaiju but joins the force that fights them. A clean shonen in the My Hero Academia (9.7) lane.",
-        "synopsis": "A man working a job far removed from his childhood dreams gets wrapped up in an unexpected situation - becoming a monster, he aims once again to fulfill his lifelong dream.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "imdb": "tt21975436",
-        "tmdb": "207468",
-        "justwatch": "https://www.justwatch.com/us/tv-show/kaiju-no-8"
-      },
-      {
-        "title": "Dororo",
-        "year": 2019,
+        "title": "Psycho-Pass",
+        "year": 2012,
         "type": "show",
         "services": [
           "Prime Video",
-          "Hulu",
-          "HIDIVE"
+          "Crunchyroll"
         ],
         "links": {
-          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.f0b2865f-3270-43c6-90f2-5eb0ec6780cc",
-          "Hulu": "https://www.hulu.com/watch/0993e8cb-1586-4c8b-bae9-e4c5f05b78ce",
-          "HIDIVE": "https://www.hidive.com/interstitial/560662"
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00261612TLPH"
         },
-        "poster": "posters/anime-dororo.jpg",
-        "why": "A samurai missing 48 body parts kills demons to win them back. Dark fantasy with monster-of-the-week momentum.",
-        "synopsis": "During the Warring States period, the young thief Dororo encounters Hyakkimaru, a strange, sightless boy who wields fearsome prosthetics in place of his missing limbs. Parts of Hyakkimaru’s body were traded to a group of 12 demons by his father in exchange for power, but thanks to a kindly medicine man, Hyakkimaru survived his horrifying ordeal. Now he roams the land in search of his missing body, and together he and Dororo will fight to survive in an unforgiving, demon-plagued world.",
+        "poster": "posters/anime-psycho-pass.jpg",
+        "why": "Cyberpunk crime procedural in a Minority Report-style precrime state. Season 1 is the one to watch.",
+        "synopsis": "In the year 2113, people are given brain scans to determine how likely they are to commit a crime. Those who fail are apprehended, or even killed.",
         "genres": [
           "Action",
           "Animation",
-          "Fantasy",
-          "Horror"
-        ],
-        "imdb": "tt9458304",
-        "tmdb": "83100",
-        "justwatch": "https://www.justwatch.com/us/tv-show/dororo"
-      },
-      {
-        "title": "Dusk Beyond the End of the World",
-        "year": 2025,
-        "type": "show",
-        "services": [
-          "HIDIVE"
-        ],
-        "links": {
-          "HIDIVE": "https://www.hidive.com/interstitial/862209"
-        },
-        "poster": "posters/anime-dusk-beyond-the-end-of-the-world.jpg",
-        "why": "A man wakes centuries later in a post-AI world with an android companion. Quiet sci-fi, newer on HIDIVE.",
-        "synopsis": "When tensions around AI spark civil unrest, Akira is caught in the crossfire when he protects his girlfriend from an assassin. Hundreds of years later, he awakens from cryogenic sleep to an unfamiliar world and bonds with the android Yuugure.",
-        "genres": [
-          "Animation",
-          "Romance",
-          "Sci-Fi"
-        ],
-        "imdb": "tt37532634",
-        "tmdb": "294867",
-        "justwatch": "https://www.justwatch.com/us/tv-show/dusk-beyond-the-end-of-the-world"
-      },
-      {
-        "title": "Sword of the Demon Hunter",
-        "year": 2025,
-        "type": "show",
-        "services": [
-          "Hulu",
-          "HIDIVE"
-        ],
-        "links": {
-          "Hulu": "https://www.hulu.com/watch/09a85ac7-cada-4635-b155-5a6c3dba916d",
-          "HIDIVE": "https://www.hidive.com/interstitial/778107"
-        },
-        "poster": "posters/anime-sword-of-the-demon-hunter.jpg",
-        "why": "A swordsman fights demons through a century-spanning historical epic. Dark fantasy swordplay.",
-        "synopsis": "Jinta journeys through a century-spanning epic, all while questioning why he wields a sword.",
-        "genres": [
-          "Action",
-          "Animation",
+          "Crime",
           "Drama",
-          "Fantasy",
-          "History",
+          "Thriller",
           "Sci-Fi"
         ],
-        "imdb": "tt32281073",
-        "tmdb": "133154",
-        "justwatch": "https://www.justwatch.com/us/tv-show/sword-of-the-demon-hunter-kijin-gentosho"
+        "imdb": "tt2379308",
+        "tmdb": "43865",
+        "justwatch": "https://www.justwatch.com/us/tv-show/psycho-pass"
       },
       {
-        "title": "Yofukashi no Uta",
-        "year": 2022,
+        "title": "JoJo's Bizarre Adventure",
+        "year": 2012,
         "type": "show",
         "services": [
-          "HIDIVE",
-          "Hulu"
+          "Netflix",
+          "Hulu",
+          "Crunchyroll",
+          "Prime Video"
         ],
         "links": {
-          "HIDIVE": "https://www.hidive.com/interstitial/542416",
-          "Hulu": "https://www.hulu.com/watch/8960a3df-e425-4e56-a9d6-d2ffd4c2d4c7"
+          "Netflix": "https://www.netflix.com/title/80179831",
+          "Hulu": "https://www.hulu.com/watch/f3e27bf1-2960-4f0e-802b-a9d50d6ca951",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GR8V1MJ9R",
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.df8b9a22-d519-4a78-bc59-cfdadf8be146"
         },
-        "poster": "posters/anime-yofukashi-no-uta.jpg",
-        "why": "A sleepless boy meets a vampire girl in the night city. Stylish and laid back, lighter than your usual.",
-        "synopsis": "Ko, a human boy, falls in love with Nanakusa, a vampire girl, and wants to become a vampire too, but Nanakusa invites him to her abandoned building just to taste the sweet blood from her neck.",
+        "poster": "posters/anime-jojos-bizarre-adventure-1993.jpg",
+        "why": "Stand battles are rule-based puzzles, like Nen fights. Every part is a new arc with a new cast, so there's no filler.",
+        "synopsis": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
         "genres": [
+          "Action",
           "Animation",
           "Comedy",
+          "Drama",
           "Fantasy",
           "Horror",
-          "Romance"
+          "Sci-Fi"
         ],
-        "imdb": "tt15975122",
-        "tmdb": "138357",
-        "justwatch": "https://www.justwatch.com/us/tv-show/call-of-the-night"
-      },
-      {
-        "title": "Blade of the Immortal",
-        "year": 2008,
-        "type": "show",
-        "services": [
-          "HIDIVE"
-        ],
-        "links": {
-          "HIDIVE": "https://www.hidive.com/interstitial/550042"
-        },
-        "poster": "posters/anime-blade-of-the-immortal.jpg",
-        "why": "A cursed immortal samurai must kill 1,000 evil men to die. Grimy swordplay and dark violence.",
-        "synopsis": "Manji is a crass, violent samurai with a special ability: he cannot die. Cursed with immortality by the nun Yobikuni as punishment for his ruthless deeds, he has grown weary of his ageless life. The only way to lift the curse is to slay 1,000 evil men. So Manji wanders Japan, shedding the blood of the wicked on his quest to finally die.",
-        "genres": [
-          "Action",
-          "Animation",
-          "History",
-          "Horror"
-        ],
-        "imdb": "tt1208358",
-        "tmdb": "34697",
-        "justwatch": "https://www.justwatch.com/us/tv-show/blade-of-the-immortal"
+        "imdb": "tt29742160",
+        "tmdb": "45790",
+        "justwatch": "https://www.justwatch.com/us/tv-show/jojos-bizarre-adventure-1993"
       },
       {
         "title": "Helck",
@@ -3108,241 +3154,31 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/helck"
       },
       {
-        "title": "Zom 100: Bucket List of the Dead",
-        "year": 2023,
+        "title": "Tougen Anki",
+        "year": 2025,
         "type": "show",
         "services": [
           "Netflix",
-          "Hulu",
+          "Prime Video",
           "Crunchyroll"
         ],
         "links": {
-          "Netflix": "https://www.netflix.com/title/81680101",
-          "Hulu": "https://www.hulu.com/watch/1d410e6b-9a98-4897-9bc3-3dd4e7343f81",
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGK9U3MGDP&subId3=justappsvod"
+          "Netflix": "https://www.netflix.com/title/81969861",
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.7615134a-e25b-418c-b819-076215c15863",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00390546ENUS"
         },
-        "poster": "posters/anime-zom-100-bucket-list-of-the-dead.jpg",
-        "why": "A burnt-out office worker finds new life in a zombie apocalypse. Funny, gory and upbeat.",
-        "synopsis": "A worker in a foreign finance company is bullied and worked around the clock, before a zombie outbreak finally makes him feel alive.",
+        "poster": "posters/anime-tougen-anki.jpg",
+        "why": "A boy with awakened Oni blood hunts the Momotaro assassin who killed his father. Fast dark-fantasy action.",
+        "synopsis": "After a Momotaro assassin suddenly kills his adoptive father, Shiki vows to avenge him. But first, he must learn to control his newly awakened Oni blood.",
         "genres": [
           "Action",
           "Animation",
-          "Comedy",
           "Fantasy",
-          "Horror",
-          "Sci-Fi"
-        ],
-        "imdb": "tt25811262",
-        "tmdb": "217766",
-        "justwatch": "https://www.justwatch.com/us/tv-show/zom-100-bucket-list-of-the-dead"
-      },
-      {
-        "title": "Kabaneri of the Iron Fortress",
-        "year": 2016,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGRZJE78M6&subId3=justappsvod"
-        },
-        "poster": "posters/anime-kabaneri-of-the-iron-fortress.jpg",
-        "why": "Steampunk armored trains vs. hordes of undead Kabane, from the studio behind Attack on Titan. Stylish creature action.",
-        "synopsis": "In the midst of an industrial revolution, the people of Hinomoto fight hordes of undead creatures, known as Kabane, using powerful armored trains.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Sci-Fi"
-        ],
-        "imdb": "tt5556656",
-        "tmdb": "65945",
-        "justwatch": "https://www.justwatch.com/us/tv-show/kabaneri-of-the-iron-fortress"
-      },
-      {
-        "title": "Psycho-Pass",
-        "year": 2012,
-        "type": "show",
-        "services": [
-          "Crunchyroll",
-          "Prime Video"
-        ],
-        "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00261612TLPH&subId3=justappsvod",
-          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b"
-        },
-        "poster": "posters/anime-psycho-pass.jpg",
-        "why": "Cyberpunk crime procedural in a Minority Report-style precrime state. Season 1 is the one to watch.",
-        "synopsis": "In the year 2113, people are given brain scans to determine how likely they are to commit a crime. Those who fail are apprehended, or even killed.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Crime",
-          "Drama",
-          "Thriller",
-          "Sci-Fi"
-        ],
-        "imdb": "tt2379308",
-        "tmdb": "43865",
-        "justwatch": "https://www.justwatch.com/us/tv-show/psycho-pass"
-      },
-      {
-        "title": "Ergo Proxy",
-        "year": 2006,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGVWU0ED74&subId3=justappsvod"
-        },
-        "poster": "posters/anime-ergo-proxy.jpg",
-        "why": "A moody sci-fi mystery in a dome city where monsters called Proxies awaken. Slow, philosophical and weird.",
-        "synopsis": "Thousands of years after Earth’s atmosphere was destroyed, adventure blooms in the strangest of places. The domed city of Romdo is supposed to be perfect, but Re-l Mayer, a young female inspector from the Civilian Intelligence Office, knows better. In this place where humans and robots coexist, she receives a strange message: something is awakening!",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Sci-Fi",
           "Thriller"
         ],
-        "imdb": "tt0791205",
-        "tmdb": "1097",
-        "justwatch": "https://www.justwatch.com/us/tv-show/ergo-proxy"
-      },
-      {
-        "title": "NieR:Automata Ver1.1a",
-        "year": 2023,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FG50UZ5VDM&subId3=justappsvod"
-        },
-        "poster": "posters/anime-nier-automata-ver1-1a.jpg",
-        "why": "Androids fight machines on a dead Earth while the truth about the war keeps shifting. Based on the game.",
-        "synopsis": "Animated adaptation of NieR: Automata (2017), where a long-running war on post-apocalyptic Earth between androids and machines soon unveils the truth of the world.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Sci-Fi"
-        ],
-        "imdb": "tt18311412",
-        "tmdb": "158373",
-        "justwatch": "https://www.justwatch.com/us/tv-show/nier-automata-ver1-1a"
-      },
-      {
-        "title": "Puella Magi Madoka Magica",
-        "year": 2011,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Hulu",
-          "Crunchyroll"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/70302572",
-          "Hulu": "https://www.hulu.com/watch/4782cfab-b95e-4f8d-8dbd-1d31028fe739",
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGY09XK9PY&subId3=justappsvod"
-        },
-        "poster": "posters/anime-puella-magi-madoka-magica.jpg",
-        "why": "A magical girl show that turns into tragic dark fantasy within a few episodes. Only 12 episodes.",
-        "synopsis": "She has a loving family and best friends, laughs and cries from time to time... Madoka Kaname, an eighth grader of Mitakihara middle school, is one of those who lives such a life. One day, she had a very magical encounter. She doesn't know if it happened by chance or by fate yet. This is a fateful encounter that can change her destiny. This is a beginning of the new story of the magical witch girls.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "imdb": "tt1773185",
-        "tmdb": "39218",
-        "justwatch": "https://www.justwatch.com/us/tv-show/madoka-magica"
-      },
-      {
-        "title": "Trigun",
-        "year": 1998,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGQJUGPEND&subId3=justappsvod"
-        },
-        "poster": "posters/anime-trigun.jpg",
-        "why": "The original 1998 sci-fi western about the gunman Vash the Stampede. Watch this before Trigun Stampede.",
-        "synopsis": "Trigun takes place in the distant future on a desert planet. Vash the Stampede is a gunfighter with a legend so ruthless he has a $$60,000,000,000 bounty on his head. Entire towns evacuate at the rumor of his arrival. But the real Vash the Stampede, the enigmatic and conflicted lead character, is more heroic, even though he usually acts like a complete idiot.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Drama",
-          "Sci-Fi"
-        ],
-        "imdb": "tt0251439",
-        "tmdb": "26453",
-        "justwatch": "https://www.justwatch.com/us/tv-show/trigun"
-      },
-      {
-        "title": "Oshi no Ko",
-        "year": 2023,
-        "type": "show",
-        "services": [
-          "Crunchyroll",
-          "HIDIVE",
-          "Hulu"
-        ],
-        "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00366795HIIN&subId3=justappsvod",
-          "HIDIVE": "https://www.hidive.com/interstitial/542391",
-          "Hulu": "https://www.hulu.com/watch/e2c4fe9d-d7fe-40f1-a106-ee0863f13b5d"
-        },
-        "poster": "posters/anime-oshi-no-ko.jpg",
-        "why": "A doctor is reborn as an idol's son and gets pulled into a dark mystery in the entertainment industry. Gripping first episode.",
-        "synopsis": "A doctor and his recently-deceased patient are reborn as twins to a famous Japanese musical idol and navigate the highs and lows of the Japanese entertainment industry as they grow up together through their lives.",
-        "genres": [
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Music",
-          "Thriller"
-        ],
-        "imdb": "tt21030032",
-        "tmdb": "203737",
-        "justwatch": "https://www.justwatch.com/us/tv-show/oshi-no-ko"
-      },
-      {
-        "title": "The Eminence in Shadow",
-        "year": 2022,
-        "type": "show",
-        "services": [
-          "Hulu",
-          "HIDIVE"
-        ],
-        "links": {
-          "Hulu": "https://www.hulu.com/watch/f6c12f68-43de-4e19-9d67-3b607c6867ab",
-          "HIDIVE": "https://www.hidive.com/interstitial/534740"
-        },
-        "poster": "posters/anime-the-eminence-in-shadow.jpg",
-        "why": "A fan of secret masterminds is reborn in a fantasy world and plays one, and it turns out to be real. Action comedy.",
-        "synopsis": "Shadowbrokers are those who go unnoticed, posing as unremarkable people, when in truth, they control everything from behind the scenes. Sid wants to be someone just like that more than anything, and something as insignificant as boring reality isn’t going to get in his way! He trains in secret every single night, preparing for his eventual rise to power—only to be denied his destiny by a run-of-the-mill (yet deadly) traffic accident. But when he wakes up in a another world and suddenly finds himself at the head of an actual secret organization doing battle with evil in the shadows, he’ll finally get a chance to act out all of his delusional fantasies!",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Fantasy",
-          "Sci-Fi"
-        ],
-        "imdb": "tt14115938",
-        "tmdb": "119495",
-        "justwatch": "https://www.justwatch.com/us/tv-show/the-eminence-in-shadow"
+        "imdb": "tt32344704",
+        "tmdb": "253811",
+        "justwatch": "https://www.justwatch.com/us/tv-show/tougen-anki"
       },
       {
         "title": "Ajin: Demi-Human",
@@ -3371,29 +3207,154 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/ajin"
       },
       {
-        "title": "Mononoke",
-        "year": 2007,
+        "title": "Puella Magi Madoka Magica",
+        "year": 2011,
         "type": "show",
         "services": [
           "Netflix",
+          "Hulu",
           "Crunchyroll"
         ],
         "links": {
-          "Netflix": "https://www.netflix.com/title/80169676",
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FG14U49X1Z&subId3=justappsvod"
+          "Netflix": "https://www.netflix.com/title/70302572",
+          "Hulu": "https://www.hulu.com/watch/4782cfab-b95e-4f8d-8dbd-1d31028fe739",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GY09XK9PY"
         },
-        "poster": "posters/anime-mononoke.jpg",
-        "why": "A medicine seller exorcises spirits by uncovering their form, truth and reason. Beautifully strange supernatural horror.",
-        "synopsis": "The Medicine Seller is a deadly and mysterious master of the occult who travels across feudal Japan in search of malevolent spirits called mononoke to slay. When he locates one of these spirits, he cannot simply kill it; he must first learn its Form, its Truth, and its Reason in order to wield the mighty Exorcism Sword and fight against it. He must begin his strange exorcisms with intense psychological analysis and careful investigative work—an extremely dangerous step, as he must first confront and learn about the mononoke before he even has the means to defeat it.",
+        "poster": "posters/anime-puella-magi-madoka-magica.jpg",
+        "why": "A magical girl show that turns into tragic dark fantasy within a few episodes. Only 12 episodes.",
+        "synopsis": "She has a loving family and best friends, laughs and cries from time to time... Madoka Kaname, an eighth grader of Mitakihara middle school, is one of those who lives such a life. One day, she had a very magical encounter. She doesn't know if it happened by chance or by fate yet. This is a fateful encounter that can change her destiny. This is a beginning of the new story of the magical witch girls.",
         "genres": [
+          "Action",
           "Animation",
+          "Drama",
           "Fantasy",
           "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "imdb": "tt1773185",
+        "tmdb": "39218",
+        "justwatch": "https://www.justwatch.com/us/tv-show/madoka-magica"
+      },
+      {
+        "title": "Dusk Beyond the End of the World",
+        "year": 2025,
+        "type": "show",
+        "services": [
+          "HIDIVE"
+        ],
+        "links": {
+          "HIDIVE": "https://www.hidive.com/interstitial/862209"
+        },
+        "poster": "posters/anime-dusk-beyond-the-end-of-the-world.jpg",
+        "why": "A man wakes centuries later in a post-AI world with an android companion. Quiet sci-fi, newer on HIDIVE.",
+        "synopsis": "When tensions around AI spark civil unrest, Akira is caught in the crossfire when he protects his girlfriend from an assassin. Hundreds of years later, he awakens from cryogenic sleep to an unfamiliar world and bonds with the android Yuugure.",
+        "genres": [
+          "Animation",
+          "Romance",
           "Sci-Fi"
         ],
-        "imdb": "tt1992935",
-        "tmdb": "16660",
-        "justwatch": "https://www.justwatch.com/us/tv-show/mononoke"
+        "imdb": "tt37532634",
+        "tmdb": "294867",
+        "justwatch": "https://www.justwatch.com/us/tv-show/dusk-beyond-the-end-of-the-world"
+      },
+      {
+        "title": "Yofukashi no Uta",
+        "year": 2022,
+        "type": "show",
+        "services": [
+          "HIDIVE",
+          "Hulu"
+        ],
+        "links": {
+          "HIDIVE": "https://www.hidive.com/interstitial/542416",
+          "Hulu": "https://www.hulu.com/watch/8960a3df-e425-4e56-a9d6-d2ffd4c2d4c7"
+        },
+        "poster": "posters/anime-yofukashi-no-uta.jpg",
+        "why": "A sleepless boy meets a vampire girl in the night city. Stylish and laid back, lighter than your usual.",
+        "synopsis": "Ko, a human boy, falls in love with Nanakusa, a vampire girl, and wants to become a vampire too, but Nanakusa invites him to her abandoned building just to taste the sweet blood from her neck.",
+        "genres": [
+          "Animation",
+          "Comedy",
+          "Fantasy",
+          "Horror",
+          "Romance"
+        ],
+        "imdb": "tt15975122",
+        "tmdb": "138357",
+        "justwatch": "https://www.justwatch.com/us/tv-show/call-of-the-night"
+      },
+      {
+        "title": "Ergo Proxy",
+        "year": 2006,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GVWU0ED74"
+        },
+        "poster": "posters/anime-ergo-proxy.jpg",
+        "why": "A moody sci-fi mystery in a dome city where monsters called Proxies awaken. Slow, philosophical and weird.",
+        "synopsis": "Thousands of years after Earth’s atmosphere was destroyed, adventure blooms in the strangest of places. The domed city of Romdo is supposed to be perfect, but Re-l Mayer, a young female inspector from the Civilian Intelligence Office, knows better. In this place where humans and robots coexist, she receives a strange message: something is awakening!",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "imdb": "tt0791205",
+        "tmdb": "1097",
+        "justwatch": "https://www.justwatch.com/us/tv-show/ergo-proxy"
+      },
+      {
+        "title": "NieR:Automata Ver1.1a",
+        "year": 2023,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://www.crunchyroll.com/watch/G50UZ5VDM"
+        },
+        "poster": "posters/anime-nier-automata-ver1-1a.jpg",
+        "why": "Androids fight machines on a dead Earth while the truth about the war keeps shifting. Based on the game.",
+        "synopsis": "Animated adaptation of NieR: Automata (2017), where a long-running war on post-apocalyptic Earth between androids and machines soon unveils the truth of the world.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "imdb": "tt18311412",
+        "tmdb": "158373",
+        "justwatch": "https://www.justwatch.com/us/tv-show/nier-automata-ver1-1a"
+      },
+      {
+        "title": "Trigun",
+        "year": 1998,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GQJUGPEND"
+        },
+        "poster": "posters/anime-trigun.jpg",
+        "why": "The original 1998 sci-fi western about the gunman Vash the Stampede. Watch this before Trigun Stampede.",
+        "synopsis": "Trigun takes place in the distant future on a desert planet. Vash the Stampede is a gunfighter with a legend so ruthless he has a $$60,000,000,000 bounty on his head. Entire towns evacuate at the rumor of his arrival. But the real Vash the Stampede, the enigmatic and conflicted lead character, is more heroic, even though he usually acts like a complete idiot.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "imdb": "tt0251439",
+        "tmdb": "26453",
+        "justwatch": "https://www.justwatch.com/us/tv-show/trigun"
       },
       {
         "title": "Neon Genesis Evangelion",
@@ -3417,6 +3378,108 @@
         "imdb": "tt0112159",
         "tmdb": "890",
         "justwatch": "https://www.justwatch.com/us/tv-show/neon-genesis-evangelion"
+      },
+      {
+        "title": "Cowboy Bebop",
+        "year": 1998,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GJWU2XE9G"
+        },
+        "poster": "posters/anime-cowboy-bebop-2001.jpg",
+        "why": "Space bounty hunters, jazz, and noir. Most episodes are self-contained, with a famous ending.",
+        "synopsis": "In 2071, roughly fifty years after an accident with a hyperspace gateway made the Earth almost uninhabitable, humanity has colonized most of the rocky planets and moons of the Solar System. Amid a rising crime rate, the Inter Solar System Police (ISSP) set up a legalized contract system, in which registered bounty hunters, also referred to as \"Cowboys\", chase criminals and bring them in alive in return for a reward.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Drama",
+          "Sci-Fi",
+          "Western"
+        ],
+        "imdb": "tt0213338",
+        "tmdb": "30991",
+        "justwatch": "https://www.justwatch.com/us/tv-show/cowboy-bebop-2001"
+      },
+      {
+        "title": "Pluto",
+        "year": 2023,
+        "type": "show",
+        "services": [
+          "Netflix"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/81281344"
+        },
+        "poster": "posters/anime-pluto.jpg",
+        "why": "Sci-fi murder mystery about who is killing the world's greatest robots. Prestige-level and only 8 episodes.",
+        "synopsis": "When the world's seven most advanced robots and their human allies are murdered one by one, Inspector Gesicht soon discovers that he's also in danger.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Crime",
+          "Drama",
+          "Thriller",
+          "Sci-Fi"
+        ],
+        "imdb": "tt26737616",
+        "tmdb": "91997",
+        "justwatch": "https://www.justwatch.com/us/tv-show/pluto"
+      },
+      {
+        "title": "Erased",
+        "year": 2016,
+        "type": "show",
+        "services": [
+          "Hulu",
+          "Crunchyroll"
+        ],
+        "links": {
+          "Hulu": "https://www.hulu.com/watch/f38ad14e-6966-46a7-acb3-2f707459f5c5",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GYE5K9JQR"
+        },
+        "poster": "posters/anime-erased.jpg",
+        "why": "A man sent back to his childhood to stop a serial killer. A 12-episode mystery that feels like Dark meets Zodiac.",
+        "synopsis": "Satoru Fujinuma is a struggling manga artist who has the ability to turn back time and prevent deaths. When his mother is killed he turns back time to solve the mystery, but ends up back in elementary school, just before the disappearance of his classmate Kayo.",
+        "genres": [
+          "Animation",
+          "Crime",
+          "Drama",
+          "Fantasy",
+          "Thriller",
+          "Sci-Fi"
+        ],
+        "imdb": "tt5249462",
+        "tmdb": "65249",
+        "justwatch": "https://www.justwatch.com/us/tv-show/erased"
+      },
+      {
+        "title": "Mononoke",
+        "year": 2007,
+        "type": "show",
+        "services": [
+          "Netflix",
+          "Crunchyroll"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/80169676",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GX9UQJKJ3"
+        },
+        "poster": "posters/anime-mononoke.jpg",
+        "why": "A medicine seller exorcises spirits by uncovering their form, truth and reason. Beautifully strange supernatural horror.",
+        "synopsis": "The Medicine Seller is a deadly and mysterious master of the occult who travels across feudal Japan in search of malevolent spirits called mononoke to slay. When he locates one of these spirits, he cannot simply kill it; he must first learn its Form, its Truth, and its Reason in order to wield the mighty Exorcism Sword and fight against it. He must begin his strange exorcisms with intense psychological analysis and careful investigative work—an extremely dangerous step, as he must first confront and learn about the mononoke before he even has the means to defeat it.",
+        "genres": [
+          "Animation",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "imdb": "tt1992935",
+        "tmdb": "16660",
+        "justwatch": "https://www.justwatch.com/us/tv-show/mononoke"
       },
       {
         "title": "Dark Gathering",
@@ -3513,140 +3576,87 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/lazarus"
       },
       {
-        "title": "Pluto",
+        "title": "Oshi no Ko",
         "year": 2023,
         "type": "show",
         "services": [
-          "Netflix"
+          "Crunchyroll",
+          "HIDIVE",
+          "Hulu"
         ],
         "links": {
-          "Netflix": "https://www.netflix.com/title/81281344"
+          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00366795HIIN",
+          "HIDIVE": "https://www.hidive.com/interstitial/542391",
+          "Hulu": "https://www.hulu.com/watch/e2c4fe9d-d7fe-40f1-a106-ee0863f13b5d"
         },
-        "poster": "posters/anime-pluto.jpg",
-        "why": "Sci-fi murder mystery about who is killing the world's greatest robots. Prestige-level and only 8 episodes.",
-        "synopsis": "When the world's seven most advanced robots and their human allies are murdered one by one, Inspector Gesicht soon discovers that he's also in danger.",
+        "poster": "posters/anime-oshi-no-ko.jpg",
+        "why": "A doctor is reborn as an idol's son and gets pulled into a dark mystery in the entertainment industry. Gripping first episode.",
+        "synopsis": "A doctor and his recently-deceased patient are reborn as twins to a famous Japanese musical idol and navigate the highs and lows of the Japanese entertainment industry as they grow up together through their lives.",
         "genres": [
-          "Action",
           "Animation",
-          "Crime",
           "Drama",
-          "Thriller",
-          "Sci-Fi"
-        ],
-        "imdb": "tt26737616",
-        "tmdb": "91997",
-        "justwatch": "https://www.justwatch.com/us/tv-show/pluto"
-      },
-      {
-        "title": "Tougen Anki",
-        "year": 2025,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Prime Video",
-          "Crunchyroll"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81969861",
-          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.7615134a-e25b-418c-b819-076215c15863",
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00390546ENUS&subId3=justappsvod"
-        },
-        "poster": "posters/anime-tougen-anki.jpg",
-        "why": "A boy with awakened Oni blood hunts the Momotaro assassin who killed his father. Fast dark-fantasy action.",
-        "synopsis": "After a Momotaro assassin suddenly kills his adoptive father, Shiki vows to avenge him. But first, he must learn to control his newly awakened Oni blood.",
-        "genres": [
-          "Action",
-          "Animation",
           "Fantasy",
+          "Music",
           "Thriller"
         ],
-        "imdb": "tt32344704",
-        "tmdb": "253811",
-        "justwatch": "https://www.justwatch.com/us/tv-show/tougen-anki"
+        "imdb": "tt21030032",
+        "tmdb": "203737",
+        "justwatch": "https://www.justwatch.com/us/tv-show/oshi-no-ko"
       },
       {
-        "title": "Cowboy Bebop",
-        "year": 1998,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGJWU2XE9G&subId3=justappsvod"
-        },
-        "poster": "posters/anime-cowboy-bebop-2001.jpg",
-        "why": "Space bounty hunters, jazz, and noir. Most episodes are self-contained, with a famous ending.",
-        "synopsis": "In 2071, roughly fifty years after an accident with a hyperspace gateway made the Earth almost uninhabitable, humanity has colonized most of the rocky planets and moons of the Solar System. Amid a rising crime rate, the Inter Solar System Police (ISSP) set up a legalized contract system, in which registered bounty hunters, also referred to as \"Cowboys\", chase criminals and bring them in alive in return for a reward.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Drama",
-          "Sci-Fi",
-          "Western"
-        ],
-        "imdb": "tt0213338",
-        "tmdb": "30991",
-        "justwatch": "https://www.justwatch.com/us/tv-show/cowboy-bebop-2001"
-      },
-      {
-        "title": "Erased",
-        "year": 2016,
-        "type": "show",
-        "services": [
-          "Hulu",
-          "Crunchyroll"
-        ],
-        "links": {
-          "Hulu": "https://www.hulu.com/watch/f38ad14e-6966-46a7-acb3-2f707459f5c5",
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGYE5K9JQR&subId3=justappsvod"
-        },
-        "poster": "posters/anime-erased.jpg",
-        "why": "A man sent back to his childhood to stop a serial killer. A 12-episode mystery that feels like Dark meets Zodiac.",
-        "synopsis": "Satoru Fujinuma is a struggling manga artist who has the ability to turn back time and prevent deaths. When his mother is killed he turns back time to solve the mystery, but ends up back in elementary school, just before the disappearance of his classmate Kayo.",
-        "genres": [
-          "Animation",
-          "Crime",
-          "Drama",
-          "Fantasy",
-          "Thriller",
-          "Sci-Fi"
-        ],
-        "imdb": "tt5249462",
-        "tmdb": "65249",
-        "justwatch": "https://www.justwatch.com/us/tv-show/erased"
-      },
-      {
-        "title": "JoJo's Bizarre Adventure",
-        "year": 2012,
+        "title": "Zom 100: Bucket List of the Dead",
+        "year": 2023,
         "type": "show",
         "services": [
           "Netflix",
           "Hulu",
-          "Crunchyroll",
-          "Prime Video"
+          "Crunchyroll"
         ],
         "links": {
-          "Netflix": "https://www.netflix.com/title/80179831",
-          "Hulu": "https://www.hulu.com/watch/f3e27bf1-2960-4f0e-802b-a9d50d6ca951",
-          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGR8V1MJ9R&subId3=justappsvod",
-          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.df8b9a22-d519-4a78-bc59-cfdadf8be146"
+          "Netflix": "https://www.netflix.com/title/81680101",
+          "Hulu": "https://www.hulu.com/watch/1d410e6b-9a98-4897-9bc3-3dd4e7343f81",
+          "Crunchyroll": "https://www.crunchyroll.com/watch/G31UXWVZP"
         },
-        "poster": "posters/anime-jojos-bizarre-adventure-1993.jpg",
-        "why": "Stand battles are rule-based puzzles, like Nen fights. Every part is a new arc with a new cast, so there's no filler.",
-        "synopsis": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
+        "poster": "posters/anime-zom-100-bucket-list-of-the-dead.jpg",
+        "why": "A burnt-out office worker finds new life in a zombie apocalypse. Funny, gory and upbeat.",
+        "synopsis": "A worker in a foreign finance company is bullied and worked around the clock, before a zombie outbreak finally makes him feel alive.",
         "genres": [
           "Action",
           "Animation",
           "Comedy",
-          "Drama",
           "Fantasy",
           "Horror",
           "Sci-Fi"
         ],
-        "imdb": "tt29742160",
-        "tmdb": "45790",
-        "justwatch": "https://www.justwatch.com/us/tv-show/jojos-bizarre-adventure-1993"
+        "imdb": "tt25811262",
+        "tmdb": "217766",
+        "justwatch": "https://www.justwatch.com/us/tv-show/zom-100-bucket-list-of-the-dead"
+      },
+      {
+        "title": "The Eminence in Shadow",
+        "year": 2022,
+        "type": "show",
+        "services": [
+          "Hulu",
+          "HIDIVE"
+        ],
+        "links": {
+          "Hulu": "https://www.hulu.com/watch/f6c12f68-43de-4e19-9d67-3b607c6867ab",
+          "HIDIVE": "https://www.hidive.com/interstitial/534740"
+        },
+        "poster": "posters/anime-the-eminence-in-shadow.jpg",
+        "why": "A fan of secret masterminds is reborn in a fantasy world and plays one, and it turns out to be real. Action comedy.",
+        "synopsis": "Shadowbrokers are those who go unnoticed, posing as unremarkable people, when in truth, they control everything from behind the scenes. Sid wants to be someone just like that more than anything, and something as insignificant as boring reality isn’t going to get in his way! He trains in secret every single night, preparing for his eventual rise to power—only to be denied his destiny by a run-of-the-mill (yet deadly) traffic accident. But when he wakes up in a another world and suddenly finds himself at the head of an actual secret organization doing battle with evil in the shadows, he’ll finally get a chance to act out all of his delusional fantasies!",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "imdb": "tt14115938",
+        "tmdb": "119495",
+        "justwatch": "https://www.justwatch.com/us/tv-show/the-eminence-in-shadow"
       }
     ]
   }
