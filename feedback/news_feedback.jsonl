@@ -16,3 +16,5 @@
 {"id":"3041ea3f-c946-4c15-8968-15418ba0c862","ts":"2026-10-26T05:48:09Z","item_id":"3d6a8324b0e86184","topic":"local","source":"FOX 10 Phoenix","title":"Driver dies after train strikes vehicle on Peoria tracks","action":"up","device":"phone"}
 {"id":"4cef8a21-ed88-4581-b68d-2fb11db9f54f","ts":"2026-10-26T05:49:06Z","item_id":"a2fd0795583bdeef","topic":"homelab","source":"Phoronix","title":"Linux 7.4 finally reads AMD 600-series chipset temperatures","action":"up","device":"phone"}
 {"id":"14032887-019b-4fcc-8d16-e35026358eb5","ts":"2026-10-26T05:51:21Z","item_id":"0da3f00a6854359c","topic":"homelab","source":"Phoronix","title":"Realtek rtl8723bs Driver Deleted From Staging Area In Linux 7.4","action":"up","device":"phone"}
+{"id":"ac7bb81a-7e6d-42c6-aaa2-aaa42b86db86","ts":"2026-10-30T03:11:28Z","item_id":"c711b204747cd929","topic":"gaming","source":"Steam","title":"Valheim: Patch 1.0.21","action":"more_like_this"}
+{"id":"98153421-13b0-4baa-a4cd-7612b7efcc2a","ts":"2026-10-30T03:11:38Z","item_id":"c711b204747cd929","topic":"gaming","source":"Steam","title":"Valheim: Patch 1.0.21","action":"up"}
