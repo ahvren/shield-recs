@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-25T19:43-07:00",
+  "generated": "2026-10-29T23:07-04:00",
   "region": "US",
-  "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only, checked 2026-10-25 (all 150 re-verified)",
+  "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only. Movies and Shows checked 2026-10-28; Anime re-verified 2026-10-29 (now includes HIDIVE)",
   "services": {
     "Netflix": {
       "color": "#E50914",
@@ -26,6 +26,10 @@
     "Hulu": {
       "color": "#13A85B",
       "package": "com.hulu.livingroomplus"
+    },
+    "HIDIVE": {
+      "color": "#00AEEF",
+      "package": "com.twentyfouri.androidtv.hidive"
     }
   },
   "rows": [
@@ -2352,7 +2356,7 @@
       ]
     }
   ],
-  "availability_note": "Subscription availability checked on JustWatch US, 2026-10-25 evening (weekly refresh)",
+  "availability_note": "Subscription availability checked on JustWatch US. Movies and Shows 2026-10-28, Anime 2026-10-29",
   "schema": {
     "rows[].items[]": "title, year, type (movie|show), services[], links{service:web URL}, poster (relative path), why, synopsis, genres[], imdb, tmdb, justwatch",
     "services{}": "badge color + Android TV package used for the 'Open in app' intent",
@@ -2363,6 +2367,111 @@
     "label": "Anime",
     "items": [
       {
+        "title": "Parasyte -the maxim-",
+        "year": 2014,
+        "type": "show",
+        "services": [
+          "HIDIVE"
+        ],
+        "links": {
+          "HIDIVE": "https://www.hidive.com/interstitial/560986"
+        },
+        "poster": "posters/anime-parasyte-the-maxim.jpg",
+        "why": "An alien parasite takes over a teen's hand instead of his brain. Creature horror with real ideas, right in your The Strain (9.5) lane.",
+        "synopsis": "A species of parasitic aliens descends on Earth and quickly infiltrates humanity by entering the brains of vulnerable targets; insatiable beings that gain total control of their host and are capable of transforming themselves to feed on unsuspecting prey. High school student Shinichi Izumi falls victim to one of these parasites, but the creature fails to take over his brain and ends up in his right hand.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "imdb": "tt3358020",
+        "tmdb": "61459",
+        "justwatch": "https://www.justwatch.com/us/tv-show/parasyte-the-maxim"
+      },
+      {
+        "title": "Made in Abyss",
+        "year": 2017,
+        "type": "show",
+        "services": [
+          "HIDIVE"
+        ],
+        "links": {
+          "HIDIVE": "https://www.hidive.com/interstitial/564166"
+        },
+        "poster": "posters/anime-made-in-abyss.jpg",
+        "why": "Descend a giant pit of strange monsters and relics. Cute art over a genuinely brutal dark fantasy world.",
+        "synopsis": "Located in the center of a remote island, the Abyss is the last unexplored region, a huge and treacherous fathomless hole inhabited by strange creatures where only the bravest adventurers descend in search of ancient relics. In the upper levels of the Abyss, Riko, a girl who dreams of becoming an explorer, stumbles upon a mysterious little boy.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "imdb": "tt7222086",
+        "tmdb": "72636",
+        "justwatch": "https://www.justwatch.com/us/tv-show/made-in-abyss"
+      },
+      {
+        "title": "Vinland Saga",
+        "year": 2019,
+        "type": "show",
+        "services": [
+          "Netflix",
+          "Crunchyroll",
+          "Prime Video",
+          "Hulu",
+          "HIDIVE"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/81249833",
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGWDU8JM52&subId3=justappsvod",
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.80d4a3ed-21d5-4ed1-b3f4-054b29da3ec2",
+          "Hulu": "https://www.hulu.com/watch/8d2734c1-abf0-4877-b7c3-233fbbc96819",
+          "HIDIVE": "https://www.hidive.com/interstitial/562248"
+        },
+        "poster": "posters/anime-vinland-saga.jpg",
+        "why": "Viking revenge epic. Season 1 is relentless; it's for your Game of Thrones and Frieren side.",
+        "synopsis": "For a thousand years, the Vikings have made quite a name and reputation for themselves as the strongest families with a thirst for violence. Thorfinn, the son of one of the Vikings' greatest warriors, spends his boyhood in a battlefield enhancing his skills in his adventure to redeem his most-desired revenge after his father was murdered.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "History",
+          "War"
+        ],
+        "imdb": "tt10233448",
+        "tmdb": "88803",
+        "justwatch": "https://www.justwatch.com/us/tv-show/vinland-saga"
+      },
+      {
+        "title": "Monster",
+        "year": 2004,
+        "type": "show",
+        "services": [
+          "Netflix"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/81409869"
+        },
+        "poster": "posters/anime-monster.jpg",
+        "why": "A surgeon saves the wrong boy, then spends years hunting the killer he became. Slow-burn mystery thriller often named one of anime's best.",
+        "synopsis": "Kenzou Tenma, a Japanese brain surgeon in Germany, finds his life in utter turmoil after getting involved with a psychopath that was once a former patient.",
+        "genres": [
+          "Animation",
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "imdb": "tt0434706",
+        "tmdb": "30981",
+        "justwatch": "https://www.justwatch.com/us/tv-show/monster"
+      },
+      {
         "title": "Golden Kamuy",
         "year": 2018,
         "type": "show",
@@ -2370,7 +2479,7 @@
           "Crunchyroll"
         ],
         "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G14UVJJN0"
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FG14UVJJN0&subId3=justappsvod"
         },
         "poster": "posters/anime-golden-kamuy.jpg",
         "why": "A brutal survival-treasure hunt in Hokkaido after the Russo-Japanese War. The violence and dark comedy of Hell's Paradise (9.5).",
@@ -2388,59 +2497,6 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/golden-kamuy"
       },
       {
-        "title": "Hellsing Ultimate",
-        "year": 2006,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GJWU255P4"
-        },
-        "poster": "posters/anime-hellsing-ultimate.jpg",
-        "why": "An unstoppable vampire works for the Protestant church against Nazis and the Vatican. Gloriously excessive gothic action, 10 OVAs.",
-        "synopsis": "For over a century, the mysterious Hellsing Organization has been secretly protecting the British Empire from the undead. When Sir Integra Hellsing succeeded as the head of the organization, she also inherited the ultimate weapon against these supernatural enemies: Alucard, a rogue vampire possessing mysterious and frightening powers. Now, Hellsing must deal with a more dangerous threat than vampires.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Fantasy",
-          "Horror"
-        ],
-        "imdb": "tt0495212",
-        "tmdb": "61752",
-        "justwatch": "https://www.justwatch.com/us/tv-show/hellsing-ultimate"
-      },
-      {
-        "title": "Vinland Saga",
-        "year": 2019,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Crunchyroll",
-          "Prime Video",
-          "Hulu"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81249833",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GWDU8JM52",
-          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.80d4a3ed-21d5-4ed1-b3f4-054b29da3ec2",
-          "Hulu": "https://www.hulu.com/watch/8d2734c1-abf0-4877-b7c3-233fbbc96819"
-        },
-        "poster": "posters/anime-vinland-saga.jpg",
-        "why": "Viking revenge epic. Season 1 is relentless; it's for your Game of Thrones and Frieren side.",
-        "synopsis": "For a thousand years, the Vikings have made quite a name and reputation for themselves as the strongest families with a thirst for violence. Thorfinn, the son of one of the Vikings' greatest warriors, spends his boyhood in a battlefield enhancing his skills in his adventure to redeem his most-desired revenge after his father was murdered.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "History",
-          "War"
-        ],
-        "imdb": "tt10233448",
-        "tmdb": "88803",
-        "justwatch": "https://www.justwatch.com/us/tv-show/vinland-saga"
-      },
-      {
         "title": "Dorohedoro",
         "year": 2020,
         "type": "show",
@@ -2451,8 +2507,8 @@
         ],
         "links": {
           "Netflix": "https://www.netflix.com/title/80991903",
-          "Hulu": "https://www.hulu.com/watch/e5957dfe-1e4a-4826-9a5b-471c4a7ab8cd",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00375235JAJP"
+          "Hulu": "https://www.hulu.com/watch/22effa9d-05bb-4768-b6f4-9f85f6d0131a",
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00375235JAJP&subId3=justappsvod"
         },
         "poster": "posters/anime-dorohedoro.jpg",
         "why": "A man with a lizard head hunts the sorcerer who cursed him. Dark comedy gore in a grimy world.",
@@ -2470,53 +2526,53 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/dorohedoro"
       },
       {
-        "title": "Devilman Crybaby",
-        "year": 2018,
+        "title": "Ragna Crimson",
+        "year": 2023,
         "type": "show",
         "services": [
-          "Netflix"
+          "Hulu",
+          "HIDIVE"
         ],
         "links": {
-          "Netflix": "https://www.netflix.com/title/80174974"
+          "Hulu": "https://www.hulu.com/watch/a909115c-3e08-4edf-a48e-27fbb8a0a1df",
+          "HIDIVE": "https://www.hidive.com/interstitial/590258"
         },
-        "poster": "posters/anime-devilman-crybaby.jpg",
-        "why": "Brutal, wild 10-episode demon horror from Masaaki Yuasa. Ends hard.",
-        "synopsis": "With demons reawakened and humanity in turmoil, a sensitive demon-boy is led into a brutal, degenerate war against evil by his mysterious friend, Ryo.",
+        "poster": "posters/anime-ragna-crimson.jpg",
+        "why": "Dragon hunters in a bloody, high-stakes dark fantasy. Brutal action in the Hell's Paradise (9.5) lane.",
+        "synopsis": "Ragna teams up with the enigmatic Crimson to stand against the dragons menacing the world. Although Crimson's motivations are mysterious, his goal and Ragna's perfectly align, and together they'll vanquish the dragons once and for all.",
         "genres": [
           "Action",
           "Animation",
           "Drama",
           "Fantasy",
-          "Horror",
           "Sci-Fi"
         ],
-        "imdb": "tt6660498",
-        "tmdb": "75208",
-        "justwatch": "https://www.justwatch.com/us/tv-show/devilman-crybaby"
+        "imdb": "tt28685470",
+        "tmdb": "195459",
+        "justwatch": "https://www.justwatch.com/us/tv-show/ragna-crimson"
       },
       {
-        "title": "Goblin Slayer",
-        "year": 2018,
+        "title": "Hellsing Ultimate",
+        "year": 2006,
         "type": "show",
         "services": [
           "Crunchyroll"
         ],
         "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GJWU28XV5"
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGR092X8VR&subId3=justappsvod"
         },
-        "poster": "posters/anime-goblin-slayer.jpg",
-        "why": "A grim adventurer who only hunts goblins, in a fantasy world that doesn't pull punches. Brutal dark fantasy in the Hell's Paradise (9.5) lane.",
-        "synopsis": "\"I'm not saving the world. I just kill goblins.\"\n\nRumor has it that, in a certain guild in the middle of nowhere, there is an extraordinary man who has climbed all the way to the Silver rank just by killing goblins. At the same guild, a priestess who's just become a new adventurer has formed her first party... and the man who ends up rescuing that party when they get into trouble is none other than the Goblin Slayer.",
+        "poster": "posters/anime-hellsing-ultimate.jpg",
+        "why": "An unstoppable vampire works for the Protestant church against Nazis and the Vatican. Gloriously excessive gothic action, 10 OVAs.",
+        "synopsis": "For over a century, the mysterious Hellsing Organization has been secretly protecting the British Empire from the undead. When Sir Integra Hellsing succeeded as the head of the organization, she also inherited the ultimate weapon against these supernatural enemies: Alucard, a rogue vampire possessing mysterious and frightening powers. Now, Hellsing must deal with a more dangerous threat than vampires.",
         "genres": [
           "Action",
           "Animation",
           "Fantasy",
-          "Horror",
-          "Sci-Fi"
+          "Horror"
         ],
-        "imdb": "tt8690728",
-        "tmdb": "82591",
-        "justwatch": "https://www.justwatch.com/us/tv-show/goblin-slayer"
+        "imdb": "tt0495212",
+        "tmdb": "61752",
+        "justwatch": "https://www.justwatch.com/us/tv-show/hellsing-ultimate"
       },
       {
         "title": "Heavenly Delusion",
@@ -2542,55 +2598,52 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/heavenly-delusion"
       },
       {
-        "title": "Gachiakuta",
-        "year": 2025,
+        "title": "Summer Time Rendering",
+        "year": 2022,
         "type": "show",
         "services": [
-          "Hulu",
-          "Crunchyroll"
+          "Hulu"
         ],
         "links": {
-          "Hulu": "https://www.hulu.com/watch/5307a3b5-fc45-413e-bf74-632e67c9ef52",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00352502PLPL"
+          "Hulu": "https://www.hulu.com/watch/a87be2de-54d2-472c-88a3-d2123a674331"
         },
-        "poster": "posters/anime-gachiakuta.jpg",
-        "why": "Thrown into the abyss for a crime he didn't commit, a boy fights trash monsters with a rule-based power. 2025's breakout dark shonen.",
-        "synopsis": "Accused of murder and thrown into the Pit, a young orphan joins a group of monster fighters with special powers to uncover the truth and seek vengeance.",
+        "poster": "posters/anime-summer-time-rendering.jpg",
+        "why": "Time-loop sci-fi mystery on an island where doppelgangers are killing people. Closest anime to Dark (10), and fully completed.",
+        "synopsis": "Shinpei Ajiro travels home to attend the funeral of a childhood friend, and finds the remote island plagued by a sinister, supernatural force.",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Thriller"
+        ],
+        "imdb": "tt15686254",
+        "tmdb": "117933",
+        "justwatch": "https://www.justwatch.com/us/tv-show/summer-time-rendering"
+      },
+      {
+        "title": "Devilman Crybaby",
+        "year": 2018,
+        "type": "show",
+        "services": [
+          "Netflix"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/80174974"
+        },
+        "poster": "posters/anime-devilman-crybaby.jpg",
+        "why": "Brutal, wild 10-episode demon horror from Masaaki Yuasa. Ends hard.",
+        "synopsis": "With demons reawakened and humanity in turmoil, a sensitive demon-boy is led into a brutal, degenerate war against evil by his mysterious friend, Ryo.",
         "genres": [
           "Action",
           "Animation",
           "Drama",
           "Fantasy",
+          "Horror",
           "Sci-Fi"
         ],
-        "imdb": "tt32612521",
-        "tmdb": "256721",
-        "justwatch": "https://www.justwatch.com/us/tv-show/gachiakuta"
-      },
-      {
-        "title": "Dororo",
-        "year": 2019,
-        "type": "show",
-        "services": [
-          "Prime Video",
-          "Hulu"
-        ],
-        "links": {
-          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.f0b2865f-3270-43c6-90f2-5eb0ec6780cc",
-          "Hulu": "https://www.hulu.com/watch/0993e8cb-1586-4c8b-bae9-e4c5f05b78ce"
-        },
-        "poster": "posters/anime-dororo.jpg",
-        "why": "A samurai missing 48 body parts kills demons to win them back. Dark fantasy with monster-of-the-week momentum.",
-        "synopsis": "During the Warring States period, the young thief Dororo encounters Hyakkimaru, a strange, sightless boy who wields fearsome prosthetics in place of his missing limbs. Parts of Hyakkimaru’s body were traded to a group of 12 demons by his father in exchange for power, but thanks to a kindly medicine man, Hyakkimaru survived his horrifying ordeal. Now he roams the land in search of his missing body, and together he and Dororo will fight to survive in an unforgiving, demon-plagued world.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Fantasy",
-          "Horror"
-        ],
-        "imdb": "tt9458304",
-        "tmdb": "83100",
-        "justwatch": "https://www.justwatch.com/us/tv-show/dororo"
+        "imdb": "tt6660498",
+        "tmdb": "75208",
+        "justwatch": "https://www.justwatch.com/us/tv-show/devilman-crybaby"
       },
       {
         "title": "Death Note",
@@ -2620,6 +2673,773 @@
         "imdb": "tt0877057",
         "tmdb": "13916",
         "justwatch": "https://www.justwatch.com/us/tv-show/death-note"
+      },
+      {
+        "title": "Code Geass: Lelouch of the Rebellion",
+        "year": 2006,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FG4VUQ1G55&subId3=justappsvod"
+        },
+        "poster": "posters/anime-code-geass-lelouch-of-the-rebellion.jpg",
+        "why": "A strategic mastermind with one rule-bound power, plus mecha war and constant reversals. Complete in 2 seasons.",
+        "synopsis": "Japan has been invaded and conquered by the Britannian Empire. Japan is now known as Area 11 and its citizens known as Elevens. The Britannian Empire takes away Japan's autonomous power and imposes its rule through the use of Knightmares. The Empire's rule has never faltered, but cracks have begun to show...",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Thriller",
+          "Sci-Fi"
+        ],
+        "imdb": "tt0994314",
+        "tmdb": "31724",
+        "justwatch": "https://www.justwatch.com/us/tv-show/code-geass-lelouch-of-the-rebellion"
+      },
+      {
+        "title": "Steins;Gate",
+        "year": 2011,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00012870ENUS&subId3=justappsvod"
+        },
+        "poster": "posters/anime-steins-gate.jpg",
+        "why": "Time-travel sci-fi thriller with strict rules. Slow first few episodes, then it becomes one of anime's best, Dark-style.",
+        "synopsis": "A group of friends have customized their microwave so that it can send text messages to the past. As they perform different experiments, an organization named SERN who has been doing their own research on time travel tracks them down and now the characters have to find a way to avoid being captured by them.",
+        "genres": [
+          "Animation",
+          "Comedy",
+          "Drama",
+          "Thriller",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "imdb": "tt1910272",
+        "tmdb": "42509",
+        "justwatch": "https://www.justwatch.com/us/tv-show/steins-gate"
+      },
+      {
+        "title": "Paranoia Agent",
+        "year": 2004,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGVWU0QEJX&subId3=justappsvod"
+        },
+        "poster": "posters/anime-paranoia-agent.jpg",
+        "why": "Satoshi Kon's surreal mystery: a kid with a golden bat attacks people and no one can describe him. Creepy and strange.",
+        "synopsis": "Musashino, Tokyo. An elementary schooler repeatedly attacks people in the streets. Known only to the public as \"Lil Slugger\", none of the victims can recall the young boy's face and only three distinct details are left in their memories: golden inline skates, a baseball cap, and the weapon: a bent golden baseball bat. Detectives Ikari and Maniwa set out to track down the perpetrator and put an end to his crimes.",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "imdb": "tt0433722",
+        "tmdb": "9343",
+        "justwatch": "https://www.justwatch.com/us/tv-show/paranoia-agent"
+      },
+      {
+        "title": "Another",
+        "year": 2012,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGR9PV1Z86&subId3=justappsvod"
+        },
+        "poster": "posters/anime-another.jpg",
+        "why": "A cursed class where students die in Final Destination (8.6)-style accidents. 12-episode mystery horror.",
+        "synopsis": "When Kouichi arrives at his new school, he immediately senses something frightening in the atmosphere of his new class, something that no student wants to talk about and that seems to be related to a mysterious and silent girl.",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Thriller"
+        ],
+        "imdb": "tt2176165",
+        "tmdb": "42589",
+        "justwatch": "https://www.justwatch.com/us/tv-show/another"
+      },
+      {
+        "title": "The Promised Neverland",
+        "year": 2019,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGG1U20Q2K&subId3=justappsvod"
+        },
+        "poster": "posters/anime-the-promised-neverland.jpg",
+        "why": "Orphanage kids discover the truth and plan an escape. Season 1 is a near-perfect strategy thriller. Skip season 2.",
+        "synopsis": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as “Mom,” all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn—what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Thriller",
+          "Sci-Fi"
+        ],
+        "imdb": "tt8788458",
+        "tmdb": "83097",
+        "justwatch": "https://www.justwatch.com/us/tv-show/the-promised-neverland"
+      },
+      {
+        "title": "High School of the Dead",
+        "year": 2010,
+        "type": "show",
+        "services": [
+          "Hulu",
+          "HIDIVE"
+        ],
+        "links": {
+          "Hulu": "https://www.hulu.com/watch/196851de-8b5c-463e-9d17-ba8b0db88fa8",
+          "HIDIVE": "https://www.hidive.com/interstitial/540046"
+        },
+        "poster": "posters/anime-high-school-of-the-dead.jpg",
+        "why": "A zombie outbreak at a high school. Loud, gory survival action, and heavy on fan service.",
+        "synopsis": "A small group of students at Fujimi High are fighting for their lives after surviving a zombie outbreak. It is up to Takashi to unite the survivors and escape the horrors that surround them. In this new world of the living dead...will they escape?",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Horror",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "imdb": "tt1685401",
+        "tmdb": "56998",
+        "justwatch": "https://www.justwatch.com/us/tv-show/academy-apocalypse-highschool-of-the-dead"
+      },
+      {
+        "title": "Babylon",
+        "year": 2019,
+        "type": "show",
+        "services": [
+          "Prime Video",
+          "HIDIVE"
+        ],
+        "links": {
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.06c48091-d4b0-49af-8539-c272ec4ac858",
+          "HIDIVE": "https://www.hidive.com/interstitial/547489"
+        },
+        "poster": "posters/anime-babylon.jpg",
+        "why": "A prosecutor uncovers a pharma conspiracy that spirals into a dark political thriller.",
+        "synopsis": "Prosecutor Seizaki Zen investigates illegal acts by a pharmaceutical firm, uncovering a conspiracy surrounding the election for Tokyo's new autonomous western zone.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "imdb": "tt10937632",
+        "tmdb": "92599",
+        "justwatch": "https://www.justwatch.com/us/tv-show/babylon-2019"
+      },
+      {
+        "title": "Berserk",
+        "year": 2016,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGYQWK91EY&subId3=justappsvod"
+        },
+        "poster": "posters/anime-berserk.jpg",
+        "why": "The grimmest dark fantasy there is, with Guts on an endless revenge quest. This 2016 CG version is divisive, so watch for the world.",
+        "synopsis": "Spurred by the flame raging in his heart, the Black Swordsman Guts continues his seemingly endless quest for revenge. Standing in his path are heinous outlaws, delusional evil spirits, and a devout child of god. Even as it chips away at his life, Guts continues to fight his enemies, who wield repulsive and inhumane power, with nary but his body and sword—his strength as a human.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "imdb": "tt5847454",
+        "tmdb": "66053",
+        "justwatch": "https://www.justwatch.com/us/tv-show/berserk-2016"
+      },
+      {
+        "title": "Dan Da Dan",
+        "year": 2024,
+        "type": "show",
+        "services": [
+          "Netflix",
+          "Crunchyroll",
+          "Hulu"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/81736884",
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGWDU7V1ZV&subId3=justappsvod",
+          "Hulu": "https://www.hulu.com/watch/7fb08a11-4105-4655-9997-d98d3cc9772e"
+        },
+        "poster": "posters/anime-dan-da-dan.jpg",
+        "why": "Fast sci-fi horror comedy with aliens versus ghosts. Wild, kinetic, and never slow.",
+        "synopsis": "When Momo and Okarun's beliefs clash, they're thrown into a world of ghosts, aliens and awakened powers.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Fantasy",
+          "Thriller",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "imdb": "tt30217403",
+        "tmdb": "240411",
+        "justwatch": "https://www.justwatch.com/us/tv-show/dan-da-dan"
+      },
+      {
+        "title": "Gachiakuta",
+        "year": 2025,
+        "type": "show",
+        "services": [
+          "Hulu",
+          "Crunchyroll"
+        ],
+        "links": {
+          "Hulu": "https://www.hulu.com/watch/5307a3b5-fc45-413e-bf74-632e67c9ef52",
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00352502PLPL&subId3=justappsvod"
+        },
+        "poster": "posters/anime-gachiakuta.jpg",
+        "why": "Thrown into the abyss for a crime he didn't commit, a boy fights trash monsters with a rule-based power. 2025's breakout dark shonen.",
+        "synopsis": "Accused of murder and thrown into the Pit, a young orphan joins a group of monster fighters with special powers to uncover the truth and seek vengeance.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "imdb": "tt32612521",
+        "tmdb": "256721",
+        "justwatch": "https://www.justwatch.com/us/tv-show/gachiakuta"
+      },
+      {
+        "title": "Kaiju No. 8",
+        "year": 2024,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00379478ARSA&subId3=justappsvod"
+        },
+        "poster": "posters/anime-kaiju-no-8.jpg",
+        "why": "A man becomes a kaiju but joins the force that fights them. A clean shonen in the My Hero Academia (9.7) lane.",
+        "synopsis": "A man working a job far removed from his childhood dreams gets wrapped up in an unexpected situation - becoming a monster, he aims once again to fulfill his lifelong dream.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "imdb": "tt21975436",
+        "tmdb": "207468",
+        "justwatch": "https://www.justwatch.com/us/tv-show/kaiju-no-8"
+      },
+      {
+        "title": "Dororo",
+        "year": 2019,
+        "type": "show",
+        "services": [
+          "Prime Video",
+          "Hulu",
+          "HIDIVE"
+        ],
+        "links": {
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.f0b2865f-3270-43c6-90f2-5eb0ec6780cc",
+          "Hulu": "https://www.hulu.com/watch/0993e8cb-1586-4c8b-bae9-e4c5f05b78ce",
+          "HIDIVE": "https://www.hidive.com/interstitial/560662"
+        },
+        "poster": "posters/anime-dororo.jpg",
+        "why": "A samurai missing 48 body parts kills demons to win them back. Dark fantasy with monster-of-the-week momentum.",
+        "synopsis": "During the Warring States period, the young thief Dororo encounters Hyakkimaru, a strange, sightless boy who wields fearsome prosthetics in place of his missing limbs. Parts of Hyakkimaru’s body were traded to a group of 12 demons by his father in exchange for power, but thanks to a kindly medicine man, Hyakkimaru survived his horrifying ordeal. Now he roams the land in search of his missing body, and together he and Dororo will fight to survive in an unforgiving, demon-plagued world.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Fantasy",
+          "Horror"
+        ],
+        "imdb": "tt9458304",
+        "tmdb": "83100",
+        "justwatch": "https://www.justwatch.com/us/tv-show/dororo"
+      },
+      {
+        "title": "Dusk Beyond the End of the World",
+        "year": 2025,
+        "type": "show",
+        "services": [
+          "HIDIVE"
+        ],
+        "links": {
+          "HIDIVE": "https://www.hidive.com/interstitial/862209"
+        },
+        "poster": "posters/anime-dusk-beyond-the-end-of-the-world.jpg",
+        "why": "A man wakes centuries later in a post-AI world with an android companion. Quiet sci-fi, newer on HIDIVE.",
+        "synopsis": "When tensions around AI spark civil unrest, Akira is caught in the crossfire when he protects his girlfriend from an assassin. Hundreds of years later, he awakens from cryogenic sleep to an unfamiliar world and bonds with the android Yuugure.",
+        "genres": [
+          "Animation",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "imdb": "tt37532634",
+        "tmdb": "294867",
+        "justwatch": "https://www.justwatch.com/us/tv-show/dusk-beyond-the-end-of-the-world"
+      },
+      {
+        "title": "Sword of the Demon Hunter",
+        "year": 2025,
+        "type": "show",
+        "services": [
+          "Hulu",
+          "HIDIVE"
+        ],
+        "links": {
+          "Hulu": "https://www.hulu.com/watch/09a85ac7-cada-4635-b155-5a6c3dba916d",
+          "HIDIVE": "https://www.hidive.com/interstitial/778107"
+        },
+        "poster": "posters/anime-sword-of-the-demon-hunter.jpg",
+        "why": "A swordsman fights demons through a century-spanning historical epic. Dark fantasy swordplay.",
+        "synopsis": "Jinta journeys through a century-spanning epic, all while questioning why he wields a sword.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "History",
+          "Sci-Fi"
+        ],
+        "imdb": "tt32281073",
+        "tmdb": "133154",
+        "justwatch": "https://www.justwatch.com/us/tv-show/sword-of-the-demon-hunter-kijin-gentosho"
+      },
+      {
+        "title": "Yofukashi no Uta",
+        "year": 2022,
+        "type": "show",
+        "services": [
+          "HIDIVE",
+          "Hulu"
+        ],
+        "links": {
+          "HIDIVE": "https://www.hidive.com/interstitial/542416",
+          "Hulu": "https://www.hulu.com/watch/8960a3df-e425-4e56-a9d6-d2ffd4c2d4c7"
+        },
+        "poster": "posters/anime-yofukashi-no-uta.jpg",
+        "why": "A sleepless boy meets a vampire girl in the night city. Stylish and laid back, lighter than your usual.",
+        "synopsis": "Ko, a human boy, falls in love with Nanakusa, a vampire girl, and wants to become a vampire too, but Nanakusa invites him to her abandoned building just to taste the sweet blood from her neck.",
+        "genres": [
+          "Animation",
+          "Comedy",
+          "Fantasy",
+          "Horror",
+          "Romance"
+        ],
+        "imdb": "tt15975122",
+        "tmdb": "138357",
+        "justwatch": "https://www.justwatch.com/us/tv-show/call-of-the-night"
+      },
+      {
+        "title": "Blade of the Immortal",
+        "year": 2008,
+        "type": "show",
+        "services": [
+          "HIDIVE"
+        ],
+        "links": {
+          "HIDIVE": "https://www.hidive.com/interstitial/550042"
+        },
+        "poster": "posters/anime-blade-of-the-immortal.jpg",
+        "why": "A cursed immortal samurai must kill 1,000 evil men to die. Grimy swordplay and dark violence.",
+        "synopsis": "Manji is a crass, violent samurai with a special ability: he cannot die. Cursed with immortality by the nun Yobikuni as punishment for his ruthless deeds, he has grown weary of his ageless life. The only way to lift the curse is to slay 1,000 evil men. So Manji wanders Japan, shedding the blood of the wicked on his quest to finally die.",
+        "genres": [
+          "Action",
+          "Animation",
+          "History",
+          "Horror"
+        ],
+        "imdb": "tt1208358",
+        "tmdb": "34697",
+        "justwatch": "https://www.justwatch.com/us/tv-show/blade-of-the-immortal"
+      },
+      {
+        "title": "Helck",
+        "year": 2023,
+        "type": "show",
+        "services": [
+          "Hulu",
+          "HIDIVE"
+        ],
+        "links": {
+          "Hulu": "https://www.hulu.com/watch/49ed31b9-5665-4c80-bb25-c33315af0783",
+          "HIDIVE": "https://www.hidive.com/interstitial/559709"
+        },
+        "poster": "posters/anime-helck.jpg",
+        "why": "A human hero tries to become the next Demon Lord in a tournament. Fantasy action with dark humor.",
+        "synopsis": "Three months have passed since the Demon Lord was struck down, and the Demon Realm is holding a tournament to select his replacement. The leading contestant is Helck, a human hero who claims to hate his own kind. Some aren't happy with the idea of a human becoming the next Demon Lord—especially Vermilio the Red. She wants nothing more than to protect demonkind and prove Helck to be their enemy, even if she has to rig the competition to do it!",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "imdb": "tt26688817",
+        "tmdb": "157571",
+        "justwatch": "https://www.justwatch.com/us/tv-show/helck"
+      },
+      {
+        "title": "Zom 100: Bucket List of the Dead",
+        "year": 2023,
+        "type": "show",
+        "services": [
+          "Netflix",
+          "Hulu",
+          "Crunchyroll"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/81680101",
+          "Hulu": "https://www.hulu.com/watch/1d410e6b-9a98-4897-9bc3-3dd4e7343f81",
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGK9U3MGDP&subId3=justappsvod"
+        },
+        "poster": "posters/anime-zom-100-bucket-list-of-the-dead.jpg",
+        "why": "A burnt-out office worker finds new life in a zombie apocalypse. Funny, gory and upbeat.",
+        "synopsis": "A worker in a foreign finance company is bullied and worked around the clock, before a zombie outbreak finally makes him feel alive.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "imdb": "tt25811262",
+        "tmdb": "217766",
+        "justwatch": "https://www.justwatch.com/us/tv-show/zom-100-bucket-list-of-the-dead"
+      },
+      {
+        "title": "Kabaneri of the Iron Fortress",
+        "year": 2016,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGRZJE78M6&subId3=justappsvod"
+        },
+        "poster": "posters/anime-kabaneri-of-the-iron-fortress.jpg",
+        "why": "Steampunk armored trains vs. hordes of undead Kabane, from the studio behind Attack on Titan. Stylish creature action.",
+        "synopsis": "In the midst of an industrial revolution, the people of Hinomoto fight hordes of undead creatures, known as Kabane, using powerful armored trains.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "imdb": "tt5556656",
+        "tmdb": "65945",
+        "justwatch": "https://www.justwatch.com/us/tv-show/kabaneri-of-the-iron-fortress"
+      },
+      {
+        "title": "Psycho-Pass",
+        "year": 2012,
+        "type": "show",
+        "services": [
+          "Crunchyroll",
+          "Prime Video"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00261612TLPH&subId3=justappsvod",
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b"
+        },
+        "poster": "posters/anime-psycho-pass.jpg",
+        "why": "Cyberpunk crime procedural in a Minority Report-style precrime state. Season 1 is the one to watch.",
+        "synopsis": "In the year 2113, people are given brain scans to determine how likely they are to commit a crime. Those who fail are apprehended, or even killed.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Crime",
+          "Drama",
+          "Thriller",
+          "Sci-Fi"
+        ],
+        "imdb": "tt2379308",
+        "tmdb": "43865",
+        "justwatch": "https://www.justwatch.com/us/tv-show/psycho-pass"
+      },
+      {
+        "title": "Ergo Proxy",
+        "year": 2006,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGVWU0ED74&subId3=justappsvod"
+        },
+        "poster": "posters/anime-ergo-proxy.jpg",
+        "why": "A moody sci-fi mystery in a dome city where monsters called Proxies awaken. Slow, philosophical and weird.",
+        "synopsis": "Thousands of years after Earth’s atmosphere was destroyed, adventure blooms in the strangest of places. The domed city of Romdo is supposed to be perfect, but Re-l Mayer, a young female inspector from the Civilian Intelligence Office, knows better. In this place where humans and robots coexist, she receives a strange message: something is awakening!",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "imdb": "tt0791205",
+        "tmdb": "1097",
+        "justwatch": "https://www.justwatch.com/us/tv-show/ergo-proxy"
+      },
+      {
+        "title": "NieR:Automata Ver1.1a",
+        "year": 2023,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FG50UZ5VDM&subId3=justappsvod"
+        },
+        "poster": "posters/anime-nier-automata-ver1-1a.jpg",
+        "why": "Androids fight machines on a dead Earth while the truth about the war keeps shifting. Based on the game.",
+        "synopsis": "Animated adaptation of NieR: Automata (2017), where a long-running war on post-apocalyptic Earth between androids and machines soon unveils the truth of the world.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "imdb": "tt18311412",
+        "tmdb": "158373",
+        "justwatch": "https://www.justwatch.com/us/tv-show/nier-automata-ver1-1a"
+      },
+      {
+        "title": "Puella Magi Madoka Magica",
+        "year": 2011,
+        "type": "show",
+        "services": [
+          "Netflix",
+          "Hulu",
+          "Crunchyroll"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/70302572",
+          "Hulu": "https://www.hulu.com/watch/4782cfab-b95e-4f8d-8dbd-1d31028fe739",
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGY09XK9PY&subId3=justappsvod"
+        },
+        "poster": "posters/anime-puella-magi-madoka-magica.jpg",
+        "why": "A magical girl show that turns into tragic dark fantasy within a few episodes. Only 12 episodes.",
+        "synopsis": "She has a loving family and best friends, laughs and cries from time to time... Madoka Kaname, an eighth grader of Mitakihara middle school, is one of those who lives such a life. One day, she had a very magical encounter. She doesn't know if it happened by chance or by fate yet. This is a fateful encounter that can change her destiny. This is a beginning of the new story of the magical witch girls.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "imdb": "tt1773185",
+        "tmdb": "39218",
+        "justwatch": "https://www.justwatch.com/us/tv-show/madoka-magica"
+      },
+      {
+        "title": "Trigun",
+        "year": 1998,
+        "type": "show",
+        "services": [
+          "Crunchyroll"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGQJUGPEND&subId3=justappsvod"
+        },
+        "poster": "posters/anime-trigun.jpg",
+        "why": "The original 1998 sci-fi western about the gunman Vash the Stampede. Watch this before Trigun Stampede.",
+        "synopsis": "Trigun takes place in the distant future on a desert planet. Vash the Stampede is a gunfighter with a legend so ruthless he has a $$60,000,000,000 bounty on his head. Entire towns evacuate at the rumor of his arrival. But the real Vash the Stampede, the enigmatic and conflicted lead character, is more heroic, even though he usually acts like a complete idiot.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "imdb": "tt0251439",
+        "tmdb": "26453",
+        "justwatch": "https://www.justwatch.com/us/tv-show/trigun"
+      },
+      {
+        "title": "Oshi no Ko",
+        "year": 2023,
+        "type": "show",
+        "services": [
+          "Crunchyroll",
+          "HIDIVE",
+          "Hulu"
+        ],
+        "links": {
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00366795HIIN&subId3=justappsvod",
+          "HIDIVE": "https://www.hidive.com/interstitial/542391",
+          "Hulu": "https://www.hulu.com/watch/e2c4fe9d-d7fe-40f1-a106-ee0863f13b5d"
+        },
+        "poster": "posters/anime-oshi-no-ko.jpg",
+        "why": "A doctor is reborn as an idol's son and gets pulled into a dark mystery in the entertainment industry. Gripping first episode.",
+        "synopsis": "A doctor and his recently-deceased patient are reborn as twins to a famous Japanese musical idol and navigate the highs and lows of the Japanese entertainment industry as they grow up together through their lives.",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Music",
+          "Thriller"
+        ],
+        "imdb": "tt21030032",
+        "tmdb": "203737",
+        "justwatch": "https://www.justwatch.com/us/tv-show/oshi-no-ko"
+      },
+      {
+        "title": "The Eminence in Shadow",
+        "year": 2022,
+        "type": "show",
+        "services": [
+          "Hulu",
+          "HIDIVE"
+        ],
+        "links": {
+          "Hulu": "https://www.hulu.com/watch/f6c12f68-43de-4e19-9d67-3b607c6867ab",
+          "HIDIVE": "https://www.hidive.com/interstitial/534740"
+        },
+        "poster": "posters/anime-the-eminence-in-shadow.jpg",
+        "why": "A fan of secret masterminds is reborn in a fantasy world and plays one, and it turns out to be real. Action comedy.",
+        "synopsis": "Shadowbrokers are those who go unnoticed, posing as unremarkable people, when in truth, they control everything from behind the scenes. Sid wants to be someone just like that more than anything, and something as insignificant as boring reality isn’t going to get in his way! He trains in secret every single night, preparing for his eventual rise to power—only to be denied his destiny by a run-of-the-mill (yet deadly) traffic accident. But when he wakes up in a another world and suddenly finds himself at the head of an actual secret organization doing battle with evil in the shadows, he’ll finally get a chance to act out all of his delusional fantasies!",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "imdb": "tt14115938",
+        "tmdb": "119495",
+        "justwatch": "https://www.justwatch.com/us/tv-show/the-eminence-in-shadow"
+      },
+      {
+        "title": "Ajin: Demi-Human",
+        "year": 2016,
+        "type": "show",
+        "services": [
+          "Netflix"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/80043576"
+        },
+        "poster": "posters/anime-ajin-demi-human.jpg",
+        "why": "Immortals are hunted by humans in an action thriller with creepy ghost-like powers.",
+        "synopsis": "17 years ago, immortals first appeared on the battlefields of Africa. Later, rare, unknown new immortal lifeforms began appearing among humans, and they became known as \"Ajin\" (demi-humans). Just before summer vacation, a Japanese high school student is instantly killed in a traffic accident on his way home from school. However, he is revived, and a price is placed on his head. Thus begins a boy's life on the run from all of humankind.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "imdb": "tt5537534",
+        "tmdb": "65292",
+        "justwatch": "https://www.justwatch.com/us/tv-show/ajin"
+      },
+      {
+        "title": "Mononoke",
+        "year": 2007,
+        "type": "show",
+        "services": [
+          "Netflix",
+          "Crunchyroll"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/80169676",
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FG14U49X1Z&subId3=justappsvod"
+        },
+        "poster": "posters/anime-mononoke.jpg",
+        "why": "A medicine seller exorcises spirits by uncovering their form, truth and reason. Beautifully strange supernatural horror.",
+        "synopsis": "The Medicine Seller is a deadly and mysterious master of the occult who travels across feudal Japan in search of malevolent spirits called mononoke to slay. When he locates one of these spirits, he cannot simply kill it; he must first learn its Form, its Truth, and its Reason in order to wield the mighty Exorcism Sword and fight against it. He must begin his strange exorcisms with intense psychological analysis and careful investigative work—an extremely dangerous step, as he must first confront and learn about the mononoke before he even has the means to defeat it.",
+        "genres": [
+          "Animation",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "imdb": "tt1992935",
+        "tmdb": "16660",
+        "justwatch": "https://www.justwatch.com/us/tv-show/mononoke"
+      },
+      {
+        "title": "Neon Genesis Evangelion",
+        "year": 1995,
+        "type": "show",
+        "services": [
+          "Netflix"
+        ],
+        "links": {
+          "Netflix": "https://www.netflix.com/title/81033445"
+        },
+        "poster": "posters/anime-neon-genesis-evangelion.jpg",
+        "why": "Teens pilot giant bio-mechs against Angels in the landmark psychological sci-fi series.",
+        "synopsis": "At the turn of the century, the Angels returned to Earth, seeking to wipe out humanity in an apocalyptic fury. Devastated, mankind's last remnants moved underground to wait for the day when the Angels would come back to finish the job. Fifteen years later, that day has come... but this time, humanity is ready to fight back with terrifying bio-mechanical weapons known as the Evangelions. Watch as Shinji, Rei, Asuka and the rest of the mysterious shadow agency Nerv battle to save earth from total annihilation.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "imdb": "tt0112159",
+        "tmdb": "890",
+        "justwatch": "https://www.justwatch.com/us/tv-show/neon-genesis-evangelion"
+      },
+      {
+        "title": "Dark Gathering",
+        "year": 2023,
+        "type": "show",
+        "services": [
+          "HIDIVE"
+        ],
+        "links": {
+          "HIDIVE": "https://www.hidive.com/interstitial/575798"
+        },
+        "poster": "posters/anime-dark-gathering.jpg",
+        "why": "A spirit medium and a genius girl hunt evil spirits at haunted sites. Supernatural horror.",
+        "synopsis": "The story centers on Keitarou Gentouga, who has the ability to be a spirit medium. In junior high school, he got someone else wrapped up in a spirit possession incident, and he has been a shut-in for more than two years. As he reintroduces himself to society as a private tutor, he meets a genius girl named Yayoi Houzuki. Yayoi is instantly able to tell that Keitarou has skill as a spirit medium, and she invites him to go with her to a haunted location. The two then start their journey capturing evil spirits.",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Fantasy",
+          "Horror"
+        ],
+        "imdb": "tt21844490",
+        "tmdb": "206799",
+        "justwatch": "https://www.justwatch.com/us/tv-show/dark-gathering"
       },
       {
         "title": "Kengan Ashura",
@@ -2670,502 +3490,27 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/ninja-kamui"
       },
       {
-        "title": "The God of High School",
-        "year": 2020,
+        "title": "Lazarus",
+        "year": 2025,
         "type": "show",
         "services": [
-          "Crunchyroll"
+          "HBO Max"
         ],
         "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G9DU9NJ4K"
+          "HBO Max": "https://play.hbomax.com/video/watch/1b6f5355-41ec-445c-81e5-a0ef57de8a35?utm_source=universal_search"
         },
-        "poster": "posters/anime-the-god-of-high-school.jpg",
-        "why": "A Korean webtoon fight tournament that escalates into gods and borrowed powers, like Tower of God (9). Short, loud, nonstop action.",
-        "synopsis": "Jin Mori has proclaimed himself the strongest high schooler. His life changes when he's invited to participate in \"God of High School,\" a tournament to determine the strongest high schooler of all. He's told that if he wins, any wish he makes will be granted... All the participants are powerful contenders who fight their hardest for their own wishes. What awaits them at the end of the tournament? A chaotic battle between unbelievably strong high school students is about to begin!",
+        "poster": "posters/anime-lazarus.jpg",
+        "why": "Cowboy Bebop director's sci-fi action thriller: find the man behind a deadly drug in 30 days. 13 episodes.",
+        "synopsis": "In 2052, a Nobel Prize-winning neuroscientist develops a drug called Hapna — a cure-all that has the unexpected side-effect of causing death three years later. In response to this threat, a special force of agents—nicknamed \"Lazarus\"— is assembled to take on the malevolent Skinner.",
         "genres": [
           "Action",
           "Animation",
-          "Comedy",
-          "Fantasy",
-          "Sci-Fi",
-          "Sport"
-        ],
-        "imdb": "tt12227418",
-        "tmdb": "99778",
-        "justwatch": "https://www.justwatch.com/us/tv-show/the-god-of-high-school"
-      },
-      {
-        "title": "Mob Psycho 100",
-        "year": 2016,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Hulu",
-          "Crunchyroll"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/80179798",
-          "Hulu": "https://www.hulu.com/watch/1b5cc0cf-970e-45ee-af8f-541157343285",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00258741ESES"
-        },
-        "poster": "posters/anime-mob-psycho-100.jpg",
-        "why": "From the creator of One-Punch Man: a psychic power system and stakes that escalate, closest in spirit to Hunter x Hunter. Complete in 3 seasons.",
-        "synopsis": "Shigeo Kageyama, a.k.a. \"Mob,\" is a boy who has trouble expressing himself, but who happens to be a powerful esper. Mob is determined to live a normal life and keeps his ESP suppressed, but when his emotions surge to a level of 100%, something terrible happens to him! As he's surrounded by false espers, evil spirits, and mysterious organizations, what will Mob think? What choices will he make?",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Sci-Fi"
-        ],
-        "imdb": "tt5897304",
-        "tmdb": "67075",
-        "justwatch": "https://www.justwatch.com/us/tv-show/mob-psycho-100"
-      },
-      {
-        "title": "Trigun Stampede",
-        "year": 2023,
-        "type": "show",
-        "services": [
-          "Hulu",
-          "Crunchyroll"
-        ],
-        "links": {
-          "Hulu": "https://www.hulu.com/watch/6f17ea9e-59e6-4f1a-90d1-85c63175a083",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GN7UNDQZ4"
-        },
-        "poster": "posters/anime-trigun-stampede.jpg",
-        "why": "A CG reboot of the classic gunslinger series, with sci-fi worldbuilding and a big mystery. Fast and gorgeous.",
-        "synopsis": "Vash the Stampede's a joyful gunslinging pacifist, so why does he have a $$6 million bounty on his head?\n\nThat's what's puzzling rookie reporter Meryl Stryfe and her jaded veteran partner when looking into the vigilante only to find someone who hates blood.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Drama",
-          "Sci-Fi",
-          "Western"
-        ],
-        "imdb": "tt21216104",
-        "tmdb": "204266",
-        "justwatch": "https://www.justwatch.com/us/tv-show/trigun-stampede"
-      },
-      {
-        "title": "JoJo's Bizarre Adventure",
-        "year": 2012,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Hulu",
-          "Crunchyroll",
-          "Prime Video"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/80179831",
-          "Hulu": "https://www.hulu.com/watch/f3e27bf1-2960-4f0e-802b-a9d50d6ca951",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GR8V1MJ9R",
-          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.df8b9a22-d519-4a78-bc59-cfdadf8be146"
-        },
-        "poster": "posters/anime-jojos-bizarre-adventure-1993.jpg",
-        "why": "Stand battles are rule-based puzzles, like Nen fights. Every part is a new arc with a new cast, so there's no filler.",
-        "synopsis": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Sci-Fi"
-        ],
-        "imdb": "tt29742160",
-        "tmdb": "45790",
-        "justwatch": "https://www.justwatch.com/us/tv-show/jojos-bizarre-adventure-1993"
-      },
-      {
-        "title": "Code Geass: Lelouch of the Rebellion",
-        "year": 2006,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G4VUQ1G55"
-        },
-        "poster": "posters/anime-code-geass-lelouch-of-the-rebellion.jpg",
-        "why": "A strategic mastermind with one rule-bound power, plus mecha war and constant reversals. Complete in 2 seasons.",
-        "synopsis": "Japan has been invaded and conquered by the Britannian Empire. Japan is now known as Area 11 and its citizens known as Elevens. The Britannian Empire takes away Japan's autonomous power and imposes its rule through the use of Knightmares. The Empire's rule has never faltered, but cracks have begun to show...",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Fantasy",
           "Thriller",
           "Sci-Fi"
         ],
-        "imdb": "tt0994314",
-        "tmdb": "31724",
-        "justwatch": "https://www.justwatch.com/us/tv-show/code-geass-lelouch-of-the-rebellion"
-      },
-      {
-        "title": "Re:ZERO",
-        "year": 2016,
-        "type": "show",
-        "services": [
-          "Crunchyroll",
-          "Hulu"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G0DUMN8WM",
-          "Hulu": "https://www.hulu.com/watch/2c655a6c-0b29-48e3-9d03-233e78daacf8"
-        },
-        "poster": "posters/anime-re-zero-starting-life-in-another-world.jpg",
-        "why": "Isekai with a brutal rule: he respawns at checkpoints when he dies. Darker than SAO or Slime.",
-        "synopsis": "After being suddenly transported to another world, Subaru Natsuki and his new female partner are brutally murdered. However, Subaru awakens to a familiar scene, meeting the same girl again. The day begins to mysteriously repeat itself.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Thriller",
-          "Romance",
-          "Sci-Fi"
-        ],
-        "imdb": "tt5607616",
-        "tmdb": "65942",
-        "justwatch": "https://www.justwatch.com/us/tv-show/re-zero-starting-life-in-another-world"
-      },
-      {
-        "title": "Overlord",
-        "year": 2015,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Crunchyroll"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/80132110",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GG1U2QK99"
-        },
-        "poster": "posters/anime-overlord.jpg",
-        "why": "A gamer trapped as his MMO's undead overlord, played as the villain. Slime (9) energy, but much darker.",
-        "synopsis": "In the year 2138, virtual reality gaming is booming. Yggdrasil, a popular online game is quietly shut down one day. However, one player named Momonga decides to not log out. Momonga is then transformed into the image of a skeleton as \"the most powerful wizard.\" The world continues to change, with non-player characters (NPCs) beginning to feel emotion. Having no parents, friends, or place in society, this ordinary young man Momonga then strives to take over the new world the game has become.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Fantasy",
-          "Sci-Fi"
-        ],
-        "imdb": "tt4869896",
-        "tmdb": "64196",
-        "justwatch": "https://www.justwatch.com/us/tv-show/overlord"
-      },
-      {
-        "title": "Summer Time Rendering",
-        "year": 2022,
-        "type": "show",
-        "services": [
-          "Hulu"
-        ],
-        "links": {
-          "Hulu": "https://www.hulu.com/watch/a87be2de-54d2-472c-88a3-d2123a674331"
-        },
-        "poster": "posters/anime-summer-time-rendering.jpg",
-        "why": "Time-loop sci-fi mystery on an island where doppelgangers are killing people. Closest anime to Dark (10), and fully completed.",
-        "synopsis": "Shinpei Ajiro travels home to attend the funeral of a childhood friend, and finds the remote island plagued by a sinister, supernatural force.",
-        "genres": [
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Thriller"
-        ],
-        "imdb": "tt15686254",
-        "tmdb": "117933",
-        "justwatch": "https://www.justwatch.com/us/tv-show/summer-time-rendering"
-      },
-      {
-        "title": "Steins;Gate",
-        "year": 2011,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00012870ENUS"
-        },
-        "poster": "posters/anime-steins-gate.jpg",
-        "why": "Time-travel sci-fi thriller with strict rules. Slow first few episodes, then it becomes one of anime's best, Dark-style.",
-        "synopsis": "A group of friends have customized their microwave so that it can send text messages to the past. As they perform different experiments, an organization named SERN who has been doing their own research on time travel tracks them down and now the characters have to find a way to avoid being captured by them.",
-        "genres": [
-          "Animation",
-          "Comedy",
-          "Drama",
-          "Thriller",
-          "Romance",
-          "Sci-Fi"
-        ],
-        "imdb": "tt1910272",
-        "tmdb": "42509",
-        "justwatch": "https://www.justwatch.com/us/tv-show/steins-gate"
-      },
-      {
-        "title": "The Promised Neverland",
-        "year": 2019,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GG1U20Q2K"
-        },
-        "poster": "posters/anime-the-promised-neverland.jpg",
-        "why": "Orphanage kids discover the truth and plan an escape. Season 1 is a near-perfect strategy thriller. Skip season 2.",
-        "synopsis": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as “Mom,” all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn—what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Thriller",
-          "Sci-Fi"
-        ],
-        "imdb": "tt8788458",
-        "tmdb": "83097",
-        "justwatch": "https://www.justwatch.com/us/tv-show/the-promised-neverland"
-      },
-      {
-        "title": "Psycho-Pass",
-        "year": 2012,
-        "type": "show",
-        "services": [
-          "Crunchyroll",
-          "Prime Video"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00011183TLPH",
-          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b"
-        },
-        "poster": "posters/anime-psycho-pass.jpg",
-        "why": "Cyberpunk crime procedural in a Minority Report-style precrime state. Season 1 is the one to watch.",
-        "synopsis": "In the year 2113, people are given brain scans to determine how likely they are to commit a crime. Those who fail are apprehended, or even killed.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Crime",
-          "Drama",
-          "Thriller",
-          "Sci-Fi"
-        ],
-        "imdb": "tt2379308",
-        "tmdb": "43865",
-        "justwatch": "https://www.justwatch.com/us/tv-show/psycho-pass"
-      },
-      {
-        "title": "Another",
-        "year": 2012,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GR9PV1Z86"
-        },
-        "poster": "posters/anime-another.jpg",
-        "why": "A cursed class where students die in Final Destination (8.6)-style accidents. 12-episode mystery horror.",
-        "synopsis": "When Kouichi arrives at his new school, he immediately senses something frightening in the atmosphere of his new class, something that no student wants to talk about and that seems to be related to a mysterious and silent girl.",
-        "genres": [
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Thriller"
-        ],
-        "imdb": "tt2176165",
-        "tmdb": "42589",
-        "justwatch": "https://www.justwatch.com/us/tv-show/another"
-      },
-      {
-        "title": "Future Diary",
-        "year": 2011,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GJWU28J0K"
-        },
-        "poster": "posters/anime-the-future-diary.jpg",
-        "why": "Twelve diary holders who can see the future are pitted against each other in a battle royale. High concept with a Death Note feel.",
-        "synopsis": "Reality quickly unravels when antisocial Yukiteru is called into a death match against 11 other mentally scarred individuals. Each player has a prophetic device tuned to their personality, giving them control over their future—and the fate of their foes.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Drama",
-          "Horror",
-          "Thriller",
-          "Romance"
-        ],
-        "imdb": "tt2069441",
-        "tmdb": "46671",
-        "justwatch": "https://www.justwatch.com/us/tv-show/the-future-diary"
-      },
-      {
-        "title": "Darwin's Game",
-        "year": 2020,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GRNV97KZ6"
-        },
-        "poster": "posters/anime-darwins-game.jpg",
-        "why": "A mobile app drags players into a death game with superpowers. Battle royale with strategy.",
-        "synopsis": "Sudou Kaname, an ordinary high school student, receives an invitation email to try a mysterious app called \"Darwin's Game.\" Kaname, upon launching the app, is drawn into a game where players fight one another using superpowers called Sigils. Without knowing the reason for all this, can Kaname survive furious battles against the powerful players who attack him?",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Sci-Fi"
-        ],
-        "imdb": "tt11405390",
-        "tmdb": "85942",
-        "justwatch": "https://www.justwatch.com/us/tv-show/darwins-game"
-      },
-      {
-        "title": "Dan Da Dan",
-        "year": 2024,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Crunchyroll",
-          "Hulu"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81736884",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G0DUMG7EX",
-          "Hulu": "https://www.hulu.com/watch/7fb08a11-4105-4655-9997-d98d3cc9772e"
-        },
-        "poster": "posters/anime-dan-da-dan.jpg",
-        "why": "Fast sci-fi horror comedy with aliens versus ghosts. Wild, kinetic, and never slow.",
-        "synopsis": "When Momo and Okarun's beliefs clash, they're thrown into a world of ghosts, aliens and awakened powers.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Fantasy",
-          "Thriller",
-          "Romance",
-          "Sci-Fi"
-        ],
-        "imdb": "tt30217403",
-        "tmdb": "240411",
-        "justwatch": "https://www.justwatch.com/us/tv-show/dan-da-dan"
-      },
-      {
-        "title": "Kaiju No. 8",
-        "year": 2024,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00379478ARSA"
-        },
-        "poster": "posters/anime-kaiju-no-8.jpg",
-        "why": "A man becomes a kaiju but joins the force that fights them. A clean shonen in the My Hero Academia (9.7) lane.",
-        "synopsis": "A man working a job far removed from his childhood dreams gets wrapped up in an unexpected situation - becoming a monster, he aims once again to fulfill his lifelong dream.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "imdb": "tt21975436",
-        "tmdb": "207468",
-        "justwatch": "https://www.justwatch.com/us/tv-show/kaiju-no-8"
-      },
-      {
-        "title": "Shangri-La Frontier",
-        "year": 2023,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Crunchyroll",
-          "Hulu"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81727242",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00117824ARSA",
-          "Hulu": "https://www.hulu.com/watch/6a2075c5-c55d-456b-917f-16d1859e6b06"
-        },
-        "poster": "posters/anime-shangri-la-frontier.jpg",
-        "why": "A gamer who beats broken games takes on a god-tier VR MMO. Clear rules, clever boss fights, and it rewards strategy the way Tower of God's floors did.",
-        "synopsis": "High schooler Rakuro loves beating bad games. But can he discover all the secrets hidden in a best-selling VR game?",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Fantasy",
-          "Sci-Fi"
-        ],
-        "imdb": "tt28776190",
-        "tmdb": "205050",
-        "justwatch": "https://www.justwatch.com/us/tv-show/shangri-la-frontier"
-      },
-      {
-        "title": "Noblesse",
-        "year": 2020,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GPWUKQN4D"
-        },
-        "poster": "posters/anime-noblesse.jpg",
-        "why": "An ancient noble wakes after 820 years and has to protect his new friends from a secret organization. Another Tower of God (9)-style webtoon adaptation, all action.",
-        "synopsis": "Rai wakes up from 820-years long sleep and starts his new life as a student in a high school founded by his loyal servant, Frankenstein. But his peaceful days with other human students are soon interrupted by mysterious attackers known as the \"Unions\".",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Fantasy",
-          "Horror",
-          "Sci-Fi"
-        ],
-        "imdb": "tt12885610",
-        "tmdb": "99779",
-        "justwatch": "https://www.justwatch.com/us/tv-show/noblesse"
-      },
-      {
-        "title": "Dead Mount Death Play",
-        "year": 2023,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G50UMNDJK"
-        },
-        "poster": "posters/anime-dead-mount-death-play.jpg",
-        "why": "The Corpse God who was about to be killed by a hero is reborn as a boy in modern Tokyo's criminal underworld. Dark fantasy action with a crime-thriller twist.",
-        "synopsis": "As a legendary hero nears victory against a necromancer known as The Corpse God, things take an unexpected turn with the dark sorcerer’s final gambit—reincarnation magic. This last-ditch effort catches the brave fighter off guard, and now he’s a boy named Polka Shinoyama in a whole new world! The showdown between good and evil just got epic.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Fantasy",
-          "Sci-Fi"
-        ],
-        "imdb": "tt27489241",
-        "tmdb": "214540",
-        "justwatch": "https://www.justwatch.com/us/tv-show/dead-mount-death-play"
+        "imdb": "tt28454008",
+        "tmdb": "231003",
+        "justwatch": "https://www.justwatch.com/us/tv-show/lazarus"
       },
       {
         "title": "Pluto",
@@ -3193,206 +3538,31 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/pluto"
       },
       {
-        "title": "Erased",
-        "year": 2016,
-        "type": "show",
-        "services": [
-          "Hulu",
-          "Crunchyroll"
-        ],
-        "links": {
-          "Hulu": "https://www.hulu.com/watch/f38ad14e-6966-46a7-acb3-2f707459f5c5",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GYE5K9JQR"
-        },
-        "poster": "posters/anime-erased.jpg",
-        "why": "A man sent back to his childhood to stop a serial killer. A 12-episode mystery that feels like Dark meets Zodiac.",
-        "synopsis": "Satoru Fujinuma is a struggling manga artist who has the ability to turn back time and prevent deaths. When his mother is killed he turns back time to solve the mystery, but ends up back in elementary school, just before the disappearance of his classmate Kayo.",
-        "genres": [
-          "Animation",
-          "Crime",
-          "Drama",
-          "Fantasy",
-          "Thriller",
-          "Sci-Fi"
-        ],
-        "imdb": "tt5249462",
-        "tmdb": "65249",
-        "justwatch": "https://www.justwatch.com/us/tv-show/erased"
-      },
-      {
-        "title": "Delicious in Dungeon",
-        "year": 2024,
-        "type": "show",
-        "services": [
-          "Netflix"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81564899"
-        },
-        "poster": "posters/anime-delicious-in-dungeon.jpg",
-        "why": "A Frieren-style fantasy party: a dungeon with hard ecological rules and a clever, funny crew.",
-        "synopsis": "Dungeons, dragons... and delicious monster stew!? Adventurers foray into a cursed buried kingdom to save their friend, cooking up a storm along the way.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Fantasy",
-          "Sci-Fi"
-        ],
-        "imdb": "tt21621494",
-        "tmdb": "207784",
-        "justwatch": "https://www.justwatch.com/us/tv-show/delicious-in-dungeon"
-      },
-      {
-        "title": "86 EIGHTY-SIX",
-        "year": 2021,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G9DUEP41Q"
-        },
-        "poster": "posters/anime-86-eighty-six.jpg",
-        "why": "Drone pilots ignored as non-people fight a robotic legion. A sci-fi war drama with strong mecha battles.",
-        "synopsis": "Called “Juggernaut,” these are the unmanned combat drones developed by the Republic of San Magnolia in answer to the attacks by the autonomous unmanned drones of the neighboring Empire of Giad, the “Legion”. But they’re only unmanned in name. In reality, they are piloted by the Eighty-sixers—those considered to be less than human and treated as mere tools. Determined to achieve his own mysterious ends, Shin, the captain of Spearhead Squadron, which is comprised of Eighty-sixers, continues to fight a hopeless war on a battlefield where only death awaits him.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Drama",
-          "Sci-Fi",
-          "War"
-        ],
-        "imdb": "tt13718450",
-        "tmdb": "100565",
-        "justwatch": "https://www.justwatch.com/us/tv-show/86-eighty-six"
-      },
-      {
-        "title": "Akudama Drive",
-        "year": 2020,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GEVUZN985"
-        },
-        "poster": "posters/anime-akudama-drive.jpg",
-        "why": "Cyberpunk heist with a crew of named criminals. 12 episodes of escalating chaos, with a full ending.",
-        "synopsis": "Many years ago, a Great Civil War ravaged Japan, leaving the country fragmented between two regions: Kansai and Kanto. In Kansai, a group of six Akudama carry out missions given to them by a mysterious black cat, while evading the police. But a dangerous journey is about to unfold when a civilian girl becomes twisted into the Akudama's way of life and witnesses their criminal drives.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Crime",
-          "Thriller",
-          "Sci-Fi"
-        ],
-        "imdb": "tt12331342",
-        "tmdb": "100436",
-        "justwatch": "https://www.justwatch.com/us/tv-show/akudama-drive"
-      },
-      {
-        "title": "Lazarus",
+        "title": "Tougen Anki",
         "year": 2025,
         "type": "show",
         "services": [
-          "HBO Max"
-        ],
-        "links": {
-          "HBO Max": "https://play.hbomax.com/video/watch/1b6f5355-41ec-445c-81e5-a0ef57de8a35?utm_source=universal_search"
-        },
-        "poster": "posters/anime-lazarus.jpg",
-        "why": "Cowboy Bebop director's sci-fi action thriller: find the man behind a deadly drug in 30 days. 13 episodes.",
-        "synopsis": "In 2052, a Nobel Prize-winning neuroscientist develops a drug called Hapna — a cure-all that has the unexpected side-effect of causing death three years later. In response to this threat, a special force of agents—nicknamed \"Lazarus\"— is assembled to take on the malevolent Skinner.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Thriller",
-          "Sci-Fi"
-        ],
-        "imdb": "tt28454008",
-        "tmdb": "231003",
-        "justwatch": "https://www.justwatch.com/us/tv-show/lazarus"
-      },
-      {
-        "title": "One-Punch Man",
-        "year": 2015,
-        "type": "show",
-        "services": [
-          "Hulu",
           "Netflix",
+          "Prime Video",
           "Crunchyroll"
         ],
         "links": {
-          "Hulu": "https://www.hulu.com/watch/21665b99-ce97-4b8b-a0c0-3a4f73829197",
-          "Netflix": "https://www.netflix.com/title/80117291",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GY5PDJGDY"
+          "Netflix": "https://www.netflix.com/title/81969861",
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.7615134a-e25b-418c-b819-076215c15863",
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGE00390546ENUS&subId3=justappsvod"
         },
-        "poster": "posters/anime-one-punch-man.jpg",
-        "why": "A hero so strong that every fight ends in one punch. The superhero satire is like The Boys (10), and the season 1 action is elite.",
-        "synopsis": "Saitama, a superhero who can defeat any foe with a single punch, battles boredom as he searches for a worthy opponent in a world plagued by monsters.",
+        "poster": "posters/anime-tougen-anki.jpg",
+        "why": "A boy with awakened Oni blood hunts the Momotaro assassin who killed his father. Fast dark-fantasy action.",
+        "synopsis": "After a Momotaro assassin suddenly kills his adoptive father, Shiki vows to avenge him. But first, he must learn to control his newly awakened Oni blood.",
         "genres": [
           "Action",
           "Animation",
-          "Comedy",
           "Fantasy",
-          "Sci-Fi"
+          "Thriller"
         ],
-        "imdb": "tt4508902",
-        "tmdb": "63926",
-        "justwatch": "https://www.justwatch.com/us/tv-show/one-punch-man"
-      },
-      {
-        "title": "Gurren Lagann",
-        "year": 2007,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Hulu",
-          "Crunchyroll"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/70213196",
-          "Hulu": "https://www.hulu.com/watch/829bdb9a-73b7-4176-87ee-91768a0a5bac",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GR751WEKY"
-        },
-        "poster": "posters/anime-gurren-lagann.jpg",
-        "why": "From an underground village to a galaxy-scale mecha war. Escalation taken to the extreme, and it ends perfectly.",
-        "synopsis": "When a young laborer escapes to the world aboveground, he discovers a violent land in which humans battle robots controlled by a power-hungry noble.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Drama",
-          "Sci-Fi"
-        ],
-        "imdb": "tt0948103",
-        "tmdb": "21729",
-        "justwatch": "https://www.justwatch.com/us/tv-show/gurren-lagann"
-      },
-      {
-        "title": "Undead Unluck",
-        "year": 2023,
-        "type": "show",
-        "services": [
-          "Hulu"
-        ],
-        "links": {
-          "Hulu": "https://www.hulu.com/watch/82c21b24-a39d-460c-a913-d530180a8d2f"
-        },
-        "poster": "posters/anime-undead-unluck.jpg",
-        "why": "Shonen with bizarre rule-based powers (an immortal man and a girl whose touch causes bad luck), moving like Hunter x Hunter (13).",
-        "synopsis": "An unlucky girl meets an undead guy. The two work together well with their super abilities, but discover a conspiracy involving superhumans.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Fantasy",
-          "Sci-Fi"
-        ],
-        "imdb": "tt21927720",
-        "tmdb": "209077",
-        "justwatch": "https://www.justwatch.com/us/tv-show/undead-unluck"
+        "imdb": "tt32344704",
+        "tmdb": "253811",
+        "justwatch": "https://www.justwatch.com/us/tv-show/tougen-anki"
       },
       {
         "title": "Cowboy Bebop",
@@ -3402,7 +3572,7 @@
           "Crunchyroll"
         ],
         "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GJWU2XE9G"
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGJWU2XE9G&subId3=justappsvod"
         },
         "poster": "posters/anime-cowboy-bebop-2001.jpg",
         "why": "Space bounty hunters, jazz, and noir. Most episodes are self-contained, with a famous ending.",
@@ -3420,222 +3590,63 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/cowboy-bebop-2001"
       },
       {
-        "title": "Moriarty the Patriot",
-        "year": 2020,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G7PU4055M"
-        },
-        "poster": "posters/anime-moriarty-the-patriot.jpg",
-        "why": "Sherlock Holmes from Moriarty's side: a mastermind plotting crimes against corrupt aristocrats. Death Note-style crime genius.",
-        "synopsis": "In the late 19th century, the British Empire nobility reigns while its working class suffers at their hands. Sympathetic to their plight, William James Moriarty wants to topple it all. Frustrated by the systemic inequity, Moriarty strategizes to fix the entire nation. Not even consulting detective Sherlock Holmes can stand in his way. It’s time for crime to revolutionize the world!",
-        "genres": [
-          "Animation",
-          "Crime",
-          "Thriller"
-        ],
-        "imdb": "tt12831098",
-        "tmdb": "100281",
-        "justwatch": "https://www.justwatch.com/us/tv-show/moriarty-the-patriot"
-      },
-      {
-        "title": "Tokyo Revengers",
-        "year": 2021,
+        "title": "Erased",
+        "year": 2016,
         "type": "show",
         "services": [
           "Hulu",
           "Crunchyroll"
         ],
         "links": {
-          "Hulu": "https://www.hulu.com/watch/bdf46832-df34-4591-88ea-8f167a26522e",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GWDU8DXE9"
+          "Hulu": "https://www.hulu.com/watch/f38ad14e-6966-46a7-acb3-2f707459f5c5",
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGYE5K9JQR&subId3=justappsvod"
         },
-        "poster": "posters/anime-tokyo-revengers.jpg",
-        "why": "A time-travel crime story: he jumps back 12 years to stop a gang from killing his ex. Delinquent action with a time-loop hook.",
-        "synopsis": "Hanagaki Takemichi lives an unsatisfying life right up until his death. Waking up 12 years in the past, he reckons with the eventual fate of his friends and tries to prevent an unfortunate future.",
+        "poster": "posters/anime-erased.jpg",
+        "why": "A man sent back to his childhood to stop a serial killer. A 12-episode mystery that feels like Dark meets Zodiac.",
+        "synopsis": "Satoru Fujinuma is a struggling manga artist who has the ability to turn back time and prevent deaths. When his mother is killed he turns back time to solve the mystery, but ends up back in elementary school, just before the disappearance of his classmate Kayo.",
         "genres": [
-          "Action",
           "Animation",
-          "Drama"
-        ],
-        "imdb": "tt13196080",
-        "tmdb": "105009",
-        "justwatch": "https://www.justwatch.com/us/tv-show/tokyo-revengers"
-      },
-      {
-        "title": "Vivy -Fluorite Eye's Song-",
-        "year": 2021,
-        "type": "show",
-        "services": [
-          "Netflix",
-          "Crunchyroll"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81511893",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G0DUN0QK2"
-        },
-        "poster": "posters/anime-vivy-fluorite-eyes-song.jpg",
-        "why": "An AI singer is sent across 100 years to stop an AI war. Time-travel action, 13 episodes, and a full ending.",
-        "synopsis": "In the near future, Vivy, a diva-type A.I., went up on stage each day with hopes of putting her heart into her song. One day, the A.I. Matsumoto, who claims to have arrived from 100 years in the future, appears before Vivy with an important request...",
-        "genres": [
-          "Action",
-          "Animation",
+          "Crime",
           "Drama",
-          "Music",
+          "Fantasy",
           "Thriller",
           "Sci-Fi"
         ],
-        "imdb": "tt13851958",
-        "tmdb": "116725",
-        "justwatch": "https://www.justwatch.com/us/tv-show/vivy-fluorite-eyes-song"
+        "imdb": "tt5249462",
+        "tmdb": "65249",
+        "justwatch": "https://www.justwatch.com/us/tv-show/erased"
       },
       {
-        "title": "Sakamoto Days",
-        "year": 2025,
-        "type": "show",
-        "services": [
-          "Netflix"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81663325"
-        },
-        "poster": "posters/anime-sakamoto-days.jpg",
-        "why": "A retired legendary hitman fights off a stream of assassins: John Wick energy with comedy.",
-        "synopsis": "Once the greatest hitman of all, Taro Sakamoto retired in the name of love. But when his past catches up, he must fight to protect his beloved family.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Crime",
-          "Thriller"
-        ],
-        "imdb": "tt17069148",
-        "tmdb": "207332",
-        "justwatch": "https://www.justwatch.com/us/tv-show/sakamoto-days"
-      },
-      {
-        "title": "Terror in Resonance",
-        "year": 2014,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GQJUG2MDQ"
-        },
-        "poster": "posters/anime-terror-in-resonance.jpg",
-        "why": "Two teenage bombers and the detective chasing them. An 11-episode crime thriller by the Cowboy Bebop director.",
-        "synopsis": "In an alternate version of the present, Tokyo has been decimated by a shocking terrorist attack, and the only hint to the identity of the culprit is a bizarre video uploaded to the internet. The police, baffled by this cryptic clue, are powerless to stop the paranoia spreading across the population. While the world searches for a criminal mastermind to blame for this tragedy, two mysterious children - children who shouldn't even exist - masterfully carry out their heinous plan. Cursed to walk through this world with the names Nine and Twelve, the two combine to form \"Sphinx,\" a clandestine entity determine to wake the people from their slumber - and pull the trigger on this world.",
-        "genres": [
-          "Animation",
-          "Crime",
-          "Drama",
-          "Thriller"
-        ],
-        "imdb": "tt3613454",
-        "tmdb": "61421",
-        "justwatch": "https://www.justwatch.com/us/tv-show/terror-in-resonance"
-      },
-      {
-        "title": "Takopi's Original Sin",
-        "year": 2025,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/GE00349674ENUS"
-        },
-        "poster": "posters/anime-takopiis-original-sin.jpg",
-        "why": "A cute alien tries to make a girl smile and makes things far worse. Dark, 6 episodes, one of 2025's most-talked-about.",
-        "synopsis": "A Happy alien, Takopi, lands on Earth with one mission: to spread happiness! When he meets Shizuka, a lonely fourth grader, he vows to bring back her smile using his magical Happy Gadgets. But as he uncovers the pain in her life, Takopi learns that true happiness may require more than gadgets.",
-        "genres": [
-          "Animation",
-          "Drama",
-          "Sci-Fi"
-        ],
-        "imdb": "tt36988358",
-        "tmdb": "284445",
-        "justwatch": "https://www.justwatch.com/us/tv-show/takopiis-original-sin"
-      },
-      {
-        "title": "Great Pretender",
-        "year": 2020,
-        "type": "show",
-        "services": [
-          "Netflix"
-        ],
-        "links": {
-          "Netflix": "https://www.netflix.com/title/81220435"
-        },
-        "poster": "posters/anime-great-pretender-2020.jpg",
-        "why": "Con artists running big international scams, Ocean's Eleven style. Crime caper with twists.",
-        "synopsis": "Supposedly Japan's greatest swindler, Makoto Edamura gets more than he bargained for when he tries to con Laurent Thierry, a real world-class crook.",
-        "genres": [
-          "Action",
-          "Animation",
-          "Comedy",
-          "Crime",
-          "Drama"
-        ],
-        "imdb": "tt11680468",
-        "tmdb": "93816",
-        "justwatch": "https://www.justwatch.com/us/tv-show/great-pretender-2020"
-      },
-      {
-        "title": "Odd Taxi",
-        "year": 2021,
-        "type": "show",
-        "services": [
-          "Crunchyroll"
-        ],
-        "links": {
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G8WUN2NQ8"
-        },
-        "poster": "posters/anime-odd-taxi.jpg",
-        "why": "Crime mystery with dark comedy. Every conversation is a clue, and it all pays off in 13 episodes.",
-        "synopsis": "While working as a taxi driver on the hectic streets of Tokyo, a reticent walrus gets pulled into a mystery involving a missing teenage girl.",
-        "genres": [
-          "Animation",
-          "Comedy",
-          "Crime",
-          "Drama",
-          "Thriller"
-        ],
-        "imdb": "tt14134550",
-        "tmdb": "116727",
-        "justwatch": "https://www.justwatch.com/us/tv-show/odd-taxi"
-      },
-      {
-        "title": "The Apothecary Diaries",
-        "year": 2023,
+        "title": "JoJo's Bizarre Adventure",
+        "year": 2012,
         "type": "show",
         "services": [
           "Netflix",
           "Hulu",
-          "Crunchyroll"
+          "Crunchyroll",
+          "Prime Video"
         ],
         "links": {
-          "Netflix": "https://www.netflix.com/title/81712068",
-          "Hulu": "https://www.hulu.com/watch/7afa68bf-5dea-4f31-8407-1ad0ba4b25c4",
-          "Crunchyroll": "https://www.crunchyroll.com/watch/G0DUMNJ5K"
+          "Netflix": "https://www.netflix.com/title/80179831",
+          "Hulu": "https://www.hulu.com/watch/f3e27bf1-2960-4f0e-802b-a9d50d6ca951",
+          "Crunchyroll": "https://crunchyroll.pxf.io/xk92Nv?u=https%3A%2F%2Fwww.crunchyroll.com%2Fwatch%2FGR8V1MJ9R&subId3=justappsvod",
+          "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.df8b9a22-d519-4a78-bc59-cfdadf8be146"
         },
-        "poster": "posters/anime-the-apothecary-diaries.jpg",
-        "why": "A sharp apothecary solving poisonings in an imperial palace. A medical mystery of the week, with a long-game plot.",
-        "synopsis": "Maomao lived a peaceful life with her apothecary father. Until one day, she's sold as a lowly servant to the emperor's palace. But she wasn't meant for a compliant life among royalty. So when imperial heirs fall ill, she decides to step in and find a cure! This catches the eye of Jinshi, a handsome palace official who promotes her. Now, she's making a name for herself solving medical mysteries!",
+        "poster": "posters/anime-jojos-bizarre-adventure-1993.jpg",
+        "why": "Stand battles are rule-based puzzles, like Nen fights. Every part is a new arc with a new cast, so there's no filler.",
+        "synopsis": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
         "genres": [
+          "Action",
           "Animation",
+          "Comedy",
           "Drama",
-          "History",
-          "Thriller",
-          "Romance"
+          "Fantasy",
+          "Horror",
+          "Sci-Fi"
         ],
-        "imdb": "tt26743760",
-        "tmdb": "220542",
-        "justwatch": "https://www.justwatch.com/us/tv-show/the-apothecary-diaries"
+        "imdb": "tt29742160",
+        "tmdb": "45790",
+        "justwatch": "https://www.justwatch.com/us/tv-show/jojos-bizarre-adventure-1993"
       }
     ]
   }
