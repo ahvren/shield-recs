@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated": "2026-10-26T13:37:13Z",
+  "updated": "2026-10-30T13:31:19Z",
   "owner": "recommender",
   "note": "Written only by the recommender (Grok Bot) after it processes feedback/news_feedback.jsonl. The Shield CT reads this file but must never write it.",
   "topic_weights": {
     "homelab": 1.25,
-    "gaming": 1.25,
+    "gaming": 1.4,
     "aviation": 1.0,
     "streaming": 1.0,
     "ai": 1.0,
@@ -27,7 +27,9 @@
   "muted_sources": [
     "TechCrunch"
   ],
-  "boosted_sources": [],
+  "boosted_sources": [
+    "Steam"
+  ],
   "boosted_terms": [],
   "excluded_terms": [
     "Star Wars"
