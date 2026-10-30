@@ -33,3 +33,5 @@
 {"id":"f1055245-bff7-4ce7-a9c1-1215da499d4a","ts":"2026-10-28T03:24:02Z","tmdb":346648,"title":"Paddington 2","type":"movie","action":"decline"}
 {"id":"27bb9c2c-780e-48de-a751-fa49ac29a620","ts":"2026-10-28T03:24:12Z","tmdb":161,"title":"Ocean's Eleven","type":"movie","action":"rate","rating":7.0}
 {"id":"12cb168f-e154-4f8d-b7e3-42a24c118f3d","ts":"2026-10-28T03:24:32Z","tmdb":2493,"title":"The Princess Bride","type":"movie","action":"rate","rating":8.0}
+{"id":"3f03b42d-9af8-4200-a8eb-76617a77e50f","ts":"2026-10-30T23:47:58Z","tmdb":341013,"title":"Atomic Blonde","type":"movie","action":"rate","rating":9.0}
+{"id":"4f13f750-6e68-48b5-9dbd-3d50f10e1c69","ts":"2026-10-30T23:48:20Z","tmdb":556574,"title":"Hamilton","type":"movie","action":"decline"}
