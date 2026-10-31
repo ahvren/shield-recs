@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T20:39-04:00",
+  "generated": "2026-10-31T19:10-04:00",
   "region": "US",
   "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only. All rows re-verified 2026-10-30 (includes HIDIVE)",
   "services": {
@@ -57,27 +57,6 @@
           "imdb": "tt6146586",
           "tmdb": "458156",
           "justwatch": "https://www.justwatch.com/us/movie/john-wick-chapter-3-parabellum"
-        },
-        {
-          "title": "Die Hard: With a Vengeance",
-          "year": 1995,
-          "type": "movie",
-          "services": [
-            "Hulu"
-          ],
-          "links": {
-            "Hulu": "https://www.hulu.com/watch/a3eb1f34-04db-47e1-b067-303d67cd1252"
-          },
-          "poster": "posters/movie-die-hard-3.jpg",
-          "why": "Next after Die Hard 2 (8.5): McClane and Samuel L. Jackson race around New York solving a bomber's riddles. Fast, funny, and propulsive.",
-          "synopsis": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration.",
-          "genres": [
-            "Action",
-            "Thriller"
-          ],
-          "imdb": "tt0112864",
-          "tmdb": "1572",
-          "justwatch": "https://www.justwatch.com/us/movie/die-hard-3"
         },
         {
           "title": "The Bourne Supremacy",
@@ -198,28 +177,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/apocalypto"
         },
         {
-          "title": "Avatar",
-          "year": 2009,
-          "type": "movie",
-          "services": [
-            "Disney+"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-357d8505-b9bc-41e3-9f27-0414738df143"
-          },
-          "poster": "posters/movie-avatar-2009.jpg",
-          "why": "James Cameron's Pandora epic about a paralyzed Marine in an alien body. A huge, immersive sci-fi adventure that holds up on a big screen.",
-          "synopsis": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
-          "genres": [
-            "Action",
-            "Fantasy",
-            "Sci-Fi"
-          ],
-          "imdb": "tt0499549",
-          "tmdb": "19995",
-          "justwatch": "https://www.justwatch.com/us/movie/avatar-2009"
-        },
-        {
           "title": "Pirates of the Caribbean: On Stranger Tides",
           "year": 2011,
           "type": "movie",
@@ -283,54 +240,6 @@
           "imdb": "tt0232500",
           "tmdb": "9799",
           "justwatch": "https://www.justwatch.com/us/movie/fast-and-furious-1"
-        },
-        {
-          "title": "Red Notice",
-          "year": 2021,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81161626"
-          },
-          "poster": "posters/movie-red-notice.jpg",
-          "why": "An FBI profiler, an art thief, and an even better thief race across the world for Cleopatra's eggs. A glossy, crowd-pleasing action comedy.",
-          "synopsis": "An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted. But when a daring heist brings together the FBI's top profiler and two rival criminals, there's no telling what will happen.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Crime",
-            "Thriller"
-          ],
-          "imdb": "tt7991608",
-          "tmdb": "512195",
-          "justwatch": "https://www.justwatch.com/us/movie/red-notice"
-        },
-        {
-          "title": "A Quiet Place: Day One",
-          "year": 2024,
-          "type": "movie",
-          "services": [
-            "Netflix",
-            "Prime Video"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81767874",
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0a711d31-6d3a-4a91-863a-6114720f1212"
-          },
-          "poster": "posters/movie-a-quiet-place-day-one.jpg",
-          "why": "The day the sound-hunting creatures arrived, in New York. Creature horror that's tense and fast, and the earliest chapter of the series.",
-          "synopsis": "A young woman named Sam finds herself trapped in New York City during the early stages of an invasion by alien creatures with ultra-sensitive hearing.",
-          "genres": [
-            "Drama",
-            "Horror",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt13433802",
-          "tmdb": "762441",
-          "justwatch": "https://www.justwatch.com/us/movie/a-quiet-place-day-one"
         },
         {
           "title": "Elysium",
@@ -401,28 +310,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/dont-breathe"
         },
         {
-          "title": "The Hunger Games",
-          "year": 2012,
-          "type": "movie",
-          "services": [
-            "Hulu"
-          ],
-          "links": {
-            "Hulu": "https://www.hulu.com/watch/70e4cfbe-6fdb-4eef-9fe7-4b49d2dc211d"
-          },
-          "poster": "posters/movie-the-hunger-games.jpg",
-          "why": "A girl volunteers for a televised fight to the death. A propulsive dystopian action film, and the first of its series.",
-          "synopsis": "In a dystopian society where the Capitol forces each district to send two young tributes to fight to the death in a televised spectacle, a girl volunteers to take her sister’s place, setting the stage for a struggle of survival and defiance.",
-          "genres": [
-            "Action",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt1392170",
-          "tmdb": "70160",
-          "justwatch": "https://www.justwatch.com/us/movie/the-hunger-games"
-        },
-        {
           "title": "Scarface",
           "year": 1983,
           "type": "movie",
@@ -442,50 +329,6 @@
           "imdb": "tt0086250",
           "tmdb": "111",
           "justwatch": "https://www.justwatch.com/us/movie/scarface-1983"
-        },
-        {
-          "title": "Now You See Me",
-          "year": 2013,
-          "type": "movie",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.2224a1aa-76a5-47fc-913d-07e1d163d445"
-          },
-          "poster": "posters/movie-now-you-see-me.jpg",
-          "why": "A team of stage magicians pulls off heists live and the FBI can't catch them. A slick, twisty crowd-pleaser.",
-          "synopsis": "An FBI agent and an Interpol detective track a team of illusionists who pull off bank heists during their performances and reward their audiences with the money.",
-          "genres": [
-            "Crime",
-            "Thriller"
-          ],
-          "imdb": "tt1670345",
-          "tmdb": "75656",
-          "justwatch": "https://www.justwatch.com/us/movie/now-you-see-me"
-        },
-        {
-          "title": "X-Men",
-          "year": 2000,
-          "type": "movie",
-          "services": [
-            "Disney+"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-e9f59c82-de76-4a18-a849-192532ff9b2d"
-          },
-          "poster": "posters/movie-x-men.jpg",
-          "why": "The first X-Men: mutants split between Professor X and Magneto. You've seen Apocalypse (8), and this is where the series starts.",
-          "synopsis": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Sci-Fi",
-            "European"
-          ],
-          "imdb": "tt0120903",
-          "tmdb": "36657",
-          "justwatch": "https://www.justwatch.com/us/movie/x-men"
         },
         {
           "title": "My Hero Academia: Two Heroes",
@@ -558,27 +401,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/underwater-2020"
         },
         {
-          "title": "Harry Potter and the Sorcerer's Stone",
-          "year": 2001,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/742e9d46-2692-4f3f-9272-0b76d66c891f"
-          },
-          "poster": "posters/movie-harry-potter-and-the-philosophers-stone.jpg",
-          "why": "The first Harry Potter: a boy learns he's a wizard and goes to Hogwarts. Fantasy adventure to start in order.",
-          "synopsis": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard—with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths—and about the villain who's to blame.",
-          "genres": [
-            "Fantasy",
-            "Family"
-          ],
-          "imdb": "tt0241527",
-          "tmdb": "671",
-          "justwatch": "https://www.justwatch.com/us/movie/harry-potter-and-the-philosophers-stone"
-        },
-        {
           "title": "The Man from Nowhere",
           "year": 2010,
           "type": "movie",
@@ -600,72 +422,6 @@
           "imdb": "tt1527788",
           "tmdb": "51608",
           "justwatch": "https://www.justwatch.com/us/movie/the-man-from-nowhere"
-        },
-        {
-          "title": "Orphan",
-          "year": 2009,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/ef8b0160-dd37-48c8-8fda-0171b9ecb785?utm_source=universal_search"
-          },
-          "poster": "posters/movie-orphan.jpg",
-          "why": "A family adopts a 9-year-old girl who isn't what she seems. A creepy thriller with a twist most people don't see coming.",
-          "synopsis": "After losing their baby, a married couple adopt 9-year old Esther, who may not be as innocent as she seems.",
-          "genres": [
-            "Horror",
-            "Thriller"
-          ],
-          "imdb": "tt1148204",
-          "tmdb": "21208",
-          "justwatch": "https://www.justwatch.com/us/movie/orphan"
-        },
-        {
-          "title": "Straight Outta Compton",
-          "year": 2015,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/80041415"
-          },
-          "poster": "posters/movie-straight-outta-compton.jpg",
-          "why": "Explore pick: the rise of N.W.A. from Compton to the top of music. A fast, high-energy biopic.",
-          "synopsis": "In 1987, five young men, using brutally honest rhymes and hardcore beats, put their frustration and anger about life in the most dangerous place in America into the most powerful weapon they had: their music.  Taking us back to where it all began, Straight Outta Compton tells the true story of how these cultural rebels—armed only with their lyrics, swagger, bravado and raw talent—stood up to the authorities that meant to keep them down and formed the world’s most dangerous group, N.W.A.  And as they spoke the truth that no one had before and exposed life in the hood, their voice ignited a social revolution that is still reverberating today.",
-          "genres": [
-            "Drama",
-            "History",
-            "Music"
-          ],
-          "imdb": "tt1398426",
-          "tmdb": "277216",
-          "justwatch": "https://www.justwatch.com/us/movie/straight-outta-compton",
-          "tag": "explore"
-        },
-        {
-          "title": "21 Jump Street",
-          "year": 2012,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/70208247"
-          },
-          "poster": "posters/movie-21-jump-street.jpg",
-          "why": "Two cops go undercover as high schoolers. Fast action comedy, and the first of its series.",
-          "synopsis": "When cops Schmidt and Jenko join the secret Jump Street unit, they use their youthful appearances to go undercover as high school students. They trade in their guns and badges for backpacks, and set out to shut down a dangerous drug ring. But, as time goes on, Schmidt and Jenko discover that high school is nothing like it was just a few years earlier -- and, what's more, they must again confront the teenage terror and anxiety they thought they had left behind.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Crime"
-          ],
-          "imdb": "tt1232829",
-          "tmdb": "64688",
-          "justwatch": "https://www.justwatch.com/us/movie/21-jump-street"
         },
         {
           "title": "Life",
@@ -1158,6 +914,250 @@
           "tmdb": "913823",
           "justwatch": "https://www.justwatch.com/us/movie/fire-of-love",
           "tag": "explore"
+        },
+        {
+          "title": "X2",
+          "year": 2003,
+          "type": "movie",
+          "services": [
+            "Disney+"
+          ],
+          "links": {
+            "Disney+": "https://www.disneyplus.com/browse/entity-54748282-5bf7-496c-8db9-a9aa3b7f57ac"
+          },
+          "poster": "posters/movie-x2-x-men-united.jpg",
+          "why": "Next up after X-Men (7): Bryan Singer's sequel is the stronger film, with Nightcrawler's White House opener and Stryker's assault on the mansion.",
+          "synopsis": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
+          "genres": [
+            "Action",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt0290334",
+          "tmdb": "36658",
+          "justwatch": "https://www.justwatch.com/us/movie/x2-x-men-united"
+        },
+        {
+          "title": "The Hunger Games: Catching Fire",
+          "year": 2013,
+          "type": "movie",
+          "services": [
+            "Hulu"
+          ],
+          "links": {
+            "Hulu": "https://www.hulu.com/watch/2af9bcea-1cb4-4ff5-85f1-0ea3728399e8"
+          },
+          "poster": "posters/movie-the-hunger-games-catching-fire.jpg",
+          "why": "Next up after The Hunger Games (8): the Quarter Quell raises the stakes, and it's widely seen as the best of the series.",
+          "synopsis": "After surviving the Hunger Games, Katniss and Peeta struggle with the consequences of their victory as unrest spreads across Panem. Forced back into the spotlight, they become symbols of hope and resistance while the Capitol prepares a new and deadly challenge that will change the future of the nation forever.",
+          "genres": [
+            "Action",
+            "Thriller",
+            "Romance",
+            "Sci-Fi"
+          ],
+          "imdb": "tt1951264",
+          "tmdb": "101299",
+          "justwatch": "https://www.justwatch.com/us/movie/the-hunger-games-catching-fire"
+        },
+        {
+          "title": "Sicario",
+          "year": 2015,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/825604ff-c3aa-49d1-a47f-55bb6f1535af?utm_source=universal_search"
+          },
+          "poster": "posters/movie-sicario.jpg",
+          "why": "Villeneuve's brutal cartel-war thriller, all dread and tension. From the director of Dune: Part Two (9.5), with a Benicio del Toro you won't forget.",
+          "synopsis": "An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.",
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt3397884",
+          "tmdb": "273481",
+          "justwatch": "https://www.justwatch.com/us/movie/sicario"
+        },
+        {
+          "title": "Now You See Me 2",
+          "year": 2016,
+          "type": "movie",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.feab3890-e840-fe49-bb19-eb9bf62ccbe6"
+          },
+          "poster": "posters/movie-now-you-see-me-2.jpg",
+          "why": "Next up after Now You See Me (7): the Horsemen get pulled into an even bigger heist in Macau and London.",
+          "synopsis": "One year after outwitting the FBI and winning the public’s adulation with their mind-bending spectacles, the Four Horsemen resurface only to find themselves face to face with a new enemy who enlists them to pull off their most dangerous heist yet.",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Crime",
+            "Thriller"
+          ],
+          "imdb": "tt3110958",
+          "tmdb": "291805",
+          "justwatch": "https://www.justwatch.com/us/movie/now-you-see-me-2"
+        },
+        {
+          "title": "Harry Potter and the Chamber of Secrets",
+          "year": 2002,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/48674b82-9076-4080-a40c-379efad5eb89"
+          },
+          "poster": "posters/movie-harry-potter-and-the-chamber-of-secrets.jpg",
+          "why": "Next up after Sorcerer's Stone (9): a darker mystery at Hogwarts, with the basilisk and the first hints of Voldemort's past.",
+          "synopsis": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione's magical abilities and courage.",
+          "genres": [
+            "Action",
+            "Fantasy",
+            "Family"
+          ],
+          "imdb": "tt0295297",
+          "tmdb": "672",
+          "justwatch": "https://www.justwatch.com/us/movie/harry-potter-and-the-chamber-of-secrets"
+        },
+        {
+          "title": "The Town",
+          "year": 2010,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/201109ce-65aa-478f-9be8-ef3b05b687ea?utm_source=universal_search"
+          },
+          "poster": "posters/movie-the-town.jpg",
+          "why": "Ben Affleck's Boston bank-robber thriller, with tense armored-car and Fenway heists. A grittier crime pick after Red Notice (8.5).",
+          "synopsis": "A proficient group of thieves rob a bank and hold the manager hostage. Things begin to get complicated when one of the crew members falls in love with her.",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt0840361",
+          "tmdb": "23168",
+          "justwatch": "https://www.justwatch.com/us/movie/the-town"
+        },
+        {
+          "title": "Avatar: The Way of Water",
+          "year": 2022,
+          "type": "movie",
+          "services": [
+            "Disney+"
+          ],
+          "links": {
+            "Disney+": "https://www.disneyplus.com/browse/entity-154b2e5c-fbe7-49b7-b6be-fd0e6c75651f"
+          },
+          "poster": "posters/movie-avatar-2.jpg",
+          "why": "Next up after Avatar (8): Jake's family flees to the reef clans, and the underwater worldbuilding and action are a huge step up.",
+          "synopsis": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+          "genres": [
+            "Action",
+            "Fantasy",
+            "Sci-Fi"
+          ],
+          "imdb": "tt1630029",
+          "tmdb": "76600",
+          "justwatch": "https://www.justwatch.com/us/movie/avatar-2"
+        },
+        {
+          "title": "Talk to Me",
+          "year": 2023,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/79e23b6c-7938-444c-bc12-6801f29dc26b?utm_source=universal_search"
+          },
+          "poster": "posters/movie-talk-to-me-2022.jpg",
+          "why": "A24's possession horror about teens who get hooked on contacting the dead with an embalmed hand. Smart and nasty, not campy.",
+          "synopsis": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
+          "genres": [
+            "Horror",
+            "Thriller"
+          ],
+          "imdb": "tt10638522",
+          "tmdb": "1008042",
+          "justwatch": "https://www.justwatch.com/us/movie/talk-to-me-2022"
+        },
+        {
+          "title": "22 Jump Street",
+          "year": 2014,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/70298992"
+          },
+          "poster": "posters/movie-22-jump-street.jpg",
+          "why": "Next up after 21 Jump Street (6.5): Schmidt and Jenko go undercover in college, with a meta streak that mocks sequels.",
+          "synopsis": "After making their way through high school (twice), big changes are in store for officers Schmidt and Jenko when they go deep undercover at a local college.",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Crime"
+          ],
+          "imdb": "tt2294449",
+          "tmdb": "187017",
+          "justwatch": "https://www.justwatch.com/us/movie/22-jump-street"
+        },
+        {
+          "title": "Barbarian",
+          "year": 2022,
+          "type": "movie",
+          "services": [
+            "Hulu"
+          ],
+          "links": {
+            "Hulu": "https://www.hulu.com/watch/a513bfb2-acca-4a6e-ab76-bc52c35a4807"
+          },
+          "poster": "posters/movie-barbarian.jpg",
+          "why": "A double-booked rental house hides something much worse in the basement. Twisty, unpredictable horror in the vein of Weapons (8).",
+          "synopsis": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
+          "genres": [
+            "Horror",
+            "Thriller"
+          ],
+          "imdb": "tt15791034",
+          "tmdb": "913290",
+          "justwatch": "https://www.justwatch.com/us/movie/barbarian"
+        },
+        {
+          "title": "Free Solo",
+          "year": 2018,
+          "type": "movie",
+          "services": [
+            "Hulu"
+          ],
+          "links": {
+            "Hulu": "https://www.hulu.com/watch/5bc87ba3-cda0-4f46-b81c-4c3ea170e9d1"
+          },
+          "poster": "posters/movie-free-solo.jpg",
+          "why": "Explore pick: the Oscar-winning documentary of Alex Honnold climbing El Capitan with no rope. Real-life tension that rivals any thriller.",
+          "synopsis": "Follow Alex Honnold as he attempts to become the first person to ever free solo climb Yosemite's 3,000 foot high El Capitan wall. With no ropes or safety gear, this would arguably be the greatest feat in rock climbing history.",
+          "genres": [
+            "Action",
+            "Documentary",
+            "Sport"
+          ],
+          "imdb": "tt7775622",
+          "tmdb": "515042",
+          "justwatch": "https://www.justwatch.com/us/movie/free-solo",
+          "tag": "explore"
         }
       ]
     },
@@ -1470,31 +1470,6 @@
           "imdb": "tt13159924",
           "tmdb": "205715",
           "justwatch": "https://www.justwatch.com/us/tv-show/gen-v"
-        },
-        {
-          "title": "Peacemaker",
-          "year": 2022,
-          "type": "show",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/video/watch/6c2a04f5-52a4-40d2-958c-e37f9cfcc891?utm_source=universal_search"
-          },
-          "poster": "posters/show-peacemaker-2022.jpg",
-          "why": "James Gunn's irreverent superhero comedy (The Suicide Squad 9).",
-          "synopsis": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Crime",
-            "Drama",
-            "Fantasy",
-            "Sci-Fi"
-          ],
-          "imdb": "tt13146488",
-          "tmdb": "110492",
-          "justwatch": "https://www.justwatch.com/us/tv-show/peacemaker-2022"
         },
         {
           "title": "Scavengers Reign",
@@ -2340,6 +2315,29 @@
           "imdb": "tt1869454",
           "tmdb": "71915",
           "justwatch": "https://www.justwatch.com/us/tv-show/good-omens"
+        },
+        {
+          "title": "Tom Clancy's Jack Ryan",
+          "year": 2018,
+          "type": "show",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.56b2af4a-833b-5d9e-32be-368db8e46fab"
+          },
+          "poster": "posters/show-tom-clancys-jack-ryan.jpg",
+          "why": "John Krasinski as the CIA analyst pulled into field work. A propulsive spy-action series for the fan of Reacher (8) and Kingsman.",
+          "synopsis": "When CIA analyst Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the safety of his desk job and catapults him into a deadly game of cat and mouse throughout Europe and the Middle East, with a rising terrorist figurehead preparing for a massive attack against the US and her allies.",
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt5057054",
+          "tmdb": "73375",
+          "justwatch": "https://www.justwatch.com/us/tv-show/tom-clancys-jack-ryan"
         }
       ]
     }
