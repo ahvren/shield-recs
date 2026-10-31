@@ -52,3 +52,7 @@
 {"id":"8b5c789a-b563-402f-b161-9c0ce5ef8a25","ts":"2026-10-31T00:46:13Z","tmdb":75656,"title":"Now You See Me","type":"movie","action":"rate","rating":7.0}
 {"id":"120e3c97-b7d3-4a70-b01e-027a9154cf4f","ts":"2026-10-31T00:46:17Z","tmdb":36657,"title":"X-Men","type":"movie","action":"rate","rating":7.0}
 {"id":"b0f53638-4d0d-499d-904a-dc89e550efe3","ts":"2026-10-31T23:02:49Z","tmdb":110492,"title":"Peacemaker","type":"show","action":"rate","rating":8.5}
+{"id":"71cfb98f-ba27-4dd8-a82e-bdfbdc969e0f","ts":"2026-10-31T23:03:35Z","tmdb":671,"title":"Harry Potter and the Sorcerer's Stone","type":"movie","action":"rate","rating":9.0}
+{"id":"9e55c14d-46a6-485a-b405-81d9335da0b1","ts":"2026-10-31T23:03:43Z","tmdb":21208,"title":"Orphan","type":"movie","action":"rate","rating":6.5}
+{"id":"256ca9e1-ab9e-4541-9c66-04dac79a1507","ts":"2026-10-31T23:03:51Z","tmdb":277216,"title":"Straight Outta Compton","type":"movie","action":"decline"}
+{"id":"c852b743-cbdb-4712-ad4f-179de8462afa","ts":"2026-10-31T23:04:00Z","tmdb":64688,"title":"21 Jump Street","type":"movie","action":"rate","rating":6.5}
