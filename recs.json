@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T19:10-04:00",
+  "generated": "2026-11-01T18:10-05:00",
   "region": "US",
   "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only. All rows re-verified 2026-10-30 (includes HIDIVE)",
   "services": {
@@ -600,29 +600,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/fresh-2022"
         },
         {
-          "title": "8 Mile",
-          "year": 2002,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/60024922"
-          },
-          "poster": "posters/movie-8-mile.jpg",
-          "why": "Explore pick: Eminem's semi-autobiographical rap battle story in Detroit. A fast, gritty drama with a famous finale.",
-          "synopsis": "For Jimmy Smith, Jr., life is a daily fight just to keep hope alive. Feeding his dreams in Detroit's vibrant music scene, Jimmy wages an extraordinary personal struggle to find his own voice - and earn a place in a world where rhymes rule, legends are born and every moment… is another chance.",
-          "genres": [
-            "Drama",
-            "Music",
-            "European"
-          ],
-          "imdb": "tt0298203",
-          "tmdb": "65",
-          "justwatch": "https://www.justwatch.com/us/movie/8-mile",
-          "tag": "explore"
-        },
-        {
           "title": "American Sniper",
           "year": 2014,
           "type": "movie",
@@ -916,51 +893,6 @@
           "tag": "explore"
         },
         {
-          "title": "X2",
-          "year": 2003,
-          "type": "movie",
-          "services": [
-            "Disney+"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-54748282-5bf7-496c-8db9-a9aa3b7f57ac"
-          },
-          "poster": "posters/movie-x2-x-men-united.jpg",
-          "why": "Next up after X-Men (7): Bryan Singer's sequel is the stronger film, with Nightcrawler's White House opener and Stryker's assault on the mansion.",
-          "synopsis": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
-          "genres": [
-            "Action",
-            "Thriller",
-            "Sci-Fi"
-          ],
-          "imdb": "tt0290334",
-          "tmdb": "36658",
-          "justwatch": "https://www.justwatch.com/us/movie/x2-x-men-united"
-        },
-        {
-          "title": "The Hunger Games: Catching Fire",
-          "year": 2013,
-          "type": "movie",
-          "services": [
-            "Hulu"
-          ],
-          "links": {
-            "Hulu": "https://www.hulu.com/watch/2af9bcea-1cb4-4ff5-85f1-0ea3728399e8"
-          },
-          "poster": "posters/movie-the-hunger-games-catching-fire.jpg",
-          "why": "Next up after The Hunger Games (8): the Quarter Quell raises the stakes, and it's widely seen as the best of the series.",
-          "synopsis": "After surviving the Hunger Games, Katniss and Peeta struggle with the consequences of their victory as unrest spreads across Panem. Forced back into the spotlight, they become symbols of hope and resistance while the Capitol prepares a new and deadly challenge that will change the future of the nation forever.",
-          "genres": [
-            "Action",
-            "Thriller",
-            "Romance",
-            "Sci-Fi"
-          ],
-          "imdb": "tt1951264",
-          "tmdb": "101299",
-          "justwatch": "https://www.justwatch.com/us/movie/the-hunger-games-catching-fire"
-        },
-        {
           "title": "Sicario",
           "year": 2015,
           "type": "movie",
@@ -984,51 +916,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/sicario"
         },
         {
-          "title": "Now You See Me 2",
-          "year": 2016,
-          "type": "movie",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.feab3890-e840-fe49-bb19-eb9bf62ccbe6"
-          },
-          "poster": "posters/movie-now-you-see-me-2.jpg",
-          "why": "Next up after Now You See Me (7): the Horsemen get pulled into an even bigger heist in Macau and London.",
-          "synopsis": "One year after outwitting the FBI and winning the public’s adulation with their mind-bending spectacles, the Four Horsemen resurface only to find themselves face to face with a new enemy who enlists them to pull off their most dangerous heist yet.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Crime",
-            "Thriller"
-          ],
-          "imdb": "tt3110958",
-          "tmdb": "291805",
-          "justwatch": "https://www.justwatch.com/us/movie/now-you-see-me-2"
-        },
-        {
-          "title": "Harry Potter and the Chamber of Secrets",
-          "year": 2002,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/48674b82-9076-4080-a40c-379efad5eb89"
-          },
-          "poster": "posters/movie-harry-potter-and-the-chamber-of-secrets.jpg",
-          "why": "Next up after Sorcerer's Stone (9): a darker mystery at Hogwarts, with the basilisk and the first hints of Voldemort's past.",
-          "synopsis": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione's magical abilities and courage.",
-          "genres": [
-            "Action",
-            "Fantasy",
-            "Family"
-          ],
-          "imdb": "tt0295297",
-          "tmdb": "672",
-          "justwatch": "https://www.justwatch.com/us/movie/harry-potter-and-the-chamber-of-secrets"
-        },
-        {
           "title": "The Town",
           "year": 2010,
           "type": "movie",
@@ -1049,28 +936,6 @@
           "imdb": "tt0840361",
           "tmdb": "23168",
           "justwatch": "https://www.justwatch.com/us/movie/the-town"
-        },
-        {
-          "title": "Avatar: The Way of Water",
-          "year": 2022,
-          "type": "movie",
-          "services": [
-            "Disney+"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-154b2e5c-fbe7-49b7-b6be-fd0e6c75651f"
-          },
-          "poster": "posters/movie-avatar-2.jpg",
-          "why": "Next up after Avatar (8): Jake's family flees to the reef clans, and the underwater worldbuilding and action are a huge step up.",
-          "synopsis": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-          "genres": [
-            "Action",
-            "Fantasy",
-            "Sci-Fi"
-          ],
-          "imdb": "tt1630029",
-          "tmdb": "76600",
-          "justwatch": "https://www.justwatch.com/us/movie/avatar-2"
         },
         {
           "title": "Talk to Me",
@@ -1137,26 +1002,161 @@
           "justwatch": "https://www.justwatch.com/us/movie/barbarian"
         },
         {
-          "title": "Free Solo",
-          "year": 2018,
+          "title": "Harry Potter and the Prisoner of Azkaban",
+          "year": 2004,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/73553a76-1658-45f6-9e26-1b9c4443b0d6"
+          },
+          "poster": "posters/movie-harry-potter-and-the-prisoner-of-azkaban.jpg",
+          "why": "Next up after Chamber of Secrets (9): Alfonso Cuaron's darker, stylish turn, with Sirius Black, dementors, and a time-twist finale.",
+          "synopsis": "Year three at Hogwarts means new fun and new challenges as Harry learns the delicate art of approaching a Hippogriff, transforming shape-shifting Boggarts into hilarity and even turning back time. But the term also brings danger: soul-sucking Dementors hover over the school, an ally of the accursed He-Who-Cannot-Be-Named lurks within the castle walls, and fearsome wizard Sirius Black escapes Azkaban. And Harry will confront them all.",
+          "genres": [
+            "Action",
+            "Fantasy",
+            "Family"
+          ],
+          "imdb": "tt0304141",
+          "tmdb": "673",
+          "justwatch": "https://www.justwatch.com/us/movie/harry-potter-and-the-prisoner-of-azkaban"
+        },
+        {
+          "title": "X-Men: The Last Stand",
+          "year": 2006,
+          "type": "movie",
+          "services": [
+            "Disney+"
+          ],
+          "links": {
+            "Disney+": "https://www.disneyplus.com/browse/entity-e0f6bbed-cea5-41c1-b787-478f21255898"
+          },
+          "poster": "posters/movie-x-men-the-last-stand.jpg",
+          "why": "Next up after X2 (7): the mutant cure splits the X-Men, and the Dark Phoenix storyline comes to a head.",
+          "synopsis": "When a cure is found to treat mutations, lines are drawn amongst the X-Men led by Professor Charles Xavier, and Magneto's Brotherhood of Mutants.",
+          "genres": [
+            "Action",
+            "Sci-Fi"
+          ],
+          "imdb": "tt0376994",
+          "tmdb": "36668",
+          "justwatch": "https://www.justwatch.com/us/movie/x-men-the-last-stand"
+        },
+        {
+          "title": "The Hunger Games: Mockingjay - Part 1",
+          "year": 2014,
           "type": "movie",
           "services": [
             "Hulu"
           ],
           "links": {
-            "Hulu": "https://www.hulu.com/watch/5bc87ba3-cda0-4f46-b81c-4c3ea170e9d1"
+            "Hulu": "https://www.hulu.com/watch/e593d5ec-ed65-4863-9cbf-bbd8cccee0f5"
           },
-          "poster": "posters/movie-free-solo.jpg",
-          "why": "Explore pick: the Oscar-winning documentary of Alex Honnold climbing El Capitan with no rope. Real-life tension that rivals any thriller.",
-          "synopsis": "Follow Alex Honnold as he attempts to become the first person to ever free solo climb Yosemite's 3,000 foot high El Capitan wall. With no ropes or safety gear, this would arguably be the greatest feat in rock climbing history.",
+          "poster": "posters/movie-the-hunger-games-mockingjay-part-1.jpg",
+          "why": "Next up after Catching Fire (8): Katniss becomes the face of the rebellion as District 13 goes to war with the Capitol.",
+          "synopsis": "After surviving the Quarter Quell, Katniss finds herself in the hidden stronghold of District 13, where the rebellion against the Capitol is gaining momentum. Struggling with the weight of becoming the symbol of resistance, she must navigate fragile alliances while trying to protect those she loves. As propaganda battles rage and Panem moves closer to full-scale war, Katniss is forced to confront the true cost of revolution.",
           "genres": [
             "Action",
-            "Documentary",
-            "Sport"
+            "Thriller",
+            "Sci-Fi"
           ],
-          "imdb": "tt7775622",
-          "tmdb": "515042",
-          "justwatch": "https://www.justwatch.com/us/movie/free-solo",
+          "imdb": "tt1951265",
+          "tmdb": "131631",
+          "justwatch": "https://www.justwatch.com/us/movie/the-hunger-games-mockingjay-part-1"
+        },
+        {
+          "title": "Avatar: Fire and Ash",
+          "year": 2025,
+          "type": "movie",
+          "services": [
+            "Disney+"
+          ],
+          "links": {
+            "Disney+": "https://www.disneyplus.com/browse/entity-3135b0cb-a002-438d-a9fd-60d86284c93f"
+          },
+          "poster": "posters/movie-avatar-3.jpg",
+          "why": "Next up after The Way of Water (7.5): Jake's family faces the volcanic Ash People in the third Pandora film.",
+          "synopsis": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+          "genres": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Sci-Fi"
+          ],
+          "imdb": "tt1757678",
+          "tmdb": "83533",
+          "justwatch": "https://www.justwatch.com/us/movie/avatar-3"
+        },
+        {
+          "title": "Heat",
+          "year": 1995,
+          "type": "movie",
+          "services": [
+            "Netflix",
+            "Prime Video"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/70020509",
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.faadea57-f7ab-26aa-6cda-8d880566e5b3"
+          },
+          "poster": "posters/movie-heat-1995.jpg",
+          "why": "Michael Mann's crime epic: Pacino's cop versus De Niro's crew, with the legendary downtown shootout. Peak heist cinema for the fan of The Town and Ocean's Eleven.",
+          "synopsis": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "imdb": "tt0113277",
+          "tmdb": "949",
+          "justwatch": "https://www.justwatch.com/us/movie/heat-1995"
+        },
+        {
+          "title": "Hunt for the Wilderpeople",
+          "year": 2016,
+          "type": "movie",
+          "services": [
+            "Prime Video"
+          ],
+          "links": {
+            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.7217d7cf-8961-4d27-b9dd-02ed9e168f26"
+          },
+          "poster": "posters/movie-hunt-for-the-wilderpeople.jpg",
+          "why": "Explore pick: Taika Waititi's warm, very funny New Zealand manhunt comedy about a foster kid and his grumpy uncle on the run in the bush.",
+          "synopsis": "Ricky is a defiant young city kid who finds himself on the run with his cantankerous foster uncle in the wild New Zealand bush. A national manhunt ensues, and the two are forced to put aside their differences and work together to survive.",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Drama",
+            "Family"
+          ],
+          "imdb": "tt4698684",
+          "tmdb": "371645",
+          "justwatch": "https://www.justwatch.com/us/movie/hunt-for-the-wilderpeople",
+          "tag": "explore"
+        },
+        {
+          "title": "Seven Samurai",
+          "year": 1954,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/c00ace36-3a1d-43ad-a7f9-206cbc3abcab?utm_source=universal_search"
+          },
+          "poster": "posters/movie-seven-samurai.jpg",
+          "why": "Explore pick: Kurosawa's epic of villagers hiring seven samurai to fight off bandits, the blueprint for countless action and heist-team movies.",
+          "synopsis": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food.",
+          "genres": [
+            "Action",
+            "Drama"
+          ],
+          "imdb": "tt0047478",
+          "tmdb": "346",
+          "justwatch": "https://www.justwatch.com/us/movie/seven-samurai",
           "tag": "explore"
         }
       ]
