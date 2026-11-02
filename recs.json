@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T18:10-05:00",
+  "generated": "2026-11-02T17:10-05:00",
   "region": "US",
   "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only. All rows re-verified 2026-10-30 (includes HIDIVE)",
   "services": {
@@ -2317,27 +2317,27 @@
           "justwatch": "https://www.justwatch.com/us/tv-show/good-omens"
         },
         {
-          "title": "Tom Clancy's Jack Ryan",
-          "year": 2018,
+          "title": "IT: Welcome to Derry",
+          "year": 2025,
           "type": "show",
           "services": [
-            "Prime Video"
+            "HBO Max"
           ],
           "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.56b2af4a-833b-5d9e-32be-368db8e46fab"
+            "HBO Max": "https://play.hbomax.com/video/watch/79812058-b270-444d-983d-2a5391484864?utm_source=universal_search"
           },
-          "poster": "posters/show-tom-clancys-jack-ryan.jpg",
-          "why": "John Krasinski as the CIA analyst pulled into field work. A propulsive spy-action series for the fan of Reacher (8) and Kingsman.",
-          "synopsis": "When CIA analyst Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the safety of his desk job and catapults him into a deadly game of cat and mouse throughout Europe and the Middle East, with a rising terrorist figurehead preparing for a massive attack against the US and her allies.",
+          "poster": "posters/show-welcome-to-derry.jpg",
+          "why": "New since your 8: HBO Max dropped a surprise special on Oct 31, 2026, \"A Story of Derry,\" set centuries before Pennywise. Season 2 is still TBA.",
+          "synopsis": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
           "genres": [
-            "Action",
-            "Crime",
             "Drama",
+            "Fantasy",
+            "Horror",
             "Thriller"
           ],
-          "imdb": "tt5057054",
-          "tmdb": "73375",
-          "justwatch": "https://www.justwatch.com/us/tv-show/tom-clancys-jack-ryan"
+          "imdb": "tt19244304",
+          "tmdb": "200875",
+          "justwatch": "https://www.justwatch.com/us/tv-show/welcome-to-derry"
         }
       ]
     }
