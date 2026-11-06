@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30T13:31:19Z",
+  "updated": "2026-11-06T14:08:01Z",
   "owner": "recommender",
   "note": "Written only by the recommender (Grok Bot) after it processes feedback/news_feedback.jsonl. The Shield CT reads this file but must never write it.",
   "topic_weights": {
@@ -51,7 +51,7 @@
     },
     "deadline.com": {
       "reason": "adblock_wall",
-      "evidence": "PMC Admiral wall in every sampled article: 'Disable Your Adblocker. We use ads to keep our content free. To access our site, disable…'; JSON-LD isAccessibleForFree \"false\" (4/4).",
+      "evidence": "PMC Admiral wall in every sampled article: 'Disable Your Adblocker. We use ads to keep our content free. To access our site, disable\u2026'; JSON-LD isAccessibleForFree \"false\" (4/4).",
       "checked": "2026-10-26"
     },
     "variety.com": {
@@ -96,7 +96,7 @@
     },
     "flightglobal.com": {
       "reason": "paywall",
-      "evidence": "'Subscribe to gain access to all news… Already have a subscription?' nag (pmgsub) in article HTML; subscribe/1-month-free gating.",
+      "evidence": "'Subscribe to gain access to all news\u2026 Already have a subscription?' nag (pmgsub) in article HTML; subscribe/1-month-free gating.",
       "checked": "2026-10-26"
     },
     "lwn.net": {
@@ -128,6 +128,11 @@
       "reason": "paywall",
       "evidence": "AIN articles: JSON-LD isAccessibleForFree:false on 7/7 checked in the 2026-10-29 build (all dropped).",
       "checked": "2026-10-29"
+    },
+    "the-decoder.com": {
+      "reason": "paywall_metered",
+      "evidence": "JSON-LD isAccessibleForFree:false on 2/8 The Decoder articles sampled in the 2026-11-05/11-06 builds (gpt-6-astra-sees-the-matrix... and anthropics-new-prototype-proves...); remaining checked URLs were free, so mixed/metered membership paywall. Dropped by access check both days.",
+      "checked": "2026-11-06"
     }
   },
   "blocked_note": "Chris's rule (2026-10-26): no sources with a hard ad-block wall or a paywall (hard or metered). Soft, dismissible ad-block popups are fine. build_news.py drops any feed or item whose host matches blocked_domains, and also drops individual articles whose JSON-LD says isAccessibleForFree:false or that carry the PMC/Admiral 'To access our site, disable your adblocker' wall."
