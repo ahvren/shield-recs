@@ -107,28 +107,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/aliens"
         },
         {
-          "title": "Dune: Part Two",
-          "year": 2024,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/f0a4f239-0b57-47e2-a39a-54fb96925e61?utm_source=universal_search"
-          },
-          "poster": "posters/movie-dune-part-two-2023.jpg",
-          "why": "Next after Dune (10): Paul embraces Fremen prophecy and war on Arrakis. Bigger, meaner, and the payoff to Part One.",
-          "synopsis": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
-          "genres": [
-            "Action",
-            "Drama",
-            "Sci-Fi"
-          ],
-          "imdb": "tt15239678",
-          "tmdb": 693134,
-          "justwatch": "https://www.justwatch.com/us/movie/dune-part-two-2023"
-        },
-        {
           "title": "Dragon Ball Super: Broly",
           "year": 2018,
           "type": "movie",
@@ -379,28 +357,6 @@
           "tmdb": 505262,
           "justwatch": "https://www.justwatch.com/us/movie/my-hero-academia-the-movie-the-two-heroes",
           "tag": "explore"
-        },
-        {
-          "title": "Harry Potter and the Prisoner of Azkaban",
-          "year": 2004,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/73553a76-1658-45f6-9e26-1b9c4443b0d6"
-          },
-          "poster": "posters/movie-harry-potter-and-the-prisoner-of-azkaban.jpg",
-          "why": "Next after Chamber of Secrets (9): Azkaban escapee, time-turner, and the series' best atmosphere. Alfonso Cuarón elevates it.",
-          "synopsis": "Year three at Hogwarts means new fun and new challenges as Harry learns the delicate art of approaching a Hippogriff, transforming shape-shifting Boggarts into hilarity and even turning back time. But the term also brings danger: soul-sucking Dementors hover over the school, an ally of the accursed He-Who-Cannot-Be-Named lurks within the castle walls, and fearsome wizard Sirius Black escapes Azkaban. And Harry will confront them all.",
-          "genres": [
-            "Action",
-            "Fantasy",
-            "Family"
-          ],
-          "imdb": "tt0304141",
-          "tmdb": 673,
-          "justwatch": "https://www.justwatch.com/us/movie/harry-potter-and-the-prisoner-of-azkaban"
         },
         {
           "title": "The Conjuring 2",
@@ -1165,6 +1121,49 @@
           "imdb": "tt4873118",
           "tmdb": 882569,
           "justwatch": "https://www.justwatch.com/us/movie/guy-ritchies-the-covenant"
+        },
+        {
+          "title": "Harry Potter and the Goblet of Fire",
+          "year": 2005,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/d2e9ff29-e71d-4eae-9a4b-7cd0e00236ea?utm_source=universal_search"
+          },
+          "poster": "posters/movie-harry-potter-and-the-goblet-of-fire.jpg",
+          "why": "Next after Prisoner of Azkaban (9): the Triwizard Tournament, dragons, the maze, and Voldemort's return. Where the series turns darker.",
+          "synopsis": "After his name emerges from the Goblet of Fire, Harry Potter becomes a competitor in a grueling battle for glory among three wizarding schools in the Triwizard Tournament. But if Harry never submitted his name for the Tournament, then who did? Nevertheless, Harry must confront a deadly dragon, fierce water monsters, and an enchanted maze—only to find himself in the cruel grasp of He Who Must Not Be Named.",
+          "genres": [
+            "Fantasy",
+            "Family"
+          ],
+          "imdb": "tt0330373",
+          "tmdb": 674,
+          "justwatch": "https://www.justwatch.com/us/movie/harry-potter-and-the-goblet-of-fire"
+        },
+        {
+          "title": "Ad Astra",
+          "year": 2019,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81010971"
+          },
+          "poster": "posters/movie-ad-astra.jpg",
+          "why": "For the Interstellar and Martian fan: Brad Pitt crosses the solar system to find his lost father. Quiet, gorgeous, hard-ish sci-fi with a few great jolts.",
+          "synopsis": "The near future, a time when both hope and hardships drive humanity to look to the stars and beyond. While a mysterious phenomenon menaces to destroy life on planet Earth, astronaut Roy McBride undertakes a mission across the immensity of space and its many perils to uncover the truth about a lost expedition that decades before boldly faced emptiness and silence in search of the unknown.",
+          "genres": [
+            "Drama",
+            "Thriller",
+            "Sci-Fi"
+          ],
+          "imdb": "tt2935510",
+          "tmdb": 419704,
+          "justwatch": "https://www.justwatch.com/us/movie/ad-astra"
         }
       ]
     },
