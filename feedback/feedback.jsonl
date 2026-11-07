@@ -63,3 +63,4 @@
 {"id":"6a0cf628-bccc-443f-8722-dec89bba8d38","ts":"2026-10-31T23:18:45Z","tmdb":36658,"title":"X2","type":"movie","action":"rate","rating":7.0}
 {"id":"2a4bf791-0177-45d9-9609-a704ff8104d8","ts":"2026-10-31T23:18:52Z","tmdb":101299,"title":"The Hunger Games: Catching Fire","type":"movie","action":"rate","rating":8.0}
 {"id":"6c7525f3-036d-400d-9fbf-5d44e59ed1ba","ts":"2026-10-31T23:19:21Z","tmdb":65,"title":"8 Mile","type":"movie","action":"decline"}
+{"id":"c811b9c9-d0f7-4720-b590-9a31e97eb42c","ts":"2026-11-07T00:51:40Z","tmdb":693134,"title":"Dune: Part Two","type":"movie","action":"rate","rating":10.0,"device":"phone"}
