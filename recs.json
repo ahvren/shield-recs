@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T14:23-07:00",
+  "generated": "2026-11-08T16:20-07:00",
   "region": "US",
   "availability_source": "JustWatch US (apis.justwatch.com), subscription (flatrate) offers only. All rows re-verified 2026-10-30 (includes HIDIVE)",
   "services": {
@@ -350,29 +350,6 @@
           "tag": "explore"
         },
         {
-          "title": "Army of Thieves",
-          "year": 2021,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81185548"
-          },
-          "poster": "posters/movie-army-of-thieves.jpg",
-          "why": "The prequel to Army of the Dead (8), released after it: safecracker Dieter joins a crew hitting legendary vaults across Europe. Breezy heist fun.",
-          "synopsis": "A mysterious woman recruits bank teller Ludwig Dieter to lead a group of aspiring thieves on a top-secret heist during the early stages of the zombie apocalypse.",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Crime",
-            "Thriller"
-          ],
-          "imdb": "tt13024674",
-          "tmdb": 796499,
-          "justwatch": "https://www.justwatch.com/us/movie/army-of-thieves"
-        },
-        {
           "title": "Hell or High Water",
           "year": 2016,
           "type": "movie",
@@ -437,30 +414,6 @@
           "imdb": "tt0102685",
           "tmdb": 1089,
           "justwatch": "https://www.justwatch.com/us/movie/point-break-1991"
-        },
-        {
-          "title": "Crouching Tiger, Hidden Dragon",
-          "year": 2000,
-          "type": "movie",
-          "services": [
-            "Prime Video"
-          ],
-          "links": {
-            "Prime Video": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.2cb52893-de0c-24f0-fa87-3298c1debfcc"
-          },
-          "poster": "posters/movie-crouching-tiger-hidden-dragon.jpg",
-          "why": "Explore pick: a stolen sword sparks rooftop duels and wuxia romance. Ang Lee's Oscar winner with gravity-defying fights.",
-          "synopsis": "Two warriors in pursuit of a stolen sword and a notorious fugitive are led to an impetuous, physically-skilled, teenage nobleman's daughter, who is at a crossroads in her life.",
-          "genres": [
-            "Action",
-            "Drama",
-            "Fantasy",
-            "Romance"
-          ],
-          "imdb": "tt0190332",
-          "tmdb": 146,
-          "justwatch": "https://www.justwatch.com/us/movie/crouching-tiger-hidden-dragon",
-          "tag": "explore"
         },
         {
           "title": "The Tomorrow War",
@@ -729,27 +682,6 @@
           "imdb": "tt3235888",
           "tmdb": 270303,
           "justwatch": "https://www.justwatch.com/us/movie/it-follows"
-        },
-        {
-          "title": "National Treasure",
-          "year": 2004,
-          "type": "movie",
-          "services": [
-            "Disney+"
-          ],
-          "links": {
-            "Disney+": "https://www.disneyplus.com/browse/entity-032c0081-20a9-4b24-a7ad-a3703d8dcef6"
-          },
-          "poster": "posters/movie-national-treasure.jpg",
-          "why": "Nicolas Cage steals the Declaration of Independence to find a hidden treasure. Crowd-pleasing puzzle adventure.",
-          "synopsis": "Modern treasure hunters, led by archaeologist Ben Gates, search for a chest of riches rumored to have been stashed away by George Washington, Thomas Jefferson and Benjamin Franklin during the Revolutionary War. The chest's whereabouts may lie in secret clues embedded in the Constitution and the Declaration of Independence, and Gates is in a race to find the gold before his enemies do.",
-          "genres": [
-            "Action",
-            "Thriller"
-          ],
-          "imdb": "tt0368891",
-          "tmdb": 2059,
-          "justwatch": "https://www.justwatch.com/us/movie/national-treasure"
         },
         {
           "title": "Rashomon",
@@ -1157,6 +1089,73 @@
           "imdb": "tt0119698",
           "tmdb": 128,
           "justwatch": "https://www.justwatch.com/us/movie/princess-mononoke",
+          "tag": "explore"
+        },
+        {
+          "title": "Hit Man",
+          "year": 2024,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81728840"
+          },
+          "poster": "posters/movie-hit-man.jpg",
+          "why": "Glen Powell as a fake hitman for the cops who falls for a client. Twisty Linklater crime comedy, in the vein of Army of Thieves.",
+          "synopsis": "A mild-mannered professor moonlighting as a fake hit man in police stings ignites a chain reaction of trouble when he falls for a potential client.",
+          "genres": [
+            "Comedy",
+            "Crime",
+            "Romance"
+          ],
+          "imdb": "tt20215968",
+          "tmdb": 974635,
+          "justwatch": "https://www.justwatch.com/us/movie/hit-man"
+        },
+        {
+          "title": "Carry-On",
+          "year": 2024,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/81476963"
+          },
+          "poster": "posters/movie-carry-on-2024.jpg",
+          "why": "A TSA agent is blackmailed into letting a dangerous bag through on Christmas Eve. Tight one-location action thriller.",
+          "synopsis": "An airport security officer races to outsmart a mysterious traveler forcing him to let a dangerous item slip onto a Christmas Eve flight.",
+          "genres": [
+            "Action",
+            "Crime",
+            "Thriller"
+          ],
+          "imdb": "tt21382296",
+          "tmdb": 1005331,
+          "justwatch": "https://www.justwatch.com/us/movie/carry-on-2024"
+        },
+        {
+          "title": "Anatomy of a Fall",
+          "year": 2023,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/fb421f78-e410-4d13-8471-45bf25723634?utm_source=universal_search"
+          },
+          "poster": "posters/movie-anatomie-dune-chute.jpg",
+          "why": "Explore pick: a Palme d'Or courtroom drama about a writer accused of her husband's death. Gripping and ambiguous, like Rashomon in a modern trial.",
+          "synopsis": "A woman is suspected of her husband's murder, and their blind son faces a moral dilemma as the sole witness.",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "imdb": "tt17009710",
+          "tmdb": 915935,
+          "justwatch": "https://www.justwatch.com/us/movie/anatomie-dune-chute",
           "tag": "explore"
         }
       ]
@@ -1571,30 +1570,6 @@
           "imdb": "tt7016936",
           "tmdb": 72750,
           "justwatch": "https://www.justwatch.com/us/tv-show/killing-eve"
-        },
-        {
-          "title": "Rome",
-          "year": 2005,
-          "type": "show",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/video/watch/729286c0-8e63-4772-a002-0d850ba05ec0?utm_source=universal_search"
-          },
-          "poster": "posters/show-rome.jpg",
-          "why": "Caesar's rise through the eyes of two soldiers. HBO's lavish historical drama; Gladiator (9.5) fans' TV pick.",
-          "synopsis": "A down-to-earth account of the lives of both illustrious and ordinary Romans set in the last days of the Roman Republic.",
-          "genres": [
-            "Action",
-            "Drama",
-            "Romance",
-            "War",
-            "European"
-          ],
-          "imdb": "tt0384766",
-          "tmdb": 1891,
-          "justwatch": "https://www.justwatch.com/us/tv-show/rome"
         },
         {
           "title": "The Sopranos",
@@ -2320,6 +2295,30 @@
           "imdb": "tt13406094",
           "tmdb": 111803,
           "justwatch": "https://www.justwatch.com/us/tv-show/the-white-lotus"
+        },
+        {
+          "title": "Vikings",
+          "year": 2013,
+          "type": "show",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/70301870"
+          },
+          "poster": "posters/show-vikings.jpg",
+          "why": "Since you gave Rome an 11: Ragnar Lothbrok's raids and rise to king. Brutal historical epic with battles and politics.",
+          "synopsis": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
+          "genres": [
+            "Action",
+            "Drama",
+            "History",
+            "War",
+            "European"
+          ],
+          "imdb": "tt2306299",
+          "tmdb": 44217,
+          "justwatch": "https://www.justwatch.com/us/tv-show/vikings"
         }
       ]
     }
