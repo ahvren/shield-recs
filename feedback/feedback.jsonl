@@ -65,3 +65,6 @@
 {"id":"6c7525f3-036d-400d-9fbf-5d44e59ed1ba","ts":"2026-10-31T23:19:21Z","tmdb":65,"title":"8 Mile","type":"movie","action":"decline"}
 {"id":"c811b9c9-d0f7-4720-b590-9a31e97eb42c","ts":"2026-11-07T00:51:40Z","tmdb":693134,"title":"Dune: Part Two","type":"movie","action":"rate","rating":10.0,"device":"phone"}
 {"id":"e3fc545d-93bc-4ab0-b524-30186c3e2857","ts":"2026-11-07T00:51:58Z","tmdb":673,"title":"Harry Potter and the Prisoner of Azkaban","type":"movie","action":"rate","rating":9.0,"device":"phone"}
+{"id":"3c31c271-1e90-4de3-bee0-27365899aabe","ts":"2026-11-08T05:46:10Z","tmdb":1865,"title":"Pirates of the Caribbean: On Stranger Tides","type":"movie","action":"rate","rating":8.0}
+{"id":"0d1d0f1f-f73c-4ba8-8e4c-8cfd62ffa329","ts":"2026-11-08T05:46:37Z","tmdb":36668,"title":"X-Men: The Last Stand","type":"movie","action":"rate","rating":7.5}
+{"id":"5c9c95be-03d6-4246-a524-749a82aa69ee","ts":"2026-11-08T05:46:44Z","tmdb":131631,"title":"The Hunger Games: Mockingjay - Part 1","type":"movie","action":"rate","rating":8.0}
