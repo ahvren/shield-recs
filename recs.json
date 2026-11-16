@@ -37,28 +37,6 @@
       "label": "Movies",
       "items": [
         {
-          "title": "Harry Potter and the Order of the Phoenix",
-          "year": 2007,
-          "type": "movie",
-          "services": [
-            "HBO Max"
-          ],
-          "links": {
-            "HBO Max": "https://play.hbomax.com/show/25768909-39b8-4cb2-a39f-e059460f7add?utm_source=universal_search"
-          },
-          "poster": "posters/movie-harry-potter-and-the-order-of-the-phoenix.jpg",
-          "why": "Next after Goblet of Fire (9): Umbridge takes over Hogwarts and Dumbledore's Army fights back. The series turns darker and bigger.",
-          "synopsis": "Returning for his fifth year at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of motivated students to defend themselves against the Dark Arts.",
-          "genres": [
-            "Action",
-            "Fantasy",
-            "Family"
-          ],
-          "imdb": "tt0373889",
-          "tmdb": 675,
-          "justwatch": "https://www.justwatch.com/us/movie/harry-potter-and-the-order-of-the-phoenix"
-        },
-        {
           "title": "Kingdom of the Planet of the Apes",
           "year": 2024,
           "type": "movie",
@@ -1114,28 +1092,6 @@
           "justwatch": "https://www.justwatch.com/us/movie/hit-man"
         },
         {
-          "title": "Carry-On",
-          "year": 2024,
-          "type": "movie",
-          "services": [
-            "Netflix"
-          ],
-          "links": {
-            "Netflix": "https://www.netflix.com/title/81476963"
-          },
-          "poster": "posters/movie-carry-on-2024.jpg",
-          "why": "A TSA agent is blackmailed into letting a dangerous bag through on Christmas Eve. Tight one-location action thriller.",
-          "synopsis": "An airport security officer races to outsmart a mysterious traveler forcing him to let a dangerous item slip onto a Christmas Eve flight.",
-          "genres": [
-            "Action",
-            "Crime",
-            "Thriller"
-          ],
-          "imdb": "tt21382296",
-          "tmdb": 1005331,
-          "justwatch": "https://www.justwatch.com/us/movie/carry-on-2024"
-        },
-        {
           "title": "Anatomy of a Fall",
           "year": 2023,
           "type": "movie",
@@ -1157,6 +1113,49 @@
           "tmdb": 915935,
           "justwatch": "https://www.justwatch.com/us/movie/anatomie-dune-chute",
           "tag": "explore"
+        },
+        {
+          "title": "Harry Potter and the Half-Blood Prince",
+          "year": 2009,
+          "type": "movie",
+          "services": [
+            "HBO Max"
+          ],
+          "links": {
+            "HBO Max": "https://play.hbomax.com/show/cba1d85a-5ef4-4ba3-b537-1d24554fe85c?utm_source=universal_search"
+          },
+          "poster": "posters/movie-harry-potter-and-the-half-blood-prince.jpg",
+          "why": "Next after Order of the Phoenix (8.5): Dumbledore readies Harry for the war by digging into Voldemort's past. Darker, moodier setup for the finale.",
+          "synopsis": "As Voldemort tightens his grip on both worlds, Hogwarts is no longer safe, and Dumbledore prepares Harry for the final battle fast approaching.",
+          "genres": [
+            "Adventure",
+            "Fantasy"
+          ],
+          "imdb": "tt0417741",
+          "tmdb": 767,
+          "justwatch": "https://www.justwatch.com/us/movie/harry-potter-and-the-half-blood-prince"
+        },
+        {
+          "title": "The Equalizer",
+          "year": 2014,
+          "type": "movie",
+          "services": [
+            "Netflix"
+          ],
+          "links": {
+            "Netflix": "https://www.netflix.com/title/70305892"
+          },
+          "poster": "posters/movie-the-equalizer.jpg",
+          "why": "Because you liked Carry-On (7) and John Wick 2 (9): Denzel's quiet ex-operative takes apart a Russian mob crew in Boston. Grounded, methodical action.",
+          "synopsis": "A retired operative living a quiet life comes out of hiding to protect a young woman under the control of ultra-violent Russian gangsters.",
+          "genres": [
+            "Thriller",
+            "Action",
+            "Crime"
+          ],
+          "imdb": "tt0455944",
+          "tmdb": 156022,
+          "justwatch": "https://www.justwatch.com/us/movie/the-equalizer"
         }
       ]
     },
@@ -3594,27 +3593,27 @@
         "justwatch": "https://www.justwatch.com/us/tv-show/ninja-kamui"
       },
       {
-        "title": "Lazarus",
-        "year": 2025,
+        "title": "Cyberpunk: Edgerunners",
+        "year": 2022,
         "type": "show",
         "services": [
-          "HBO Max"
+          "Netflix"
         ],
         "links": {
-          "HBO Max": "https://play.hbomax.com/video/watch/1b6f5355-41ec-445c-81e5-a0ef57de8a35?utm_source=universal_search"
+          "Netflix": "https://www.netflix.com/title/81054853"
         },
-        "poster": "posters/anime-lazarus.jpg",
-        "why": "Watanabe's new team races to stop a lethal wonder drug. Bebop DNA with a conspiracy clock.",
-        "synopsis": "In 2052, a Nobel Prize-winning neuroscientist develops a drug called Hapna — a cure-all that has the unexpected side-effect of causing death three years later. In response to this threat, a special force of agents—nicknamed \"Lazarus\"— is assembled to take on the malevolent Skinner.",
+        "poster": "posters/anime-cyberpunk-edgerunners-2.jpg",
+        "why": "New season: Edgerunners 2 dropped all 10 episodes Oct 20, 2026, after your 8 for Season 1. A new merc crew in Night City from Trigger.",
+        "synopsis": "In 2078 Night City, an aspiring filmmaker documents and gets entangled with a new crew of mercenaries fighting to survive in a standalone sequel story.",
         "genres": [
-          "Action",
           "Animation",
-          "Thriller",
-          "Sci-Fi"
+          "Action",
+          "Sci-Fi",
+          "Crime"
         ],
-        "imdb": "tt28454008",
-        "tmdb": 231003,
-        "justwatch": "https://www.justwatch.com/us/tv-show/lazarus"
+        "imdb": "tt12590266",
+        "tmdb": 105248,
+        "justwatch": "https://www.justwatch.com/us/tv-show/cyberpunk-edgerunners"
       }
     ]
   }
